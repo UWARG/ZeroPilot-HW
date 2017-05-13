@@ -1,0 +1,18 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# SPOX-2
+#
+DEF SPOX-2 SPOX-2 0 40 Y Y 1 F N
+F0 "SPOX-2" 100 150 60 H V C CNN
+F1 "SPOX-2" 100 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S -50 100 50 -50 0 1 0 N
+X ~ 1 0 50 200 R 50 50 1 1 B
+X ~ 2 0 0 200 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library
