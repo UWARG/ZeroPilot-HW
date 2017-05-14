@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 17
+Sheet 1 18
 Title ""
 Date ""
 Rev ""
@@ -75,5 +75,11 @@ S 5100 4100 2050 1750
 U 5918F046
 F0 "Sheet5918F045" 60
 F1 "STM32F7 IO.sch" 60
+$EndSheet
+$Sheet
+S 2500 4100 1750 1700
+U 5919369D
+F0 "Sheet5919369C" 60
+F1 "STM32F0 RELAY.sch" 60
 $EndSheet
 $EndSCHEMATC
