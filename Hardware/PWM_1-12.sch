@@ -29,11 +29,12 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:WARG
+LIBS:ZeroPilot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 14
+Sheet 2 15
 Title "PWM 1-12"
 Date "2017-05-13"
 Rev ""
@@ -52,6 +53,7 @@ F2 "PWM_5V" I L 2700 950 60
 F3 "SEL" I L 2700 1750 60 
 F4 "PWM" I L 2700 1250 60 
 F5 "OC" I L 2700 1500 60 
+F6 "SW_5V" I L 2700 1100 60 
 $EndSheet
 $Sheet
 S 2700 2250 950  1250
@@ -62,6 +64,7 @@ F2 "PWM_5V" I L 2700 2400 60
 F3 "SEL" I L 2700 3200 60 
 F4 "PWM" I L 2700 2700 60 
 F5 "OC" I L 2700 2950 60 
+F6 "SW_5V" I L 2700 2550 60 
 $EndSheet
 $Sheet
 S 2700 3750 950  1250
@@ -72,6 +75,7 @@ F2 "PWM_5V" I L 2700 3900 60
 F3 "SEL" I L 2700 4700 60 
 F4 "PWM" I L 2700 4200 60 
 F5 "OC" I L 2700 4450 60 
+F6 "SW_5V" I L 2700 4050 60 
 $EndSheet
 $Sheet
 S 2700 5200 950  1250
@@ -82,6 +86,7 @@ F2 "PWM_5V" I L 2700 5350 60
 F3 "SEL" I L 2700 6150 60 
 F4 "PWM" I L 2700 5650 60 
 F5 "OC" I L 2700 5900 60 
+F6 "SW_5V" I L 2700 5500 60 
 $EndSheet
 $Sheet
 S 5400 800  950  1250
@@ -92,6 +97,7 @@ F2 "PWM_5V" I L 5400 950 60
 F3 "SEL" I L 5400 1750 60 
 F4 "PWM" I L 5400 1250 60 
 F5 "OC" I L 5400 1500 60 
+F6 "SW_5V" I L 5400 1100 60 
 $EndSheet
 $Sheet
 S 5400 2250 950  1250
@@ -102,6 +108,7 @@ F2 "PWM_5V" I L 5400 2400 60
 F3 "SEL" I L 5400 3200 60 
 F4 "PWM" I L 5400 2700 60 
 F5 "OC" I L 5400 2950 60 
+F6 "SW_5V" I L 5400 2550 60 
 $EndSheet
 $Sheet
 S 5400 3750 950  1250
@@ -112,6 +119,7 @@ F2 "PWM_5V" I L 5400 3900 60
 F3 "SEL" I L 5400 4700 60 
 F4 "PWM" I L 5400 4200 60 
 F5 "OC" I L 5400 4450 60 
+F6 "SW_5V" I L 5400 4050 60 
 $EndSheet
 $Sheet
 S 5400 5200 950  1250
@@ -122,6 +130,7 @@ F2 "PWM_5V" I L 5400 5350 60
 F3 "SEL" I L 5400 6150 60 
 F4 "PWM" I L 5400 5650 60 
 F5 "OC" I L 5400 5900 60 
+F6 "SW_5V" I L 5400 5500 60 
 $EndSheet
 $Sheet
 S 8250 800  950  1250
@@ -132,6 +141,7 @@ F2 "PWM_5V" I L 8250 950 60
 F3 "SEL" I L 8250 1750 60 
 F4 "PWM" I L 8250 1250 60 
 F5 "OC" I L 8250 1500 60 
+F6 "SW_5V" I L 8250 1100 60 
 $EndSheet
 $Sheet
 S 8250 2250 950  1250
@@ -142,6 +152,7 @@ F2 "PWM_5V" I L 8250 2400 60
 F3 "SEL" I L 8250 3200 60 
 F4 "PWM" I L 8250 2700 60 
 F5 "OC" I L 8250 2950 60 
+F6 "SW_5V" I L 8250 2550 60 
 $EndSheet
 $Sheet
 S 8250 3750 950  1250
@@ -152,6 +163,7 @@ F2 "PWM_5V" I L 8250 3900 60
 F3 "SEL" I L 8250 4700 60 
 F4 "PWM" I L 8250 4200 60 
 F5 "OC" I L 8250 4450 60 
+F6 "SW_5V" I L 8250 4050 60 
 $EndSheet
 $Sheet
 S 8250 5200 950  1250
@@ -162,6 +174,7 @@ F2 "PWM_5V" I L 8250 5350 60
 F3 "SEL" I L 8250 6150 60 
 F4 "PWM" I L 8250 5650 60 
 F5 "OC" I L 8250 5900 60 
+F6 "SW_5V" I L 8250 5500 60 
 $EndSheet
 Entry Wire Line
 	2150 5550 2250 5650
@@ -326,71 +339,27 @@ OC12
 Text Label 7900 6150 0    60   ~ 0
 SEL12
 Wire Wire Line
-	2700 950  2450 950 
+	2700 950  2350 950 
 Wire Wire Line
-	2450 650  2450 650 
+	1100 650  1650 650 
 Wire Wire Line
-	2450 650  2450 950 
+	2350 5350 2700 5350
 Wire Wire Line
-	2450 950  2450 2400
+	5400 950  5000 950 
 Wire Wire Line
-	2450 2400 2450 3900
+	5000 5350 5400 5350
 Wire Wire Line
-	2450 3900 2450 5350
+	5400 3900 4950 3900
 Wire Wire Line
-	2450 5350 2700 5350
+	5400 2400 5000 2400
 Wire Wire Line
-	5400 950  5400 2400
+	8250 950  7850 950 
 Wire Wire Line
-	5400 2400 5400 3900
+	7850 5350 8250 5350
 Wire Wire Line
-	5400 3900 5400 5350
+	8250 3900 7800 3900
 Wire Wire Line
-	5400 950  5100 950 
-Wire Wire Line
-	5100 650  5100 950 
-Wire Wire Line
-	5100 950  5100 2400
-Wire Wire Line
-	5100 2400 5100 3900
-Wire Wire Line
-	5100 3900 5100 5350
-Wire Wire Line
-	5100 5350 5400 5350
-Wire Wire Line
-	5400 3900 5100 3900
-Connection ~ 5100 3900
-Connection ~ 5400 3900
-Wire Wire Line
-	5400 2400 5100 2400
-Connection ~ 5100 2400
-Connection ~ 5400 2400
-Wire Wire Line
-	8250 950  7950 950 
-Wire Wire Line
-	7950 650  7950 950 
-Wire Wire Line
-	7950 950  7950 2400
-Wire Wire Line
-	7950 2400 7950 3900
-Wire Wire Line
-	7950 3900 7950 5350
-Wire Wire Line
-	7950 5350 8250 5350
-Wire Wire Line
-	8250 3900 7950 3900
-Connection ~ 7950 3900
-Wire Wire Line
-	8250 2400 7950 2400
-Connection ~ 7950 2400
-Wire Wire Line
-	2450 650  5100 650 
-Wire Wire Line
-	5100 650  7950 650 
-Connection ~ 2450 950 
-Connection ~ 7950 950 
-Connection ~ 5100 650 
-Connection ~ 5100 950 
+	8250 2400 7850 2400
 Wire Bus Line
 	2150 900  2150 1150
 Wire Bus Line
@@ -402,13 +371,11 @@ Wire Bus Line
 Wire Wire Line
 	2250 5650 2700 5650
 Wire Wire Line
-	2700 3900 2450 3900
-Connection ~ 2450 3900
+	2700 3900 2350 3900
 Wire Wire Line
 	2250 4200 2700 4200
 Wire Wire Line
-	2700 2400 2450 2400
-Connection ~ 2450 2400
+	2700 2400 2350 2400
 Wire Wire Line
 	2700 2700 2250 2700
 Wire Wire Line
@@ -541,27 +508,104 @@ Wire Wire Line
 	8250 3200 7200 3200
 Wire Wire Line
 	7200 1750 8250 1750
-Text HLabel 1100 950  0    60   Input ~ 0
-OC
-Text HLabel 1100 800  0    60   Input ~ 0
-PWM
 Text HLabel 1100 1100 0    60   Input ~ 0
+OC
+Text HLabel 1100 950  0    60   Input ~ 0
+PWM
+Text HLabel 1100 1250 0    60   Input ~ 0
 SEL
 Text HLabel 1100 650  0    60   Input ~ 0
 PWM_5V
-Wire Wire Line
-	2450 650  1100 650 
-Connection ~ 2450 650 
-Wire Bus Line
-	1100 800  1400 800 
 Wire Bus Line
 	1100 950  1400 950 
 Wire Bus Line
 	1100 1100 1400 1100
-Text Label 1200 800  0    60   ~ 0
+Wire Bus Line
+	1100 1250 1400 1250
+Text Label 1200 950  0    60   ~ 0
 PWM
-Text Label 1250 950  0    60   ~ 0
-OC
 Text Label 1250 1100 0    60   ~ 0
+OC
+Text Label 1250 1250 0    60   ~ 0
 SEL
+Text Label 2350 950  0    60   ~ 0
+PWM_5V
+Text Label 2350 2400 0    60   ~ 0
+PWM_5V
+Text Label 2350 3900 0    60   ~ 0
+PWM_5V
+Text Label 2350 5350 0    60   ~ 0
+PWM_5V
+Text Label 5000 950  0    60   ~ 0
+PWM_5V
+Text Label 5000 2400 0    60   ~ 0
+PWM_5V
+Text Label 4950 3900 0    60   ~ 0
+PWM_5V
+Text Label 5000 5350 0    60   ~ 0
+PWM_5V
+Text Label 7850 950  0    60   ~ 0
+PWM_5V
+Text Label 7850 2400 0    60   ~ 0
+PWM_5V
+Text Label 7800 3900 0    60   ~ 0
+PWM_5V
+Text Label 7850 5350 0    60   ~ 0
+PWM_5V
+Text Label 1250 650  0    60   ~ 0
+PWM_5V
+Wire Wire Line
+	2700 1100 2350 1100
+Wire Wire Line
+	2350 2550 2700 2550
+Wire Wire Line
+	2350 4050 2700 4050
+Wire Wire Line
+	2700 5500 2350 5500
+Wire Wire Line
+	5000 5500 5400 5500
+Wire Wire Line
+	5000 4050 5400 4050
+Wire Wire Line
+	5000 2550 5400 2550
+Wire Wire Line
+	7850 5500 8250 5500
+Wire Wire Line
+	7850 4050 8250 4050
+Wire Wire Line
+	7850 2550 8250 2550
+Wire Wire Line
+	7850 1100 8250 1100
+Wire Wire Line
+	5000 1100 5400 1100
+Text Label 7850 1100 0    60   ~ 0
+SW_5V
+Text Label 7850 2550 0    60   ~ 0
+SW_5V
+Text Label 7850 4050 0    60   ~ 0
+SW_5V
+Text Label 5000 4050 0    60   ~ 0
+SW_5V
+Text Label 5000 2550 0    60   ~ 0
+SW_5V
+Text Label 5000 1100 0    60   ~ 0
+SW_5V
+Text Label 7850 5500 0    60   ~ 0
+SW_5V
+Text Label 5000 5500 0    60   ~ 0
+SW_5V
+Text Label 2350 5500 0    60   ~ 0
+SW_5V
+Text Label 2350 4050 0    60   ~ 0
+SW_5V
+Text Label 2350 2550 0    60   ~ 0
+SW_5V
+Text Label 2350 1100 0    60   ~ 0
+SW_5V
+Text HLabel 1100 800  0    60   Input ~ 0
+SW_5V
+Wire Wire Line
+	1100 800  1650 800 
+Text Label 1250 800  0    60   ~ 0
+SW_5V
 $EndSCHEMATC
