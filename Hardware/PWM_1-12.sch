@@ -34,11 +34,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 14
-Title ""
-Date ""
+Title "PWM 1-12"
+Date "2017-05-13"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "WARG"
+Comment1 "Author: Stephen Cholvat"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -328,7 +328,7 @@ SEL12
 Wire Wire Line
 	2700 950  2450 950 
 Wire Wire Line
-	2450 550  2450 650 
+	2450 650  2450 650 
 Wire Wire Line
 	2450 650  2450 950 
 Wire Wire Line
@@ -541,27 +541,27 @@ Wire Wire Line
 	8250 3200 7200 3200
 Wire Wire Line
 	7200 1750 8250 1750
-Text HLabel 1100 850  0    60   Input ~ 0
+Text HLabel 1100 950  0    60   Input ~ 0
 OC
-Text HLabel 1100 700  0    60   Input ~ 0
+Text HLabel 1100 800  0    60   Input ~ 0
 PWM
-Text HLabel 1100 1000 0    60   Input ~ 0
+Text HLabel 1100 1100 0    60   Input ~ 0
 SEL
-Text HLabel 1100 550  0    60   Input ~ 0
+Text HLabel 1100 650  0    60   Input ~ 0
 PWM_5V
 Wire Wire Line
-	2450 550  1100 550 
+	2450 650  1100 650 
 Connection ~ 2450 650 
 Wire Bus Line
-	1100 700  1400 700 
+	1100 800  1400 800 
 Wire Bus Line
-	1100 850  1400 850 
+	1100 950  1400 950 
 Wire Bus Line
-	1100 1000 1400 1000
-Text Label 1200 700  0    60   ~ 0
+	1100 1100 1400 1100
+Text Label 1200 800  0    60   ~ 0
 PWM
-Text Label 1250 850  0    60   ~ 0
+Text Label 1250 950  0    60   ~ 0
 OC
-Text Label 1250 1000 0    60   ~ 0
+Text Label 1250 1100 0    60   ~ 0
 SEL
 $EndSCHEMATC
