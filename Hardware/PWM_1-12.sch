@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:WARG
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,13 +29,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:WARG
-LIBS:ZeroPilot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 15
+Sheet 2 17
 Title "PWM 1-12"
 Date "2017-05-13"
 Rev ""
@@ -361,13 +360,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 2400 7850 2400
 Wire Bus Line
-	2150 900  2150 1150
-Wire Bus Line
-	2150 1150 2150 2600
-Wire Bus Line
-	2150 2600 2150 4100
-Wire Bus Line
-	2150 4100 2150 5550
+	2150 900  2150 5550
 Wire Wire Line
 	2250 5650 2700 5650
 Wire Wire Line
@@ -381,13 +374,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 1250 2700 1250
 Wire Bus Line
-	1850 1200 1850 1400
-Wire Bus Line
-	1850 1400 1850 2850
-Wire Bus Line
-	1850 2850 1850 4350
-Wire Bus Line
-	1850 4350 1850 5800
+	1850 1200 1850 5800
 Wire Wire Line
 	1950 5900 2700 5900
 Wire Wire Line
@@ -397,13 +384,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 1500 2700 1500
 Wire Bus Line
-	1550 1450 1550 1650
-Wire Bus Line
-	1550 1650 1550 3100
-Wire Bus Line
-	1550 3100 1550 4600
-Wire Bus Line
-	1550 4600 1550 6050
+	1550 1450 1550 6050
 Wire Wire Line
 	1650 6150 2700 6150
 Wire Wire Line
@@ -413,13 +394,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1750 2700 1750
 Wire Bus Line
-	4850 900  4850 1150
-Wire Bus Line
-	4850 1150 4850 2600
-Wire Bus Line
-	4850 2600 4850 4100
-Wire Bus Line
-	4850 4100 4850 5550
+	4850 900  4850 5550
 Wire Wire Line
 	4950 5650 5400 5650
 Wire Wire Line
@@ -429,13 +404,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 1250 5400 1250
 Wire Bus Line
-	4550 1200 4550 1400
-Wire Bus Line
-	4550 1400 4550 2850
-Wire Bus Line
-	4550 2850 4550 4350
-Wire Bus Line
-	4550 4350 4550 5800
+	4550 1200 4550 5800
 Wire Wire Line
 	4650 5900 5400 5900
 Wire Wire Line
@@ -445,13 +414,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 1500 5400 1500
 Wire Bus Line
-	4250 1450 4250 1650
-Wire Bus Line
-	4250 1650 4250 3100
-Wire Bus Line
-	4250 3100 4250 4600
-Wire Bus Line
-	4250 4600 4250 6050
+	4250 1450 4250 6050
 Wire Wire Line
 	4350 6150 5400 6150
 Wire Wire Line
@@ -461,13 +424,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 1750 5400 1750
 Wire Bus Line
-	7700 900  7700 1150
-Wire Bus Line
-	7700 1150 7700 2600
-Wire Bus Line
-	7700 2600 7700 4100
-Wire Bus Line
-	7700 4100 7700 5550
+	7700 900  7700 5550
 Wire Wire Line
 	7800 5650 8250 5650
 Wire Wire Line
@@ -477,13 +434,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 1250 8250 1250
 Wire Bus Line
-	7400 1200 7400 1400
-Wire Bus Line
-	7400 1400 7400 2850
-Wire Bus Line
-	7400 2850 7400 4350
-Wire Bus Line
-	7400 4350 7400 5800
+	7400 1200 7400 5800
 Wire Wire Line
 	7500 5900 8250 5900
 Wire Wire Line
@@ -493,13 +444,7 @@ Wire Wire Line
 Wire Wire Line
 	7500 1500 8250 1500
 Wire Bus Line
-	7100 1450 7100 1650
-Wire Bus Line
-	7100 1650 7100 3100
-Wire Bus Line
-	7100 3100 7100 4600
-Wire Bus Line
-	7100 4600 7100 6050
+	7100 1450 7100 6050
 Wire Wire Line
 	7200 6150 8250 6150
 Wire Wire Line

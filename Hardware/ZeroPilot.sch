@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:WARG
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,13 +29,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:WARG
-LIBS:ZeroPilot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 15
+Sheet 1 17
 Title ""
 Date ""
 Rev ""
@@ -56,7 +55,7 @@ F5 "PWM_5V" I L 8050 2500 60
 F6 "SW_5V" I L 8050 2700 60 
 $EndSheet
 $Sheet
-S 1550 1400 1800 1750
+S 2300 1400 1050 2000
 U 5917F3C3
 F0 "POWER" 60
 F1 "POWER.sch" 60
@@ -71,4 +70,10 @@ Wire Wire Line
 	3350 2500 8050 2500
 Wire Wire Line
 	8050 2700 3350 2700
+$Sheet
+S 5100 4100 2050 1750
+U 5918F046
+F0 "Sheet5918F045" 60
+F1 "STM32F7 IO.sch" 60
+$EndSheet
 $EndSCHEMATC
