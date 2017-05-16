@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:ZeroPilot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -37,7 +38,7 @@ Sheet 17 18
 Title ""
 Date ""
 Rev ""
-Comp ""
+Comp "WARG"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -48,8 +49,8 @@ L STM32F765ZGT6 U?
 U 8 1 591902D3
 P 3350 3150
 AR Path="/5918F046/591902D3" Ref="U?"  Part="8" 
-AR Path="/5918F046/59190083/591902D3" Ref="U?"  Part="8" 
-F 0 "U?" H 3350 4050 60  0000 C CNN
+AR Path="/5918F046/59190083/591902D3" Ref="U16"  Part="8" 
+F 0 "U16" H 3350 4050 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 3350 3900 60  0000 C CNN
 F 2 "" H 4400 3250 60  0001 C CNN
 F 3 "" H 4400 3250 60  0001 C CNN
