@@ -508,11 +508,11 @@ Wire Wire Line
 Wire Wire Line
 	2700 2300 3200 2300
 Wire Wire Line
-	3250 2450 1600 2450
+	3250 2450 1000 2450
 Wire Wire Line
-	1600 2450 1600 3250
+	1000 2450 1000 3250
 Wire Wire Line
-	1600 3250 1650 3250
+	1000 3250 1650 3250
 Wire Wire Line
 	6000 1650 4200 1650
 Wire Wire Line
@@ -1004,4 +1004,28 @@ Text HLabel 1350 2000 0    60   Input ~ 0
 USART2_CK
 Wire Wire Line
 	1350 2000 1650 2000
+Text HLabel 1550 2950 0    60   Input ~ 0
+ADC2_IN8
+Text HLabel 1550 3050 0    60   Input ~ 0
+ADC2_IN9
+Wire Wire Line
+	1550 2950 1650 2950
+Wire Wire Line
+	1650 3050 1550 3050
+Text HLabel 1500 4400 0    60   Input ~ 0
+ADC3_IN10
+Text HLabel 1500 4500 0    60   Input ~ 0
+ADC3_IN11
+Wire Wire Line
+	1500 4500 1700 4500
+Wire Wire Line
+	1700 4400 1500 4400
+Text HLabel 2900 2950 2    60   Input ~ 0
+TIM10_CH1
+Text HLabel 2900 3050 2    60   Input ~ 0
+TIM11_CH1
+Wire Wire Line
+	2900 3050 2650 3050
+Wire Wire Line
+	2650 2950 2900 2950
 $EndSCHEMATC
