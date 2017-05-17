@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 17
+Sheet 1 18
 Title "Overall Strcture"
 Date "2017-05-14"
 Rev ""
@@ -250,4 +250,10 @@ Wire Wire Line
 Wire Wire Line
 	8250 4600 6450 4600
 Connection ~ 8450 4600
+$Sheet
+S 2250 4700 1150 850 
+U 59234D3B
+F0 "Sheet59234D3A" 60
+F1 "HEADERS.sch" 60
+$EndSheet
 $EndSCHEMATC

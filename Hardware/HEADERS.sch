@@ -1,0 +1,543 @@
+EESchema Schematic File Version 2
+LIBS:WARG
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ZeroPilot-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 18 18
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SPOX-2 SPOX-2?
+U 1 1 59234FCD
+P 1300 3250
+F 0 "SPOX-2?" H 1400 3400 60  0001 C CNN
+F 1 "EXT_BATT" V 1200 3250 60  0000 C CNN
+F 2 "" H 1300 3200 60  0001 C CNN
+F 3 "" H 1300 3200 60  0001 C CNN
+	1    1300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPOX-4 SPOX-4?
+U 1 1 59234FF5
+P 3350 3950
+F 0 "SPOX-4?" H 3450 4200 60  0001 C CNN
+F 1 "I2C1" H 3450 3700 60  0000 C CNN
+F 2 "" H 3350 4000 60  0001 C CNN
+F 3 "" H 3350 4000 60  0001 C CNN
+	1    3350 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPOX-6 SPOX-6?
+U 1 1 5923501D
+P 5400 3900
+F 0 "SPOX-6?" H 5500 4250 60  0001 C CNN
+F 1 "UART1" H 5500 3550 60  0000 C CNN
+F 2 "" H 5400 4050 60  0001 C CNN
+F 3 "" H 5400 4050 60  0001 C CNN
+	1    5400 3900
+	1    0    0    -1  
+$EndComp
+Text HLabel 1700 3200 2    60   Input ~ 0
+EXT_BATT
+Text Notes 1250 4800 0    60   ~ 0
+TODO JTAG
+$Comp
+L SPOX-3 SPOX-?
+U 1 1 5923E00D
+P 1350 3950
+F 0 "SPOX-?" H 1450 4200 60  0001 C CNN
+F 1 "DBG_SAFETY" V 1250 3950 60  0000 C CNN
+F 2 "" H 1350 3950 60  0001 C CNN
+F 3 "" H 1350 3950 60  0001 C CNN
+	1    1350 3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 1750 3950 2    60   Input ~ 0
+DBG_RX_SAFETY
+Text HLabel 1750 3850 2    60   Input ~ 0
+DBG_TX_SAFETY
+Text Notes 1300 5250 0    60   ~ 0
+TODO Safety programmer
+$Comp
+L SPOX-4 SPOX-?
+U 1 1 5923E042
+P 3350 4550
+F 0 "SPOX-?" H 3450 4800 60  0001 C CNN
+F 1 "I2C2" H 3450 4300 60  0000 C CNN
+F 2 "" H 3350 4600 60  0001 C CNN
+F 3 "" H 3350 4600 60  0001 C CNN
+	1    3350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPOX-4 SPOX-?
+U 1 1 5923E04D
+P 3350 5100
+F 0 "SPOX-?" H 3450 5350 60  0001 C CNN
+F 1 "I2C4" H 3450 4850 60  0000 C CNN
+F 2 "" H 3350 5150 60  0001 C CNN
+F 3 "" H 3350 5150 60  0001 C CNN
+	1    3350 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5923E07E
+P 3700 5400
+F 0 "#PWR?" H 3700 5150 50  0001 C CNN
+F 1 "GND" H 3700 5250 50  0000 C CNN
+F 2 "" H 3700 5400 50  0001 C CNN
+F 3 "" H 3700 5400 50  0001 C CNN
+	1    3700 5400
+	1    0    0    -1  
+$EndComp
+Text HLabel 3850 3700 1    60   Input ~ 0
+V_I2C
+Text HLabel 4150 3800 2    60   Input ~ 0
+SDA1
+Text HLabel 4150 3900 2    60   Input ~ 0
+SCL1
+Text HLabel 4150 4400 2    60   Input ~ 0
+SDA2
+Text HLabel 4150 4500 2    60   Input ~ 0
+SCL2
+Text HLabel 4150 4950 2    60   Input ~ 0
+SDA4
+Text HLabel 4150 5050 2    60   Input ~ 0
+SCL4
+$Comp
+L SPOX-6 SPOX-?
+U 1 1 5923E1E9
+P 5400 4750
+F 0 "SPOX-?" H 5500 5100 60  0001 C CNN
+F 1 "UART4" H 5500 4400 60  0000 C CNN
+F 2 "" H 5400 4900 60  0001 C CNN
+F 3 "" H 5400 4900 60  0001 C CNN
+	1    5400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPOX-6 SPOX-?
+U 1 1 5923E1F4
+P 5400 5600
+F 0 "SPOX-?" H 5500 5950 60  0001 C CNN
+F 1 "UART7" H 5500 5250 60  0000 C CNN
+F 2 "" H 5400 5750 60  0001 C CNN
+F 3 "" H 5400 5750 60  0001 C CNN
+	1    5400 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5923E229
+P 6500 5950
+F 0 "#PWR?" H 6500 5700 50  0001 C CNN
+F 1 "GND" H 6500 5800 50  0000 C CNN
+F 2 "" H 6500 5950 50  0001 C CNN
+F 3 "" H 6500 5950 50  0001 C CNN
+	1    6500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5923E2B3
+P 7850 5100
+F 0 "#PWR?" H 7850 4850 50  0001 C CNN
+F 1 "GND" H 7850 4950 50  0000 C CNN
+F 2 "" H 7850 5100 50  0001 C CNN
+F 3 "" H 7850 5100 50  0001 C CNN
+	1    7850 5100
+	1    0    0    -1  
+$EndComp
+Text HLabel 5700 4050 2    60   Input ~ 0
+UART1_RTS
+Text HLabel 5700 3950 2    60   Input ~ 0
+UART1_TX
+Text HLabel 5700 3850 2    60   Input ~ 0
+UART1_RX
+Text HLabel 5700 3750 2    60   Input ~ 0
+UART1_CTS
+Text HLabel 5700 4900 2    60   Input ~ 0
+UART4_RTS
+Text HLabel 5700 4800 2    60   Input ~ 0
+UART4_TX
+Text HLabel 5700 4700 2    60   Input ~ 0
+UART4_RX
+Text HLabel 5700 4600 2    60   Input ~ 0
+UART4_CTS
+Wire Wire Line
+	1600 3300 1500 3300
+Wire Wire Line
+	1700 3200 1500 3200
+Wire Wire Line
+	1600 4050 1550 4050
+Wire Wire Line
+	1750 3850 1550 3850
+Wire Wire Line
+	1750 3950 1550 3950
+Wire Wire Line
+	3550 4100 3700 4100
+Wire Wire Line
+	3700 4100 3700 5400
+Wire Wire Line
+	3700 5250 3550 5250
+Wire Wire Line
+	3550 4700 3700 4700
+Connection ~ 3700 4700
+Connection ~ 3700 5250
+Wire Wire Line
+	3850 5150 3550 5150
+Wire Wire Line
+	3850 3700 3850 5150
+Wire Wire Line
+	3550 4600 3850 4600
+Connection ~ 3850 4600
+Connection ~ 3850 4000
+Wire Wire Line
+	4150 3800 3550 3800
+Wire Wire Line
+	4150 3900 3550 3900
+Wire Wire Line
+	4150 4400 3550 4400
+Wire Wire Line
+	4150 4500 3550 4500
+Wire Wire Line
+	4150 4950 3550 4950
+Wire Wire Line
+	4150 5050 3550 5050
+Wire Wire Line
+	3550 4000 3850 4000
+Wire Wire Line
+	5600 4150 6500 4150
+Wire Wire Line
+	6500 4150 6500 5950
+Wire Wire Line
+	5600 5000 6500 5000
+Connection ~ 6500 5000
+Wire Wire Line
+	5600 5850 6500 5850
+Connection ~ 6500 5850
+Wire Wire Line
+	6600 5350 5600 5350
+Wire Wire Line
+	5600 3650 7350 3650
+Connection ~ 7850 5000
+Wire Wire Line
+	7150 5000 7850 5000
+Wire Wire Line
+	7850 4150 7850 5100
+Wire Wire Line
+	7150 4150 7850 4150
+Wire Wire Line
+	7150 4600 7950 4600
+Wire Wire Line
+	7950 4600 7950 3750
+Wire Wire Line
+	7950 3750 7150 3750
+Connection ~ 6600 3650
+Wire Wire Line
+	5700 3750 5600 3750
+Wire Wire Line
+	5600 3850 5700 3850
+Wire Wire Line
+	5700 3950 5600 3950
+Wire Wire Line
+	5600 4050 5700 4050
+Wire Wire Line
+	5700 4600 5600 4600
+Wire Wire Line
+	5600 4700 5700 4700
+Wire Wire Line
+	5700 4800 5600 4800
+Wire Wire Line
+	5600 4900 5700 4900
+Wire Wire Line
+	6600 4500 5600 4500
+Connection ~ 6600 4500
+Wire Wire Line
+	6600 3600 6600 5350
+Text HLabel 5700 5750 2    60   Input ~ 0
+UART7_RTS
+Text HLabel 5700 5650 2    60   Input ~ 0
+UART7_TX
+Text HLabel 5700 5550 2    60   Input ~ 0
+UART7_RX
+Text HLabel 5700 5450 2    60   Input ~ 0
+UART7_CTS
+Wire Wire Line
+	5700 5450 5600 5450
+Wire Wire Line
+	5600 5550 5700 5550
+Wire Wire Line
+	5700 5650 5600 5650
+Wire Wire Line
+	5600 5750 5700 5750
+$Comp
+L SPOX-5 SPOX-5?
+U 1 1 5923E5A0
+P 6950 3950
+F 0 "SPOX-5?" H 7050 4250 60  0001 C CNN
+F 1 "USART2" H 7050 3650 60  0000 C CNN
+F 2 "" H 6950 4050 60  0001 C CNN
+F 3 "" H 6950 4050 60  0001 C CNN
+	1    6950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPOX-5 SPOX-5?
+U 1 1 5923E5B4
+P 6950 4800
+F 0 "SPOX-5?" H 7050 5100 60  0001 C CNN
+F 1 "USART3" H 7050 4500 60  0000 C CNN
+F 2 "" H 6950 4900 60  0001 C CNN
+F 3 "" H 6950 4900 60  0001 C CNN
+	1    6950 4800
+	1    0    0    -1  
+$EndComp
+Text HLabel 7250 4800 2    60   Input ~ 0
+USART3_TX
+Text HLabel 7250 4700 2    60   Input ~ 0
+USART3_RX
+Wire Wire Line
+	7150 4700 7250 4700
+Wire Wire Line
+	7250 4800 7150 4800
+Text HLabel 7250 4900 2    60   Input ~ 0
+USART3_CK
+Wire Wire Line
+	7250 4900 7150 4900
+Wire Wire Line
+	7350 3650 7350 3750
+Connection ~ 7350 3750
+Text HLabel 6600 3600 1    60   Input ~ 0
+V_UART
+Text HLabel 7250 3950 2    60   Input ~ 0
+USART2_TX
+Text HLabel 7250 3850 2    60   Input ~ 0
+USART2_RX
+Wire Wire Line
+	7150 3850 7250 3850
+Wire Wire Line
+	7250 3950 7150 3950
+Text HLabel 7250 4050 2    60   Input ~ 0
+USART2_CK
+Wire Wire Line
+	7250 4050 7150 4050
+$Comp
+L SPOX-6 SPOX-?
+U 1 1 5923EB5B
+P 9000 3750
+F 0 "SPOX-?" H 9100 4100 60  0001 C CNN
+F 1 "SPI1" H 9100 3400 60  0000 C CNN
+F 2 "" H 9000 3900 60  0001 C CNN
+F 3 "" H 9000 3900 60  0001 C CNN
+	1    9000 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 9300 3900 2    60   Input ~ 0
+SPI1_SS
+Text HLabel 9300 3800 2    60   Input ~ 0
+SPI1_SDO
+Text HLabel 9300 3700 2    60   Input ~ 0
+SPI1_SI
+Text HLabel 9300 3600 2    60   Input ~ 0
+SPI1_CK
+Wire Wire Line
+	9300 3600 9200 3600
+Wire Wire Line
+	9300 3700 9200 3700
+Wire Wire Line
+	9300 3800 9200 3800
+Wire Wire Line
+	9300 3900 9200 3900
+Wire Wire Line
+	9200 3500 10100 3500
+Wire Wire Line
+	10100 3500 10100 5150
+Wire Wire Line
+	9200 4000 9950 4000
+Wire Wire Line
+	9950 4000 9950 5850
+$Comp
+L SPOX-6 SPOX-?
+U 1 1 5923ED92
+P 9000 4550
+F 0 "SPOX-?" H 9100 4900 60  0001 C CNN
+F 1 "SPI4" H 9100 4200 60  0000 C CNN
+F 2 "" H 9000 4700 60  0001 C CNN
+F 3 "" H 9000 4700 60  0001 C CNN
+	1    9000 4550
+	1    0    0    -1  
+$EndComp
+Text HLabel 9300 4700 2    60   Input ~ 0
+SPI4_SS
+Text HLabel 9300 4600 2    60   Input ~ 0
+SPI4_SDO
+Text HLabel 9300 4500 2    60   Input ~ 0
+SPI4_SI
+Text HLabel 9300 4400 2    60   Input ~ 0
+SPI4_CK
+Wire Wire Line
+	9300 4400 9200 4400
+Wire Wire Line
+	9300 4500 9200 4500
+Wire Wire Line
+	9300 4600 9200 4600
+Wire Wire Line
+	9300 4700 9200 4700
+Wire Wire Line
+	10100 4300 9200 4300
+Wire Wire Line
+	9950 4800 9200 4800
+$Comp
+L SPOX-6 SPOX-?
+U 1 1 5923EDA4
+P 9000 5400
+F 0 "SPOX-?" H 9100 5750 60  0001 C CNN
+F 1 "SPI5" H 9100 5050 60  0000 C CNN
+F 2 "" H 9000 5550 60  0001 C CNN
+F 3 "" H 9000 5550 60  0001 C CNN
+	1    9000 5400
+	1    0    0    -1  
+$EndComp
+Text HLabel 9300 5550 2    60   Input ~ 0
+SPI5_SS
+Text HLabel 9300 5450 2    60   Input ~ 0
+SPI5_SDO
+Text HLabel 9300 5350 2    60   Input ~ 0
+SPI5_SI
+Text HLabel 9300 5250 2    60   Input ~ 0
+SPI5_CK
+Wire Wire Line
+	9300 5250 9200 5250
+Wire Wire Line
+	9300 5350 9200 5350
+Wire Wire Line
+	9300 5450 9200 5450
+Wire Wire Line
+	9300 5550 9200 5550
+Wire Wire Line
+	10100 5150 9200 5150
+Wire Wire Line
+	9950 5650 9200 5650
+Connection ~ 9950 5650
+Connection ~ 9950 4800
+$Comp
+L GND #PWR?
+U 1 1 5923EE9C
+P 9950 5850
+F 0 "#PWR?" H 9950 5600 50  0001 C CNN
+F 1 "GND" H 9950 5700 50  0000 C CNN
+F 2 "" H 9950 5850 50  0001 C CNN
+F 3 "" H 9950 5850 50  0001 C CNN
+	1    9950 5850
+	1    0    0    -1  
+$EndComp
+Text HLabel 9850 3400 1    60   Input ~ 0
+V_SPI
+Wire Wire Line
+	9850 3400 9850 3500
+Connection ~ 9850 3500
+Connection ~ 1600 4050
+$Comp
+L GND #PWR?
+U 1 1 5923F1BC
+P 1600 4350
+F 0 "#PWR?" H 1600 4100 50  0001 C CNN
+F 1 "GND" H 1600 4200 50  0000 C CNN
+F 2 "" H 1600 4350 50  0001 C CNN
+F 3 "" H 1600 4350 50  0001 C CNN
+	1    1600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X04 J?
+U 1 1 5923F1C9
+P 1250 2600
+F 0 "J?" H 1250 2850 50  0000 C CNN
+F 1 "CONN_01X04" V 1350 2600 50  0000 C CNN
+F 2 "" H 1250 2600 50  0001 C CNN
+F 3 "" H 1250 2600 50  0001 C CNN
+	1    1250 2600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 2750 1600 2750
+Connection ~ 1600 3300
+Text HLabel 1650 2650 2    60   Input ~ 0
+IC/OC1
+Text HLabel 1650 2550 2    60   Input ~ 0
+IC/OC2
+Text HLabel 1650 2450 2    60   Input ~ 0
+V_USS
+Wire Wire Line
+	1650 2450 1450 2450
+Wire Wire Line
+	1450 2550 1650 2550
+Wire Wire Line
+	1650 2650 1450 2650
+$Comp
+L SPOX-3 SPOX-?
+U 1 1 5923F387
+P 1250 2000
+F 0 "SPOX-?" H 1350 2250 60  0001 C CNN
+F 1 "AIRSPD" V 1150 2000 60  0000 C CNN
+F 2 "" H 1250 2000 60  0001 C CNN
+F 3 "" H 1250 2000 60  0001 C CNN
+	1    1250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2100 1600 2100
+Connection ~ 1600 2750
+Text HLabel 1600 1900 2    60   Input ~ 0
+V_AIRSPD
+Text HLabel 1600 2000 2    60   Input ~ 0
+AIRSPD
+Wire Wire Line
+	1600 2000 1450 2000
+Wire Wire Line
+	1450 1900 1600 1900
+Wire Wire Line
+	1600 2100 1600 4350
+$EndSCHEMATC
