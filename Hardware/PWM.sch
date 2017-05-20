@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 19
+Sheet 5 20
 Title "PWM Switching Circuit"
 Date "2017-05-13"
 Rev ""
