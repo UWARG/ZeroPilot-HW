@@ -1,0 +1,8 @@
+(module micro_sd (layer F.Cu) (tedit 59267184)
+  (fp_text reference REF** (at -0.508 6.604) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value micro_sd (at -0.508 -10.668) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
