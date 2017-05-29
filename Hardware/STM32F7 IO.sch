@@ -1239,7 +1239,7 @@ U 1 1 596A0986
 P 10450 2900
 F 0 "TP39" H 10450 3200 50  0000 C BNN
 F 1 "TEST" H 10450 3150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 10450 2900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10450 2900 50  0001 C CNN
 F 3 "" H 10450 2900 50  0001 C CNN
 	1    10450 2900
 	1    0    0    -1  

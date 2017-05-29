@@ -48,33 +48,33 @@ Text HLabel 8850 4500 0    60   Input ~ 0
 VDD
 Text HLabel 6900 3800 0    60   Output ~ 0
 PWM[1..12]
-Text HLabel 2500 4950 0    60   Output ~ 0
+Text HLabel 900  4950 0    60   Output ~ 0
 SEL[1..12]
-Text Label 4850 2850 0    60   ~ 0
+Text Label 3950 3150 2    60   ~ 0
 PWM1
-Text Label 4850 2750 0    60   ~ 0
+Text Label 3950 3250 2    60   ~ 0
 PWM2
-Text Label 4850 2650 0    60   ~ 0
-PWM3
-Text Label 4850 2550 0    60   ~ 0
-PWM4
-Text Label 4950 5200 0    60   ~ 0
-PWM5
-Text Label 4950 5100 0    60   ~ 0
-PWM6
-Text Label 3900 5800 2    60   ~ 0
-PWM7
-Text Label 3900 5700 2    60   ~ 0
-PWM8
 Text Label 4900 4450 0    60   ~ 0
+PWM3
+Text Label 4900 4550 0    60   ~ 0
+PWM4
+Text Label 3900 5700 2    60   ~ 0
+PWM5
+Text Label 3900 5800 2    60   ~ 0
+PWM6
+Text Label 4950 5100 0    60   ~ 0
+PWM7
+Text Label 4950 5200 0    60   ~ 0
+PWM8
+Text Label 4850 2650 0    60   ~ 0
 PWM10
 Text Label 3800 3950 2    60   ~ 0
 PPM
-Text Label 4900 4550 0    60   ~ 0
+Text Label 4850 2550 0    60   ~ 0
 PWM9
-Text Label 3950 3250 2    60   ~ 0
+Text Label 4850 2750 0    60   ~ 0
 PWM11
-Text Label 3950 3150 2    60   ~ 0
+Text Label 4850 2850 0    60   ~ 0
 PWM12
 Wire Bus Line
 	6900 3800 7000 3800
@@ -162,8 +162,6 @@ Text Label 3750 2850 2    60   ~ 0
 USART2_RX
 Text Label 3750 2750 2    60   ~ 0
 USART2_TX
-Text Label 3750 2950 2    60   ~ 0
-USART2_CK
 Wire Wire Line
 	3050 4550 3900 4550
 Wire Wire Line
@@ -172,8 +170,6 @@ Wire Wire Line
 	3050 2750 3950 2750
 Wire Wire Line
 	3950 2850 3050 2850
-Wire Wire Line
-	3050 2950 3950 2950
 Text HLabel 3450 3950 0    60   Input ~ 0
 PPM
 Wire Wire Line
@@ -182,18 +178,6 @@ Text Label 5050 3800 1    60   ~ 0
 I2C1_SCL
 Text Label 5150 3800 1    60   ~ 0
 I2C1_SDA
-Wire Bus Line
-	2500 4950 2800 4950
-Wire Bus Line
-	2800 4950 2800 5500
-Entry Wire Line
-	2800 5400 2900 5500
-Entry Wire Line
-	2800 5300 2900 5400
-Entry Wire Line
-	2800 5200 2900 5300
-Entry Wire Line
-	2800 5100 2900 5200
 Wire Wire Line
 	5300 3050 4850 3050
 Wire Wire Line
@@ -202,77 +186,31 @@ Text Label 4900 3050 0    60   ~ 0
 SWDIO
 Text Label 4900 3150 0    60   ~ 0
 SWCLK
-Entry Wire Line
-	2800 5000 2900 5100
-Entry Wire Line
-	2800 5500 2900 5600
-Wire Wire Line
-	2900 5600 3900 5600
-Wire Wire Line
-	3900 5500 2900 5500
-Wire Wire Line
-	3900 5400 2900 5400
-Wire Wire Line
-	2900 5300 3900 5300
-Wire Wire Line
-	3900 5200 2900 5200
-Wire Wire Line
-	2900 5100 3900 5100
-Text Label 3450 5100 0    60   ~ 0
+Text Label 3950 2550 2    60   ~ 0
 SEL1
-Text Label 3450 5200 0    60   ~ 0
+Text Label 3950 2650 2    60   ~ 0
 SEL2
-Text Label 3450 5300 0    60   ~ 0
+Text Label 8800 2750 0    60   ~ 0
 SEL3
-Text Label 3450 5400 0    60   ~ 0
+Text Label 8800 2850 0    60   ~ 0
 SEL4
-Text Label 3450 5500 0    60   ~ 0
+Text Label 3950 2950 2    60   ~ 0
 SEL5
-Text Label 3450 5600 0    60   ~ 0
+Text Label 3950 3050 2    60   ~ 0
 SEL6
-Text Label 2600 4950 0    60   ~ 0
+Text Label 950  4950 0    60   ~ 0
 SEL[1..12]
-Wire Bus Line
-	5700 3800 6150 3800
-Wire Bus Line
-	5700 3800 5700 5300
-Text Label 5700 3800 0    60   ~ 0
-SEL[1..12]
-Entry Wire Line
-	5600 4050 5700 3950
-Entry Wire Line
-	5600 4150 5700 4050
-Entry Wire Line
-	5600 4250 5700 4150
-Entry Wire Line
-	5600 4350 5700 4250
-Wire Wire Line
-	5600 4350 4900 4350
-Wire Wire Line
-	4900 4250 5600 4250
-Wire Wire Line
-	5600 4150 4900 4150
-Wire Wire Line
-	4900 4050 5600 4050
-Text Label 4900 4050 0    60   ~ 0
+Text Label 3900 5500 2    60   ~ 0
 SEL7
-Text Label 4900 4150 0    60   ~ 0
+Text Label 3900 5600 2    60   ~ 0
 SEL8
-Text Label 4900 4250 0    60   ~ 0
+Text Label 3900 3850 2    60   ~ 0
 SEL9
-Text Label 4900 4350 0    60   ~ 0
+Text Label 3900 4050 2    60   ~ 0
 SEL10
-Entry Wire Line
-	5600 5400 5700 5300
-Entry Wire Line
-	5600 5300 5700 5200
-Wire Wire Line
-	5600 5300 4950 5300
-Wire Wire Line
-	5600 5400 4950 5400
-Text Label 4950 5300 0    60   ~ 0
+Text Label 4900 4050 0    60   ~ 0
 SEL11
-Text Label 4950 5400 0    60   ~ 0
+Text Label 4900 4150 0    60   ~ 0
 SEL12
 Wire Wire Line
 	8850 4500 9050 4500
@@ -532,18 +470,11 @@ PWM[1..12]
 NoConn ~ 4950 5500
 NoConn ~ 4950 5600
 NoConn ~ 3900 4350
-NoConn ~ 3900 4250
 NoConn ~ 3900 4150
-NoConn ~ 3900 4050
-NoConn ~ 3900 3850
-NoConn ~ 3950 3050
-NoConn ~ 3950 2650
-NoConn ~ 3950 2550
 NoConn ~ 4850 2950
 NoConn ~ 4850 3250
 NoConn ~ 8800 3050
 NoConn ~ 8800 2950
-NoConn ~ 8800 2850
 NoConn ~ 8800 2550
 Text HLabel 5300 3350 2    60   BiDi ~ 0
 I2CSCL
@@ -593,8 +524,6 @@ Text HLabel 3050 2750 0    60   Output ~ 0
 REC_UART_TX
 Text HLabel 3050 2850 0    60   Input ~ 0
 REC_UART_RX
-Text HLabel 3050 2950 0    60   Output ~ 0
-REC_UART_CK
 Text HLabel 3050 4450 0    60   Input ~ 0
 DBG_UART_RX
 Text HLabel 3050 4550 0    60   Output ~ 0
@@ -618,46 +547,44 @@ Wire Notes Line
 $Comp
 L LED D18
 U 1 1 59531E55
-P 9050 3000
-F 0 "D18" H 9050 3100 50  0000 C CNN
-F 1 "LED" H 9050 2900 50  0000 C CNN
-F 2 "LEDs:LED_0603" H 9050 3000 50  0001 C CNN
-F 3 "" H 9050 3000 50  0001 C CNN
-F 4 "DIOD-002" H 9050 3000 60  0001 C CNN "part_num"
-	1    9050 3000
+P 2150 4500
+F 0 "D18" H 2150 4600 50  0000 C CNN
+F 1 "LED" H 2150 4400 50  0000 C CNN
+F 2 "LEDs:LED_0603" H 2150 4500 50  0001 C CNN
+F 3 "" H 2150 4500 50  0001 C CNN
+F 4 "DIOD-002" H 2150 4500 60  0001 C CNN "part_num"
+	1    2150 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R40
 U 1 1 59531EA2
-P 9050 3400
-F 0 "R40" V 9130 3400 50  0000 C CNN
-F 1 "100" V 9050 3400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8980 3400 50  0001 C CNN
-F 3 "" H 9050 3400 50  0001 C CNN
-F 4 "RESS-006" V 9050 3400 60  0001 C CNN "part_num"
-	1    9050 3400
+P 2150 4900
+F 0 "R40" V 2230 4900 50  0000 C CNN
+F 1 "100" V 2150 4900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2080 4900 50  0001 C CNN
+F 3 "" H 2150 4900 50  0001 C CNN
+F 4 "RESS-006" V 2150 4900 60  0001 C CNN "part_num"
+	1    2150 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR051
 U 1 1 59531EED
-P 9050 3650
-F 0 "#PWR051" H 9050 3400 50  0001 C CNN
-F 1 "GND" H 9050 3500 50  0000 C CNN
-F 2 "" H 9050 3650 50  0001 C CNN
-F 3 "" H 9050 3650 50  0001 C CNN
-	1    9050 3650
+P 2150 5150
+F 0 "#PWR051" H 2150 4900 50  0001 C CNN
+F 1 "GND" H 2150 5000 50  0000 C CNN
+F 2 "" H 2150 5150 50  0001 C CNN
+F 3 "" H 2150 5150 50  0001 C CNN
+	1    2150 5150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 3550 9050 3650
+	2150 5050 2150 5150
 Wire Wire Line
-	9050 3250 9050 3150
+	2150 4750 2150 4650
 Wire Wire Line
-	9050 2850 9050 2750
-Wire Wire Line
-	9050 2750 8800 2750
+	2150 4350 2150 4250
 Text Label 8400 4850 0    59   ~ 0
 VDD
 $Comp
@@ -726,7 +653,7 @@ U 1 1 596A3495
 P 7200 3200
 F 0 "TP40" H 7200 3500 50  0000 C BNN
 F 1 "TEST" H 7200 3450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 7200 3200 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7200 3200 50  0001 C CNN
 F 3 "" H 7200 3200 50  0001 C CNN
 	1    7200 3200
 	-1   0    0    1   
@@ -735,4 +662,92 @@ Wire Wire Line
 	7200 3200 7200 3150
 Wire Wire Line
 	7200 3150 7400 3150
+Wire Bus Line
+	900  4950 1000 4950
+Wire Bus Line
+	1000 4950 1100 5050
+Wire Bus Line
+	1100 5050 1100 6700
+Entry Wire Line
+	1100 5050 1200 5150
+Entry Wire Line
+	1100 5200 1200 5300
+Entry Wire Line
+	1100 5350 1200 5450
+Entry Wire Line
+	1100 5500 1200 5600
+Entry Wire Line
+	1100 5650 1200 5750
+Entry Wire Line
+	1100 5800 1200 5900
+Entry Wire Line
+	1100 5950 1200 6050
+Entry Wire Line
+	1100 6100 1200 6200
+Entry Wire Line
+	1100 6250 1200 6350
+Entry Wire Line
+	1100 6400 1200 6500
+Entry Wire Line
+	1100 6550 1200 6650
+Entry Wire Line
+	1100 6700 1200 6800
+Wire Wire Line
+	1350 5150 1200 5150
+Wire Wire Line
+	1350 5300 1200 5300
+Wire Wire Line
+	1200 5450 1350 5450
+Wire Wire Line
+	1200 5600 1350 5600
+Wire Wire Line
+	1200 5750 1350 5750
+Wire Wire Line
+	1200 5900 1350 5900
+Wire Wire Line
+	1200 6050 1350 6050
+Wire Wire Line
+	1200 6200 1350 6200
+Wire Wire Line
+	1200 6350 1350 6350
+Wire Wire Line
+	1200 6500 1350 6500
+Wire Wire Line
+	1200 6650 1350 6650
+Wire Wire Line
+	1200 6800 1350 6800
+Text Label 1350 5150 0    60   ~ 0
+SEL1
+Text Label 1350 5300 0    60   ~ 0
+SEL2
+Text Label 1350 5450 0    60   ~ 0
+SEL3
+Text Label 1350 5600 0    60   ~ 0
+SEL4
+Text Label 1350 5750 0    60   ~ 0
+SEL5
+Text Label 1350 5900 0    60   ~ 0
+SEL6
+Text Label 1350 6050 0    60   ~ 0
+SEL7
+Text Label 1350 6200 0    60   ~ 0
+SEL8
+Text Label 1350 6350 0    60   ~ 0
+SEL9
+Text Label 1350 6500 0    60   ~ 0
+SEL10
+Text Label 1350 6650 0    60   ~ 0
+SEL11
+Text Label 1350 6800 0    60   ~ 0
+SEL12
+NoConn ~ 4950 5400
+NoConn ~ 4950 5300
+NoConn ~ 3900 5400
+NoConn ~ 3900 5300
+NoConn ~ 3900 5200
+NoConn ~ 3900 5100
+NoConn ~ 4900 4350
+NoConn ~ 4900 4250
+Wire Wire Line
+	2150 4250 3900 4250
 $EndSCHEMATC

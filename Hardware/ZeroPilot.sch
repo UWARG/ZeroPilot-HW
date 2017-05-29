@@ -250,7 +250,6 @@ F8 "SWDIO" B R 6050 1950 60
 F9 "SWCLK" B R 6050 2050 60 
 F10 "REC_UART_TX" O L 4300 1600 60 
 F11 "REC_UART_RX" I L 4300 1700 60 
-F12 "REC_UART_CK" O L 4300 1800 60 
 F13 "DBG_UART_RX" I L 4300 1300 60 
 F14 "DBG_UART_TX" O L 4300 1400 60 
 F15 "SEL[1..12]" O R 6050 1150 60 
@@ -269,7 +268,7 @@ U 1 1 592D52D6
 P 2300 1300
 F 0 "TP1" H 2300 1600 50  0000 C BNN
 F 1 "TEST" H 2300 1550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 2300 1300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2300 1300 50  0001 C CNN
 F 3 "" H 2300 1300 50  0001 C CNN
 	1    2300 1300
 	1    0    0    -1  
@@ -280,7 +279,7 @@ U 1 1 592D5525
 P 2450 1500
 F 0 "TP2" H 2450 1800 50  0000 C BNN
 F 1 "TEST" H 2450 1750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 2450 1500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 2450 1500 50  0001 C CNN
 F 3 "" H 2450 1500 50  0001 C CNN
 	1    2450 1500
 	1    0    0    -1  
@@ -1075,7 +1074,6 @@ F 3 "" H 12300 5850 50  0001 C CNN
 	1    12300 5850
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4300 1800
 Text Label 5650 6950 0    60   ~ 0
 3V3
 Text Label 3150 4400 0    59   ~ 0
