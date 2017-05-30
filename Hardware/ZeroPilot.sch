@@ -426,9 +426,9 @@ SDA1
 Text Label 4350 6600 2    60   ~ 0
 SCL1
 Text Label 3650 2000 0    60   ~ 0
-SCL1
+SCL4
 Text Label 3650 2100 0    60   ~ 0
-SDA1
+SDA4
 Entry Wire Line
 	6450 4150 6550 4250
 Entry Wire Line
