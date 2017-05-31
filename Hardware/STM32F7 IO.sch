@@ -454,7 +454,7 @@ Wire Wire Line
 Wire Wire Line
 	7950 5250 7950 5100
 Wire Wire Line
-	6350 5250 8300 5250
+	6100 5250 8300 5250
 Wire Wire Line
 	6350 5100 6350 6350
 Connection ~ 7950 4700
@@ -533,7 +533,7 @@ Wire Wire Line
 	8850 5200 8950 5200
 Connection ~ 8850 5300
 Wire Wire Line
-	6350 4700 8950 4700
+	6100 4700 8950 4700
 Connection ~ 8850 5400
 Wire Wire Line
 	8850 5400 8950 5400
@@ -1246,4 +1246,21 @@ F 3 "" H 10450 2900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10450 2900 10050 2900
+$Comp
+L C C38
+U 1 1 592EA63D
+P 6100 4950
+F 0 "C38" H 6125 5050 50  0000 L CNN
+F 1 "100nF" H 6125 4850 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" H 6138 4800 50  0001 C CNN
+F 3 "" H 6100 4950 50  0001 C CNN
+F 4 "CAPP-005" H 6100 4950 60  0001 C CNN "part_num"
+	1    6100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4700 6100 4800
+Connection ~ 6350 4700
+Wire Wire Line
+	6100 5100 6100 5250
 $EndSCHEMATC
