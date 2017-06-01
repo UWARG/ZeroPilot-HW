@@ -1,4 +1,4 @@
-(module micro_sd (layer F.Cu) (tedit 0)
+(module microsd_socket (layer F.Cu)
   (descr "MicroSD Card socket, Molex P/N 502774-0811")
   (fp_text reference microsd_socket (at 0 10.39876) (layer F.SilkS)
     (effects (font (thickness 0.3048)))
