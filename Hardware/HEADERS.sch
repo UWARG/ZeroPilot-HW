@@ -470,9 +470,6 @@ Connection ~ 3600 3900
 Wire Wire Line
 	3200 3600 3700 3600
 Wire Wire Line
-	3700 3600 3700 3900
-Connection ~ 3700 3900
-Wire Wire Line
 	3200 4200 3200 4250
 Wire Wire Line
 	3200 4250 3650 4250
@@ -852,4 +849,7 @@ Wire Wire Line
 	1700 4350 1500 4350
 Text HLabel 1750 4800 2    60   Input ~ 0
 UHF_TX
+Wire Wire Line
+	3700 3600 3700 3800
+Connection ~ 3700 3800
 $EndSCHEMATC
