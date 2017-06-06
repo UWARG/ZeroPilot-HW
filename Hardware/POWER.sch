@@ -769,4 +769,18 @@ Connection ~ 4800 5550
 Wire Wire Line
 	4900 2900 4900 2800
 Connection ~ 4800 2900
+Text Label 950  2800 0    60   ~ 0
+BATT_IN
+Text Label 5350 2050 0    60   ~ 0
+5V_EXT_OUT
+Text Label 6200 2050 0    60   ~ 0
+5V_EXT_PREFUSE
+Text Label 5400 4700 0    60   ~ 0
+5V_INT_OUT
+Text Label 6150 4700 0    60   ~ 0
+5V_INT_PREFUSE
+Text Label 5500 4900 0    60   ~ 0
+5V_INT_FB
+Text Label 5300 2250 0    60   ~ 0
+5V_EXT_FB
 $EndSCHEMATC
