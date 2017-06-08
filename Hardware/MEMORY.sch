@@ -47,12 +47,12 @@ $EndDescr
 $Comp
 L GND #PWR056
 U 1 1 5920672F
-P 9100 2500
-F 0 "#PWR056" H 9100 2250 50  0001 C CNN
-F 1 "GND" H 9100 2350 50  0000 C CNN
-F 2 "" H 9100 2500 50  0001 C CNN
-F 3 "" H 9100 2500 50  0001 C CNN
-	1    9100 2500
+P 9150 2600
+F 0 "#PWR056" H 9150 2350 50  0001 C CNN
+F 1 "GND" H 9150 2450 50  0000 C CNN
+F 2 "" H 9150 2600 50  0001 C CNN
+F 3 "" H 9150 2600 50  0001 C CNN
+	1    9150 2600
 	1    0    0    -1  
 $EndComp
 Text HLabel 6950 1800 0    60   Input ~ 0
@@ -65,14 +65,6 @@ Text HLabel 6950 1900 0    60   Input ~ 0
 SD_VDD
 Text HLabel 6950 1700 0    60   Input ~ 0
 SD_CS
-Wire Wire Line
-	6950 1700 7400 1700
-Wire Wire Line
-	7400 1800 6950 1800
-Wire Wire Line
-	7400 2000 6950 2000
-Wire Wire Line
-	6950 2200 7400 2200
 $Comp
 L GND #PWR057
 U 1 1 592067B5
@@ -84,10 +76,6 @@ F 3 "" H 7300 2400 50  0001 C CNN
 	1    7300 2400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7300 2100 7400 2100
-Wire Wire Line
-	7300 2100 7300 2400
 $Comp
 L GND #PWR058
 U 1 1 592069E4
@@ -99,31 +87,14 @@ F 3 "" H 5150 5850 50  0001 C CNN
 	1    5150 5850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5150 5850 5150 5800
 Text HLabel 5000 4650 0    60   Input ~ 0
 MEM_VDD
-Wire Wire Line
-	5000 4650 5150 4650
-Wire Wire Line
-	5150 4650 5150 4750
 Text HLabel 5750 5250 2    60   Input ~ 0
 MEM_SDA
 Text HLabel 5750 5350 2    60   Input ~ 0
 MEM_SCL
-Wire Wire Line
-	5750 5250 5550 5250
-Wire Wire Line
-	5550 5350 5750 5350
-Wire Wire Line
-	3850 5500 4650 5500
 Text HLabel 3850 5500 0    60   Input ~ 0
 WC'
-Wire Wire Line
-	3950 5450 3950 5500
-Connection ~ 3950 5500
-Wire Wire Line
-	3950 4700 3950 5150
 Text Label 5150 4650 0    60   ~ 0
 MEM_VDD
 Text Label 3950 5100 1    60   ~ 0
@@ -158,12 +129,6 @@ F 4 "RESS-001" V 1650 5100 60  0001 C CNN "part_num"
 	1    1650 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1650 5250 1650 5500
-Wire Wire Line
-	1900 5250 1900 5500
-Wire Wire Line
-	2150 5250 2150 5500
 $Comp
 L GND #PWR059
 U 1 1 59206DDE
@@ -175,26 +140,8 @@ F 3 "" H 1900 5950 50  0001 C CNN
 	1    1900 5950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1650 5800 1650 5900
-Wire Wire Line
-	1650 5900 2150 5900
-Wire Wire Line
-	2150 5900 2150 5800
-Wire Wire Line
-	1900 5800 1900 5950
-Connection ~ 1900 5900
 Text Label 1900 4800 0    60   ~ 0
 MEM_VDD
-Wire Wire Line
-	1650 4800 2150 4800
-Wire Wire Line
-	1650 4800 1650 4950
-Wire Wire Line
-	2150 4800 2150 4950
-Wire Wire Line
-	1900 4950 1900 4800
-Connection ~ 1900 4800
 Text Label 1650 5400 0    60   ~ 0
 E1
 Text Label 1900 5400 0    60   ~ 0
@@ -205,8 +152,6 @@ Text Notes 1250 4650 0    60   ~ 0
 Populate resistors to select I2C address\n
 NoConn ~ 7400 1600
 NoConn ~ 7400 2300
-Wire Wire Line
-	7400 1900 6950 1900
 $Comp
 L Micro_SD_Card J37
 U 1 1 59517B7C
@@ -291,4 +236,63 @@ F 4 "MEMM-001" H 5400 5550 60  0001 C CNN "part_num"
 	1    5300 5000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6950 1700 7400 1700
+Wire Wire Line
+	7400 1800 6950 1800
+Wire Wire Line
+	7400 2000 6950 2000
+Wire Wire Line
+	6950 2200 7400 2200
+Wire Wire Line
+	7300 2100 7400 2100
+Wire Wire Line
+	7300 2100 7300 2400
+Wire Wire Line
+	5150 5850 5150 5800
+Wire Wire Line
+	5000 4650 5150 4650
+Wire Wire Line
+	5150 4650 5150 4750
+Wire Wire Line
+	5750 5250 5550 5250
+Wire Wire Line
+	5550 5350 5750 5350
+Wire Wire Line
+	3850 5500 4650 5500
+Wire Wire Line
+	3950 5450 3950 5500
+Connection ~ 3950 5500
+Wire Wire Line
+	3950 4700 3950 5150
+Wire Wire Line
+	1650 5250 1650 5500
+Wire Wire Line
+	1900 5250 1900 5500
+Wire Wire Line
+	2150 5250 2150 5500
+Wire Wire Line
+	1650 5800 1650 5900
+Wire Wire Line
+	1650 5900 2150 5900
+Wire Wire Line
+	2150 5900 2150 5800
+Wire Wire Line
+	1900 5800 1900 5950
+Connection ~ 1900 5900
+Wire Wire Line
+	1650 4800 2150 4800
+Wire Wire Line
+	1650 4800 1650 4950
+Wire Wire Line
+	2150 4800 2150 4950
+Wire Wire Line
+	1900 4950 1900 4800
+Connection ~ 1900 4800
+Wire Wire Line
+	7400 1900 6950 1900
+Wire Wire Line
+	9150 2600 9150 2500
+Wire Wire Line
+	9150 2500 9100 2500
 $EndSCHEMATC
