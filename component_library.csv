@@ -1,44 +1,44 @@
-﻿WARG-part-#,Distrubuter,Distributer #,description,Manufacturer Part #,Inventory,Inventory Date,Notes,cost (qty. 1 CAD),Value,Footprint,link
-CHIP-001,Digi-Key,497-16632-ND,IC MCU 32BIT 1MB FLASH 144LQFP,STM32F765ZGT6,0,,,21.52,,,https://www.digikey.ca/short/3dcvbt
-CONN-001,Digi-Key,WM18886-ND,SPOX-2 Male,,,,,0.71,,,https://www.digikey.ca/products/en?keywords=WM18886-ND
-CONN-002,Digi-Key,WM18887-ND,SPOX-3 Male,,,,,0.73,,,https://www.digikey.ca/product-detail/en/molex-llc/22-03-5035/WM18887-ND/403302
-CONN-003,Digi-Key,WM18888-ND,SPOX-4 Male,,,,,0.91,,,https://www.digikey.ca/product-detail/en/molex-llc/0022035045/WM18888-ND/403303
-CONN-004,Digi-Key,WM18889-ND,SPOX-5 Male,,,,,1.04,,,https://www.digikey.ca/products/en?keywords=WM18889-ND
-CONN-005,Digi-Key,WM18890-ND,SPOX-6 Male,,,,,0.37,,,https://www.digikey.ca/products/en?keywords=WM18890-ND
-REGU-001,Digi-Key,TS30013-M050QFNRCT-ND,IC REG BUCK 5V 3A SYNC 16QFN,,0,,,1.86,,,https://www.digikey.ca/product-detail/en/semtech-corporation/TS30013-M050QFNR/TS30013-M050QFNRCT-ND/5415614
-REGU-002,Digi-Key,MCP1826S-3302E/DB-ND,IC REG LDO 3.3V 1A SOT223-3,,,,,1.1,,,https://www.digikey.ca/products/en?keywords=MCP1826S-3302E%2FDB-ND
-CHIP-002,Digi-Key,NC7SZ125P5XCT-ND,IC BUFF TRI-ST UHS N-INV SC70-5,,0,,,0.55,,,https://www.digikey.ca/products/en?keywords=NC7SZ125P5XCT-ND
-CHIP-003,Digi-Key,497-14045-ND,IC MCU 32BIT 64KB FLASH 64LQFP,,0,,,3.3,,,https://www.digikey.ca/product-detail/en/stmicroelectronics/STM32F030R8T6/497-14045-ND/4357253
-CONN-006,,See CONN-009,2 pin male header,See CONN-009,,,,0,,,
-CONN-007,,See CONN-009,3 pin male header,See CONN-009,,,,0,,,
-CONN-008,,See CONN-009,4 pin male header,See CONN-009,,,,0,,,
-CONN-009,,,male headers,,,,,,,,https://www.digikey.ca/product-detail/en/on-semiconductor/NLAS4599DFT2G/NLAS4599DFT2GOSCT-ND/964598
-CONN-010,,See CONN-009,2x5 male header,See CONN-009,,,,,,,
-CHIP-004,Digi-Key,NLAS4599DFT2GOSCT-ND,IC SWITCH SPDT SC88,NLAS4599DFT2G,0,,,0.64,,,https://www.digikey.ca/products/en?keywords=NLAS4599DFT2GOSCT-ND
-CAPP-001,Digi-Key,1276-1119-1-ND,,,,,,,,,
-CAPP-002,Digi-Key,1276-2000-1-ND,,,,,,,,,
-CAPP-003,Digi-Key,1276-6504-1-ND,,,,,,,,,
-CAPP-004,Digi-Key,490-3897-1-ND,,,,,,,,,
-CAPP-005,Digi-Key,490-1524-1-ND,,,,,,,,,
-CAPP-006,Digi-Key,1276-6684-1-ND,,,,,,,,,
-CAPP-007,Digi-Key,1276-6592-1-ND,,,,,,,,,
-CAPP-008,Digi-Key,732-7775-1-ND,,,,,,,,,
-CAPP-009,Digi-Key,732-7773-1-ND,,,,,,,,,
-CAPP-010,Digi-Key,490-1512-1-ND,,,,,,,,,
-RESS-001,Digi-Key,RC0603JR-070RL,,,,,,,,,
-RESS-002,Digi-Key,311-22.0KHRCT-ND,,,,,,,,,
-RESS-003,Digi-Key,311-100KHRCT-ND,,,,,,,,,
-RESS-004,Digi-Key,311-11.0KHRCT-ND,,,,,,,,,
-RESS-005,Digi-Key,P10KGCT-ND,,,,,,,,,
-RESS-006,Digi-Key,311-100GRCT-ND,,,,,,,,,
-DIOD-001,Digi-Key,MMSZ4691T1GOSCT-ND,,,,,,,,,
-DIOD-002,Digi-Key,160-1446-1-ND,,,,,,,,,
-DIOD-003,Digi-Key,160-1447-1-ND,,,,,,,,,
-DIOD-004,Digi-Key,1N4448HLPDIDKR-ND,,,,,,,,,
-INDU-001,Digi-Key,SRN6045TA-4R7MCT-ND,,,,,,,,,
-XTAL-001,Digi-Key,XC1617CT-ND,,,,,,,,,
-XTAL-002,Digi-Key,535-10630-1-ND,,,,,,,,,
-TRAN-001,Digi-Key,IRF5806TRPBFCT-ND,,,,,,,,,
-MEMM-001,Digi-Key,497-8649-1-ND,,,,,,,,,
-MEMM-002,Digi-Key,WM24066CT-ND,,,,,,,,,
-FUSE-001,Digi-Key,P15118CT-ND,,,,,,,,,
+WARG-part-#	Distrubuter	Distributer #	description	Manufacturer Part #	Inventory	Inventory Date	Notes	cost (qty. 1 CAD)	Value	Footprint	link
+CHIP-001	Digi-Key	497-16632-ND	IC MCU 32BIT 1MB FLASH 144LQFP	STM32F765ZGT6	0			21.52			https://www.digikey.ca/short/3dcvbt
+CONN-001	Digi-Key	WM18886-ND	SPOX-2 Male					0.71			https://www.digikey.ca/products/en?keywords=WM18886-ND
+CONN-002	Digi-Key	WM18887-ND	SPOX-3 Male					0.73			https://www.digikey.ca/product-detail/en/molex-llc/22-03-5035/WM18887-ND/403302
+CONN-003	Digi-Key	WM18888-ND	SPOX-4 Male					0.91			https://www.digikey.ca/product-detail/en/molex-llc/0022035045/WM18888-ND/403303
+CONN-004	Digi-Key	WM18889-ND	SPOX-5 Male					1.04			https://www.digikey.ca/products/en?keywords=WM18889-ND
+CONN-005	Digi-Key	WM18890-ND	SPOX-6 Male					0.37			https://www.digikey.ca/products/en?keywords=WM18890-ND
+REGU-001	Digi-Key	TS30013-M050QFNRCT-ND	IC REG BUCK 5V 3A SYNC 16QFN		0			1.86			https://www.digikey.ca/product-detail/en/semtech-corporation/TS30013-M050QFNR/TS30013-M050QFNRCT-ND/5415614
+REGU-002	Digi-Key	MCP1826S-3302E/DB-ND	IC REG LDO 3.3V 1A SOT223-3					1.1			https://www.digikey.ca/products/en?keywords=MCP1826S-3302E%2FDB-ND
+CHIP-002	Digi-Key	NC7SZ125P5XCT-ND	IC BUFF TRI-ST UHS N-INV SC70-5		0			0.55			https://www.digikey.ca/products/en?keywords=NC7SZ125P5XCT-ND
+CHIP-003	Digi-Key	497-14045-ND	IC MCU 32BIT 64KB FLASH 64LQFP		0			3.3			https://www.digikey.ca/product-detail/en/stmicroelectronics/STM32F030R8T6/497-14045-ND/4357253
+CONN-006		See CONN-009	2 pin male header	See CONN-009				0			
+CONN-007		See CONN-009	3 pin male header	See CONN-009				0			
+CONN-008		See CONN-009	4 pin male header	See CONN-009				0			
+CONN-009			male headers								https://www.digikey.ca/product-detail/en/on-semiconductor/NLAS4599DFT2G/NLAS4599DFT2GOSCT-ND/964598
+CONN-010		See CONN-009	2x5 male header	See CONN-009							
+CHIP-004	Digi-Key	NLAS4599DFT2GOSCT-ND	IC SWITCH SPDT SC88	NLAS4599DFT2G	0			0.64			https://www.digikey.ca/products/en?keywords=NLAS4599DFT2GOSCT-ND
+CAPP-001	Digi-Key	1276-1119-1-ND	CAP CER 10UF 6.3V X5R 0603								
+CAPP-002	Digi-Key	1276-2000-1-ND	CAP CER 0.022UF 25V X7R 0603								
+CAPP-003	Digi-Key	1276-6504-1-ND	CAP CER 22UF 10V X5R 0603								
+CAPP-004	Digi-Key	490-3897-1-ND	CAP CER 1UF 25V X5R 0603								
+CAPP-005	Digi-Key	490-1524-1-ND	CAP CER 0.1UF 25V X7R 0603								
+CAPP-006	Digi-Key	1276-6684-1-ND	CAP CER 4.7UF 10V X5R 0603								
+CAPP-007	Digi-Key	1276-6592-1-ND	CAP CER 2.2UF 16V Y5V 0603								
+CAPP-008	Digi-Key	732-7775-1-ND	CAP CER 15PF 25V C0G/NP0 0603								
+CAPP-009	Digi-Key	732-7773-1-ND	CAP CER 6.8PF 25V C0G/NP0 0603								
+CAPP-010	Digi-Key	490-1512-1-ND	CAP CER 10000PF 50V X7R 0603								
+RESS-001	Digi-Key	RC0603JR-070RL	RES SMD 0.0OHM JUMPER 1/10W 0603								
+RESS-002	Digi-Key	311-22.0KHRCT-ND	RES SMD 22K OHM 1% 1/10W 0603		0						
+RESS-003	Digi-Key	311-100KHRCT-ND	RES SMD 100K OHM 1% 1/10W 0603		0						
+RESS-004	Digi-Key	311-11.0KHRCT-ND	RES SMD 11K OHM 1% 1/10W 0603		0						
+RESS-005	Digi-Key	P10KGCT-ND	RES SMD 10K OHM 5% 1/10W 0603								
+RESS-006	Digi-Key	311-100GRCT-ND	RES SMD 100 OHM 5% 1/10W 0603								
+DIOD-001	Digi-Key	MMSZ4691T1GOSCT-ND	DIODE ZENER 6.2V 500MW SOD123		0						
+DIOD-002	Digi-Key	160-1446-1-ND	LED GREEN CLEAR 0603 SMD								
+DIOD-003	Digi-Key	160-1447-1-ND	LED RED CLEAR 0603 SMD								
+DIOD-004	Digi-Key	1N4448HLPDIDKR-ND	DIODE GEN PURP 80V 125MA 2DFN		0						
+INDU-001	Digi-Key	SRN6045TA-4R7MCT-ND	FIXED IND 4.7UH 4.5A 26 MOHM SMD		0						
+XTAL-001	Digi-Key	XC1617CT-ND	CRYSTAL 32.7680KHZ 12.5PF SMD								
+XTAL-002	Digi-Key	535-10630-1-ND	CRYSTAL 8.0000MHZ 18PF SMD								
+TRAN-001	Digi-Key	IRF5806TRPBFCT-ND	MOSFET P-CH 20V 4A 6-TSOP		0						
+MEMM-001	Digi-Key	497-8649-1-ND	IC EEPROM 64KBIT 400KHZ 8TSSOP		0						
+MEMM-002	Digi-Key	WM24066CT-ND	CONN MICRO SD CARD PUSH-PUSH R/A		0						
+FUSE-001	Digi-Key	P15118CT-ND	FUSE BOARD MOUNT 3A 32VDC 0603		0						
