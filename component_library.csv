@@ -1,4 +1,4 @@
-﻿WARG-part-#,Distrubuter,Distributer #,description,Manufacturer Part #,Inventory,Inventory Date,Notes,cost (qty. 1 CAD),Value,Footprint,link
+WARG-part-#,Distrubuter,Distributer #,description,Manufacturer Part #,Inventory,Inventory Date,Notes,cost (qty. 1 CAD),Value,Footprint,link
 CHIP-001,Digi-Key,497-16632-ND,IC MCU 32BIT 1MB FLASH 144LQFP,STM32F765ZGT6,0,2017-06-17,,21.52,,,https://www.digikey.ca/short/3dcvbt
 CONN-001,Digi-Key,WM18886-ND,SPOX-2 Male,,24,2017-06-17,,0.71,,,https://www.digikey.ca/products/en?keywords=WM18886-ND
 CONN-002,Digi-Key,WM18887-ND,SPOX-3 Male,,13,2017-06-17,,0.73,,,https://www.digikey.ca/product-detail/en/molex-llc/22-03-5035/WM18887-ND/403302
@@ -15,7 +15,7 @@ CONN-008,,See CONN-009,4 pin male header,See CONN-009,Fuck Ton,2017-06-17,,0,,,
 CONN-009,,,male headers,,Fuck Ton,2017-06-17,,,,,https://www.digikey.ca/product-detail/en/on-semiconductor/NLAS4599DFT2G/NLAS4599DFT2GOSCT-ND/964598
 CONN-010,,See CONN-009,2x5 male header,See CONN-009,0,2017-06-17,,,,,
 CHIP-004,Digi-Key,NLAS4599DFT2GOSCT-ND,IC SWITCH SPDT SC88,NLAS4599DFT2G,0,2017-06-17,,0.64,,,https://www.digikey.ca/products/en?keywords=NLAS4599DFT2GOSCT-ND
-CAPP-001,Digi-Key,'1276-1119-1-ND / 445-7492-1-ND / 490-3896-1-ND, 445-4112-1-ND',CAP CER 10UF 6.3V X5R 0603,,31,2017-06-18,,,,,
+CAPP-001,Digi-Key,1276-1119-1-ND / 445-7492-1-ND / 490-3896-1-ND / 445-4112-1-ND,CAP CER 10UF 6.3V X5R 0603,,31,2017-06-18,,,,,
 CAPP-002,Digi-Key,1276-2000-1-ND,CAP CER 0.022UF 25V X7R 0603,,0,2017-06-18,,,,,
 CAPP-003,Digi-Key,1276-6504-1-ND,CAP CER 22UF 10V X5R 0603,,0,2017-06-18,,,,,
 CAPP-004,Digi-Key,490-3897-1-ND / 587-1248-1-ND,CAP CER 1UF 25V X5R 0603,,258,2017-06-18,,,,,
