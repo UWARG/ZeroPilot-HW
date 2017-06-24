@@ -1133,4 +1133,16 @@ Text Label 6050 1400 0    60   ~ 0
 MOSI1
 Text Label 6050 1600 0    60   ~ 0
 NSS1
+Text Label 9000 3750 0    60   ~ 0
+EXT_BATT_ADC
+Text Label 9000 3850 0    60   ~ 0
+VBATT_ADC
+Text Label 9000 3950 0    60   ~ 0
+AIRSPD_ADC
+Text Label 8950 3150 0    60   ~ 0
+TDI
+Text Label 8950 3250 0    60   ~ 0
+TDO
+Text Label 8950 3450 0    60   ~ 0
+JRST
 $EndSCHEMATC
