@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 17 21
+Sheet 5 8
 Title "Autopilot Controller I/O"
 Date "2017-05-14"
 Rev ""
@@ -44,82 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2750 6300 0    60   ~ 0
-OC1
-Text Label 2750 6400 0    60   ~ 0
-OC2
-Text Label 2750 6500 0    60   ~ 0
-OC3
-Text Label 2750 6600 0    60   ~ 0
-OC4
-Text Label 1700 5000 2    60   ~ 0
-OC5
-Text Label 1700 5100 2    60   ~ 0
-OC6
-Text Label 2750 4400 0    60   ~ 0
-OC7
-Text Label 2700 1600 0    60   ~ 0
-OC9
-Text Label 7050 2050 0    60   ~ 0
-OC10
-Text Label 7050 1950 0    60   ~ 0
-OC11
-Text Label 7050 1750 0    60   ~ 0
-OC12
-Text HLabel 1350 2100 0    60   Input ~ 0
-PPM
-Text HLabel 5050 5450 0    60   Output ~ 0
-OC[1..12]
-Entry Wire Line
-	5250 5550 5350 5650
-Entry Wire Line
-	5250 5700 5350 5800
-Entry Wire Line
-	5250 5850 5350 5950
-Entry Wire Line
-	5250 6000 5350 6100
-Entry Wire Line
-	5250 6150 5350 6250
-Entry Wire Line
-	5250 6300 5350 6400
-Entry Wire Line
-	5250 6450 5350 6550
-Entry Wire Line
-	5250 6600 5350 6700
-Entry Wire Line
-	5250 6750 5350 6850
-Entry Wire Line
-	5250 6900 5350 7000
-Entry Wire Line
-	5250 7050 5350 7150
-Entry Wire Line
-	5250 7200 5350 7300
-Text Label 5500 7300 0    60   ~ 0
-OC12
-Text Label 5500 7150 0    60   ~ 0
-OC11
-Text Label 5500 7000 0    60   ~ 0
-OC10
-Text Label 5500 6850 0    60   ~ 0
-OC9
-Text Label 5500 6700 0    60   ~ 0
-OC8
-Text Label 5500 6550 0    60   ~ 0
-OC7
-Text Label 5500 6400 0    60   ~ 0
-OC6
-Text Label 5500 6250 0    60   ~ 0
-OC5
-Text Label 5500 6100 0    60   ~ 0
-OC4
-Text Label 5500 5950 0    60   ~ 0
-OC3
-Text Label 5500 5800 0    60   ~ 0
-OC2
-Text Label 5500 5650 0    60   ~ 0
-OC1
-Text Label 2750 4500 0    60   ~ 0
-OC8
 Text Label 10250 2800 2    60   ~ 0
 NRST
 Text Label 6050 2900 2    60   ~ 0
@@ -372,8 +297,6 @@ Wire Wire Line
 	7850 2800 7850 3750
 Wire Wire Line
 	7950 2800 7850 2800
-Wire Wire Line
-	1350 2100 1650 2100
 Wire Wire Line
 	2650 2950 2900 2950
 Wire Wire Line
@@ -711,36 +634,6 @@ Wire Wire Line
 	2700 2200 3550 2200
 Wire Wire Line
 	2700 2100 3500 2100
-Wire Wire Line
-	5350 7300 5500 7300
-Wire Wire Line
-	5350 7150 5500 7150
-Wire Wire Line
-	5350 7000 5500 7000
-Wire Wire Line
-	5350 6850 5500 6850
-Wire Wire Line
-	5350 6700 5500 6700
-Wire Wire Line
-	5350 6550 5500 6550
-Wire Wire Line
-	5350 6400 5500 6400
-Wire Wire Line
-	5350 6250 5500 6250
-Wire Wire Line
-	5350 6100 5500 6100
-Wire Wire Line
-	5350 5950 5500 5950
-Wire Wire Line
-	5500 5800 5350 5800
-Wire Wire Line
-	5500 5650 5350 5650
-Wire Bus Line
-	5250 5550 5250 7200
-Wire Bus Line
-	5150 5450 5250 5550
-Wire Bus Line
-	5050 5450 5150 5450
 Text HLabel 10250 2050 2    60   Input ~ 0
 PG14
 Text HLabel 10250 2150 2    60   Input ~ 0

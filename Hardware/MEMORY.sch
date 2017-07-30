@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 20 21
+Sheet 7 8
 Title ""
 Date ""
 Rev ""
@@ -93,8 +94,6 @@ Text HLabel 5750 5250 2    60   Input ~ 0
 MEM_SDA
 Text HLabel 5750 5350 2    60   Input ~ 0
 MEM_SCL
-Text HLabel 3850 5500 0    60   Input ~ 0
-WC'
 Text Label 5150 4650 0    60   ~ 0
 MEM_VDD
 Text Label 3950 5100 1    60   ~ 0
@@ -295,4 +294,6 @@ Wire Wire Line
 	9150 2600 9150 2500
 Wire Wire Line
 	9150 2500 9100 2500
+Text HLabel 3850 5500 0    60   Input ~ 0
+WC
 $EndSCHEMATC

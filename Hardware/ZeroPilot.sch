@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 21
+Sheet 1 8
 Title "ZeroPilot Overview"
 Date "2017-05-14"
 Rev ""
@@ -45,15 +46,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 9850 700  950  1300
+S 7350 700  950  1300
 U 591E6415
 F0 "PWM 1-12" 60
 F1 "PWM_1-12.sch" 60
-F2 "PWM_5V" I L 9850 1650 60 
-F3 "SW_5V" I L 9850 1850 60 
-F4 "OC[1..12]" I L 9850 1350 60 
-F5 "PWM[1..12]" I L 9850 950 60 
-F6 "SEL[1..12]" I L 9850 1150 60 
+F2 "PWM_5V" I L 7350 1650 60 
+F5 "PWM[1..12]" I L 7350 950 60 
 $EndSheet
 $Sheet
 S 550  1050 1050 2000
@@ -144,8 +142,6 @@ S 7200 2250 1750 3950
 U 5918F046
 F0 "PILOT CONTROLLER" 60
 F1 "STM32F7 IO.sch" 60
-F2 "PPM" I R 8950 2550 60 
-F3 "OC[1..12]" O R 8950 2450 60 
 F4 "SWDIO" B R 8950 2950 60 
 F5 "SWCLK" I R 8950 3050 60 
 F6 "TDI" I R 8950 3150 60 
@@ -214,27 +210,12 @@ Text Label 1600 2150 0    60   ~ 0
 5V_INT
 Text Label 1600 2350 0    60   ~ 0
 5V_EXT
-Text Label 9850 1850 2    60   ~ 0
-5V_INT
-Text Label 9850 1650 2    60   ~ 0
+Text Label 7350 1650 2    60   ~ 0
 5V_EXT
 Text Label 8950 5100 0    60   ~ 0
 ULTRA_SONIC_1
 Text Label 8950 5200 0    60   ~ 0
 ULTRA_SONIC_2
-$Sheet
-S 7300 1350 1000 650 
-U 5929003E
-F0 "BUFFER" 60
-F1 "BUFFER.sch" 60
-F2 "PPM_IN" I L 7300 1450 60 
-F3 "VCC" I L 7300 1900 60 
-F4 "RX_IN" I L 7300 1650 60 
-F5 "PPM_OUT" O R 8300 1450 60 
-F6 "RX_OUT" O R 8300 1650 60 
-$EndSheet
-Text Label 7300 1900 2    60   ~ 0
-5V_INT
 $Sheet
 S 4300 650  1750 1700
 U 5919369D
@@ -243,16 +224,15 @@ F1 "STM32F0 RELAY.sch" 60
 F2 "VDD" I L 4300 900 60 
 F3 "PPM" I L 4300 1100 60 
 F4 "PWM[1..12]" O R 6050 950 60 
-F5 "I2CSCL" B L 4300 2000 60 
-F6 "I2CSDA" B L 4300 2100 60 
-F7 "NRST" I R 6050 1850 60 
-F8 "SWDIO" B R 6050 1950 60 
-F9 "SWCLK" B R 6050 2050 60 
+F5 "I2CSCL" B R 6050 2200 60 
+F6 "I2CSDA" B R 6050 2300 60 
+F7 "NRST" I L 4300 1900 60 
+F8 "SWDIO" B L 4300 2000 60 
+F9 "SWCLK" B L 4300 2100 60 
 F10 "REC_UART_TX" O L 4300 1600 60 
 F11 "REC_UART_RX" I L 4300 1700 60 
 F12 "DBG_UART_RX" I L 4300 1300 60 
 F13 "DBG_UART_TX" O L 4300 1400 60 
-F14 "SEL[1..12]" O R 6050 1150 60 
 F15 "MOSI" I R 6050 1400 60 
 F16 "MISO" I R 6050 1500 60 
 F17 "NSS" I R 6050 1600 60 
@@ -301,7 +281,7 @@ F6 "SD_CS" I R 5650 6650 60
 F7 "MEM_VDD" I L 4350 6350 60 
 F8 "MEM_SDA" I L 4350 6500 60 
 F9 "MEM_SCL" I L 4350 6600 60 
-F10 "WC'" I L 4350 6800 60 
+F10 "WC" I L 4350 6800 60 
 $EndSheet
 Text Label 8950 5500 0    60   ~ 0
 MEM_WC
@@ -429,9 +409,9 @@ Text Label 4350 6500 2    60   ~ 0
 SDA1
 Text Label 4350 6600 2    60   ~ 0
 SCL1
-Text Label 3650 2000 0    60   ~ 0
+Text Label 6050 2200 0    60   ~ 0
 SCL4
-Text Label 3650 2100 0    60   ~ 0
+Text Label 6050 2300 0    60   ~ 0
 SDA4
 Entry Wire Line
 	6450 4150 6550 4250
@@ -509,12 +489,6 @@ Text Label 6950 2800 0    60   ~ 0
 UCK2
 Text Label 3950 1100 0    60   ~ 0
 PPM
-Text Label 7050 1450 0    60   ~ 0
-PPM
-Text Label 8300 1450 0    60   ~ 0
-PPM_BUFF
-Text Label 8550 1650 2    60   ~ 0
-RX7
 Text Label 3900 1700 0    60   ~ 0
 UHF_RX
 Entry Wire Line
@@ -730,15 +704,7 @@ Text Label 3150 4900 0    59   ~ 0
 Text Label 3150 4500 0    59   ~ 0
 5V_INT
 Wire Bus Line
-	6050 950  9850 950 
-Wire Bus Line
-	6050 1150 9850 1150
-Wire Bus Line
-	8950 2450 9350 2450
-Wire Bus Line
-	9350 2450 9350 1350
-Wire Bus Line
-	9350 1350 9850 1350
+	6050 950  7350 950 
 Wire Wire Line
 	8950 4200 9650 4200
 Wire Wire Line
@@ -758,7 +724,15 @@ Wire Wire Line
 Wire Wire Line
 	4350 6800 4000 6800
 Wire Bus Line
-	6200 6200 6200 6600
+	6200 6200 6200 6250
+Wire Bus Line
+	6200 6250 6200 6350
+Wire Bus Line
+	6200 6350 6200 6450
+Wire Bus Line
+	6200 6450 6200 6550
+Wire Bus Line
+	6200 6550 6200 6600
 Wire Bus Line
 	6100 6200 6200 6200
 Wire Wire Line
@@ -768,7 +742,35 @@ Wire Wire Line
 Wire Wire Line
 	6100 6550 5650 6550
 Wire Bus Line
-	6450 4300 6450 6000
+	6450 4300 6450 4400
+Wire Bus Line
+	6450 4400 6450 4500
+Wire Bus Line
+	6450 4500 6450 4600
+Wire Bus Line
+	6450 4600 6450 4750
+Wire Bus Line
+	6450 4750 6450 4850
+Wire Bus Line
+	6450 4850 6450 4950
+Wire Bus Line
+	6450 4950 6450 5050
+Wire Bus Line
+	6450 5050 6450 5200
+Wire Bus Line
+	6450 5200 6450 5300
+Wire Bus Line
+	6450 5300 6450 5400
+Wire Bus Line
+	6450 5400 6450 5500
+Wire Bus Line
+	6450 5500 6450 5700
+Wire Bus Line
+	6450 5700 6450 5800
+Wire Bus Line
+	6450 5800 6450 5900
+Wire Bus Line
+	6450 5900 6450 6000
 Wire Bus Line
 	6450 4300 6200 4300
 Wire Wire Line
@@ -806,7 +808,15 @@ Wire Wire Line
 Wire Wire Line
 	5650 6650 6100 6650
 Wire Bus Line
-	9750 4100 9750 4800
+	9750 4100 9750 4200
+Wire Bus Line
+	9750 4200 9750 4400
+Wire Bus Line
+	9750 4400 9750 4500
+Wire Bus Line
+	9750 4500 9750 4700
+Wire Bus Line
+	9750 4700 9750 4800
 Wire Bus Line
 	9750 4400 10000 4400
 Wire Wire Line
@@ -818,13 +828,61 @@ Wire Wire Line
 Wire Wire Line
 	8950 4500 9650 4500
 Wire Bus Line
-	3750 5850 3750 6650
+	3750 5850 3750 6000
+Wire Bus Line
+	3750 6000 3750 6100
+Wire Bus Line
+	3750 6100 3750 6300
+Wire Bus Line
+	3750 6300 3750 6400
+Wire Bus Line
+	3750 6400 3750 6500
+Wire Bus Line
+	3750 6500 3750 6550
+Wire Bus Line
+	3750 6550 3750 6650
 Wire Wire Line
 	3850 6500 4350 6500
 Wire Wire Line
 	3850 6600 4350 6600
 Wire Bus Line
-	6450 2200 6450 4150
+	6450 2200 6450 2300
+Wire Bus Line
+	6450 2300 6450 2400
+Wire Bus Line
+	6450 2400 6450 2500
+Wire Bus Line
+	6450 2500 6450 2600
+Wire Bus Line
+	6450 2600 6450 2700
+Wire Bus Line
+	6450 2700 6450 2800
+Wire Bus Line
+	6450 2800 6450 2900
+Wire Bus Line
+	6450 2900 6450 3000
+Wire Bus Line
+	6450 3000 6450 3100
+Wire Bus Line
+	6450 3100 6450 3200
+Wire Bus Line
+	6450 3200 6450 3300
+Wire Bus Line
+	6450 3300 6450 3400
+Wire Bus Line
+	6450 3400 6450 3500
+Wire Bus Line
+	6450 3500 6450 3600
+Wire Bus Line
+	6450 3600 6450 3700
+Wire Bus Line
+	6450 3700 6450 3850
+Wire Bus Line
+	6450 3850 6450 3950
+Wire Bus Line
+	6450 3950 6450 4050
+Wire Bus Line
+	6450 4050 6450 4150
 Wire Bus Line
 	6450 3450 6150 3450
 Wire Wire Line
@@ -862,19 +920,7 @@ Wire Wire Line
 Wire Wire Line
 	6550 2700 7200 2700
 Wire Wire Line
-	7050 1450 7300 1450
-Wire Wire Line
-	8300 1450 9100 1450
-Wire Wire Line
-	6850 1650 7300 1650
-Wire Wire Line
-	8300 1650 8550 1650
-Wire Wire Line
 	3900 1700 4300 1700
-Wire Wire Line
-	3650 2000 4300 2000
-Wire Wire Line
-	3650 2100 4300 2100
 Wire Wire Line
 	6550 2300 7200 2300
 Wire Wire Line
@@ -882,7 +928,41 @@ Wire Wire Line
 Wire Wire Line
 	6550 2500 7200 2500
 Wire Bus Line
-	600  3450 600  5450
+	600  3450 600  3550
+Wire Bus Line
+	600  3550 600  3650
+Wire Bus Line
+	600  3650 600  3750
+Wire Bus Line
+	600  3750 600  3850
+Wire Bus Line
+	600  3850 600  4000
+Wire Bus Line
+	600  4000 600  4100
+Wire Bus Line
+	600  4100 600  4200
+Wire Bus Line
+	600  4200 600  4300
+Wire Bus Line
+	600  4300 600  4450
+Wire Bus Line
+	600  4450 600  4550
+Wire Bus Line
+	600  4550 600  4650
+Wire Bus Line
+	600  4650 600  4750
+Wire Bus Line
+	600  4750 600  4900
+Wire Bus Line
+	600  4900 600  5000
+Wire Bus Line
+	600  5000 600  5100
+Wire Bus Line
+	600  5100 600  5200
+Wire Bus Line
+	600  5200 600  5350
+Wire Bus Line
+	600  5350 600  5450
 Wire Bus Line
 	600  3450 900  3450
 Wire Wire Line
@@ -922,7 +1002,9 @@ Wire Wire Line
 Wire Wire Line
 	1350 5550 700  5550
 Wire Bus Line
-	3500 3400 3500 3650
+	3500 3400 3500 3550
+Wire Bus Line
+	3500 3550 3500 3650
 Wire Bus Line
 	3500 3400 3800 3400
 Wire Wire Line
@@ -934,7 +1016,35 @@ Wire Wire Line
 Wire Wire Line
 	3150 3950 3800 3950
 Wire Bus Line
-	600  5650 600  7350
+	600  5650 600  5750
+Wire Bus Line
+	600  5750 600  5850
+Wire Bus Line
+	600  5850 600  5950
+Wire Bus Line
+	600  5950 600  6100
+Wire Bus Line
+	600  6100 600  6200
+Wire Bus Line
+	600  6200 600  6300
+Wire Bus Line
+	600  6300 600  6400
+Wire Bus Line
+	600  6400 600  6550
+Wire Bus Line
+	600  6550 600  6650
+Wire Bus Line
+	600  6650 600  6750
+Wire Bus Line
+	600  6750 600  6850
+Wire Bus Line
+	600  6850 600  7050
+Wire Bus Line
+	600  7050 600  7150
+Wire Bus Line
+	600  7150 600  7250
+Wire Bus Line
+	600  7250 600  7350
 Wire Bus Line
 	600  5650 850  5650
 Wire Wire Line
@@ -1005,11 +1115,11 @@ Text Label 3150 7400 0    59   ~ 0
 SWIO_SAFETY
 Text Label 3150 7500 0    59   ~ 0
 SCLK_SAFETY
-Text Label 6050 1850 0    59   ~ 0
+Text Label 4300 1900 2    59   ~ 0
 NRST_SAFETY
-Text Label 6050 1950 0    59   ~ 0
+Text Label 4300 2000 2    59   ~ 0
 SWIO_SAFETY
-Text Label 6050 2050 0    59   ~ 0
+Text Label 4300 2100 2    59   ~ 0
 SCLK_SAFETY
 $Comp
 L CONN_01X04 J1
@@ -1082,10 +1192,6 @@ Text Label 5650 6950 0    60   ~ 0
 3V3
 Text Label 3150 4400 0    59   ~ 0
 5V_INT
-Wire Wire Line
-	9100 1450 9100 2550
-Wire Wire Line
-	9100 2550 8950 2550
 Text Label 3150 5000 0    60   ~ 0
 3V3
 $Sheet
@@ -1122,8 +1228,6 @@ UHF_TX
 Text Label 3150 4100 0    60   ~ 0
 UHF_TX
 Text Label 3150 4200 0    60   ~ 0
-UHF_RX
-Text Label 6850 1650 0    60   ~ 0
 UHF_RX
 Text Label 6050 1700 0    60   ~ 0
 SCK1

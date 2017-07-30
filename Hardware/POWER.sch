@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 21
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -660,40 +661,6 @@ F 4 "CAPP-003" H 6900 4900 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-2 J14
-U 1 1 595BCAC3
-P 750 2850
-F 0 "J14" H 850 3000 60  0000 C CNN
-F 1 "SPOX-2" H 850 2700 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5025_02x2.54mm_Straight" H 750 2800 60  0001 C CNN
-F 3 "" H 750 2800 60  0001 C CNN
-F 4 "CONN-001" H 950 3100 60  0001 C CNN "part_num"
-	1    750  2850
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS30013-M050QFNR U13
-U 1 1 595F6A2F
-P 4700 2300
-F 0 "U13" H 4650 3250 60  0000 C CNN
-F 1 "TS30013-M050QFNR" H 4700 1700 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm" H 4850 2300 60  0001 C CNN
-F 3 "REGU-001" H 4850 2300 60  0001 C CNN
-	1    4700 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L TS30013-M050QFNR U14
-U 1 1 595F6BE5
-P 4700 4950
-F 0 "U14" H 4650 5900 60  0000 C CNN
-F 1 "TS30013-M050QFNR" H 4700 4350 60  0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm" H 4850 4950 60  0001 C CNN
-F 3 "REGU-001" H 4850 4950 60  0001 C CNN
-	1    4700 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L MCP1826S-3302E/DB U15
 U 1 1 595F71A4
 P 8150 4850
@@ -758,7 +725,7 @@ F 4 "FUSE-001" V 7100 4700 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7700 2050 7350 2050
+	7350 2050 8050 2050
 Wire Wire Line
 	6000 4700 6950 4700
 Wire Wire Line
@@ -783,4 +750,44 @@ Text Label 5500 4900 0    60   ~ 0
 5V_INT_FB
 Text Label 5300 2250 0    60   ~ 0
 5V_EXT_FB
+$Comp
+L SPOX-2 J?
+U 1 1 597DA04D
+P 750 2850
+F 0 "J?" H 850 3000 60  0000 C CNN
+F 1 "SPOX-2" H 850 2700 60  0000 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5025_02x2.54mm_Straight" H 750 2800 60  0001 C CNN
+F 3 "" H 750 2800 60  0001 C CNN
+F 4 "CONN-001" H 950 3100 60  0001 C CNN "part_num"
+	1    750  2850
+	1    0    0    -1  
+$EndComp
+Text Notes 8900 2050 0    60   ~ 0
+Power jumper\nUse to measure current and\ndebug power
+Text Notes 850  2150 0    60   ~ 0
+Reverse polarity protection
+$Comp
+L TS30013-M050QFNR U?
+U 1 1 597EBED9
+P 4700 4950
+F 0 "U?" H 4650 5900 60  0000 C CNN
+F 1 "TS30013-M050QFNR" H 4700 4350 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm" H 4850 4950 60  0001 C CNN
+F 3 "" H 4850 4950 60  0001 C CNN
+F 4 "REGU-001" H 4750 6000 60  0000 C CNN "part_num"
+	1    4700 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TS30013-M050QFNR U?
+U 1 1 597EBF5F
+P 4700 2300
+F 0 "U?" H 4650 3250 60  0000 C CNN
+F 1 "TS30013-M050QFNR" H 4700 1700 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm" H 4850 2300 60  0001 C CNN
+F 3 "" H 4850 2300 60  0001 C CNN
+F 4 "REGU-001" H 4750 3350 60  0000 C CNN "part_num"
+	1    4700 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

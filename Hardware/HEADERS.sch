@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 21
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -256,7 +257,11 @@ Wire Wire Line
 Wire Wire Line
 	3550 4100 3700 4100
 Wire Wire Line
-	3700 4100 3700 5400
+	3700 4100 3700 4700
+Wire Wire Line
+	3700 4700 3700 5250
+Wire Wire Line
+	3700 5250 3700 5400
 Wire Wire Line
 	3700 5250 3550 5250
 Wire Wire Line
@@ -266,29 +271,51 @@ Connection ~ 3700 5250
 Wire Wire Line
 	3850 5150 3550 5150
 Wire Wire Line
-	3850 3350 3850 5150
+	3850 3350 3850 4000
+Wire Wire Line
+	3850 4000 3850 4600
+Wire Wire Line
+	3850 4600 3850 5150
 Wire Wire Line
 	3550 4600 3850 4600
 Connection ~ 3850 4600
 Connection ~ 3850 4000
 Wire Wire Line
-	4150 3800 3550 3800
+	4150 3800 3700 3800
 Wire Wire Line
-	3550 3900 4150 3900
+	3700 3800 3550 3800
 Wire Wire Line
-	3550 4400 4150 4400
+	3550 3900 3600 3900
 Wire Wire Line
-	3550 4500 4150 4500
+	3600 3900 4150 3900
 Wire Wire Line
-	3550 4950 4150 4950
+	3550 4400 3650 4400
 Wire Wire Line
-	3550 5050 4150 5050
+	3650 4400 4150 4400
+Wire Wire Line
+	3550 4500 3600 4500
+Wire Wire Line
+	3600 4500 4150 4500
+Wire Wire Line
+	3550 4950 3650 4950
+Wire Wire Line
+	3650 4950 4150 4950
+Wire Wire Line
+	3550 5050 3600 5050
+Wire Wire Line
+	3600 5050 4150 5050
 Wire Wire Line
 	3550 4000 3850 4000
 Wire Wire Line
 	5600 2900 6500 2900
 Wire Wire Line
-	6500 2900 6500 5700
+	6500 2900 6500 3750
+Wire Wire Line
+	6500 3750 6500 4600
+Wire Wire Line
+	6500 4600 6500 5600
+Wire Wire Line
+	6500 5600 6500 5700
 Wire Wire Line
 	6500 3750 5600 3750
 Connection ~ 6500 3750
@@ -318,7 +345,13 @@ Wire Wire Line
 	6600 3250 5600 3250
 Connection ~ 6600 3250
 Wire Wire Line
-	6600 2350 6600 5100
+	6600 2350 6600 2400
+Wire Wire Line
+	6600 2400 6600 3250
+Wire Wire Line
+	6600 3250 6600 4100
+Wire Wire Line
+	6600 4100 6600 5100
 Wire Wire Line
 	5700 4200 5600 4200
 Wire Wire Line
@@ -340,7 +373,11 @@ Wire Wire Line
 Wire Wire Line
 	9200 3500 10100 3500
 Wire Wire Line
-	10100 2650 10100 5150
+	10100 2650 10100 3500
+Wire Wire Line
+	10100 3500 10100 4300
+Wire Wire Line
+	10100 4300 10100 5150
 Wire Wire Line
 	9300 4400 9200 4400
 Wire Wire Line
@@ -385,7 +422,17 @@ Wire Wire Line
 Wire Wire Line
 	1450 1900 1700 1900
 Wire Wire Line
-	1600 1500 1600 5000
+	1600 1500 1600 2100
+Wire Wire Line
+	1600 2100 1600 2750
+Wire Wire Line
+	1600 2750 1600 3300
+Wire Wire Line
+	1600 3300 1600 3900
+Wire Wire Line
+	1600 3900 1600 4450
+Wire Wire Line
+	1600 4450 1600 5000
 Wire Wire Line
 	1400 1500 1600 1500
 Connection ~ 1600 2100
@@ -402,13 +449,21 @@ Wire Wire Line
 Wire Wire Line
 	9300 3050 9200 3050
 Wire Wire Line
-	9200 2650 10100 2650
+	9200 2650 9850 2650
+Wire Wire Line
+	9850 2650 10100 2650
 Wire Wire Line
 	10100 3500 10100 4300
 Wire Wire Line
 	9200 3150 9950 3150
 Wire Wire Line
-	9950 3150 9950 5850
+	9950 3150 9950 4000
+Wire Wire Line
+	9950 4000 9950 4800
+Wire Wire Line
+	9950 4800 9950 5650
+Wire Wire Line
+	9950 5650 9950 5850
 Wire Wire Line
 	9850 2550 9850 2650
 Connection ~ 9850 2650
@@ -438,7 +493,9 @@ Wire Wire Line
 Wire Wire Line
 	6600 2400 5600 2400
 Wire Wire Line
-	1700 5900 1700 6950
+	1700 5900 1700 6650
+Wire Wire Line
+	1700 6650 1700 6950
 Wire Wire Line
 	1700 5900 1550 5900
 Wire Wire Line
@@ -583,18 +640,6 @@ F 2 "Resistors_SMD:R_0603_HandSoldering" V 3130 4600 50  0001 C CNN
 F 3 "" H 3200 4600 50  0001 C CNN
 F 4 "RESS-005" V 3200 4600 60  0001 C CNN "part_num"
 	1    3200 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L SPOX-2 J19
-U 1 1 595BD7F5
-P 1300 3250
-F 0 "J19" H 1400 3400 60  0000 C CNN
-F 1 "SPOX-2" H 1400 3100 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5025_02x2.54mm_Straight" H 1300 3200 60  0001 C CNN
-F 3 "" H 1300 3200 60  0001 C CNN
-F 4 "CONN-001" H 1500 3500 60  0001 C CNN "part_num"
-	1    1300 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -816,7 +861,9 @@ $EndComp
 Wire Wire Line
 	1550 5500 1800 5500
 Wire Wire Line
-	1800 5350 1800 6250
+	1800 5350 1800 5500
+Wire Wire Line
+	1800 5500 1800 6250
 Wire Wire Line
 	1800 6250 1550 6250
 Text HLabel 1850 5350 2    60   Input ~ 0
@@ -852,4 +899,16 @@ UHF_TX
 Wire Wire Line
 	3700 3600 3700 3800
 Connection ~ 3700 3800
+$Comp
+L SPOX-2 J?
+U 1 1 597D9B19
+P 1300 3250
+F 0 "J?" H 1400 3400 60  0000 C CNN
+F 1 "SPOX-2" H 1400 3100 60  0000 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5025_02x2.54mm_Straight" H 1300 3200 60  0001 C CNN
+F 3 "" H 1300 3200 60  0001 C CNN
+F 4 "CONN-001" H 1500 3500 60  0001 C CNN "part_num"
+	1    1300 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
