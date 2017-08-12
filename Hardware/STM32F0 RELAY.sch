@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 8
+Sheet 6 8
 Title "Safety Switch Controller/ PPM Converter"
 Date "2017-05-14"
 Rev ""
