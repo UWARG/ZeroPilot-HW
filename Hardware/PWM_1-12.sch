@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 19
+Sheet 2 8
 Title "PWM 1-12"
 Date "2017-05-13"
 Rev ""
@@ -44,138 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 2700 800  950  1250
-U 591EA448
-F0 "sheet591EA437" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 2700 950 60 
-F3 "SEL" I L 2700 1750 60 
-F4 "PWM" I L 2700 1250 60 
-F5 "OC" I L 2700 1500 60 
-F6 "SW_5V" I L 2700 1100 60 
-$EndSheet
-$Sheet
-S 2700 2250 950  1250
-U 591EA45A
-F0 "sheet591EA438" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 2700 2400 60 
-F3 "SEL" I L 2700 3200 60 
-F4 "PWM" I L 2700 2700 60 
-F5 "OC" I L 2700 2950 60 
-F6 "SW_5V" I L 2700 2550 60 
-$EndSheet
-$Sheet
-S 2700 3750 950  1250
-U 591EA46C
-F0 "sheet591EA439" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 2700 3900 60 
-F3 "SEL" I L 2700 4700 60 
-F4 "PWM" I L 2700 4200 60 
-F5 "OC" I L 2700 4450 60 
-F6 "SW_5V" I L 2700 4050 60 
-$EndSheet
-$Sheet
-S 2700 5200 950  1250
-U 591EA47E
-F0 "sheet591EA43A" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 2700 5350 60 
-F3 "SEL" I L 2700 6150 60 
-F4 "PWM" I L 2700 5650 60 
-F5 "OC" I L 2700 5900 60 
-F6 "SW_5V" I L 2700 5500 60 
-$EndSheet
-$Sheet
-S 5400 800  950  1250
-U 591EA490
-F0 "sheet591EA43B" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 5400 950 60 
-F3 "SEL" I L 5400 1750 60 
-F4 "PWM" I L 5400 1250 60 
-F5 "OC" I L 5400 1500 60 
-F6 "SW_5V" I L 5400 1100 60 
-$EndSheet
-$Sheet
-S 5400 2250 950  1250
-U 591EA4A2
-F0 "sheet591EA43C" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 5400 2400 60 
-F3 "SEL" I L 5400 3200 60 
-F4 "PWM" I L 5400 2700 60 
-F5 "OC" I L 5400 2950 60 
-F6 "SW_5V" I L 5400 2550 60 
-$EndSheet
-$Sheet
-S 5400 3750 950  1250
-U 591EA4B4
-F0 "sheet591EA43D" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 5400 3900 60 
-F3 "SEL" I L 5400 4700 60 
-F4 "PWM" I L 5400 4200 60 
-F5 "OC" I L 5400 4450 60 
-F6 "SW_5V" I L 5400 4050 60 
-$EndSheet
-$Sheet
-S 5400 5200 950  1250
-U 591EA4C6
-F0 "sheet591EA43E" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 5400 5350 60 
-F3 "SEL" I L 5400 6150 60 
-F4 "PWM" I L 5400 5650 60 
-F5 "OC" I L 5400 5900 60 
-F6 "SW_5V" I L 5400 5500 60 
-$EndSheet
-$Sheet
-S 8250 800  950  1250
-U 591EA4D8
-F0 "sheet591EA43F" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 8250 950 60 
-F3 "SEL" I L 8250 1750 60 
-F4 "PWM" I L 8250 1250 60 
-F5 "OC" I L 8250 1500 60 
-F6 "SW_5V" I L 8250 1100 60 
-$EndSheet
-$Sheet
-S 8250 2250 950  1250
-U 591EA4EA
-F0 "sheet591EA440" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 8250 2400 60 
-F3 "SEL" I L 8250 3200 60 
-F4 "PWM" I L 8250 2700 60 
-F5 "OC" I L 8250 2950 60 
-F6 "SW_5V" I L 8250 2550 60 
-$EndSheet
-$Sheet
-S 8250 3750 950  1250
-U 591EA4FC
-F0 "sheet591EA441" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 8250 3900 60 
-F3 "SEL" I L 8250 4700 60 
-F4 "PWM" I L 8250 4200 60 
-F5 "OC" I L 8250 4450 60 
-F6 "SW_5V" I L 8250 4050 60 
-$EndSheet
-$Sheet
-S 8250 5200 950  1250
-U 591EA50E
-F0 "sheet591EA442" 39
-F1 "PWM.sch" 39
-F2 "PWM_5V" I L 8250 5350 60 
-F3 "SEL" I L 8250 6150 60 
-F4 "PWM" I L 8250 5650 60 
-F5 "OC" I L 8250 5900 60 
-F6 "SW_5V" I L 8250 5500 60 
-$EndSheet
 Entry Wire Line
 	2150 5550 2250 5650
 Entry Wire Line
@@ -192,44 +61,6 @@ Text Label 2350 4200 0    60   ~ 0
 PWM3
 Text Label 2350 5650 0    60   ~ 0
 PWM4
-Text Label 2150 1100 1    60   ~ 0
-PWM[1..12]
-Entry Wire Line
-	1850 5800 1950 5900
-Entry Wire Line
-	1850 4350 1950 4450
-Entry Wire Line
-	1850 2850 1950 2950
-Entry Wire Line
-	1850 1400 1950 1500
-Text Label 1850 1350 1    60   ~ 0
-OC[1..12]
-Entry Wire Line
-	1550 6050 1650 6150
-Entry Wire Line
-	1550 4600 1650 4700
-Entry Wire Line
-	1550 3100 1650 3200
-Entry Wire Line
-	1550 1650 1650 1750
-Text Label 1550 1600 1    60   ~ 0
-SEL[1..12]
-Text Label 2350 1500 0    60   ~ 0
-OC1
-Text Label 2350 1750 0    60   ~ 0
-SEL1
-Text Label 2350 2950 0    60   ~ 0
-OC2
-Text Label 2350 3200 0    60   ~ 0
-SEL2
-Text Label 2350 4450 0    60   ~ 0
-OC3
-Text Label 2350 4700 0    60   ~ 0
-SEL3
-Text Label 2350 5900 0    60   ~ 0
-OC4
-Text Label 2350 6150 0    60   ~ 0
-SEL4
 Entry Wire Line
 	4850 5550 4950 5650
 Entry Wire Line
@@ -246,44 +77,6 @@ Text Label 5050 4200 0    60   ~ 0
 PWM7
 Text Label 5050 5650 0    60   ~ 0
 PWM8
-Text Label 4850 1100 1    60   ~ 0
-PWM[1..12]
-Entry Wire Line
-	4550 5800 4650 5900
-Entry Wire Line
-	4550 4350 4650 4450
-Entry Wire Line
-	4550 2850 4650 2950
-Entry Wire Line
-	4550 1400 4650 1500
-Text Label 4550 1350 1    60   ~ 0
-OC[1..12]
-Entry Wire Line
-	4250 6050 4350 6150
-Entry Wire Line
-	4250 4600 4350 4700
-Entry Wire Line
-	4250 3100 4350 3200
-Entry Wire Line
-	4250 1650 4350 1750
-Text Label 4250 1600 1    60   ~ 0
-SEL[1..12]
-Text Label 5050 1500 0    60   ~ 0
-OC5
-Text Label 5050 1750 0    60   ~ 0
-SEL5
-Text Label 5050 2950 0    60   ~ 0
-OC6
-Text Label 5050 3200 0    60   ~ 0
-SEL6
-Text Label 5050 4450 0    60   ~ 0
-OC7
-Text Label 5050 4700 0    60   ~ 0
-SEL7
-Text Label 5050 5900 0    60   ~ 0
-OC8
-Text Label 5050 6150 0    60   ~ 0
-SEL8
 Entry Wire Line
 	7700 5550 7800 5650
 Entry Wire Line
@@ -300,44 +93,6 @@ Text Label 7900 4200 0    60   ~ 0
 PWM11
 Text Label 7900 5650 0    60   ~ 0
 PWM12
-Text Label 7700 1100 1    60   ~ 0
-PWM[1..12]
-Entry Wire Line
-	7400 5800 7500 5900
-Entry Wire Line
-	7400 4350 7500 4450
-Entry Wire Line
-	7400 2850 7500 2950
-Entry Wire Line
-	7400 1400 7500 1500
-Text Label 7400 1350 1    60   ~ 0
-OC[1..12]
-Entry Wire Line
-	7100 6050 7200 6150
-Entry Wire Line
-	7100 4600 7200 4700
-Entry Wire Line
-	7100 3100 7200 3200
-Entry Wire Line
-	7100 1650 7200 1750
-Text Label 7100 1600 1    60   ~ 0
-SEL[1..12]
-Text Label 7900 1500 0    60   ~ 0
-OC9
-Text Label 7900 1750 0    60   ~ 0
-SEL9
-Text Label 7900 2950 0    60   ~ 0
-OC10
-Text Label 7900 3200 0    60   ~ 0
-SEL10
-Text Label 7900 4450 0    60   ~ 0
-OC11
-Text Label 7900 4700 0    60   ~ 0
-SEL11
-Text Label 7900 5900 0    60   ~ 0
-OC12
-Text Label 7900 6150 0    60   ~ 0
-SEL12
 Wire Bus Line
 	2150 900  2150 5550
 Wire Wire Line
@@ -349,26 +104,6 @@ Wire Wire Line
 Wire Wire Line
 	2250 1250 2700 1250
 Wire Bus Line
-	1850 1200 1850 5800
-Wire Wire Line
-	1950 5900 2700 5900
-Wire Wire Line
-	1950 4450 2700 4450
-Wire Wire Line
-	2700 2950 1950 2950
-Wire Wire Line
-	1950 1500 2700 1500
-Wire Bus Line
-	1550 1450 1550 6050
-Wire Wire Line
-	1650 6150 2700 6150
-Wire Wire Line
-	1650 4700 2700 4700
-Wire Wire Line
-	2700 3200 1650 3200
-Wire Wire Line
-	1650 1750 2700 1750
-Wire Bus Line
 	4850 900  4850 5550
 Wire Wire Line
 	4950 5650 5400 5650
@@ -379,26 +114,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 1250 5400 1250
 Wire Bus Line
-	4550 1200 4550 5800
-Wire Wire Line
-	4650 5900 5400 5900
-Wire Wire Line
-	4650 4450 5400 4450
-Wire Wire Line
-	5400 2950 4650 2950
-Wire Wire Line
-	4650 1500 5400 1500
-Wire Bus Line
-	4250 1450 4250 6050
-Wire Wire Line
-	4350 6150 5400 6150
-Wire Wire Line
-	4350 4700 5400 4700
-Wire Wire Line
-	5400 3200 4350 3200
-Wire Wire Line
-	4350 1750 5400 1750
-Wire Bus Line
 	7700 900  7700 5550
 Wire Wire Line
 	7800 5650 8250 5650
@@ -408,98 +123,244 @@ Wire Wire Line
 	8250 2700 7800 2700
 Wire Wire Line
 	7800 1250 8250 1250
-Wire Bus Line
-	7400 1200 7400 5800
-Wire Wire Line
-	7500 5900 8250 5900
-Wire Wire Line
-	7500 4450 8250 4450
-Wire Wire Line
-	8250 2950 7500 2950
-Wire Wire Line
-	7500 1500 8250 1500
-Wire Bus Line
-	7100 1450 7100 6050
-Wire Wire Line
-	7200 6150 8250 6150
-Wire Wire Line
-	7200 4700 8250 4700
-Wire Wire Line
-	8250 3200 7200 3200
-Wire Wire Line
-	7200 1750 8250 1750
-Text HLabel 1100 1100 0    60   Input ~ 0
-OC[1..12]
-Text HLabel 1100 950  0    60   Input ~ 0
+Text HLabel 1100 900  0    60   Input ~ 0
 PWM[1..12]
-Text HLabel 1100 1250 0    60   Input ~ 0
-SEL[1..12]
 Text HLabel 1100 650  0    60   Input ~ 0
 PWM_5V
 Wire Bus Line
-	1100 950  1400 950 
-Wire Bus Line
-	1100 1100 1400 1100
-Wire Bus Line
-	1100 1250 1400 1250
-Text Label 1200 950  0    60   ~ 0
+	1100 900  7700 900 
+Text Label 1600 900  0    60   ~ 0
 PWM[1..12]
-Text Label 1150 1100 0    60   ~ 0
-OC[1..12]
-Text Label 1250 1250 0    60   ~ 0
-SEL[1..12]
-Text Label 2700 950  2    60   ~ 0
+Text Label 2700 1150 2    60   ~ 0
 PWM_5V
-Text Label 2700 2400 2    60   ~ 0
+Text Label 2700 4100 2    60   ~ 0
 PWM_5V
-Text Label 2700 3900 2    60   ~ 0
+Text Label 2700 5550 2    60   ~ 0
 PWM_5V
-Text Label 2700 5350 2    60   ~ 0
+Text Label 5400 1150 2    60   ~ 0
 PWM_5V
-Text Label 5400 950  2    60   ~ 0
+Text Label 5400 2600 2    60   ~ 0
 PWM_5V
-Text Label 5400 2400 2    60   ~ 0
+Text Label 5400 4100 2    60   ~ 0
 PWM_5V
-Text Label 5400 3900 2    60   ~ 0
+Text Label 5400 5550 2    60   ~ 0
 PWM_5V
-Text Label 5400 5350 2    60   ~ 0
+Text Label 8250 1150 2    60   ~ 0
 PWM_5V
-Text Label 8250 950  2    60   ~ 0
+Text Label 8250 2600 2    60   ~ 0
 PWM_5V
-Text Label 8250 2400 2    60   ~ 0
+Text Label 8250 4100 2    60   ~ 0
 PWM_5V
-Text Label 8250 3900 2    60   ~ 0
-PWM_5V
-Text Label 8250 5350 2    60   ~ 0
+Text Label 8250 5550 2    60   ~ 0
 PWM_5V
 Text Label 1100 650  0    60   ~ 0
 PWM_5V
-Text Label 8250 1100 2    60   ~ 0
-SW_5V
-Text Label 8250 2550 2    60   ~ 0
-SW_5V
-Text Label 8250 4050 2    60   ~ 0
-SW_5V
-Text Label 5400 4050 2    60   ~ 0
-SW_5V
-Text Label 5400 2550 2    60   ~ 0
-SW_5V
-Text Label 5400 1100 2    60   ~ 0
-SW_5V
-Text Label 8250 5500 2    60   ~ 0
-SW_5V
-Text Label 5400 5500 2    60   ~ 0
-SW_5V
-Text Label 2700 5500 2    60   ~ 0
-SW_5V
-Text Label 2700 4050 2    60   ~ 0
-SW_5V
-Text Label 2700 2550 2    60   ~ 0
-SW_5V
-Text Label 2700 1100 2    60   ~ 0
-SW_5V
-Text HLabel 1100 800  0    60   Input ~ 0
-SW_5V
-Text Label 1100 800  0    60   ~ 0
-SW_5V
+Text Label 2700 2600 2    60   ~ 0
+PWM_5V
+$Comp
+L CONN_01X03 J2
+U 1 1 597DAC0F
+P 2900 1150
+F 0 "J2" H 2900 1350 50  0000 C CNN
+F 1 "CONN_01X03" V 3000 1150 50  0000 C CNN
+F 2 "" H 2900 1150 50  0001 C CNN
+F 3 "" H 2900 1150 50  0001 C CNN
+	1    2900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J3
+U 1 1 597DAC47
+P 2900 2600
+F 0 "J3" H 2900 2800 50  0000 C CNN
+F 1 "CONN_01X03" V 3000 2600 50  0000 C CNN
+F 2 "" H 2900 2600 50  0001 C CNN
+F 3 "" H 2900 2600 50  0001 C CNN
+	1    2900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J4
+U 1 1 597DAC6B
+P 2900 4100
+F 0 "J4" H 2900 4300 50  0000 C CNN
+F 1 "CONN_01X03" V 3000 4100 50  0000 C CNN
+F 2 "" H 2900 4100 50  0001 C CNN
+F 3 "" H 2900 4100 50  0001 C CNN
+	1    2900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J5
+U 1 1 597DAC90
+P 2900 5550
+F 0 "J5" H 2900 5750 50  0000 C CNN
+F 1 "CONN_01X03" V 3000 5550 50  0000 C CNN
+F 2 "" H 2900 5550 50  0001 C CNN
+F 3 "" H 2900 5550 50  0001 C CNN
+	1    2900 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J6
+U 1 1 597DACBD
+P 5600 1150
+F 0 "J6" H 5600 1350 50  0000 C CNN
+F 1 "CONN_01X03" V 5700 1150 50  0000 C CNN
+F 2 "" H 5600 1150 50  0001 C CNN
+F 3 "" H 5600 1150 50  0001 C CNN
+	1    5600 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J7
+U 1 1 597DAD07
+P 5600 2600
+F 0 "J7" H 5600 2800 50  0000 C CNN
+F 1 "CONN_01X03" V 5700 2600 50  0000 C CNN
+F 2 "" H 5600 2600 50  0001 C CNN
+F 3 "" H 5600 2600 50  0001 C CNN
+	1    5600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J8
+U 1 1 597DAD31
+P 5600 4100
+F 0 "J8" H 5600 4300 50  0000 C CNN
+F 1 "CONN_01X03" V 5700 4100 50  0000 C CNN
+F 2 "" H 5600 4100 50  0001 C CNN
+F 3 "" H 5600 4100 50  0001 C CNN
+	1    5600 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J9
+U 1 1 597DAD60
+P 5600 5550
+F 0 "J9" H 5600 5750 50  0000 C CNN
+F 1 "CONN_01X03" V 5700 5550 50  0000 C CNN
+F 2 "" H 5600 5550 50  0001 C CNN
+F 3 "" H 5600 5550 50  0001 C CNN
+	1    5600 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J10
+U 1 1 597DAD94
+P 8450 1150
+F 0 "J10" H 8450 1350 50  0000 C CNN
+F 1 "CONN_01X03" V 8550 1150 50  0000 C CNN
+F 2 "" H 8450 1150 50  0001 C CNN
+F 3 "" H 8450 1150 50  0001 C CNN
+	1    8450 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J11
+U 1 1 597DADE4
+P 8450 2600
+F 0 "J11" H 8450 2800 50  0000 C CNN
+F 1 "CONN_01X03" V 8550 2600 50  0000 C CNN
+F 2 "" H 8450 2600 50  0001 C CNN
+F 3 "" H 8450 2600 50  0001 C CNN
+	1    8450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J12
+U 1 1 597DAE21
+P 8450 4100
+F 0 "J12" H 8450 4300 50  0000 C CNN
+F 1 "CONN_01X03" V 8550 4100 50  0000 C CNN
+F 2 "" H 8450 4100 50  0001 C CNN
+F 3 "" H 8450 4100 50  0001 C CNN
+	1    8450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X03 J13
+U 1 1 597DAE61
+P 8450 5550
+F 0 "J13" H 8450 5750 50  0000 C CNN
+F 1 "CONN_01X03" V 8550 5550 50  0000 C CNN
+F 2 "" H 8450 5550 50  0001 C CNN
+F 3 "" H 8450 5550 50  0001 C CNN
+	1    8450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR3
+U 1 1 597DB10B
+P 2300 5900
+F 0 "#PWR3" H 2300 5650 50  0001 C CNN
+F 1 "GND" H 2300 5750 50  0000 C CNN
+F 2 "" H 2300 5900 50  0001 C CNN
+F 3 "" H 2300 5900 50  0001 C CNN
+	1    2300 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1050 2300 1050
+Wire Wire Line
+	2300 1050 2300 5900
+Wire Wire Line
+	2700 2500 2300 2500
+Connection ~ 2300 2500
+Wire Wire Line
+	2700 4000 2300 4000
+Wire Wire Line
+	2300 4000 2300 3950
+Connection ~ 2300 3950
+Wire Wire Line
+	2700 5450 2300 5450
+Connection ~ 2300 5450
+$Comp
+L GND #PWR4
+U 1 1 597DB1D3
+P 5000 5900
+F 0 "#PWR4" H 5000 5650 50  0001 C CNN
+F 1 "GND" H 5000 5750 50  0000 C CNN
+F 2 "" H 5000 5900 50  0001 C CNN
+F 3 "" H 5000 5900 50  0001 C CNN
+	1    5000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR5
+U 1 1 597DB202
+P 7850 5800
+F 0 "#PWR5" H 7850 5550 50  0001 C CNN
+F 1 "GND" H 7850 5650 50  0000 C CNN
+F 2 "" H 7850 5800 50  0001 C CNN
+F 3 "" H 7850 5800 50  0001 C CNN
+	1    7850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1050 7850 5800
+Wire Wire Line
+	7850 1050 8250 1050
+Wire Wire Line
+	8250 2500 7850 2500
+Connection ~ 7850 2500
+Wire Wire Line
+	8250 4000 7850 4000
+Connection ~ 7850 4000
+Wire Wire Line
+	8250 5450 7850 5450
+Connection ~ 7850 5450
+Wire Wire Line
+	5400 4000 5000 4000
+Wire Wire Line
+	5000 1050 5000 5900
+Wire Wire Line
+	5400 1050 5000 1050
+Connection ~ 5000 4000
+Wire Wire Line
+	5400 5450 5000 5450
+Connection ~ 5000 5450
+Wire Wire Line
+	5400 2500 5000 2500
+Connection ~ 5000 2500
 $EndSCHEMATC

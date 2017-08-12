@@ -19,3 +19,8 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+*.html
+
+/Hardware/Production Files
+Hardware/.DS_Store
+Hardware/ZeroPilot-cache.lib
