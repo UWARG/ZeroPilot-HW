@@ -5,6 +5,7 @@ WARG's future autopilot to replace the PicPilot
 
 After cloning the repo, run `git submodule update --init --recursive` to pull in all the submodules.
 
+If you see rendering issues in the schematic or pcb, check to make sure you've got the most updated submodules. To do this, run: `git submodule update --recursive --remote`
 
 # Bill of Materials Installation
 
@@ -19,3 +20,5 @@ Kicad needs plugins to generate BoMs, so we are using kicad bom wizard.
 - When you generate the BoM, it should save the file in the Hardware directory along with the other schematic files.
 
 Full instructons can be found at https://www.hashdefineelectronics.com/kicad-bom-wizard/
+
+
