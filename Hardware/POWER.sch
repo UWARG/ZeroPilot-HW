@@ -92,7 +92,7 @@ F 4 "CAPP-001" H 3950 2500 60  0001 C CNN "part_num"
 	1    3950 2500
 	1    0    0    -1  
 $EndComp
-Text Notes 4450 1300 0    60   ~ 0
+Text Notes 4400 1150 0    60   ~ 0
 5V External Reg
 $Comp
 L GND #PWR08
@@ -224,7 +224,7 @@ F 4 "CAPP-001" H 3950 5150 60  0001 C CNN "part_num"
 	1    3950 5150
 	1    0    0    -1  
 $EndComp
-Text Notes 4450 3950 0    60   ~ 0
+Text Notes 4400 3750 0    60   ~ 0
 5V Internal Reg
 $Comp
 L GND #PWR011
