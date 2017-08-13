@@ -47,10 +47,6 @@ Comment4 ""
 $EndDescr
 Text Label 10250 2800 2    60   ~ 0
 NRST
-Text Label 6050 2900 2    60   ~ 0
-I2C2_SDA
-Text Label 6050 3000 2    60   ~ 0
-I2C2_SCL
 Text HLabel 3900 1650 2    60   BiDi ~ 0
 SWDIO
 Text HLabel 3900 1750 2    60   Input ~ 0
@@ -61,9 +57,9 @@ Text HLabel 3900 1950 2    60   Input ~ 0
 TDO
 Text HLabel 3900 1550 2    60   Input ~ 0
 NRST
-Text HLabel 5550 2900 0    60   BiDi ~ 0
+Text HLabel 2900 3250 2    60   BiDi ~ 0
 I2C2_SDA
-Text HLabel 5550 3000 0    60   BiDi ~ 0
+Text HLabel 2900 3150 2    60   BiDi ~ 0
 I2C2_SCL
 Text HLabel 7950 2900 2    60   BiDi ~ 0
 SPI5_MISO
@@ -201,7 +197,7 @@ Text HLabel 1500 4700 0    60   BiDi ~ 0
 SPI2_MOSI
 Text HLabel 2900 3650 2    60   Input ~ 0
 UART4_CTS
-Text HLabel 2900 3150 2    60   Input ~ 0
+Text HLabel 2900 3450 2    60   Input ~ 0
 SPI2_SCK
 Text HLabel 2900 3350 2    60   Input ~ 0
 SPI2_NSS
@@ -239,8 +235,6 @@ NoConn ~ 1650 2200
 NoConn ~ 1650 2300
 NoConn ~ 1650 3450
 NoConn ~ 1650 3150
-NoConn ~ 2650 3250
-NoConn ~ 2650 3450
 NoConn ~ 1700 4500
 NoConn ~ 1700 4800
 NoConn ~ 1700 4900
@@ -1020,10 +1014,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 2100 3500 1650
 Wire Wire Line
-	6050 3000 5550 3000
-Wire Wire Line
-	5550 2900 6050 2900
-Wire Wire Line
 	850  3250 1650 3250
 Wire Wire Line
 	850  2450 850  3250
@@ -1194,4 +1184,8 @@ Wire Wire Line
 	7200 1100 7200 1950
 Wire Wire Line
 	7200 1950 7050 1950
+Wire Wire Line
+	2900 3450 2650 3450
+Wire Wire Line
+	2650 3250 2900 3250
 $EndSCHEMATC
