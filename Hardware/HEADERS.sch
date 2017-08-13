@@ -103,12 +103,8 @@ Text HLabel 5700 3450 2    60   Input ~ 0
 UART4_RX
 Text HLabel 5700 3350 2    60   Input ~ 0
 UART4_CTS
-Text HLabel 7250 2900 2    60   Input ~ 0
-DBG_CK
 Text HLabel 6600 2350 1    60   Input ~ 0
 V_UART
-Text HLabel 7250 2800 2    60   Input ~ 0
-USART2_CK
 Text HLabel 9300 3900 2    60   Input ~ 0
 SPI2_SS
 Text HLabel 9300 3800 2    60   Input ~ 0
@@ -187,18 +183,6 @@ Text HLabel 5700 5300 2    60   Input ~ 0
 UART2_RX
 Text HLabel 5700 5200 2    60   Input ~ 0
 UART2_CTS
-$Comp
-L CONN_01X02 J32
-U 1 1 5935137A
-P 6950 2850
-F 0 "J32" H 6950 3000 50  0000 C CNN
-F 1 "CONN_01X02" V 7050 2850 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6950 2850 50  0001 C CNN
-F 3 "" H 6950 2850 50  0001 C CNN
-F 4 "CONN-006" H 6950 2850 60  0001 C CNN "part_num"
-	1    6950 2850
-	-1   0    0    1   
-$EndComp
 Text HLabel 1750 4900 2    60   Input ~ 0
 UHF_RX
 $Comp
@@ -309,8 +293,6 @@ Connection ~ 6600 3250
 Wire Wire Line
 	6600 2350 6600 5100
 Wire Wire Line
-	7250 2800 7150 2800
-Wire Wire Line
 	9300 3600 9200 3600
 Wire Wire Line
 	9300 3700 9200 3700
@@ -409,8 +391,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 5500 5700 5500
 Wire Wire Line
-	7150 2900 7250 2900
-Wire Wire Line
 	1750 4800 1550 4800
 Wire Wire Line
 	1750 4900 1550 4900
@@ -504,8 +484,6 @@ Text Label 3000 3850 0    59   ~ 0
 V_I2C
 Text Label 3000 4400 0    59   ~ 0
 V_I2C
-Text Notes 7050 2700 0    59   ~ 0
-USART CK pins
 $Comp
 L R R33
 U 1 1 595B24C4
