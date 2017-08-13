@@ -396,13 +396,13 @@ Entry Wire Line
 Entry Wire Line
 	3850 6600 3750 6500
 Text Label 4350 6500 2    60   ~ 0
-SDA1
-Text Label 4350 6600 2    60   ~ 0
-SCL1
-Text Label 6050 1950 0    60   ~ 0
-SCL4
-Text Label 6050 2050 0    60   ~ 0
 SDA4
+Text Label 4350 6600 2    60   ~ 0
+SCL4
+Text Label 6050 1950 0    60   ~ 0
+SCL1
+Text Label 6050 2050 0    60   ~ 0
+SDA1
 Entry Wire Line
 	6450 3700 6550 3800
 Entry Wire Line
