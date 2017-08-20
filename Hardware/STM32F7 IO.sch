@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
