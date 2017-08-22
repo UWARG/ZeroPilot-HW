@@ -25,3 +25,5 @@ _autosave-*
 Hardware/.DS_Store
 Hardware/ZeroPilot-cache.lib
 Hardware/fp-lib-table
+Hardware/Gerber.zip
+Hardware/Gerber
