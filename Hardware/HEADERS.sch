@@ -160,9 +160,9 @@ Text HLabel 1700 1900 2    60   Input ~ 0
 V_AIRSPD
 Text HLabel 1700 2000 2    60   Input ~ 0
 AIRSPD
-Text HLabel 1650 1400 2    60   Input ~ 0
-V_PPM
 Text HLabel 1650 1300 2    60   Input ~ 0
+V_PPM
+Text HLabel 1650 1400 2    60   Input ~ 0
 PPM
 Text HLabel 9300 3050 2    60   Input ~ 0
 SPI1_SS
@@ -352,10 +352,6 @@ Wire Wire Line
 	1400 1500 1600 1500
 Connection ~ 1600 2100
 Wire Wire Line
-	1400 1400 1650 1400
-Wire Wire Line
-	1400 1300 1650 1300
-Wire Wire Line
 	9300 2750 9200 2750
 Wire Wire Line
 	9300 2850 9200 2850
@@ -458,30 +454,24 @@ Wire Wire Line
 	3600 4900 3600 5050
 Connection ~ 3600 5050
 Wire Wire Line
-	3200 4450 3200 4400
+	3200 4400 3200 4450
 Wire Wire Line
-	3200 4400 3000 4400
+	2850 4400 3200 4400
 Wire Wire Line
 	3000 4400 3000 4450
 Wire Wire Line
-	3200 3900 3200 3850
+	3200 3850 3200 3900
 Wire Wire Line
-	3200 3850 3000 3850
+	2850 3850 3200 3850
 Wire Wire Line
 	3000 3850 3000 3900
 Wire Wire Line
-	3200 3300 3200 3250
+	3200 3250 3200 3300
 Wire Wire Line
-	3200 3250 3000 3250
+	2850 3250 3200 3250
 Wire Wire Line
 	3000 3250 3000 3300
 Text Label 3850 3650 1    59   ~ 0
-V_I2C
-Text Label 3000 3250 0    59   ~ 0
-V_I2C
-Text Label 3000 3850 0    59   ~ 0
-V_I2C
-Text Label 3000 4400 0    59   ~ 0
 V_I2C
 $Comp
 L R R33
@@ -798,4 +788,19 @@ F 4 "CONN-001" H 1500 3500 60  0001 C CNN "part_num"
 	1    1300 3250
 	1    0    0    -1  
 $EndComp
+Text HLabel 2800 3000 0    60   Input ~ 0
+I2C_PULLUP
+Wire Wire Line
+	2800 3000 2850 3000
+Wire Wire Line
+	2850 3000 2850 4400
+Connection ~ 3000 4400
+Connection ~ 2850 3850
+Connection ~ 3000 3850
+Connection ~ 2850 3250
+Connection ~ 3000 3250
+Wire Wire Line
+	1650 1300 1400 1300
+Wire Wire Line
+	1400 1400 1650 1400
 $EndSCHEMATC

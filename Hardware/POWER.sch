@@ -479,6 +479,7 @@ F 1 "0" V 5800 2550 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5730 2550 50  0001 C CNN
 F 3 "" H 5800 2550 50  0001 C CNN
 F 4 "RESS-001" V 5800 2550 60  0001 C CNN "part_num"
+F 5 "NO LOAD" H 5550 2600 60  0000 C CNN "no_load"
 	1    5800 2550
 	-1   0    0    1   
 $EndComp
@@ -521,6 +522,7 @@ F 1 "0" V 5950 5200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5880 5200 50  0001 C CNN
 F 3 "" H 5950 5200 50  0001 C CNN
 F 4 "RESS-001" V 5950 5200 60  0001 C CNN "part_num"
+F 5 "NO LOAD" H 5700 5250 60  0000 C CNN "no_load"
 	1    5950 5200
 	-1   0    0    1   
 $EndComp
