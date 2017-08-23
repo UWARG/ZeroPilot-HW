@@ -32,7 +32,9 @@ def main():
     reader = csv.DictReader(open(component_lib_filename, 'rb'))
     component_library = []
     for line in reader:
-        if line["part_num"] in found_parts:
+        if "part_num" not in line:
+            print "line doesn't have part number!" , line
+        elif line["part_num"] in found_parts:
             #add the extra information from the component library
             output_dict[found_parts.index(line["part_num"])].update(line)
 
