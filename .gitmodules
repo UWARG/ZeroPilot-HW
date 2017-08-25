@@ -1,6 +1,3 @@
 [submodule "WARG-kicad"]
 	path = WARG-kicad
 	url = https://github.com/uwarg/WARG-kicad
-[submodule "KiCad_BOM_Wizard"]
-	path = KiCad_BOM_Wizard
-	url = https://github.com/HashDefineElectronics/KiCad_BOM_Wizard
