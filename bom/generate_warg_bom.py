@@ -1,49 +1,65 @@
+import pip
+
+try:
+    from lxml import etree as ET
+except ImportError:
+    print "lxml, a python library for handling xml files, is not downloaded"
+    pip.main(['install', 'lxml'])
+    from lxml import etree as ET
 import sys, os
-import xml.etree.ElementTree as ET
 import csv
 
 def main():
     if(len(sys.argv) != 3):
-        print "Make sure there are only 2 arguments!" #The user passes 2 arguments and the 1st argument is always the script filepath
-    filepath, input_filename, output_filename = sys.argv
-    output_filename += ".csv"
-
-    #get filename for component library
-    component_lib_filename = os.path.join(os.path.dirname(filepath), os.pardir, 'component_library.csv')
-
-    #output_dict stores the data to be written to csv
-    #found_parts is used to quickly find what index a component is at in the output_dict
-    output_dict = []
+        print "Make sure there are only two arguments, the netlist xml & the output name"
+    filepath, netlist_xml, output_filename = sys.argv
+    
+    #found_parts is for seeing if you already added that part
+    #output_dict is the dictionary that gets written to the csv file
     found_parts = []
+    output_dict = []
 
-    #parse xml netlist
-    tree = ET.parse(input_filename)
-    root = tree.getroot()
+    #Parse the netlist and store it in an lxml tree
+    tree = ET.parse(netlist_xml)
 
-    #find all part numbers
-    for field in root.findall(".//*[@name='part_num']"):
-        if field.text not in found_parts:
-            found_parts.append(field.text)
-            output_dict.append({"part_num":field.text,
-                                "quantity":1})
-        else:
-            output_dict[found_parts.index(field.text)]["quantity"] +=1
+    #Traverse over every element with a WARG Part Number 
+    for field in tree.findall(".//*[@name='part_num']"):
+        #Check if the element is under a component or a library element
+        if field.getparent().getparent().tag == 'comp':
+            no_load = False
+            #Check if the part is a no_load part
+            if(field.getparent().find(".//*[@name='no_load']") > 0):
+                new_text = field.text + "-NOLD"
+                no_load = True
+            else:
+                new_text = field.text
 
-    reader = csv.DictReader(open(component_lib_filename, 'rb'))
-    component_library = []
+            ref = field.getparent().getparent().attrib['ref']
+            
+            #Add the part to the dictionaries that it needs to be in
+            if new_text not in found_parts:
+                found_parts.append(new_text)
+                output_dict.append({'part_num':field.text, 'quantity':1, 'ref':ref, 'no_load':no_load})
+            else:
+                output_dict[found_parts.index(new_text)]['quantity'] += 1
+                output_dict[found_parts.index(new_text)]['ref'] += (', ' + ref)
+
+    reader = csv.DictReader(open('component_library.csv', 'rb'))
+
+    #Add the values from the component_library to the output dictionary
+    component_library_dict = []
     for line in reader:
         if "part_num" not in line:
-            print "line doesn't have part number!" , line
-        elif line["part_num"] in found_parts:
-            #add the extra information from the component library
-            output_dict[found_parts.index(line["part_num"])].update(line)
+            print "line doesn't have part_num! line: ", line
+        elif line['part_num'] in found_parts:
+            output_dict[found_parts.index(line['part_num'])].update(line)
 
-    #write the csv
+    #Write the output dictionary to disk as output_filename
     with open(output_filename, 'wb') as output_file:
-	    dict_writer = csv.DictWriter(output_file, output_dict[0].keys())
-	    dict_writer.writeheader()
-	    dict_writer.writerows(output_dict)
-    print "wrote to {} file.".format(output_filename)
+        dict_writer = csv.DictWriter(output_file, output_dict[0].keys())
+        dict_writer.writeheader()
+        dict_writer.writerows(output_dict)
+    print "wrote to {}".format(output_filename)
 
 if __name__ == "__main__":
     main()
