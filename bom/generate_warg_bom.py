@@ -1,11 +1,6 @@
 import pip
 
-try:
-    from lxml import etree as ET
-except ImportError:
-    print "lxml, a python library for handling xml files, is not downloaded"
-    pip.main(['install', 'lxml'])
-    from lxml import etree as ET
+from xml.etree import ElementTree as ET
 
 import sys, os
 import csv
@@ -25,23 +20,25 @@ def main():
     tree = ET.parse(netlist_xml)
 
     #Get a list of all the keys for the CSV at the end
-    for sibling in tree.findall(".//*[@name='part_num']"):
-        if sibling.getparent().getparent().tag == 'comp':
-            parent = sibling.getparent()
-            for child in parent:
+    for part_element in tree.findall(".//*[@name='part_num']...."):
+        print part_element
+        if part_element.tag == 'comp':
+            fields = part_element.find('fields')
+            for child in fields:
                 if child.attrib['name'] not in keylist:
                     keylist.append(child.attrib['name'])
 
 
     #Traverse over every element with a WARG Part Number 
-    for field in tree.findall(".//*[@name='part_num']"):
+    for part_element in tree.findall(".//*[@name='part_num']...."):
         #Check if the element is under a component or a library element
-        if field.getparent().getparent().tag == 'comp':
+        if part_element.tag == 'comp':
             part = dict()
-            for child in field.getparent():
+            fields = part_element.find('fields')
+            for child in fields.findall('field'):
                 part.update({child.attrib['name']:child.text})
 
-            ref = field.getparent().getparent().attrib['ref']
+            ref = part_element.attrib['ref']
             
             #Find a matching part to add a quantity
             matching_part = {}
