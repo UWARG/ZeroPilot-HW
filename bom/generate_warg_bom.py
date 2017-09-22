@@ -11,6 +11,8 @@ def main():
     filepath, netlist_xml, output_filename = sys.argv
 
     output_filename += ".csv"
+
+    component_lib_filename = os.path.join(os.path.dirname(filepath), os.pardir, 'component_library.csv')
     
     #found_parts is for seeing if you already added that part
     #output_dict is the dictionary that gets written to the csv file
@@ -59,7 +61,7 @@ def main():
             else:
                 output_dict[found_parts.index(part)]['quantity'] += 1
                 output_dict[found_parts.index(part)]['ref'] += (', ' + ref)
-    reader = csv.DictReader(open('../component_library.csv', 'rb'))
+    reader = csv.DictReader(open(component_lib_filename, 'rb'))
 
     #Add the component library keys to the keylist
     for key in reader.fieldnames:
