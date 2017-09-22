@@ -1,5 +1,3 @@
-import pip
-
 from xml.etree import ElementTree as ET
 
 import sys, os
