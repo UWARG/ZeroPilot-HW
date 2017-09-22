@@ -9,6 +9,8 @@ def main():
     if(len(sys.argv) != 3):
         print "Make sure there are only two arguments, the netlist xml & the output name"
     filepath, netlist_xml, output_filename = sys.argv
+
+    output_filename += ".csv"
     
     #found_parts is for seeing if you already added that part
     #output_dict is the dictionary that gets written to the csv file
@@ -21,7 +23,6 @@ def main():
 
     #Get a list of all the keys for the CSV at the end
     for part_element in tree.findall(".//*[@name='part_num']...."):
-        print part_element
         if part_element.tag == 'comp':
             fields = part_element.find('fields')
             for child in fields:
@@ -58,7 +59,7 @@ def main():
             else:
                 output_dict[found_parts.index(part)]['quantity'] += 1
                 output_dict[found_parts.index(part)]['ref'] += (', ' + ref)
-    reader = csv.DictReader(open('component_library.csv', 'rb'))
+    reader = csv.DictReader(open('../component_library.csv', 'rb'))
 
     #Add the component library keys to the keylist
     for key in reader.fieldnames:
@@ -66,36 +67,26 @@ def main():
             keylist.append(key)
 
     #Add the values from the component_library to the output dictionary
+    missing_parts = [0]*len(found_parts)
     for line in reader:
         if "part_num" not in line:
             print "line doesn't have part_num! line: ", line
         for part in output_dict:
             if part['part_num'] == line['part_num']:
                 part.update(line)
+                missing_parts[output_dict.index(part)] = 1
 
-    #Check for parts missing from the library
-    missing_parts = []
-    for part in output_dict:
-        try:   
-            if part['Distributer #'] != '':
-                continue
-        except:
-            missing_parts.append(part)
-
-    #Give error with missing parts
-    warning_message = "\n\tWARNING: Parts "
-    for p in missing_parts: 
-        warning_message += (p['part_num'] + ", ")
-    warning_message = warning_message[:-2] + " do not have matching distributor numbers in the component library!\n"
-
-    print warning_message
+    print ''
+    for index, part in enumerate(missing_parts):
+        if part == 0:
+            print "\t{} is missing from the component library".format(output_dict[index]['part_num'])
 
     #Write the output dictionary to disk as output_filename
     with open(output_filename, 'wb') as output_file:
         dict_writer = csv.DictWriter(output_file, keylist)
         dict_writer.writeheader()
         dict_writer.writerows(output_dict)
-    print "\tWrote to {}".format(output_filename)
+    print "\n\tWrote to {}".format(output_filename)
 
 if __name__ == "__main__":
     main()
