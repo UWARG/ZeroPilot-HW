@@ -87,6 +87,7 @@ def main():
         dict_writer.writeheader()
         dict_writer.writerows(output_dict)
     print "\n\tWrote to {}".format(output_filename)
+    os.startfile(output_filename)
 
 if __name__ == "__main__":
     main()
