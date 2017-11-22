@@ -407,7 +407,7 @@ Text Label 9500 2450 0    59   ~ 0
 5V_INT
 Text Label 8950 2450 2    59   ~ 0
 5V_INT_JMP
-Text Label 7300 4700 0    59   ~ 0
+Text Label 7250 4700 0    59   ~ 0
 5V_INT_JMP
 Text Label 9550 2550 0    59   ~ 0
 3V3
@@ -937,7 +937,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4700 6650 4750
 Wire Wire Line
-	10150 2550 9450 2550
+	9450 2550 10150 2550
 Wire Wire Line
 	10600 4700 10600 4750
 Wire Wire Line
@@ -964,8 +964,6 @@ Wire Wire Line
 Wire Wire Line
 	6000 4700 6950 4700
 Wire Wire Line
-	7250 4700 8000 4700
-Wire Wire Line
 	4900 5550 4900 5450
 Connection ~ 4800 5550
 Wire Wire Line
@@ -986,9 +984,6 @@ Connection ~ 8300 5550
 Wire Wire Line
 	8100 5700 8100 5550
 Connection ~ 8100 5550
-Wire Wire Line
-	7400 5200 7400 4700
-Connection ~ 7400 4700
 Wire Wire Line
 	7400 5500 7650 5500
 Wire Wire Line
@@ -1076,4 +1071,14 @@ Connection ~ 10050 4700
 Connection ~ 9850 4700
 Wire Wire Line
 	9850 4850 9850 4700
+Text Label 7400 4950 0    60   ~ 0
+VBATT
+Wire Wire Line
+	7400 4950 7700 4950
+Wire Wire Line
+	7700 4950 7700 4700
+Wire Wire Line
+	7700 4700 8000 4700
+Wire Wire Line
+	7400 4950 7400 5200
 $EndSCHEMATC
