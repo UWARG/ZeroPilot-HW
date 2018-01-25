@@ -1,5 +1,6 @@
 EESchema Schematic File Version 2
 LIBS:ZeroPilot-rescue
+LIBS:WARG
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,7 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:WARG
 LIBS:ZeroPilot-cache
 EELAYER 25 0
 EELAYER END
