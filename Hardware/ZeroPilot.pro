@@ -1,4 +1,4 @@
-update=2018-01-31 7:51:31 PM
+update=2018-02-08 4:04:18 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -37,7 +37,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../WARG-kicad
+LibDir=../WARG-kicad;../WARG-kicad/WARG-kicad.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
