@@ -1,0 +1,21 @@
+ERC report (2018-02-07 10:26:59 PM, Encoding UTF8 )
+
+***** Sheet /
+
+***** Sheet /PWM 1-12/
+
+***** Sheet /POWER/
+
+***** Sheet /PILOT CONTROLLER/
+
+***** Sheet /SAFETY CONTROLLER/
+
+***** Sheet /MEMORY/
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (187.96 mm,48.26 mm): Pin 4 (Power input) of component J37 is not driven (Net 2).
+
+***** Sheet /ADC voltage dividers/
+
+***** Sheet /HEADERS/
+
+ ** ERC messages: 1  Errors 0  Warnings 1
