@@ -29,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ZeroPilot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -106,25 +105,25 @@ Text HLabel 6600 2350 1    60   Input ~ 0
 V_UART
 Text HLabel 9300 3900 2    60   Input ~ 0
 SPI2_SS
-Text HLabel 9300 3800 2    60   Input ~ 0
-SPI2_SDO
 Text HLabel 9300 3700 2    60   Input ~ 0
+SPI2_SDO
+Text HLabel 9300 3800 2    60   Input ~ 0
 SPI2_SI
 Text HLabel 9300 3600 2    60   Input ~ 0
 SPI2_CK
 Text HLabel 9300 4700 2    60   Input ~ 0
 SPI4_SS
-Text HLabel 9300 4600 2    60   Input ~ 0
-SPI4_SDO
 Text HLabel 9300 4500 2    60   Input ~ 0
+SPI4_SDO
+Text HLabel 9300 4600 2    60   Input ~ 0
 SPI4_SI
 Text HLabel 9300 4400 2    60   Input ~ 0
 SPI4_CK
 Text HLabel 9300 5550 2    60   Input ~ 0
 SPI5_SS
-Text HLabel 9300 5450 2    60   Input ~ 0
-SPI5_SDO
 Text HLabel 9300 5350 2    60   Input ~ 0
+SPI5_SDO
+Text HLabel 9300 5450 2    60   Input ~ 0
 SPI5_SI
 Text HLabel 9300 5250 2    60   Input ~ 0
 SPI5_CK
@@ -166,9 +165,9 @@ Text HLabel 1650 1300 2    60   Input ~ 0
 PPM
 Text HLabel 9300 3050 2    60   Input ~ 0
 SPI1_SS
-Text HLabel 9300 2950 2    60   Input ~ 0
-SPI1_SDO
 Text HLabel 9300 2850 2    60   Input ~ 0
+SPI1_SDO
+Text HLabel 9300 2950 2    60   Input ~ 0
 SPI1_SI
 Text HLabel 9300 2750 2    60   Input ~ 0
 SPI1_CK
@@ -593,10 +592,6 @@ Wire Wire Line
 Wire Wire Line
 	9300 3600 9200 3600
 Wire Wire Line
-	9300 3700 9200 3700
-Wire Wire Line
-	9300 3800 9200 3800
-Wire Wire Line
 	9300 3900 9200 3900
 Wire Wire Line
 	9200 3500 10100 3500
@@ -605,10 +600,6 @@ Wire Wire Line
 Wire Wire Line
 	9300 4400 9200 4400
 Wire Wire Line
-	9300 4500 9200 4500
-Wire Wire Line
-	9300 4600 9200 4600
-Wire Wire Line
 	9300 4700 9200 4700
 Wire Wire Line
 	10100 4300 9200 4300
@@ -616,12 +607,6 @@ Wire Wire Line
 	9950 4800 9200 4800
 Wire Wire Line
 	9300 5250 9200 5250
-Wire Wire Line
-	9300 5350 9200 5350
-Wire Wire Line
-	9300 5450 9200 5450
-Wire Wire Line
-	9300 5550 9200 5550
 Wire Wire Line
 	10100 5150 9200 5150
 Wire Wire Line
@@ -652,10 +637,6 @@ Wire Wire Line
 Connection ~ 1600 2100
 Wire Wire Line
 	9300 2750 9200 2750
-Wire Wire Line
-	9300 2850 9200 2850
-Wire Wire Line
-	9300 2950 9200 2950
 Wire Wire Line
 	9300 3050 9200 3050
 Wire Wire Line
@@ -803,4 +784,22 @@ Wire Wire Line
 Wire Wire Line
 	1400 1400 1650 1400
 Connection ~ 6500 4600
+Wire Wire Line
+	9300 5550 9200 5550
+Wire Wire Line
+	9300 5450 9200 5450
+Wire Wire Line
+	9200 5350 9300 5350
+Wire Wire Line
+	9300 4500 9200 4500
+Wire Wire Line
+	9200 4600 9300 4600
+Wire Wire Line
+	9300 3800 9200 3800
+Wire Wire Line
+	9200 3700 9300 3700
+Wire Wire Line
+	9300 2950 9200 2950
+Wire Wire Line
+	9200 2850 9300 2850
 $EndSCHEMATC
