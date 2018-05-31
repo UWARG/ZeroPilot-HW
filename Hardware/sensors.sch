@@ -56,7 +56,13 @@ F 3 "" H 3125 4664 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 2800 3075 2800
+	1950 2800 2150 2800
+Wire Wire Line
+	2150 2800 2400 2800
+Wire Wire Line
+	2400 2800 2700 2800
+Wire Wire Line
+	2700 2800 3075 2800
 Wire Wire Line
 	3075 2800 3075 3075
 $Comp
@@ -154,7 +160,15 @@ $EndComp
 Wire Wire Line
 	3725 3450 3925 3450
 Wire Wire Line
-	3925 3450 3925 4100
+	3925 3450 3925 3550
+Wire Wire Line
+	3925 3550 3925 3650
+Wire Wire Line
+	3925 3650 3925 3750
+Wire Wire Line
+	3925 3750 3925 3850
+Wire Wire Line
+	3925 3850 3925 4100
 Wire Wire Line
 	3725 3550 3925 3550
 Connection ~ 3925 3550
@@ -193,10 +207,14 @@ VDC
 Text Label 2225 3450 0    60   ~ 0
 VDC
 Wire Wire Line
-	1700 3450 2575 3450
+	1700 3450 2150 3450
+Wire Wire Line
+	2150 3450 2575 3450
 NoConn ~ 3150 3075
 Wire Wire Line
-	2150 2800 2150 3425
+	2150 2800 2150 3450
+Wire Wire Line
+	2150 3450 2150 3455
 NoConn ~ 3150 4225
 Text HLabel 2575 3850 0    60   Input ~ 0
 VDDIO
