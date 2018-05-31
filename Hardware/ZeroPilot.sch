@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "ZeroPilot Overview"
 Date "2017-05-14"
 Rev ""
@@ -667,7 +668,7 @@ SWIO_SAFETY
 Text Label 4300 2100 2    59   ~ 0
 SCLK_SAFETY
 $Comp
-L CONN_01X04 J1
+L Conn_01x04 J1
 U 1 1 594DE28B
 P 10450 2750
 F 0 "J1" H 10450 3000 50  0000 C CNN
@@ -1036,4 +1037,41 @@ Text Label 3150 4400 0    59   ~ 0
 5V_INT
 Text Label 4300 750  2    60   ~ 0
 5V_INT
+$Sheet
+S 4550 3650 1000 1800
+U 5B0F2007
+F0 "SENSORS" 60
+F1 "SENSORS.sch" 60
+F2 "IMU_SPC" I L 4550 3825 60 
+F3 "IMU_SDI" I L 4550 3950 60 
+F4 "IMU_SDO" O R 5550 4075 60 
+F5 "IMU_INT" I L 4550 5450 60 
+F6 "ALT_SDA" I L 4550 4525 60 
+F7 "ALT_SCL" I L 4550 4650 60 
+F8 "IMU_VDC" I L 4550 4200 60 
+F9 "VDDIO" I L 4550 5225 60 
+F10 "IMU_FSYNC" I L 4550 5000 60 
+F11 "ALT_VDC" I L 4550 4325 60 
+F12 "IMU_INT" I L 4550 4875 60 
+$EndSheet
+Text Label 4550 3825 2    60   ~ 0
+SCK1
+Text Label 4550 3950 2    60   ~ 0
+MOSI1
+Text Label 5550 4075 0    60   ~ 0
+MISO1
+Text Label 4550 4525 2    60   ~ 0
+SDA2
+Text Label 4550 4650 2    60   ~ 0
+SCL2
+Text Notes 12175 3350 0    118  ~ 24
+SPI1: IMU
+Text Notes 12175 3550 0    118  ~ 24
+I2C2: altimeter
+Text Label 4550 4200 2    60   ~ 0
+3V3
+Text Label 4550 4325 2    60   ~ 0
+3V3
+Text Label 4550 5225 2    60   ~ 0
+NSS1
 $EndSCHEMATC

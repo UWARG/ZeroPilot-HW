@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -34,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 8
+Sheet 2 9
 Title "PWM 1-12"
 Date "2017-05-13"
 Rev ""
@@ -157,9 +158,11 @@ PWM_5V
 Text Label 2700 2600 2    60   ~ 0
 PWM_5V
 $Comp
-L CONN_01X03 J2
+L Conn_01x03 J2
 U 1 1 597DAC0F
 P 2900 1150
+AR Path="/597DAC0F" Ref="J2"  Part="1" 
+AR Path="/591E6415/597DAC0F" Ref="J2"  Part="1" 
 F 0 "J2" H 2900 1350 50  0000 C CNN
 F 1 "CONN_01X03" V 3000 1150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 1150 50  0001 C CNN
@@ -168,9 +171,11 @@ F 3 "" H 2900 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J3
+L Conn_01x03 J3
 U 1 1 597DAC47
 P 2900 2600
+AR Path="/597DAC47" Ref="J3"  Part="1" 
+AR Path="/591E6415/597DAC47" Ref="J3"  Part="1" 
 F 0 "J3" H 2900 2800 50  0000 C CNN
 F 1 "CONN_01X03" V 3000 2600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 2600 50  0001 C CNN
@@ -179,9 +184,11 @@ F 3 "" H 2900 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J4
+L Conn_01x03 J4
 U 1 1 597DAC6B
 P 2900 4100
+AR Path="/597DAC6B" Ref="J4"  Part="1" 
+AR Path="/591E6415/597DAC6B" Ref="J4"  Part="1" 
 F 0 "J4" H 2900 4300 50  0000 C CNN
 F 1 "CONN_01X03" V 3000 4100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 4100 50  0001 C CNN
@@ -190,9 +197,11 @@ F 3 "" H 2900 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J5
+L Conn_01x03 J5
 U 1 1 597DAC90
 P 2900 5550
+AR Path="/597DAC90" Ref="J5"  Part="1" 
+AR Path="/591E6415/597DAC90" Ref="J5"  Part="1" 
 F 0 "J5" H 2900 5750 50  0000 C CNN
 F 1 "CONN_01X03" V 3000 5550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 5550 50  0001 C CNN
@@ -201,9 +210,11 @@ F 3 "" H 2900 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J6
+L Conn_01x03 J6
 U 1 1 597DACBD
 P 5600 1150
+AR Path="/597DACBD" Ref="J6"  Part="1" 
+AR Path="/591E6415/597DACBD" Ref="J6"  Part="1" 
 F 0 "J6" H 5600 1350 50  0000 C CNN
 F 1 "CONN_01X03" V 5700 1150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 1150 50  0001 C CNN
@@ -212,9 +223,11 @@ F 3 "" H 5600 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J7
+L Conn_01x03 J7
 U 1 1 597DAD07
 P 5600 2600
+AR Path="/597DAD07" Ref="J7"  Part="1" 
+AR Path="/591E6415/597DAD07" Ref="J7"  Part="1" 
 F 0 "J7" H 5600 2800 50  0000 C CNN
 F 1 "CONN_01X03" V 5700 2600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 2600 50  0001 C CNN
@@ -223,9 +236,11 @@ F 3 "" H 5600 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J8
+L Conn_01x03 J8
 U 1 1 597DAD31
 P 5600 4100
+AR Path="/597DAD31" Ref="J8"  Part="1" 
+AR Path="/591E6415/597DAD31" Ref="J8"  Part="1" 
 F 0 "J8" H 5600 4300 50  0000 C CNN
 F 1 "CONN_01X03" V 5700 4100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 4100 50  0001 C CNN
@@ -234,9 +249,11 @@ F 3 "" H 5600 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J9
+L Conn_01x03 J9
 U 1 1 597DAD60
 P 5600 5550
+AR Path="/597DAD60" Ref="J9"  Part="1" 
+AR Path="/591E6415/597DAD60" Ref="J9"  Part="1" 
 F 0 "J9" H 5600 5750 50  0000 C CNN
 F 1 "CONN_01X03" V 5700 5550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 5550 50  0001 C CNN
@@ -245,9 +262,11 @@ F 3 "" H 5600 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J10
+L Conn_01x03 J10
 U 1 1 597DAD94
 P 8450 1150
+AR Path="/597DAD94" Ref="J10"  Part="1" 
+AR Path="/591E6415/597DAD94" Ref="J10"  Part="1" 
 F 0 "J10" H 8450 1350 50  0000 C CNN
 F 1 "CONN_01X03" V 8550 1150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 1150 50  0001 C CNN
@@ -256,9 +275,11 @@ F 3 "" H 8450 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J11
+L Conn_01x03 J11
 U 1 1 597DADE4
 P 8450 2600
+AR Path="/597DADE4" Ref="J11"  Part="1" 
+AR Path="/591E6415/597DADE4" Ref="J11"  Part="1" 
 F 0 "J11" H 8450 2800 50  0000 C CNN
 F 1 "CONN_01X03" V 8550 2600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 2600 50  0001 C CNN
@@ -267,9 +288,11 @@ F 3 "" H 8450 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J12
+L Conn_01x03 J12
 U 1 1 597DAE21
 P 8450 4100
+AR Path="/597DAE21" Ref="J12"  Part="1" 
+AR Path="/591E6415/597DAE21" Ref="J12"  Part="1" 
 F 0 "J12" H 8450 4300 50  0000 C CNN
 F 1 "CONN_01X03" V 8550 4100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 4100 50  0001 C CNN
@@ -278,9 +301,11 @@ F 3 "" H 8450 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X03 J13
+L Conn_01x03 J13
 U 1 1 597DAE61
 P 8450 5550
+AR Path="/597DAE61" Ref="J13"  Part="1" 
+AR Path="/591E6415/597DAE61" Ref="J13"  Part="1" 
 F 0 "J13" H 8450 5750 50  0000 C CNN
 F 1 "CONN_01X03" V 8550 5550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 5550 50  0001 C CNN
