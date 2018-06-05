@@ -44,305 +44,38 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-<<<<<<< HEAD
 Text Notes 4450 950  0    60   ~ 0
 6V External Reg - Servo Supply
-=======
-$Comp
-L L L1
-U 1 1 59180A9E
-P 5850 2050
-F 0 "L1" V 5800 2050 50  0000 C CNN
-F 1 "4.7 uH" V 5925 2050 50  0000 C CNN
-F 2 "WARG:5.1x6.5" H 5850 2050 50  0001 C CNN
-F 3 "" H 5850 2050 50  0000 C CNN
-F 4 "INDU-001" V 5850 2050 60  0001 C CNN "part_num"
-	1    5850 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C5
-U 1 1 59180D8E
-P 6600 2250
-F 0 "C5" H 6625 2350 50  0000 L CNN
-F 1 "22uF" H 6625 2150 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6638 2100 50  0001 C CNN
-F 3 "" H 6600 2250 50  0000 C CNN
-F 4 "CAPP-003" H 6600 2250 60  0001 C CNN "part_num"
-	1    6600 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR07
-U 1 1 59180DCE
-P 6600 2550
-F 0 "#PWR07" H 6600 2300 50  0001 C CNN
-F 1 "GND" H 6600 2400 50  0000 C CNN
-F 2 "" H 6600 2550 50  0000 C CNN
-F 3 "" H 6600 2550 50  0000 C CNN
-	1    6600 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C1
-U 1 1 591810E6
-P 3950 2500
-F 0 "C1" H 3975 2600 50  0000 L CNN
-F 1 "10uF" H 3975 2400 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 3988 2350 50  0001 C CNN
-F 3 "" H 3950 2500 50  0000 C CNN
-F 4 "CAPP-001" H 3950 2500 60  0001 C CNN "part_num"
-	1    3950 2500
-	1    0    0    -1  
-$EndComp
-Text Notes 4400 1150 0    60   ~ 0
-5V External Reg
-$Comp
-L GND #PWR08
-U 1 1 59182319
-P 4700 3000
-F 0 "#PWR08" H 4700 2750 50  0001 C CNN
-F 1 "GND" H 4700 2850 50  0000 C CNN
-F 2 "" H 4700 3000 50  0000 C CNN
-F 3 "" H 4700 3000 50  0000 C CNN
-	1    4700 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C3
-U 1 1 591826AD
-P 5550 1750
-F 0 "C3" H 5575 1850 50  0000 L CNN
-F 1 "22nF" H 5575 1650 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 5588 1600 50  0001 C CNN
-F 3 "" H 5550 1750 50  0000 C CNN
-F 4 "CAPP-002" H 5550 1750 60  0001 C CNN "part_num"
-	1    5550 1750
-	1    0    0    -1  
-$EndComp
-Text HLabel 5300 2400 2    60   Output ~ 0
-PG_EXT
-Wire Wire Line
-	4150 1600 3950 1600
-Wire Wire Line
-	3950 1600 3950 2350
-Wire Wire Line
-	4150 1700 3950 1700
-Connection ~ 3950 1700
-Wire Wire Line
-	4150 1800 3950 1800
-Connection ~ 3950 1800
-Wire Wire Line
-	4550 2800 4550 2900
-Wire Wire Line
-	3950 2900 4900 2900
-Wire Wire Line
-	4800 2900 4800 2800
-Wire Wire Line
-	4700 2800 4700 3000
-Connection ~ 4700 2900
-Wire Wire Line
-	5250 1750 5350 1750
-Wire Wire Line
-	5350 1750 5350 2050
-Wire Wire Line
-	5250 2050 5700 2050
-Wire Wire Line
-	5250 1950 5350 1950
-Connection ~ 5350 1950
-Wire Wire Line
-	5250 1850 5350 1850
-Connection ~ 5350 1850
-Wire Wire Line
-	5250 1600 5550 1600
-Connection ~ 5350 2050
-Wire Wire Line
-	5550 1900 5550 2050
-Connection ~ 5550 2050
-Wire Wire Line
-	6600 2400 6600 2550
-Connection ~ 6600 2050
-Wire Wire Line
-	6850 2400 6850 2500
->>>>>>> upstream/master
 Wire Wire Line
 	1900 4400 2700 4400
 $Comp
-L GND #PWR09
+L GND #PWR6
 U 1 1 59183E68
-<<<<<<< HEAD
 P 1450 4850
 F 0 "#PWR6" H 1450 4600 50  0001 C CNN
 F 1 "GND" H 1450 4700 50  0000 C CNN
 F 2 "" H 1450 4850 50  0000 C CNN
 F 3 "" H 1450 4850 50  0000 C CNN
 	1    1450 4850
-=======
-P 1150 3250
-F 0 "#PWR09" H 1150 3000 50  0001 C CNN
-F 1 "GND" H 1150 3100 50  0000 C CNN
-F 2 "" H 1150 3250 50  0000 C CNN
-F 3 "" H 1150 3250 50  0000 C CNN
-	1    1150 3250
->>>>>>> upstream/master
 	1    0    0    -1  
 $EndComp
 Text Label 2400 4400 0    60   ~ 0
 VBATT_JMP
-<<<<<<< HEAD
 Text Notes 4600 4750 0    60   ~ 0
 5V Internal Reg
-=======
-Wire Wire Line
-	3950 2650 3950 2900
-Connection ~ 4550 2900
-Wire Wire Line
-	4150 2150 3950 2150
-Connection ~ 3950 2150
-Text Label 3950 2150 1    60   ~ 0
-VBATT
-$Comp
-L L L2
-U 1 1 59184620
-P 5850 4700
-F 0 "L2" V 5800 4700 50  0000 C CNN
-F 1 "4.7 uH" V 5925 4700 50  0000 C CNN
-F 2 "WARG:5.1x6.5" H 5850 4700 50  0001 C CNN
-F 3 "" H 5850 4700 50  0000 C CNN
-F 4 "INDU-001" V 5850 4700 60  0001 C CNN "part_num"
-	1    5850 4700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR010
-U 1 1 5918462E
-P 6650 5200
-F 0 "#PWR010" H 6650 4950 50  0001 C CNN
-F 1 "GND" H 6650 5050 50  0000 C CNN
-F 2 "" H 6650 5200 50  0000 C CNN
-F 3 "" H 6650 5200 50  0000 C CNN
-	1    6650 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 59184634
-P 3950 5150
-F 0 "C2" H 3975 5250 50  0000 L CNN
-F 1 "10uF" H 3975 5050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 3988 5000 50  0001 C CNN
-F 3 "" H 3950 5150 50  0000 C CNN
-F 4 "CAPP-001" H 3950 5150 60  0001 C CNN "part_num"
-	1    3950 5150
-	1    0    0    -1  
-$EndComp
-Text Notes 4400 3750 0    60   ~ 0
-5V Internal Reg
-$Comp
-L GND #PWR011
-U 1 1 59184643
-P 4700 5650
-F 0 "#PWR011" H 4700 5400 50  0001 C CNN
-F 1 "GND" H 4700 5500 50  0000 C CNN
-F 2 "" H 4700 5650 50  0000 C CNN
-F 3 "" H 4700 5650 50  0000 C CNN
-	1    4700 5650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C4
-U 1 1 59184649
-P 5550 4400
-F 0 "C4" H 5575 4500 50  0000 L CNN
-F 1 "22nF" H 5575 4300 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 5588 4250 50  0001 C CNN
-F 3 "" H 5550 4400 50  0000 C CNN
-F 4 "CAPP-002" H 5550 4400 60  0001 C CNN "part_num"
-	1    5550 4400
-	1    0    0    -1  
-$EndComp
-Text HLabel 5450 5050 2    60   Output ~ 0
-PG_INT
-Wire Wire Line
-	4150 4250 3950 4250
-Wire Wire Line
-	3950 4250 3950 5000
-Wire Wire Line
-	4150 4350 3950 4350
-Connection ~ 3950 4350
-Wire Wire Line
-	4150 4450 3950 4450
-Connection ~ 3950 4450
-Wire Wire Line
-	4550 5450 4550 5550
-Wire Wire Line
-	3950 5550 4900 5550
-Wire Wire Line
-	4800 5550 4800 5450
-Wire Wire Line
-	4700 5450 4700 5650
-Connection ~ 4700 5550
-Wire Wire Line
-	5250 4400 5350 4400
-Wire Wire Line
-	5350 4400 5350 4700
-Wire Wire Line
-	5250 4700 5700 4700
-Wire Wire Line
-	5250 4600 5350 4600
-Connection ~ 5350 4600
-Wire Wire Line
-	5250 4500 5350 4500
-Connection ~ 5350 4500
-Wire Wire Line
-	5250 4250 5550 4250
-Connection ~ 5350 4700
-Wire Wire Line
-	5550 4550 5550 4700
-Connection ~ 5550 4700
-Wire Wire Line
-	6650 5050 6650 5200
-Wire Wire Line
-	6900 4700 6900 4750
-Connection ~ 6650 4700
-Wire Wire Line
-	6900 5050 6900 5150
-Wire Wire Line
-	6900 5150 6650 5150
-Connection ~ 6650 5150
-Wire Wire Line
-	5250 5050 5450 5050
-Wire Wire Line
-	3950 5300 3950 5550
-Connection ~ 4550 5550
-Wire Wire Line
-	4150 4800 3950 4800
-Connection ~ 3950 4800
-Text Label 3950 4800 1    60   ~ 0
-VBATT
->>>>>>> upstream/master
 Text HLabel 9800 2450 2    60   Output ~ 0
 5V_INT
 Text HLabel 9800 2350 2    60   Output ~ 0
 5V_EXT
 Wire Wire Line
-<<<<<<< HEAD
 	8650 5650 8450 5650
 Wire Wire Line
 	8450 5650 8450 5900
 Wire Wire Line
 	8450 5750 8650 5750
-=======
-	8400 5750 8200 5750
-Wire Wire Line
-	8200 5750 8200 6000
-Wire Wire Line
-	8200 5850 8400 5850
->>>>>>> upstream/master
 $Comp
-L GND #PWR012
+L GND #PWR13
 U 1 1 591852CA
-<<<<<<< HEAD
 P 8450 5900
 F 0 "#PWR13" H 8450 5650 50  0001 C CNN
 F 1 "GND" H 8450 5750 50  0000 C CNN
@@ -368,38 +101,9 @@ Wire Wire Line
 	9550 5450 10200 5450
 Wire Wire Line
 	9650 5450 9650 5500
-=======
-P 8200 6000
-F 0 "#PWR012" H 8200 5750 50  0001 C CNN
-F 1 "GND" H 8200 5850 50  0000 C CNN
-F 2 "" H 8200 6000 50  0000 C CNN
-F 3 "" H 8200 6000 50  0000 C CNN
-	1    8200 6000
-	1    0    0    -1  
-$EndComp
-Connection ~ 8200 5850
-Connection ~ 6900 4700
 $Comp
-L C C9
-U 1 1 59185746
-P 9400 5750
-F 0 "C9" H 9425 5850 50  0000 L CNN
-F 1 "1uF" H 9425 5650 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 9438 5600 50  0001 C CNN
-F 3 "" H 9400 5750 50  0000 C CNN
-F 4 "CAPP-004" H 9400 5750 60  0001 C CNN "part_num"
-	1    9400 5750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9300 5550 9950 5550
-Wire Wire Line
-	9400 5550 9400 5600
->>>>>>> upstream/master
-$Comp
-L GND #PWR013
+L GND #PWR15
 U 1 1 59185849
-<<<<<<< HEAD
 P 9650 5900
 F 0 "#PWR15" H 9650 5650 50  0001 C CNN
 F 1 "GND" H 9650 5750 50  0000 C CNN
@@ -431,39 +135,6 @@ Connection ~ 9650 5850
 Text HLabel 10150 2550 2    60   Output ~ 0
 3V3
 Connection ~ 9850 5450
-=======
-P 9400 6000
-F 0 "#PWR013" H 9400 5750 50  0001 C CNN
-F 1 "GND" H 9400 5850 50  0000 C CNN
-F 2 "" H 9400 6000 50  0000 C CNN
-F 3 "" H 9400 6000 50  0000 C CNN
-	1    9400 6000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 5900 9400 6000
-$Comp
-L C C10
-U 1 1 591858E8
-P 9600 5750
-F 0 "C10" H 9625 5850 50  0000 L CNN
-F 1 "100nF" H 9625 5650 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 9638 5600 50  0001 C CNN
-F 3 "" H 9600 5750 50  0000 C CNN
-F 4 "CAPP-005" H 9600 5750 60  0001 C CNN "part_num"
-	1    9600 5750
-	1    0    0    -1  
-$EndComp
-Connection ~ 9400 5550
-Wire Wire Line
-	9600 5900 9600 5950
-Wire Wire Line
-	9600 5950 9400 5950
-Connection ~ 9400 5950
-Text HLabel 10150 2550 2    60   Output ~ 0
-3V3
-Connection ~ 9600 5550
->>>>>>> upstream/master
 Text HLabel 9800 2250 2    60   Output ~ 0
 VBATT
 $Comp
@@ -491,10 +162,10 @@ F 4 "RESS-006" V 9950 3100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L GND #PWR17
 U 1 1 592C1537
 P 9950 3550
-F 0 "#PWR014" H 9950 3300 50  0001 C CNN
+F 0 "#PWR17" H 9950 3300 50  0001 C CNN
 F 1 "GND" H 9950 3400 50  0000 C CNN
 F 2 "" H 9950 3550 50  0000 C CNN
 F 3 "" H 9950 3550 50  0000 C CNN
@@ -522,9 +193,8 @@ Wire Wire Line
 Wire Wire Line
 	1700 4800 1700 4700
 $Comp
-L PWR_FLAG #FLG015
+L PWR_FLAG #FLG2
 U 1 1 594F4062
-<<<<<<< HEAD
 P 2150 4350
 F 0 "#FLG2" H 2150 4425 50  0001 C CNN
 F 1 "PWR_FLAG" H 2150 4500 50  0000 C CNN
@@ -536,118 +206,6 @@ $EndComp
 Wire Wire Line
 	2150 4350 2150 4400
 Connection ~ 2150 4400
-=======
-P 1850 2750
-F 0 "#FLG015" H 1850 2825 50  0001 C CNN
-F 1 "PWR_FLAG" H 1850 2900 50  0000 C CNN
-F 2 "" H 1850 2750 50  0001 C CNN
-F 3 "" H 1850 2750 50  0001 C CNN
-	1    1850 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 2750 1850 2800
-Connection ~ 1850 2800
-$Comp
-L R R27
-U 1 1 595015EF
-P 6000 2250
-F 0 "R27" V 6080 2250 50  0000 C CNN
-F 1 "0" V 6000 2250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5930 2250 50  0001 C CNN
-F 3 "" H 6000 2250 50  0001 C CNN
-F 4 "RESS-001" V 6000 2250 60  0001 C CNN "part_num"
-	1    6000 2250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5250 2250 5850 2250
-Wire Wire Line
-	5800 2250 5800 2400
-Connection ~ 5800 2250
-$Comp
-L R R25
-U 1 1 5950186D
-P 5800 2550
-F 0 "R25" V 5880 2550 50  0000 C CNN
-F 1 "0" V 5800 2550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5730 2550 50  0001 C CNN
-F 3 "" H 5800 2550 50  0001 C CNN
-F 4 "RESS-001" V 5800 2550 60  0001 C CNN "part_num"
-F 5 "NO LOAD" H 5550 2600 60  0000 C CNN "no_load"
-	1    5800 2550
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR016
-U 1 1 595018DF
-P 5800 2800
-F 0 "#PWR016" H 5800 2550 50  0001 C CNN
-F 1 "GND" H 5800 2650 50  0000 C CNN
-F 2 "" H 5800 2800 50  0000 C CNN
-F 3 "" H 5800 2800 50  0000 C CNN
-	1    5800 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 2800 5800 2700
-Wire Wire Line
-	6150 2250 6200 2250
-Wire Wire Line
-	6200 2250 6200 2050
-Connection ~ 6200 2050
-$Comp
-L R R28
-U 1 1 595024E6
-P 6200 4900
-F 0 "R28" V 6280 4900 50  0000 C CNN
-F 1 "0" V 6200 4900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6130 4900 50  0001 C CNN
-F 3 "" H 6200 4900 50  0001 C CNN
-F 4 "RESS-001" V 6200 4900 60  0001 C CNN "part_num"
-	1    6200 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L R R26
-U 1 1 59502557
-P 5950 5200
-F 0 "R26" V 6030 5200 50  0000 C CNN
-F 1 "0" V 5950 5200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5880 5200 50  0001 C CNN
-F 3 "" H 5950 5200 50  0001 C CNN
-F 4 "RESS-001" V 5950 5200 60  0001 C CNN "part_num"
-F 5 "NO LOAD" H 5700 5250 60  0000 C CNN "no_load"
-	1    5950 5200
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR017
-U 1 1 595025C5
-P 5950 5500
-F 0 "#PWR017" H 5950 5250 50  0001 C CNN
-F 1 "GND" H 5950 5350 50  0000 C CNN
-F 2 "" H 5950 5500 50  0000 C CNN
-F 3 "" H 5950 5500 50  0000 C CNN
-	1    5950 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 5500 5950 5350
-Wire Wire Line
-	5950 5050 5950 4900
-Wire Wire Line
-	5250 4900 6050 4900
-Connection ~ 5950 4900
-Wire Wire Line
-	6350 4900 6450 4900
-Wire Wire Line
-	6450 4900 6450 4700
-Connection ~ 6450 4700
-Wire Wire Line
-	6850 2050 6850 2100
-Connection ~ 6850 2050
->>>>>>> upstream/master
 $Comp
 L CONN_02X05 J15
 U 1 1 59512411
@@ -678,11 +236,7 @@ Text Label 9500 2450 0    59   ~ 0
 5V_INT
 Text Label 8950 2450 2    59   ~ 0
 5V_INT_JMP
-<<<<<<< HEAD
 Text Label 8300 5450 0    59   ~ 0
-=======
-Text Label 7450 4700 0    59   ~ 0
->>>>>>> upstream/master
 5V_INT_JMP
 Wire Wire Line
 	10150 2550 9450 2550
@@ -690,17 +244,10 @@ Text Label 9550 2550 0    59   ~ 0
 3V3
 Text Label 8950 2550 2    59   ~ 0
 3V3_JMP
-<<<<<<< HEAD
 Text Label 10200 5450 2    59   ~ 0
 3V3_JMP
 Wire Wire Line
 	9850 5450 9850 5500
-=======
-Text Label 9950 5550 2    59   ~ 0
-3V3_JMP
-Wire Wire Line
-	9600 5550 9600 5600
->>>>>>> upstream/master
 Wire Wire Line
 	8950 2650 8850 2650
 Wire Wire Line
@@ -712,10 +259,10 @@ Wire Wire Line
 Wire Wire Line
 	9550 2650 9450 2650
 $Comp
-L GND #PWR018
+L GND #PWR16
 U 1 1 595132A0
 P 9200 2900
-F 0 "#PWR018" H 9200 2650 50  0001 C CNN
+F 0 "#PWR16" H 9200 2650 50  0001 C CNN
 F 1 "GND" H 9200 2750 50  0000 C CNN
 F 2 "" H 9200 2900 50  0000 C CNN
 F 3 "" H 9200 2900 50  0000 C CNN
@@ -807,7 +354,6 @@ F 3 "" H 2500 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
 L C C?
 U 1 1 5B0CD51E
 P 5200 5450
@@ -827,17 +373,6 @@ F 1 "33uF" H 6075 5650 50  0000 L CNN
 F 2 "" H 6088 5600 50  0001 C CNN
 F 3 "" H 6050 5750 50  0001 C CNN
 	1    6050 5750
-=======
-L MCP1826S-3302E/DB U15
-U 1 1 595F71A4
-P 8900 5700
-F 0 "U15" H 8850 6100 60  0000 C CNN
-F 1 "MCP1826S-3302E/DB" H 8900 5250 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 8750 6000 60  0001 C CNN
-F 3 "" H 8850 6100 60  0001 C CNN
-F 4 "REGU-002" H 8950 6200 60  0001 C CNN "part_num"
-	1    8900 5700
->>>>>>> upstream/master
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -926,7 +461,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 5800 2500 5800
 $Comp
-<<<<<<< HEAD
 L L L?
 U 1 1 5B0F9F3A
 P 5350 5650
@@ -935,28 +469,6 @@ F 1 "16uH" V 5425 5650 50  0000 C CNN
 F 2 "" H 5350 5650 50  0001 C CNN
 F 3 "" H 5350 5650 50  0001 C CNN
 	1    5350 5650
-=======
-L GND #PWR019
-U 1 1 5962B870
-P 7700 2500
-F 0 "#PWR019" H 7700 2250 50  0001 C CNN
-F 1 "GND" H 7700 2350 50  0000 C CNN
-F 2 "" H 7700 2500 50  0001 C CNN
-F 3 "" H 7700 2500 50  0001 C CNN
-	1    7700 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Fuse F2
-U 1 1 59684814
-P 7200 2050
-F 0 "F2" V 7280 2050 50  0000 C CNN
-F 1 "3A" V 7125 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7130 2050 50  0001 C CNN
-F 3 "" H 7200 2050 50  0001 C CNN
-F 4 "FUSE-001" V 7200 2050 60  0001 C CNN "part_num"
-	1    7200 2050
->>>>>>> upstream/master
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -985,7 +497,6 @@ Wire Wire Line
 Connection ~ 5750 5650
 Connection ~ 5750 5450
 Wire Wire Line
-<<<<<<< HEAD
 	5750 6250 5750 6350
 Connection ~ 5750 6300
 $Comp
@@ -1002,10 +513,6 @@ $EndComp
 Wire Wire Line
 	6050 5450 6050 5600
 Connection ~ 6050 5450
-=======
-	4900 5550 4900 5450
-Connection ~ 4800 5550
->>>>>>> upstream/master
 Wire Wire Line
 	6300 5450 6300 5600
 Connection ~ 6300 5450
@@ -1140,7 +647,6 @@ F 3 "" H 1700 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-<<<<<<< HEAD
 	2750 1500 2750 1700
 Wire Wire Line
 	2400 1500 2400 1600
@@ -1347,14 +853,4 @@ F 4 "MUX-001" H 7350 6500 60  0000 C TNN "part_num"
 	1    7450 5800
 	1    0    0    -1  
 $EndComp
-=======
-	9950 2950 9950 2550
-Connection ~ 9950 2550
-Wire Wire Line
-	7250 4700 7950 4700
-Text Label 8050 5550 0    60   ~ 0
-5V_INT
-Wire Wire Line
-	8050 5550 8400 5550
->>>>>>> upstream/master
 $EndSCHEMATC
