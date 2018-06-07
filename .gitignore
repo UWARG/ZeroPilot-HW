@@ -27,3 +27,5 @@ Hardware/ZeroPilot-cache.lib
 Hardware/fp-lib-table
 Hardware/Gerber.zip
 Hardware/Gerber
+Hardware/ZeroPilot-rescue.lib
+*.lib
