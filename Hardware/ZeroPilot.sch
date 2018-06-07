@@ -29,12 +29,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ZeroPilot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "ZeroPilot Overview"
 Date "2017-05-14"
 Rev ""
@@ -1036,4 +1035,10 @@ Text Label 3150 4400 0    59   ~ 0
 5V_INT
 Text Label 4300 750  2    60   ~ 0
 5V_INT
+$Sheet
+S 4200 2850 1550 2700
+U 5B1895CA
+F0 "USB INTERFACE" 60
+F1 "USB INTERFACE.sch" 60
+$EndSheet
 $EndSCHEMATC
