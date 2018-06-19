@@ -535,14 +535,6 @@ F 4 "CHIP-005" H 8950 5900 60  0000 C CNN "part_num"
 	2    8950 5150
 	1    0    0    -1  
 $EndComp
-Text HLabel 8350 5000 0    60   Input ~ 0
-UART1_RTS
-Text HLabel 8350 5100 0    60   Input ~ 0
-UART1_CTS
-Text HLabel 9550 5000 2    60   Input ~ 0
-UART2_RTS
-Text HLabel 9550 5100 2    60   Input ~ 0
-UART2_CTS
 $Comp
 L R R?
 U 1 1 5B2565D0
@@ -861,14 +853,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 4900 9550 4900
 Wire Wire Line
-	9450 5000 9550 5000
-Wire Wire Line
-	9450 5100 9550 5100
-Wire Wire Line
-	8450 5000 8350 5000
-Wire Wire Line
-	8350 5100 8450 5100
-Wire Wire Line
 	3300 1700 3150 1700
 Wire Wire Line
 	3150 1800 3300 1800
@@ -955,4 +939,9 @@ USB_VBUS
 Wire Wire Line
 	2550 1300 2350 1300
 Connection ~ 2350 1500
+NoConn ~ 9450 5000
+NoConn ~ 9450 5100
+NoConn ~ 8450 5100
+NoConn ~ 8450 5000
+NoConn ~ 1500 1900
 $EndSCHEMATC
