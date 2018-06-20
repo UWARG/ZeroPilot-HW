@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name WARG)(type KiCad)(uri /Users/scholvat/Documents/zeropilot-hw/WARG-kicad/WARG-kicad.pretty)(options "")(descr ""))
+  (lib (name w_conn_misc)(type KiCad)(uri /Users/scholvat/Documents/zeropilot-hw/WARG-kicad/w_conn_misc.pretty)(options "")(descr ""))
+  (lib (name WARG-kicad)(type KiCad)(uri /Users/scholvat/Documents/zeropilot-hw/WARG-kicad/WARG-kicad.pretty)(options "")(descr ""))
+)

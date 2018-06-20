@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WARG-KiCAD
 KiCAD libraries to be shared across all WARG projects
 
@@ -43,3 +44,13 @@ XTAL: Cystal
 TRAN: Transistor
 
 SENS: Sensor
+=======
+# ZeroPilot
+WARG's future autopilot to replace the PicPilot
+
+# Installation
+
+After cloning the repo, run `git submodule update --init --recursive` to pull in all the submodules.
+
+If you see rendering issues in the schematic or pcb, check to make sure you've got the most updated submodules. To do this, run: `git submodule update --recursive --remote`
+>>>>>>> 691a0c99b4d2468f6a5ff89936c726278143d186
