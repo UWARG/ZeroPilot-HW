@@ -542,9 +542,9 @@ F 4 "RESS-012" V 3000 1800 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 Text HLabel 7550 1800 0    60   Input ~ 0
-TCK_A
+TCK1
 Text HLabel 7550 1900 0    60   Input ~ 0
-TDI_A
+TDI1
 $Comp
 L R R?
 U 1 1 5B25A964
@@ -570,9 +570,9 @@ F 4 "RESS-009" V 7850 1900 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 Text HLabel 10350 1800 2    60   Input ~ 0
-TCK_B
+TCK2
 Text HLabel 10350 1900 2    60   Input ~ 0
-TDI_B
+TDI2
 $Comp
 L R R?
 U 1 1 5B25CA6C
@@ -923,13 +923,13 @@ Wire Wire Line
 Connection ~ 2350 1500
 NoConn ~ 1500 1900
 Text HLabel 7550 2100 0    60   Input ~ 0
-TDO_A
+TDO1
 Text HLabel 7550 2200 0    60   Input ~ 0
-TMS_A
+TMS1
 Text HLabel 10350 2100 2    60   Input ~ 0
-TDO_B
+TDO2
 Text HLabel 10350 2200 2    60   Input ~ 0
-TMS_B
+TMS2
 Wire Wire Line
 	10350 2100 9450 2100
 Wire Wire Line
@@ -951,9 +951,9 @@ F 4 "CHIP-005" H 8950 2900 60  0000 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 Text HLabel 10350 2300 2    60   Input ~ 0
-GPIOL0_B
+GPIOL0_2
 Text HLabel 7550 2300 0    60   Input ~ 0
-GPIOL0_A
+GPIOL0_1
 Wire Wire Line
 	9450 2300 10350 2300
 Wire Wire Line
