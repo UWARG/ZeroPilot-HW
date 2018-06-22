@@ -45,18 +45,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L FT4232H U?
-U 1 1 5B18A9C2
-P 8950 2150
-F 0 "U?" H 8950 3050 60  0000 C CNN
-F 1 "FT4232H" H 8950 3200 60  0000 C CNN
-F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 8950 1400 60  0001 C CNN
-F 3 "" H 8350 1800 60  0001 C CNN
-F 4 "CHIP-005" H 8950 2900 60  0000 C CNN "part_num"
-	1    8950 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L FT4232H U?
 U 3 1 5B18AA4E
 P 1550 5150
 F 0 "U?" H 1550 6050 60  0000 C CNN
@@ -497,16 +485,10 @@ NoConn ~ 3300 2650
 NoConn ~ 4300 1700
 NoConn ~ 4300 1800
 NoConn ~ 4300 1900
-NoConn ~ 9450 2100
-NoConn ~ 9450 2200
-NoConn ~ 9450 2300
 NoConn ~ 9450 2400
 NoConn ~ 9450 2500
 NoConn ~ 8450 2500
 NoConn ~ 8450 2400
-NoConn ~ 8450 2300
-NoConn ~ 8450 2200
-NoConn ~ 8450 2100
 NoConn ~ 9450 5200
 NoConn ~ 9450 5300
 NoConn ~ 9450 5400
@@ -560,9 +542,9 @@ F 4 "RESS-012" V 3000 1800 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 Text HLabel 7550 1800 0    60   Input ~ 0
-SWD1_TCK
+TCK_A
 Text HLabel 7550 1900 0    60   Input ~ 0
-SWD1_TDI
+TDI_A
 $Comp
 L R R?
 U 1 1 5B25A964
@@ -588,9 +570,9 @@ F 4 "RESS-009" V 7850 1900 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 Text HLabel 10350 1800 2    60   Input ~ 0
-SWD2_TCK
+TCK_B
 Text HLabel 10350 1900 2    60   Input ~ 0
-SWD2_TDI
+TDI_B
 $Comp
 L R R?
 U 1 1 5B25CA6C
@@ -939,9 +921,57 @@ USB_VBUS
 Wire Wire Line
 	2550 1300 2350 1300
 Connection ~ 2350 1500
-NoConn ~ 9450 5000
-NoConn ~ 9450 5100
-NoConn ~ 8450 5100
-NoConn ~ 8450 5000
 NoConn ~ 1500 1900
+Text HLabel 7550 2100 0    60   Input ~ 0
+TDO_A
+Text HLabel 7550 2200 0    60   Input ~ 0
+TMS_A
+Text HLabel 10350 2100 2    60   Input ~ 0
+TDO_B
+Text HLabel 10350 2200 2    60   Input ~ 0
+TMS_B
+Wire Wire Line
+	10350 2100 9450 2100
+Wire Wire Line
+	9450 2200 10350 2200
+Wire Wire Line
+	8450 2100 7550 2100
+Wire Wire Line
+	7550 2200 8450 2200
+$Comp
+L FT4232H U?
+U 1 1 5B18A9C2
+P 8950 2150
+F 0 "U?" H 8950 3050 60  0000 C CNN
+F 1 "FT4232H" H 8950 3200 60  0000 C CNN
+F 2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" H 8950 1400 60  0001 C CNN
+F 3 "" H 8350 1800 60  0001 C CNN
+F 4 "CHIP-005" H 8950 2900 60  0000 C CNN "part_num"
+	1    8950 2150
+	1    0    0    -1  
+$EndComp
+Text HLabel 10350 2300 2    60   Input ~ 0
+GPIOL0_B
+Text HLabel 7550 2300 0    60   Input ~ 0
+GPIOL0_A
+Wire Wire Line
+	9450 2300 10350 2300
+Wire Wire Line
+	7550 2300 8450 2300
+Text HLabel 9550 5000 2    60   Output ~ 0
+UART2_RTS
+Text HLabel 9550 5100 2    60   Input ~ 0
+UART2_CTS
+Text HLabel 8350 5000 0    60   Output ~ 0
+UART1_RTS
+Text HLabel 8350 5100 0    60   Input ~ 0
+UART1_CTS
+Wire Wire Line
+	9450 5000 9550 5000
+Wire Wire Line
+	9450 5100 9550 5100
+Wire Wire Line
+	8450 5000 8350 5000
+Wire Wire Line
+	8350 5100 8450 5100
 $EndSCHEMATC

@@ -33,7 +33,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -194,17 +194,17 @@ F 3 "" H 1900 7000 50  0001 C CNN
 	1    1900 7000
 	1    0    0    -1  
 $EndComp
-Text HLabel 2300 6400 2    59   Input ~ 0
+Text HLabel 1800 6400 2    59   Input ~ 0
 NRST_PILOT
-Text HLabel 2300 6500 2    59   Input ~ 0
+Text HLabel 1800 6500 2    59   Input ~ 0
 SWIO_PILOT
-Text HLabel 2300 6600 2    59   Input ~ 0
+Text HLabel 1800 6600 2    59   Input ~ 0
 SCLK_PILOT
-Text HLabel 2300 5950 2    59   Input ~ 0
+Text HLabel 1800 5950 2    59   Input ~ 0
 NRST_SAFETY
-Text HLabel 2300 6050 2    59   Input ~ 0
+Text HLabel 1800 6050 2    59   Input ~ 0
 SWIO_SAFETY
-Text HLabel 2300 6150 2    59   Input ~ 0
+Text HLabel 1800 6150 2    59   Input ~ 0
 SCLK_SAFETY
 $Comp
 L R R30
@@ -620,18 +620,6 @@ Wire Wire Line
 	1600 5000 1550 5000
 Wire Wire Line
 	6600 2400 5600 2400
-Wire Wire Line
-	1800 6600 2300 6600
-Wire Wire Line
-	1800 6500 2300 6500
-Wire Wire Line
-	1800 6400 2300 6400
-Wire Wire Line
-	1800 6150 2300 6150
-Wire Wire Line
-	1800 6050 2300 6050
-Wire Wire Line
-	1800 5950 2300 5950
 Connection ~ 6600 4100
 Wire Wire Line
 	9200 4000 9950 4000
@@ -869,4 +857,134 @@ Wire Wire Line
 	1800 6850 1900 6850
 Wire Wire Line
 	1900 6850 1900 7000
+$Comp
+L TEST TP?
+U 1 1 5B2B2080
+P 3550 5950
+F 0 "TP?" V 3600 6800 50  0000 C BNN
+F 1 "TDO1_TST" V 3550 6350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 5950 50  0001 C CNN
+F 3 "" H 3550 5950 50  0001 C CNN
+	1    3550 5950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B2C685E
+P 3550 6050
+F 0 "TP?" V 3600 6900 50  0000 C BNN
+F 1 "TMS1_TST" V 3550 6450 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6050 50  0001 C CNN
+F 3 "" H 3550 6050 50  0001 C CNN
+	1    3550 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B2C6951
+P 3550 6150
+F 0 "TP?" V 3600 7000 50  0000 C BNN
+F 1 "GPIOL0_1_TST" V 3550 6650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6150 50  0001 C CNN
+F 3 "" H 3550 6150 50  0001 C CNN
+	1    3550 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B2C6D6F
+P 3550 6400
+F 0 "TP?" V 3600 7250 50  0000 C BNN
+F 1 "TDO2_TST" V 3550 6800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6400 50  0001 C CNN
+F 3 "" H 3550 6400 50  0001 C CNN
+	1    3550 6400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B2C6D75
+P 3550 6500
+F 0 "TP?" V 3600 7350 50  0000 C BNN
+F 1 "TMS2_TST" V 3550 6900 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6500 50  0001 C CNN
+F 3 "" H 3550 6500 50  0001 C CNN
+	1    3550 6500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B2C6D7B
+P 3550 6600
+F 0 "TP?" V 3600 7450 50  0000 C BNN
+F 1 "GPIOL0_2_TST" V 3550 7100 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6600 50  0001 C CNN
+F 3 "" H 3550 6600 50  0001 C CNN
+	1    3550 6600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B2C6F3D
+P 3550 6850
+F 0 "TP?" V 3600 7700 50  0000 C BNN
+F 1 "UART1_RTS_TST" V 3550 7350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6850 50  0001 C CNN
+F 3 "" H 3550 6850 50  0001 C CNN
+	1    3550 6850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B2C716A
+P 3550 6950
+F 0 "TP?" V 3600 7800 50  0000 C BNN
+F 1 "UART1_CTS_TST" V 3550 7450 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6950 50  0001 C CNN
+F 3 "" H 3550 6950 50  0001 C CNN
+	1    3550 6950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B2C726E
+P 3550 7200
+F 0 "TP?" V 3600 8050 50  0000 C BNN
+F 1 "UART2_RTS_TST" V 3550 7700 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 7200 50  0001 C CNN
+F 3 "" H 3550 7200 50  0001 C CNN
+	1    3550 7200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 5B2C7274
+P 3550 7300
+F 0 "TP?" V 3600 8150 50  0000 C BNN
+F 1 "UART2_CTS_TST" V 3550 7800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 7300 50  0001 C CNN
+F 3 "" H 3550 7300 50  0001 C CNN
+	1    3550 7300
+	0    -1   -1   0   
+$EndComp
+Text HLabel 3550 5950 2    60   Input ~ 0
+TDO1_TST
+Text HLabel 3550 6050 2    60   Input ~ 0
+TMS1_TST
+Text HLabel 3550 6150 2    60   Input ~ 0
+GPIOL0_1_TST
+Text HLabel 3550 6400 2    60   Input ~ 0
+TDO2_TST
+Text HLabel 3550 6500 2    60   Input ~ 0
+TMS2_TST
+Text HLabel 3550 6600 2    60   Input ~ 0
+GPIOL0_2_TST
+Text HLabel 3550 6850 2    60   Input ~ 0
+UART1_RTS_TST
+Text HLabel 3550 6950 2    60   Input ~ 0
+UART1_CTS_TST
+Text HLabel 3550 7200 2    60   Input ~ 0
+UART2_RTS_TST
+Text HLabel 3550 7300 2    60   Input ~ 0
+UART2_CTS_TST
 $EndSCHEMATC
