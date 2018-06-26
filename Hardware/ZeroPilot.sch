@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:ZeroPilot-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -57,7 +58,7 @@ U 5917F3C3
 F0 "POWER" 60
 F1 "POWER.sch" 60
 F2 "5V_INT" O R 1600 2150 60 
-F3 "5V_EXT" O R 1600 2350 60 
+F3 "6V_EXT" O R 1600 2350 60 
 F4 "3V3" O R 1600 2550 60 
 F5 "VBATT" O R 1600 2800 60 
 $EndSheet
@@ -194,7 +195,7 @@ Text Label 1600 2550 0    60   ~ 0
 Text Label 1600 2150 0    60   ~ 0
 5V_INT
 Text Label 1600 2350 0    60   ~ 0
-5V_EXT
+6V_EXT
 Text Label 7350 1650 2    60   ~ 0
 5V_EXT
 Text Label 8950 5100 0    60   ~ 0
