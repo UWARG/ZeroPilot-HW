@@ -786,9 +786,9 @@ TDO2_TST
 Text Label 8600 1750 2    60   ~ 0
 TMS2_TST
 Text Label 8600 1950 2    60   ~ 0
-GPIOL0_1_TST
+NRST_SAFETY
 Text Label 9850 1950 0    60   ~ 0
-GPIOL0_2_TST
+NRST_PILOT
 Text Label 9850 1150 0    60   ~ 0
 UART1_RTS_TST
 Text Label 9850 1250 0    60   ~ 0
