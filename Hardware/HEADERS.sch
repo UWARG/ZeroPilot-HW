@@ -342,18 +342,6 @@ F 4 "CONN-005" H 5600 5800 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6 J27
-U 1 1 595BDD44
-P 9000 2900
-F 0 "J27" H 9100 3250 60  0000 C CNN
-F 1 "SPOX-6" H 9100 2550 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 9000 3050 60  0001 C CNN
-F 3 "" H 9000 3050 60  0001 C CNN
-F 4 "CONN-005" H 9200 3350 60  0001 C CNN "part_num"
-	1    9000 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L SPOX-6 J28
 U 1 1 595BDD92
 P 9000 3750
@@ -387,18 +375,6 @@ F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 9000 5550
 F 3 "" H 9000 5550 60  0001 C CNN
 F 4 "CONN-005" H 9200 5850 60  0001 C CNN "part_num"
 	1    9000 5400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SPOX-4 J21
-U 1 1 595C301B
-P 3700 3850
-F 0 "J21" H 3800 4100 60  0000 C CNN
-F 1 "SPOX-4" H 3800 3600 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 3700 3900 60  0001 C CNN
-F 3 "" H 3700 3900 60  0001 C CNN
-F 4 "CONN-003" H 3900 4200 60  0001 C CNN "part_num"
-	1    3700 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -478,14 +454,11 @@ Wire Wire Line
 Wire Wire Line
 	1750 3800 1500 3800
 Wire Wire Line
-	3900 4000 4050 4000
-Wire Wire Line
-	4050 4000 4050 5300
+	4050 4600 4050 5300
 Wire Wire Line
 	4050 5150 3900 5150
 Wire Wire Line
 	3900 4600 4050 4600
-Connection ~ 4050 4600
 Connection ~ 4050 5150
 Wire Wire Line
 	4200 5050 3900 5050
@@ -494,7 +467,6 @@ Wire Wire Line
 Wire Wire Line
 	3900 4500 4200 4500
 Connection ~ 4200 4500
-Connection ~ 4200 3900
 Wire Wire Line
 	3900 3700 4500 3700
 Wire Wire Line
@@ -507,8 +479,6 @@ Wire Wire Line
 	3900 4850 4500 4850
 Wire Wire Line
 	3900 4950 4500 4950
-Wire Wire Line
-	3900 3900 4200 3900
 Wire Wire Line
 	5600 2900 6500 2900
 Wire Wire Line
@@ -588,16 +558,13 @@ Wire Wire Line
 Wire Wire Line
 	9300 3050 9200 3050
 Wire Wire Line
-	9200 2650 10100 2650
+	9850 2650 10100 2650
 Wire Wire Line
 	10100 3500 10100 4300
 Wire Wire Line
-	9200 3150 9950 3150
-Wire Wire Line
-	9950 3150 9950 5850
+	9950 4000 9950 5850
 Wire Wire Line
 	9850 2550 9850 2650
-Connection ~ 9850 2650
 Connection ~ 10100 3500
 Connection ~ 10100 4300
 Wire Wire Line
@@ -624,7 +591,6 @@ Wire Wire Line
 Connection ~ 6600 4100
 Wire Wire Line
 	9200 4000 9950 4000
-Connection ~ 9950 4000
 Wire Wire Line
 	3350 3500 3350 3600
 Wire Wire Line
@@ -988,4 +954,70 @@ Text HLabel 3550 7200 2    60   Input ~ 0
 UART2_RTS_TST
 Text HLabel 3550 7300 2    60   Input ~ 0
 UART2_CTS_TST
+$Comp
+L TEST TP32
+U 1 1 5B3C0C72
+P 9200 2750
+F 0 "TP32" H 9200 3050 50  0000 C BNN
+F 1 "TEST" H 9200 3000 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 2750 50  0001 C CNN
+F 3 "" H 9200 2750 50  0001 C CNN
+	1    9200 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP33
+U 1 1 5B3C0F1B
+P 9200 2850
+F 0 "TP33" H 9200 3150 50  0000 C BNN
+F 1 "TEST" H 9200 3100 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 2850 50  0001 C CNN
+F 3 "" H 9200 2850 50  0001 C CNN
+	1    9200 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP34
+U 1 1 5B3C1148
+P 9200 2950
+F 0 "TP34" H 9200 3250 50  0000 C BNN
+F 1 "TEST" H 9200 3200 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 2950 50  0001 C CNN
+F 3 "" H 9200 2950 50  0001 C CNN
+	1    9200 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP35
+U 1 1 5B3C1282
+P 9200 3050
+F 0 "TP35" H 9200 3350 50  0000 C BNN
+F 1 "TEST" H 9200 3300 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 3050 50  0001 C CNN
+F 3 "" H 9200 3050 50  0001 C CNN
+	1    9200 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP30
+U 1 1 5B3C1DA0
+P 3900 3700
+F 0 "TP30" H 3900 4000 50  0000 C BNN
+F 1 "TEST" H 3900 3950 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3700 50  0001 C CNN
+F 3 "" H 3900 3700 50  0001 C CNN
+	1    3900 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP31
+U 1 1 5B3C21DB
+P 3900 3800
+F 0 "TP31" H 3900 4100 50  0000 C BNN
+F 1 "TEST" H 3900 4050 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3800 50  0001 C CNN
+F 3 "" H 3900 3800 50  0001 C CNN
+	1    3900 3800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
