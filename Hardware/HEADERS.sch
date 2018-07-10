@@ -881,17 +881,6 @@ F 3 "" H 3550 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP19
-U 1 1 5B2C6951
-P 3550 6150
-F 0 "TP19" V 3600 7000 50  0000 C BNN
-F 1 "GPIOL0_1_TST" V 3550 6650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6150 50  0001 C CNN
-F 3 "" H 3550 6150 50  0001 C CNN
-	1    3550 6150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L TEST TP20
 U 1 1 5B2C6D6F
 P 3550 6400
@@ -911,17 +900,6 @@ F 1 "TMS2_TST" V 3550 6900 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6500 50  0001 C CNN
 F 3 "" H 3550 6500 50  0001 C CNN
 	1    3550 6500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L TEST TP22
-U 1 1 5B2C6D7B
-P 3550 6600
-F 0 "TP22" V 3600 7450 50  0000 C BNN
-F 1 "GPIOL0_2_TST" V 3550 7100 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6600 50  0001 C CNN
-F 3 "" H 3550 6600 50  0001 C CNN
-	1    3550 6600
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -972,14 +950,10 @@ Text HLabel 3550 5950 2    60   Input ~ 0
 TDO1_TST
 Text HLabel 3550 6050 2    60   Input ~ 0
 TMS1_TST
-Text HLabel 3550 6150 2    60   Input ~ 0
-GPIOL0_1_TST
 Text HLabel 3550 6400 2    60   Input ~ 0
 TDO2_TST
 Text HLabel 3550 6500 2    60   Input ~ 0
 TMS2_TST
-Text HLabel 3550 6600 2    60   Input ~ 0
-GPIOL0_2_TST
 Text HLabel 3550 6850 2    60   Input ~ 0
 UART1_RTS_TST
 Text HLabel 3550 6950 2    60   Input ~ 0
