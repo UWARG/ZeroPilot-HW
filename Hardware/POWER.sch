@@ -734,8 +734,6 @@ F 4 "DIOD-005" H 7000 5400 60  0001 C CNN "part_num"
 	1    7000 5400
 	0    1    1    0   
 $EndComp
-Text Label 7000 5250 0    60   ~ 0
-INT_INT_VCC
 Text Label 7000 800  0    60   ~ 0
 5V_USB+
 $Comp
@@ -1102,8 +1100,6 @@ Connection ~ 1900 6200
 Wire Wire Line
 	1600 6050 1600 6200
 Wire Wire Line
-	8000 5850 8500 5850
-Wire Wire Line
 	6400 4500 7150 4500
 Connection ~ 5700 7200
 Wire Wire Line
@@ -1334,6 +1330,8 @@ Wire Wire Line
 	8050 4700 8000 4700
 Wire Wire Line
 	7500 2150 7500 2150
-Text Label 8500 5850 2    60   ~ 0
+Text Label 8200 5800 1    60   ~ 0
 5V_INT_JMP
+Wire Wire Line
+	8000 5850 8200 5850
 $EndSCHEMATC
