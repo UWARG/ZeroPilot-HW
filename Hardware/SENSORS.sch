@@ -204,7 +204,7 @@ Wire Wire Line
 	2150 2800 2150 3455
 NoConn ~ 3150 4225
 Text HLabel 2575 3850 0    60   Input ~ 0
-VDDIO
+IMU_NSS
 Text HLabel 3225 4225 3    60   Input ~ 0
 IMU_FSYNC
 Text HLabel 5620 3500 0    60   Input ~ 0

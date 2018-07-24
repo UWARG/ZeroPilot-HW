@@ -56,15 +56,15 @@ F 3 "" H 9150 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 6950 1800 0    60   Input ~ 0
-SD_DI
+SD_CMD
 Text HLabel 6950 2200 0    60   Input ~ 0
-SD_DO
+SD_DAT0
 Text HLabel 6950 2000 0    60   Input ~ 0
-SD_SCK
+SD_CLK
 Text HLabel 6950 1900 0    60   Input ~ 0
 SD_VDD
 Text HLabel 6950 1700 0    60   Input ~ 0
-SD_CS
+SD_DAT3
 $Comp
 L GND #PWR037
 U 1 1 592067B5
@@ -148,8 +148,6 @@ Text Label 2150 5400 0    60   ~ 0
 E3
 Text Notes 1250 4650 0    60   ~ 0
 Populate resistors to select I2C address\n
-NoConn ~ 7400 1600
-NoConn ~ 7400 2300
 $Comp
 L Micro_SD_Card J14
 U 1 1 59517B7C
@@ -295,4 +293,12 @@ Wire Wire Line
 	9150 2500 9100 2500
 Text HLabel 3850 5500 0    60   Input ~ 0
 WC
+Wire Wire Line
+	7400 2300 6950 2300
+Text HLabel 6950 2300 0    60   Input ~ 0
+SD_DAT1
+Text HLabel 6950 1600 0    60   Input ~ 0
+SD_DAT2
+Wire Wire Line
+	6950 1600 7400 1600
 $EndSCHEMATC
