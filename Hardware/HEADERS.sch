@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:WARG
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:ZeroPilot-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -51,7 +21,7 @@ DBG_RX_SAFETY
 Text HLabel 1750 3700 2    60   Input ~ 0
 DBG_TX_SAFETY
 $Comp
-L GND #PWR060
+L power:GND #PWR060
 U 1 1 5923E07E
 P 4050 5300
 F 0 "#PWR060" H 4050 5050 50  0001 C CNN
@@ -76,7 +46,7 @@ SDA4
 Text HLabel 4500 4950 2    60   Input ~ 0
 SCL4
 $Comp
-L GND #PWR061
+L power:GND #PWR061
 U 1 1 5923E229
 P 6500 5700
 F 0 "#PWR061" H 6500 5450 50  0001 C CNN
@@ -129,7 +99,7 @@ SPI5_SI
 Text HLabel 9300 5250 2    60   Input ~ 0
 SPI5_CK
 $Comp
-L GND #PWR062
+L power:GND #PWR062
 U 1 1 5923EE9C
 P 9950 5850
 F 0 "#PWR062" H 9950 5600 50  0001 C CNN
@@ -174,7 +144,7 @@ UART2_CTS
 Text HLabel 1750 4900 2    60   Input ~ 0
 UHF_RX
 $Comp
-L GND #PWR063
+L power:GND #PWR063
 U 1 1 594AA8BD
 P 1900 7000
 F 0 "#PWR063" H 1900 6750 50  0001 C CNN
@@ -197,7 +167,7 @@ SWIO_SAFETY
 Text HLabel 1800 6150 2    59   Input ~ 0
 SCLK_SAFETY
 $Comp
-L R R47
+L Device:R R47
 U 1 1 59526B7D
 P 3350 3350
 F 0 "R47" V 3430 3350 50  0000 C CNN
@@ -211,7 +181,7 @@ $EndComp
 Text Label 4200 3550 1    59   ~ 0
 V_I2C
 $Comp
-L R R50
+L Device:R R50
 U 1 1 595B24C4
 P 3550 3350
 F 0 "R50" V 3630 3350 50  0000 C CNN
@@ -223,7 +193,7 @@ F 4 "RESS-005" V 3550 3350 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R51
+L Device:R R51
 U 1 1 595B2506
 P 3550 3950
 F 0 "R51" V 3630 3950 50  0000 C CNN
@@ -235,7 +205,7 @@ F 4 "RESS-005" V 3550 3950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R48
+L Device:R R48
 U 1 1 595B2562
 P 3350 3950
 F 0 "R48" V 3430 3950 50  0000 C CNN
@@ -247,7 +217,7 @@ F 4 "RESS-005" V 3350 3950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R49
+L Device:R R49
 U 1 1 595B25FA
 P 3350 4500
 F 0 "R49" V 3430 4500 50  0000 C CNN
@@ -259,7 +229,7 @@ F 4 "RESS-005" V 3350 4500 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R52
+L Device:R R52
 U 1 1 595B2654
 P 3550 4500
 F 0 "R52" V 3630 4500 50  0000 C CNN
@@ -271,7 +241,7 @@ F 4 "RESS-005" V 3550 4500 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-3 J17
+L WARG:SPOX-3 J17
 U 1 1 595BD83D
 P 1250 2000
 F 0 "J17" H 1350 2250 60  0000 C CNN
@@ -283,7 +253,7 @@ F 4 "CONN-002" H 1450 2350 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6 J24
+L WARG:SPOX-6 J24
 U 1 1 595BDC13
 P 5400 2650
 F 0 "J24" H 5500 3000 60  0000 C CNN
@@ -295,7 +265,7 @@ F 4 "CONN-005" H 5600 3100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6 J25
+L WARG:SPOX-6 J25
 U 1 1 595BDC6A
 P 5400 3500
 F 0 "J25" H 5500 3850 60  0000 C CNN
@@ -307,7 +277,7 @@ F 4 "CONN-005" H 5600 3950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6 J26
+L WARG:SPOX-6 J26
 U 1 1 595BDCF6
 P 5400 5350
 F 0 "J26" H 5500 5700 60  0000 C CNN
@@ -319,7 +289,7 @@ F 4 "CONN-005" H 5600 5800 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6 J28
+L WARG:SPOX-6 J28
 U 1 1 595BDD92
 P 9000 3750
 F 0 "J28" H 9100 4100 60  0000 C CNN
@@ -331,7 +301,7 @@ F 4 "CONN-005" H 9200 4200 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6 J29
+L WARG:SPOX-6 J29
 U 1 1 595BDDDE
 P 9000 4550
 F 0 "J29" H 9100 4900 60  0000 C CNN
@@ -343,7 +313,7 @@ F 4 "CONN-005" H 9200 5000 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6 J30
+L WARG:SPOX-6 J30
 U 1 1 595BDE34
 P 9000 5400
 F 0 "J30" H 9100 5750 60  0000 C CNN
@@ -355,7 +325,7 @@ F 4 "CONN-005" H 9200 5850 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-4 J22
+L WARG:SPOX-4 J22
 U 1 1 595C306F
 P 3700 4450
 F 0 "J22" H 3800 4700 60  0000 C CNN
@@ -367,7 +337,7 @@ F 4 "CONN-003" H 3900 4800 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-4 J23
+L WARG:SPOX-4 J23
 U 1 1 595C30C3
 P 3700 5000
 F 0 "J23" H 3800 5250 60  0000 C CNN
@@ -379,7 +349,7 @@ F 4 "CONN-003" H 3900 5350 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-3 J16
+L WARG:SPOX-3 J16
 U 1 1 5966BE07
 P 1200 1400
 F 0 "J16" H 1300 1650 60  0000 C CNN
@@ -391,7 +361,7 @@ F 4 "CONN-002" H 1400 1750 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-4 J18
+L WARG:SPOX-4 J18
 U 1 1 5966BE8B
 P 1250 2600
 F 0 "J18" H 1350 2850 60  0000 C CNN
@@ -409,7 +379,7 @@ DBG_TX_PILOT
 Text HLabel 1750 4800 2    60   Input ~ 0
 UHF_TX
 $Comp
-L SPOX-2 J19
+L WARG:SPOX-2 J19
 U 1 1 597D9B19
 P 1300 3250
 F 0 "J19" H 1400 3400 60  0000 C CNN
@@ -431,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	1750 3800 1500 3800
 Wire Wire Line
-	4050 4600 4050 5300
+	4050 4600 4050 5150
 Wire Wire Line
 	4050 5150 3900 5150
 Wire Wire Line
@@ -440,26 +410,26 @@ Connection ~ 4050 5150
 Wire Wire Line
 	4200 5050 3900 5050
 Wire Wire Line
-	4200 3250 4200 5050
+	4200 3250 4200 4500
 Wire Wire Line
 	3900 4500 4200 4500
 Connection ~ 4200 4500
 Wire Wire Line
-	3900 3700 4500 3700
+	3900 3700 4050 3700
 Wire Wire Line
-	3900 3800 4500 3800
+	3900 3800 3950 3800
 Wire Wire Line
-	3900 4300 4500 4300
+	3900 4300 4000 4300
 Wire Wire Line
-	3900 4400 4500 4400
+	3900 4400 3950 4400
 Wire Wire Line
-	3900 4850 4500 4850
+	3900 4850 4000 4850
 Wire Wire Line
-	3900 4950 4500 4950
+	3900 4950 3950 4950
 Wire Wire Line
 	5600 2900 6500 2900
 Wire Wire Line
-	6500 2900 6500 5700
+	6500 2900 6500 3750
 Wire Wire Line
 	6500 3750 5600 3750
 Connection ~ 6500 3750
@@ -484,7 +454,7 @@ Wire Wire Line
 	6600 3250 5600 3250
 Connection ~ 6600 3250
 Wire Wire Line
-	6600 2350 6600 5100
+	6600 2350 6600 2400
 Wire Wire Line
 	9300 3600 9200 3600
 Wire Wire Line
@@ -492,7 +462,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3500 10100 3500
 Wire Wire Line
-	10100 2650 10100 5150
+	10100 2650 10100 3500
 Wire Wire Line
 	9300 4400 9200 4400
 Wire Wire Line
@@ -526,7 +496,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 1900 1700 1900
 Wire Wire Line
-	1600 1500 1600 5000
+	1600 1500 1600 2100
 Wire Wire Line
 	1400 1500 1600 1500
 Connection ~ 1600 2100
@@ -539,7 +509,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 3500 10100 4300
 Wire Wire Line
-	9950 4000 9950 5850
+	9950 4000 9950 4800
 Wire Wire Line
 	9850 2550 9850 2650
 Connection ~ 10100 3500
@@ -563,7 +533,6 @@ Wire Wire Line
 	1750 4900 1550 4900
 Wire Wire Line
 	6600 2400 5600 2400
-Connection ~ 6600 4100
 Wire Wire Line
 	9200 4000 9950 4000
 Wire Wire Line
@@ -606,19 +575,19 @@ Connection ~ 3950 4950
 Wire Wire Line
 	3550 4300 3550 4350
 Wire Wire Line
-	3200 4300 3550 4300
+	3200 4300 3350 4300
 Wire Wire Line
 	3350 4300 3350 4350
 Wire Wire Line
 	3550 3750 3550 3800
 Wire Wire Line
-	3200 3750 3550 3750
+	3200 3750 3350 3750
 Wire Wire Line
 	3350 3750 3350 3800
 Wire Wire Line
 	3550 3150 3550 3200
 Wire Wire Line
-	3200 3150 3550 3150
+	3200 3150 3350 3150
 Wire Wire Line
 	3350 3150 3350 3200
 Wire Wire Line
@@ -634,7 +603,7 @@ Connection ~ 4050 3700
 Wire Wire Line
 	3150 2900 3200 2900
 Wire Wire Line
-	3200 2900 3200 4300
+	3200 2900 3200 3150
 Connection ~ 3350 4300
 Connection ~ 3200 3750
 Connection ~ 3350 3750
@@ -644,7 +613,6 @@ Wire Wire Line
 	1650 1300 1400 1300
 Wire Wire Line
 	1400 1400 1650 1400
-Connection ~ 6500 4600
 Wire Wire Line
 	9300 5550 9200 5550
 Wire Wire Line
@@ -664,7 +632,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 2850 9300 2850
 $Comp
-L TEST TP5
+L Connector:TestPoint TP5
 U 1 1 5B321D7E
 P 1500 3700
 F 0 "TP5" V 1550 4350 50  0000 C BNN
@@ -675,7 +643,7 @@ F 3 "" H 1500 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP6
+L Connector:TestPoint TP6
 U 1 1 5B322406
 P 1500 3800
 F 0 "TP6" V 1550 4450 50  0000 C BNN
@@ -686,7 +654,7 @@ F 3 "" H 1500 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP8
+L Connector:TestPoint TP8
 U 1 1 5B322A72
 P 1500 4200
 F 0 "TP8" V 1550 4850 50  0000 C BNN
@@ -697,7 +665,7 @@ F 3 "" H 1500 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP9
+L Connector:TestPoint TP9
 U 1 1 5B322A78
 P 1500 4300
 F 0 "TP9" V 1550 4950 50  0000 C BNN
@@ -708,7 +676,7 @@ F 3 "" H 1500 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP7
+L Connector:TestPoint TP7
 U 1 1 5B322A7E
 P 1500 4000
 F 0 "TP7" V 1550 4650 50  0000 C BNN
@@ -719,7 +687,7 @@ F 3 "" H 1500 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP10
+L Connector:TestPoint TP10
 U 1 1 5B322C50
 P 1800 5950
 F 0 "TP10" V 1850 6650 50  0000 C BNN
@@ -730,7 +698,7 @@ F 3 "" H 1800 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP11
+L Connector:TestPoint TP11
 U 1 1 5B322C56
 P 1800 6050
 F 0 "TP11" V 1850 6750 50  0000 C BNN
@@ -741,7 +709,7 @@ F 3 "" H 1800 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP12
+L Connector:TestPoint TP12
 U 1 1 5B322C9E
 P 1800 6150
 F 0 "TP12" V 1850 6850 50  0000 C BNN
@@ -752,7 +720,7 @@ F 3 "" H 1800 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP14
+L Connector:TestPoint TP14
 U 1 1 5B322FC5
 P 1800 6500
 F 0 "TP14" V 1850 7200 50  0000 C BNN
@@ -763,7 +731,7 @@ F 3 "" H 1800 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP15
+L Connector:TestPoint TP15
 U 1 1 5B322FCB
 P 1800 6600
 F 0 "TP15" V 1850 7300 50  0000 C BNN
@@ -774,7 +742,7 @@ F 3 "" H 1800 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP16
+L Connector:TestPoint TP16
 U 1 1 5B322FD1
 P 1800 6850
 F 0 "TP16" V 1850 7550 50  0000 C BNN
@@ -785,7 +753,7 @@ F 3 "" H 1800 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP13
+L Connector:TestPoint TP13
 U 1 1 5B322FD7
 P 1800 6400
 F 0 "TP13" V 1850 7100 50  0000 C BNN
@@ -800,7 +768,7 @@ Wire Wire Line
 Wire Wire Line
 	1900 6850 1900 7000
 $Comp
-L TEST TP17
+L Connector:TestPoint TP17
 U 1 1 5B2B2080
 P 3550 5950
 F 0 "TP17" V 3600 6800 50  0000 C BNN
@@ -811,7 +779,7 @@ F 3 "" H 3550 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP18
+L Connector:TestPoint TP18
 U 1 1 5B2C685E
 P 3550 6050
 F 0 "TP18" V 3600 6900 50  0000 C BNN
@@ -822,7 +790,7 @@ F 3 "" H 3550 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP20
+L Connector:TestPoint TP20
 U 1 1 5B2C6D6F
 P 3550 6400
 F 0 "TP20" V 3600 7250 50  0000 C BNN
@@ -833,7 +801,7 @@ F 3 "" H 3550 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP21
+L Connector:TestPoint TP21
 U 1 1 5B2C6D75
 P 3550 6500
 F 0 "TP21" V 3600 7350 50  0000 C BNN
@@ -844,7 +812,7 @@ F 3 "" H 3550 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP23
+L Connector:TestPoint TP23
 U 1 1 5B2C6F3D
 P 3550 6850
 F 0 "TP23" V 3600 7700 50  0000 C BNN
@@ -855,7 +823,7 @@ F 3 "" H 3550 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP24
+L Connector:TestPoint TP24
 U 1 1 5B2C716A
 P 3550 6950
 F 0 "TP24" V 3600 7800 50  0000 C BNN
@@ -866,7 +834,7 @@ F 3 "" H 3550 6950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP25
+L Connector:TestPoint TP25
 U 1 1 5B2C726E
 P 3550 7200
 F 0 "TP25" V 3600 8050 50  0000 C BNN
@@ -877,7 +845,7 @@ F 3 "" H 3550 7200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP26
+L Connector:TestPoint TP26
 U 1 1 5B2C7274
 P 3550 7300
 F 0 "TP26" V 3600 8150 50  0000 C BNN
@@ -904,7 +872,7 @@ UART2_RTS_TST
 Text HLabel 3550 7300 2    60   Input ~ 0
 UART2_CTS_TST
 $Comp
-L TEST TP32
+L Connector:TestPoint TP32
 U 1 1 5B3C0C72
 P 9200 2750
 F 0 "TP32" H 9200 3050 50  0000 C BNN
@@ -915,7 +883,7 @@ F 3 "" H 9200 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP33
+L Connector:TestPoint TP33
 U 1 1 5B3C0F1B
 P 9200 2850
 F 0 "TP33" H 9200 3150 50  0000 C BNN
@@ -926,7 +894,7 @@ F 3 "" H 9200 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP34
+L Connector:TestPoint TP34
 U 1 1 5B3C1148
 P 9200 2950
 F 0 "TP34" H 9200 3250 50  0000 C BNN
@@ -937,7 +905,7 @@ F 3 "" H 9200 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP35
+L Connector:TestPoint TP35
 U 1 1 5B3C1282
 P 9200 3050
 F 0 "TP35" H 9200 3350 50  0000 C BNN
@@ -948,7 +916,7 @@ F 3 "" H 9200 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP30
+L Connector:TestPoint TP30
 U 1 1 5B3C1DA0
 P 3900 3700
 F 0 "TP30" H 3900 4000 50  0000 C BNN
@@ -959,7 +927,7 @@ F 3 "" H 3900 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP31
+L Connector:TestPoint TP31
 U 1 1 5B3C21DB
 P 3900 3800
 F 0 "TP31" H 3900 4100 50  0000 C BNN
@@ -970,7 +938,7 @@ F 3 "" H 3900 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR064
+L power:GND #PWR064
 U 1 1 5923F1BC
 P 1600 5000
 F 0 "#PWR064" H 1600 4750 50  0001 C CNN
@@ -981,7 +949,7 @@ F 3 "" H 1600 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP19
+L Connector:TestPoint TP19
 U 1 1 5B4E2465
 P 1550 4800
 F 0 "TP19" H 1550 5100 50  0000 C BNN
@@ -992,7 +960,7 @@ F 3 "" H 1550 4800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP22
+L Connector:TestPoint TP22
 U 1 1 5B4E251E
 P 1550 4900
 F 0 "TP22" H 1550 5200 50  0000 C BNN
@@ -1002,4 +970,52 @@ F 3 "" H 1550 4900 50  0001 C CNN
 	1    1550 4900
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4050 5150 4050 5300
+Wire Wire Line
+	4200 4500 4200 5050
+Wire Wire Line
+	6600 2400 6600 3250
+Wire Wire Line
+	9950 5650 9950 5850
+Wire Wire Line
+	9950 4800 9950 5650
+Wire Wire Line
+	1600 3300 1600 4000
+Wire Wire Line
+	1600 2750 1600 3300
+Wire Wire Line
+	1600 2100 1600 2750
+Wire Wire Line
+	10100 4300 10100 5150
+Wire Wire Line
+	6500 5600 6500 5700
+Wire Wire Line
+	3950 3800 4500 3800
+Wire Wire Line
+	4000 4300 4500 4300
+Wire Wire Line
+	3950 4400 4500 4400
+Wire Wire Line
+	4000 4850 4500 4850
+Wire Wire Line
+	3950 4950 4500 4950
+Wire Wire Line
+	1600 4000 1600 5000
+Wire Wire Line
+	4050 3700 4500 3700
+Wire Wire Line
+	3350 4300 3550 4300
+Wire Wire Line
+	3200 3750 3200 4300
+Wire Wire Line
+	3350 3750 3550 3750
+Wire Wire Line
+	3200 3150 3200 3750
+Wire Wire Line
+	3350 3150 3550 3150
+Wire Wire Line
+	6500 3750 6500 5600
+Wire Wire Line
+	6600 3250 6600 5100
 $EndSCHEMATC

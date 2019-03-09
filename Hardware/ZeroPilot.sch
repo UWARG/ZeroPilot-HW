@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:WARG
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:ZeroPilot-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -561,7 +531,7 @@ SWIO_SAFETY
 Text Label 3550 2050 2    59   ~ 0
 SCLK_SAFETY
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 594F2D3B
 P 12300 5850
 F 0 "#PWR01" H 12300 5600 50  0001 C CNN
@@ -572,7 +542,7 @@ F 3 "" H 12300 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L power:PWR_FLAG #FLG02
 U 1 1 594F3124
 P 12300 5850
 F 0 "#FLG02" H 12300 5925 50  0001 C CNN
@@ -692,7 +662,7 @@ NSS5
 Text Notes 12175 3550 0    118  ~ 24
 I2C1: altimeter
 $Comp
-L TEST TP1
+L Connector:TestPoint TP1
 U 1 1 5B17AD8A
 P 4550 4875
 F 0 "TP1" H 4550 5175 50  0000 C BNN
@@ -703,7 +673,7 @@ F 3 "" H 4550 4875 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L TEST TP2
+L Connector:TestPoint TP2
 U 1 1 5B17B9D1
 P 4550 5080
 F 0 "TP2" H 4550 5380 50  0000 C BNN
@@ -798,8 +768,6 @@ Wire Wire Line
 Wire Wire Line
 	4350 6800 4000 6800
 Wire Bus Line
-	6450 4300 6450 6550
-Wire Bus Line
 	6450 4300 6200 4300
 Wire Wire Line
 	7200 4500 6550 4500
@@ -834,8 +802,6 @@ Wire Wire Line
 Wire Wire Line
 	6550 6200 7200 6200
 Wire Bus Line
-	9750 4200 9750 4900
-Wire Bus Line
 	9750 4500 10000 4500
 Wire Wire Line
 	9650 5000 8950 5000
@@ -845,14 +811,10 @@ Wire Wire Line
 	9650 4700 8950 4700
 Wire Wire Line
 	8950 4600 9650 4600
-Wire Bus Line
-	3750 5400 3750 6500
 Wire Wire Line
 	3850 6500 4350 6500
 Wire Wire Line
 	3850 6600 4350 6600
-Wire Bus Line
-	6450 2300 6450 3800
 Wire Bus Line
 	6450 3550 6150 3550
 Wire Wire Line
@@ -885,8 +847,6 @@ Wire Wire Line
 	6550 2400 7200 2400
 Wire Wire Line
 	7200 2500 6550 2500
-Wire Bus Line
-	600  2950 600  4250
 Wire Wire Line
 	700  3150 1350 3150
 Wire Wire Line
@@ -912,8 +872,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 4350 700  4350
 Wire Bus Line
-	3500 2900 3500 3150
-Wire Bus Line
 	3500 2900 3800 2900
 Wire Wire Line
 	3400 3250 3150 3250
@@ -923,8 +881,6 @@ Wire Wire Line
 	3150 3350 3800 3350
 Wire Wire Line
 	3150 3450 3800 3450
-Wire Bus Line
-	600  5700 600  7400
 Wire Bus Line
 	600  5700 850  5700
 Wire Wire Line
@@ -991,8 +947,6 @@ Wire Wire Line
 	3550 1550 3150 1550
 Wire Bus Line
 	5800 1200 5650 1200
-Wire Bus Line
-	5650 1200 5650 1550
 Wire Wire Line
 	5550 1350 5300 1350
 Wire Wire Line
@@ -1003,8 +957,6 @@ Wire Wire Line
 	5300 1650 5550 1650
 Wire Bus Line
 	5800 1750 5650 1750
-Wire Bus Line
-	5650 1750 5650 1950
 Wire Wire Line
 	5550 1900 5300 1900
 Wire Wire Line
@@ -1017,10 +969,6 @@ Wire Bus Line
 	600  2950 850  2950
 Wire Bus Line
 	10950 800  10700 800 
-Wire Bus Line
-	10700 800  10700 1450
-Wire Bus Line
-	10700 1400 10700 1400
 Wire Wire Line
 	9850 1550 10600 1550
 Wire Wire Line
@@ -1121,7 +1069,7 @@ UART2_CTS_TST
 Text Label 1600 1200 0    60   ~ 0
 5V_USB
 $Comp
-L TEST TP27
+L Connector:TestPoint TP27
 U 1 1 5B375115
 P 10350 2700
 F 0 "TP27" H 10350 3000 50  0000 C BNN
@@ -1132,7 +1080,7 @@ F 3 "" H 10350 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP28
+L Connector:TestPoint TP28
 U 1 1 5B375EC5
 P 10500 2800
 F 0 "TP28" H 10500 3100 50  0000 C BNN
@@ -1143,7 +1091,7 @@ F 3 "" H 10500 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP29
+L Connector:TestPoint TP29
 U 1 1 5B37635D
 P 10600 2900
 F 0 "TP29" H 10600 3200 50  0000 C BNN
@@ -1181,4 +1129,26 @@ Text Label 5650 6500 0    60   ~ 0
 SD_CK
 Text Label 5650 6400 0    60   ~ 0
 SD_CMD
+Wire Bus Line
+	9750 4200 9750 4500
+Wire Bus Line
+	3500 2900 3500 3150
+Wire Bus Line
+	9750 4500 9750 4900
+Wire Bus Line
+	5650 1750 5650 1950
+Wire Bus Line
+	5650 1200 5650 1550
+Wire Bus Line
+	10700 800  10700 1450
+Wire Bus Line
+	3750 5400 3750 6500
+Wire Bus Line
+	6450 2300 6450 3800
+Wire Bus Line
+	600  2950 600  4250
+Wire Bus Line
+	6450 4300 6450 6550
+Wire Bus Line
+	600  5700 600  7400
 $EndSCHEMATC

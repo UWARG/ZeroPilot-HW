@@ -1,36 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:WARG
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:ZeroPilot-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -92,8 +62,6 @@ Text Label 7900 4200 0    60   ~ 0
 PWM11
 Text Label 7900 5650 0    60   ~ 0
 PWM12
-Wire Bus Line
-	2150 900  2150 5550
 Wire Wire Line
 	2250 5650 2700 5650
 Wire Wire Line
@@ -102,8 +70,6 @@ Wire Wire Line
 	2700 2700 2250 2700
 Wire Wire Line
 	2250 1250 2700 1250
-Wire Bus Line
-	4850 900  4850 5550
 Wire Wire Line
 	4950 5650 5400 5650
 Wire Wire Line
@@ -112,8 +78,6 @@ Wire Wire Line
 	5400 2700 4950 2700
 Wire Wire Line
 	4950 1250 5400 1250
-Wire Bus Line
-	7700 900  7700 5550
 Wire Wire Line
 	7800 5650 8250 5650
 Wire Wire Line
@@ -157,7 +121,7 @@ PWM_5V
 Text Label 2700 2600 2    60   ~ 0
 PWM_5V
 $Comp
-L Conn_01x03 J1
+L conn:Conn_01x03 J1
 U 1 1 597DAC0F
 P 2900 1150
 F 0 "J1" H 2900 1350 50  0000 C CNN
@@ -169,7 +133,7 @@ F 4 "CONN-007" H 2900 1150 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 597DB10B
 P 2300 5900
 F 0 "#PWR03" H 2300 5650 50  0001 C CNN
@@ -182,20 +146,18 @@ $EndComp
 Wire Wire Line
 	2700 1050 2300 1050
 Wire Wire Line
-	2300 1050 2300 5900
+	2300 1050 2300 2500
 Wire Wire Line
 	2700 2500 2300 2500
 Connection ~ 2300 2500
 Wire Wire Line
 	2700 4000 2300 4000
-Wire Wire Line
-	2300 4000 2300 3950
 Connection ~ 2300 3950
 Wire Wire Line
 	2700 5450 2300 5450
 Connection ~ 2300 5450
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 597DB1D3
 P 5000 5900
 F 0 "#PWR04" H 5000 5650 50  0001 C CNN
@@ -206,7 +168,7 @@ F 3 "" H 5000 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 597DB202
 P 7850 5800
 F 0 "#PWR05" H 7850 5550 50  0001 C CNN
@@ -217,7 +179,7 @@ F 3 "" H 7850 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 1050 7850 5800
+	7850 1050 7850 2500
 Wire Wire Line
 	7850 1050 8250 1050
 Wire Wire Line
@@ -232,7 +194,7 @@ Connection ~ 7850 5450
 Wire Wire Line
 	5400 4000 5000 4000
 Wire Wire Line
-	5000 1050 5000 5900
+	5000 1050 5000 2500
 Wire Wire Line
 	5400 1050 5000 1050
 Connection ~ 5000 4000
@@ -243,7 +205,7 @@ Wire Wire Line
 	5400 2500 5000 2500
 Connection ~ 5000 2500
 $Comp
-L Conn_01x03 J2
+L conn:Conn_01x03 J2
 U 1 1 5B47A50A
 P 2900 2600
 F 0 "J2" H 2900 2800 50  0000 C CNN
@@ -255,7 +217,7 @@ F 4 "CONN-007" H 2900 2600 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J3
+L conn:Conn_01x03 J3
 U 1 1 5B47A572
 P 2900 4100
 F 0 "J3" H 2900 4300 50  0000 C CNN
@@ -267,7 +229,7 @@ F 4 "CONN-007" H 2900 4100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J4
+L conn:Conn_01x03 J4
 U 1 1 5B47A5CD
 P 2900 5550
 F 0 "J4" H 2900 5750 50  0000 C CNN
@@ -279,7 +241,7 @@ F 4 "CONN-007" H 2900 5550 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J8
+L conn:Conn_01x03 J8
 U 1 1 5B47A679
 P 5600 5550
 F 0 "J8" H 5600 5750 50  0000 C CNN
@@ -291,7 +253,7 @@ F 4 "CONN-007" H 5600 5550 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J7
+L conn:Conn_01x03 J7
 U 1 1 5B47A6F6
 P 5600 4100
 F 0 "J7" H 5600 4300 50  0000 C CNN
@@ -303,7 +265,7 @@ F 4 "CONN-007" H 5600 4100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J6
+L conn:Conn_01x03 J6
 U 1 1 5B47A774
 P 5600 2600
 F 0 "J6" H 5600 2800 50  0000 C CNN
@@ -315,7 +277,7 @@ F 4 "CONN-007" H 5600 2600 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J5
+L conn:Conn_01x03 J5
 U 1 1 5B47A831
 P 5600 1150
 F 0 "J5" H 5600 1350 50  0000 C CNN
@@ -327,7 +289,7 @@ F 4 "CONN-007" H 5600 1150 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J9
+L conn:Conn_01x03 J9
 U 1 1 5B47A8FB
 P 8450 1150
 F 0 "J9" H 8450 1350 50  0000 C CNN
@@ -339,7 +301,7 @@ F 4 "CONN-007" H 8450 1150 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J10
+L conn:Conn_01x03 J10
 U 1 1 5B47AA06
 P 8450 2600
 F 0 "J10" H 8450 2800 50  0000 C CNN
@@ -351,7 +313,7 @@ F 4 "CONN-007" H 8450 2600 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J11
+L conn:Conn_01x03 J11
 U 1 1 5B47AB32
 P 8450 4100
 F 0 "J11" H 8450 4300 50  0000 C CNN
@@ -363,7 +325,7 @@ F 4 "CONN-007" H 8450 4100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x03 J12
+L conn:Conn_01x03 J12
 U 1 1 5B47AC5F
 P 8450 5550
 F 0 "J12" H 8450 5750 50  0000 C CNN
@@ -374,4 +336,26 @@ F 4 "CONN-007" H 8450 5550 60  0001 C CNN "part_num"
 	1    8450 5550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2300 5450 2300 5900
+Wire Wire Line
+	7850 2500 7850 4000
+Wire Wire Line
+	7850 4000 7850 5450
+Wire Wire Line
+	7850 5450 7850 5800
+Wire Wire Line
+	5000 4000 5000 5450
+Wire Wire Line
+	5000 5450 5000 5900
+Wire Wire Line
+	5000 2500 5000 4000
+Wire Wire Line
+	2300 2500 2300 5450
+Wire Bus Line
+	2150 900  2150 5550
+Wire Bus Line
+	4850 900  4850 5550
+Wire Bus Line
+	7700 900  7700 5550
 $EndSCHEMATC
