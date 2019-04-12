@@ -89,37 +89,37 @@ Wire Wire Line
 Text HLabel 1100 900  0    60   Input ~ 0
 PWM[1..12]
 Text HLabel 1100 650  0    60   Input ~ 0
-PWM_5V
+PWM_6V
 Wire Bus Line
 	1100 900  7700 900 
 Text Label 1600 900  0    60   ~ 0
 PWM[1..12]
 Text Label 2700 1150 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 2700 4100 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 2700 5550 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 5400 1150 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 5400 2600 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 5400 4100 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 5400 5550 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 8250 1150 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 8250 2600 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 8250 4100 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 8250 5550 2    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 1100 650  0    60   ~ 0
-PWM_5V
+PWM_6V
 Text Label 2700 2600 2    60   ~ 0
-PWM_5V
+PWM_6V
 $Comp
 L conn:Conn_01x03 J1
 U 1 1 597DAC0F
@@ -152,7 +152,6 @@ Wire Wire Line
 Connection ~ 2300 2500
 Wire Wire Line
 	2700 4000 2300 4000
-Connection ~ 2300 3950
 Wire Wire Line
 	2700 5450 2300 5450
 Connection ~ 2300 5450

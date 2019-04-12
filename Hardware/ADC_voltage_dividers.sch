@@ -32,7 +32,7 @@ P 4050 1450
 F 0 "D?" H 4050 1550 50  0000 C CNN
 F 1 "D" H 4050 1350 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMA_Handsoldering" H 4050 1450 50  0001 C CNN
-F 3 "" H 4050 1450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 4050 1450 50  0001 C CNN
 F 4 "DIOD-005" H 4050 1450 60  0001 C CNN "part_num"
 	1    4050 1450
 	0    1    1    0   
@@ -44,7 +44,7 @@ P 4050 2450
 F 0 "D?" H 4050 2550 50  0000 C CNN
 F 1 "D" H 4050 2350 50  0000 C CNN
 F 2 "Diodes_SMD:D_SMA_Handsoldering" H 4050 2450 50  0001 C CNN
-F 3 "" H 4050 2450 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 4050 2450 50  0001 C CNN
 F 4 "DIOD-005" H 4050 2450 60  0001 C CNN "part_num"
 	1    4050 2450
 	0    1    1    0   

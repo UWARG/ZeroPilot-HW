@@ -119,7 +119,7 @@ Text HLabel 1700 2000 2    60   Input ~ 0
 V_AIRSPD
 Text HLabel 1700 1900 2    60   Input ~ 0
 AIRSPD
-Text HLabel 1650 1400 2    60   Input ~ 0
+Text HLabel 1650 1200 2    60   Input ~ 0
 V_PPM
 Text HLabel 1650 1300 2    60   Input ~ 0
 PPM
@@ -247,7 +247,7 @@ P 1250 2000
 F 0 "J17" H 1350 2250 60  0000 C CNN
 F 1 "SPOX-3" H 1350 1800 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5035_03x2.54mm_Straight" H 1250 2150 60  0001 C CNN
-F 3 "" H 1350 2250 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035035_sd.pdf" H 1350 2250 60  0001 C CNN
 F 4 "CONN-002" H 1450 2350 60  0001 C CNN "part_num"
 	1    1250 2000
 	1    0    0    -1  
@@ -259,7 +259,7 @@ P 5400 2650
 F 0 "J24" H 5500 3000 60  0000 C CNN
 F 1 "SPOX-6" H 5500 2300 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 5400 2800 60  0001 C CNN
-F 3 "" H 5400 2800 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 5400 2800 60  0001 C CNN
 F 4 "CONN-005" H 5600 3100 60  0001 C CNN "part_num"
 	1    5400 2650
 	1    0    0    -1  
@@ -271,7 +271,7 @@ P 5400 3500
 F 0 "J25" H 5500 3850 60  0000 C CNN
 F 1 "SPOX-6" H 5500 3150 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 5400 3650 60  0001 C CNN
-F 3 "" H 5400 3650 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 5400 3650 60  0001 C CNN
 F 4 "CONN-005" H 5600 3950 60  0001 C CNN "part_num"
 	1    5400 3500
 	1    0    0    -1  
@@ -283,7 +283,7 @@ P 5400 5350
 F 0 "J26" H 5500 5700 60  0000 C CNN
 F 1 "SPOX-6" H 5500 5000 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 5400 5500 60  0001 C CNN
-F 3 "" H 5400 5500 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 5400 5500 60  0001 C CNN
 F 4 "CONN-005" H 5600 5800 60  0001 C CNN "part_num"
 	1    5400 5350
 	1    0    0    -1  
@@ -295,7 +295,7 @@ P 9000 3750
 F 0 "J28" H 9100 4100 60  0000 C CNN
 F 1 "SPOX-6" H 9100 3400 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 9000 3900 60  0001 C CNN
-F 3 "" H 9000 3900 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 9000 3900 60  0001 C CNN
 F 4 "CONN-005" H 9200 4200 60  0001 C CNN "part_num"
 	1    9000 3750
 	1    0    0    -1  
@@ -307,7 +307,7 @@ P 9000 4550
 F 0 "J29" H 9100 4900 60  0000 C CNN
 F 1 "SPOX-6" H 9100 4200 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 9000 4700 60  0001 C CNN
-F 3 "" H 9000 4700 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 9000 4700 60  0001 C CNN
 F 4 "CONN-005" H 9200 5000 60  0001 C CNN "part_num"
 	1    9000 4550
 	1    0    0    -1  
@@ -319,7 +319,7 @@ P 9000 5400
 F 0 "J30" H 9100 5750 60  0000 C CNN
 F 1 "SPOX-6" H 9100 5050 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 9000 5550 60  0001 C CNN
-F 3 "" H 9000 5550 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 9000 5550 60  0001 C CNN
 F 4 "CONN-005" H 9200 5850 60  0001 C CNN "part_num"
 	1    9000 5400
 	1    0    0    -1  
@@ -331,7 +331,7 @@ P 3700 4450
 F 0 "J22" H 3800 4700 60  0000 C CNN
 F 1 "SPOX-4" H 3800 4200 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 3700 4500 60  0001 C CNN
-F 3 "" H 3700 4500 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 3700 4500 60  0001 C CNN
 F 4 "CONN-003" H 3900 4800 60  0001 C CNN "part_num"
 	1    3700 4450
 	1    0    0    -1  
@@ -343,21 +343,21 @@ P 3700 5000
 F 0 "J23" H 3800 5250 60  0000 C CNN
 F 1 "SPOX-4" H 3800 4750 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 3700 5050 60  0001 C CNN
-F 3 "" H 3700 5050 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 3700 5050 60  0001 C CNN
 F 4 "CONN-003" H 3900 5350 60  0001 C CNN "part_num"
 	1    3700 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:SPOX-3 J16
+L WARG:SPOX-4 J16
 U 1 1 5966BE07
-P 1200 1400
-F 0 "J16" H 1300 1650 60  0000 C CNN
-F 1 "SPOX-3" H 1300 1200 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5035_03x2.54mm_Straight" H 1200 1550 60  0001 C CNN
-F 3 "" H 1300 1650 60  0001 C CNN
-F 4 "CONN-002" H 1400 1750 60  0001 C CNN "part_num"
-	1    1200 1400
+P 1250 1350
+F 0 "J16" H 1350 1650 60  0000 C CNN
+F 1 "SPOX-4" H 1350 1100 60  0000 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 1250 1500 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 1350 1600 60  0001 C CNN
+F 4 "CONN-002" H 1450 1700 60  0001 C CNN "part_num"
+	1    1250 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -367,7 +367,7 @@ P 1250 2600
 F 0 "J18" H 1350 2850 60  0000 C CNN
 F 1 "SPOX-4" H 1350 2350 60  0000 C CNN
 F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 1250 2650 60  0001 C CNN
-F 3 "" H 1250 2650 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 1250 2650 60  0001 C CNN
 F 4 "CONN-003" H 1450 2950 60  0001 C CNN "part_num"
 	1    1250 2600
 	1    0    0    -1  
@@ -381,21 +381,21 @@ UHF_TX
 $Comp
 L WARG:SPOX-2 J19
 U 1 1 597D9B19
-P 1300 3250
-F 0 "J19" H 1400 3400 60  0000 C CNN
-F 1 "SPOX-2" H 1400 3100 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5025_02x2.54mm_Straight" H 1300 3200 60  0001 C CNN
-F 3 "" H 1300 3200 60  0001 C CNN
-F 4 "CONN-001" H 1500 3500 60  0001 C CNN "part_num"
-	1    1300 3250
+P 1250 3250
+F 0 "J19" H 1350 3400 60  0000 C CNN
+F 1 "SPOX-2" H 1350 3100 60  0000 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5025_02x2.54mm_Straight" H 1250 3200 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035025_sd.pdf" H 1250 3200 60  0001 C CNN
+F 4 "CONN-001" H 1450 3500 60  0001 C CNN "part_num"
+	1    1250 3250
 	1    0    0    -1  
 $EndComp
 Text HLabel 3150 2900 0    60   Input ~ 0
 I2C_PULLUP
 Wire Wire Line
-	1600 3300 1500 3300
+	1600 3300 1450 3300
 Wire Wire Line
-	1700 3200 1500 3200
+	1700 3200 1450 3200
 Wire Wire Line
 	1750 3700 1500 3700
 Wire Wire Line
@@ -498,7 +498,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 1500 1600 2100
 Wire Wire Line
-	1400 1500 1600 1500
+	1450 1500 1600 1500
 Connection ~ 1600 2100
 Wire Wire Line
 	9300 2750 9200 2750
@@ -528,9 +528,9 @@ Wire Wire Line
 Wire Wire Line
 	5600 5500 5700 5500
 Wire Wire Line
-	1750 4800 1550 4800
+	1750 4800 1500 4800
 Wire Wire Line
-	1750 4900 1550 4900
+	1750 4900 1500 4900
 Wire Wire Line
 	6600 2400 5600 2400
 Wire Wire Line
@@ -610,9 +610,9 @@ Connection ~ 3350 3750
 Connection ~ 3200 3150
 Connection ~ 3350 3150
 Wire Wire Line
-	1650 1300 1400 1300
+	1650 1300 1450 1300
 Wire Wire Line
-	1400 1400 1650 1400
+	1450 1400 1650 1400
 Wire Wire Line
 	9300 5550 9200 5550
 Wire Wire Line
@@ -940,35 +940,13 @@ $EndComp
 $Comp
 L power:GND #PWR064
 U 1 1 5923F1BC
-P 1600 5000
-F 0 "#PWR064" H 1600 4750 50  0001 C CNN
-F 1 "GND" H 1600 4850 50  0000 C CNN
-F 2 "" H 1600 5000 50  0001 C CNN
-F 3 "" H 1600 5000 50  0001 C CNN
-	1    1600 5000
+P 1600 5200
+F 0 "#PWR064" H 1600 4950 50  0001 C CNN
+F 1 "GND" H 1600 5050 50  0000 C CNN
+F 2 "" H 1600 5200 50  0001 C CNN
+F 3 "" H 1600 5200 50  0001 C CNN
+	1    1600 5200
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP19
-U 1 1 5B4E2465
-P 1550 4800
-F 0 "TP19" H 1550 5100 50  0000 C BNN
-F 1 "TEST" H 1550 5050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1550 4800 50  0001 C CNN
-F 3 "" H 1550 4800 50  0001 C CNN
-	1    1550 4800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector:TestPoint TP22
-U 1 1 5B4E251E
-P 1550 4900
-F 0 "TP22" H 1550 5200 50  0000 C BNN
-F 1 "TEST" H 1550 5150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1550 4900 50  0001 C CNN
-F 3 "" H 1550 4900 50  0001 C CNN
-	1    1550 4900
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	4050 5150 4050 5300
@@ -1018,4 +996,73 @@ Wire Wire Line
 	6500 3750 6500 5600
 Wire Wire Line
 	6600 3250 6600 5100
+Text HLabel 1650 1400 2    60   Input ~ 0
+RSSI
+Wire Wire Line
+	1450 1200 1650 1200
+$Comp
+L WARG:SPOX-4 J?
+U 1 1 5CB789D7
+P 1300 4850
+F 0 "J?" H 1400 5150 60  0000 C CNN
+F 1 "SPOX-4" H 1400 4600 60  0000 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 1300 5000 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 1400 5100 60  0001 C CNN
+F 4 "CONN-002" H 1500 5200 60  0001 C CNN "part_num"
+	1    1300 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 5000 1600 5000
+Connection ~ 1600 5000
+Wire Wire Line
+	1600 5000 1600 5200
+Wire Wire Line
+	1500 4700 1750 4700
+Text HLabel 1750 4700 2    60   Input ~ 0
+V_UHF
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5CCE10BC
+P 9450 1100
+F 0 "H?" H 9550 1146 50  0000 L CNN
+F 1 "MountingHole_M3" H 9550 1055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9450 1100 50  0001 C CNN
+F 3 "~" H 9450 1100 50  0001 C CNN
+	1    9450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5CCE1241
+P 10350 1100
+F 0 "H?" H 10450 1146 50  0000 L CNN
+F 1 "MountingHole_M3" H 10450 1055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10350 1100 50  0001 C CNN
+F 3 "~" H 10350 1100 50  0001 C CNN
+	1    10350 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5CCE706E
+P 9450 850
+F 0 "H?" H 9550 896 50  0000 L CNN
+F 1 "MountingHole_M3" H 9550 805 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9450 850 50  0001 C CNN
+F 3 "~" H 9450 850 50  0001 C CNN
+	1    9450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5CCE70E0
+P 10350 850
+F 0 "H?" H 10450 896 50  0000 L CNN
+F 1 "MountingHole_M3" H 10450 805 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10350 850 50  0001 C CNN
+F 3 "~" H 10350 850 50  0001 C CNN
+	1    10350 850 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

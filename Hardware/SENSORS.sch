@@ -36,8 +36,8 @@ U 1 1 5B12679C
 P 1700 3600
 F 0 "C55" H 1725 3700 50  0000 L CNN
 F 1 "10nF" H 1725 3500 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 2040 3600 50  0001 C CNN
-F 3 "" H 1700 3600 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2040 3600 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 1700 3600 50  0001 C CNN
 F 4 "CAPP-010" H 1700 3600 60  0001 C CNN "part_num"
 	1    1700 3600
 	-1   0    0    1   
@@ -58,9 +58,9 @@ L Device:C C56
 U 1 1 5B126921
 P 2400 2950
 F 0 "C56" H 2425 3050 50  0000 L CNN
-F 1 "0.1uF" H 2425 2850 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 2438 2800 50  0001 C CNN
-F 3 "" H 2400 2950 50  0001 C CNN
+F 1 "100nF" H 2425 2850 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2438 2800 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2400 2950 50  0001 C CNN
 F 4 "CAPP-005" H 2400 2950 60  0001 C CNN "part_num"
 	1    2400 2950
 	1    0    0    -1  
@@ -71,8 +71,8 @@ U 1 1 5B126990
 P 2700 2950
 F 0 "C57" H 2725 3050 50  0000 L CNN
 F 1 "2.2uF" H 2725 2850 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 2738 2800 50  0001 C CNN
-F 3 "" H 2700 2950 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2738 2800 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/specSheet?pn=TMK107ABJ225KA-T++" H 2700 2950 50  0001 C CNN
 F 4 "CAPP-007" H 2700 2950 60  0001 C CNN "part_num"
 	1    2700 2950
 	1    0    0    -1  
@@ -108,9 +108,9 @@ L Device:C C58
 U 1 1 5B126D43
 P 3725 3025
 F 0 "C58" H 3750 3125 50  0000 L CNN
-F 1 "0.1uF" H 3750 2925 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 3763 2875 50  0001 C CNN
-F 3 "" H 3725 3025 50  0001 C CNN
+F 1 "100nF" H 3750 2925 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3763 2875 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 3725 3025 50  0001 C CNN
 F 4 "CAPP-005" H 3725 3025 60  0001 C CNN "part_num"
 	1    3725 3025
 	1    0    0    -1  
@@ -204,8 +204,8 @@ U 1 1 5B1017C9
 P 6200 2975
 F 0 "C59" H 6225 3075 50  0000 L CNN
 F 1 "100nF" H 6225 2875 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6238 2825 50  0001 C CNN
-F 3 "" H 6200 2975 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 2825 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6200 2975 50  0001 C CNN
 F 4 "CAPP-005" H 6200 2975 60  0001 C CNN "part_num"
 	1    6200 2975
 	0    1    1    0   

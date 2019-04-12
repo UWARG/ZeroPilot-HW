@@ -125,7 +125,7 @@ P 8300 1900
 F 0 "J14" H 7650 2500 50  0000 C CNN
 F 1 "Micro_SD_Card" H 8950 2500 50  0000 R CNN
 F 2 "WARG:micro_sd" H 9450 2200 50  0001 C CNN
-F 3 "" H 8300 1900 50  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/5027740891_sd.pdf" H 8300 1900 50  0001 C CNN
 F 4 "MEMM-002" H 8300 1900 60  0001 C CNN "part_num"
 	1    8300 1900
 	1    0    0    -1  
@@ -197,7 +197,7 @@ P 5300 5000
 F 0 "U11" H 5300 5450 60  0000 C CNN
 F 1 "M24C64-WDW6TP" H 5250 4100 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 5200 5350 60  0001 C CNN
-F 3 "" H 5300 5450 60  0001 C CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/5c/df/52/a5/15/f2/48/bd/CD00259166.pdf/files/CD00259166.pdf/jcr:content/translations/en.CD00259166.pdf" H 5300 5450 60  0001 C CNN
 F 4 "MEMM-001" H 5400 5550 60  0001 C CNN "part_num"
 	1    5300 5000
 	1    0    0    -1  
