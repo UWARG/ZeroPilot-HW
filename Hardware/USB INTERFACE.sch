@@ -45,7 +45,7 @@ P 1200 1700
 F 0 "J?" H 1150 2250 50  0000 L CNN
 F 1 "USB_MICRO_B" H 950 2400 50  0000 L CNN
 F 2 "WARG:USB_Micro-B_10118194-0001LF" H 1250 1200 50  0001 C CNN
-F 3 "" H 1350 1650 50  0001 C CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1350 1650 50  0001 C CNN
 F 4 "CONN-012" H 1200 2100 60  0000 C CNN "part_num"
 	1    1200 1700
 	1    0    0    -1  
@@ -53,47 +53,47 @@ $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5B18DE9F
-P 1750 2100
-F 0 "D?" H 1750 2200 50  0000 C CNN
-F 1 "TVS" H 1750 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 1750 2100 50  0001 C CNN
-F 3 "" H 1750 2100 50  0001 C CNN
-F 4 "DIOD-006" H 1750 2100 60  0001 C CNN "part_num"
-	1    1750 2100
+P 1650 2100
+F 0 "D?" H 1650 2200 50  0000 C CNN
+F 1 "TVS" H 1650 2000 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 1650 2100 50  0001 C CNN
+F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 1650 2100 50  0001 C CNN
+F 4 "DIOD-006" H 1650 2100 60  0001 C CNN "part_num"
+	1    1650 2100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5B18E664
-P 2350 2050
-F 0 "R?" V 2430 2050 50  0000 C CNN
-F 1 "4.7k" V 2350 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2280 2050 50  0001 C CNN
-F 3 "" H 2350 2050 50  0001 C CNN
-F 4 "RESS-015" V 2350 2050 60  0001 C CNN "part_num"
-	1    2350 2050
+P 2550 2050
+F 0 "R?" V 2630 2050 50  0000 C CNN
+F 1 "4.7K" V 2550 2050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 2050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 2050 50  0001 C CNN
+F 4 "RESS-015" V 2550 2050 60  0001 C CNN "part_num"
+	1    2550 2050
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5B18F417
-P 2350 2900
-F 0 "#PWR?" H 2350 2650 50  0001 C CNN
-F 1 "GND" H 2350 2750 50  0000 C CNN
-F 2 "" H 2350 2900 50  0001 C CNN
-F 3 "" H 2350 2900 50  0001 C CNN
-	1    2350 2900
+P 2550 2900
+F 0 "#PWR?" H 2550 2650 50  0001 C CNN
+F 1 "GND" H 2550 2750 50  0000 C CNN
+F 2 "" H 2550 2900 50  0001 C CNN
+F 3 "" H 2550 2900 50  0001 C CNN
+	1    2550 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5B18F68F
-P 2650 2900
-F 0 "#PWR?" H 2650 2650 50  0001 C CNN
-F 1 "GND" H 2650 2750 50  0000 C CNN
-F 2 "" H 2650 2900 50  0001 C CNN
-F 3 "" H 2650 2900 50  0001 C CNN
-	1    2650 2900
+P 2800 2900
+F 0 "#PWR?" H 2800 2650 50  0001 C CNN
+F 1 "GND" H 2800 2750 50  0000 C CNN
+F 2 "" H 2800 2900 50  0001 C CNN
+F 3 "" H 2800 2900 50  0001 C CNN
+	1    2800 2900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -113,8 +113,8 @@ U 1 1 5B191598
 P 5300 2750
 F 0 "C?" H 5325 2850 50  0000 L CNN
 F 1 "8pF" H 5325 2650 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 5338 2600 50  0001 C CNN
-F 3 "" H 5300 2750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5338 2600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C080CB8NNNC.jsp" H 5300 2750 50  0001 C CNN
 F 4 "CAPP-011" H 5300 2750 60  0001 C CNN "part_num"
 	1    5300 2750
 	1    0    0    -1  
@@ -133,37 +133,37 @@ $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5B192B88
-P 2050 2100
-F 0 "D?" H 2050 2200 50  0000 C CNN
-F 1 "TVS" H 2050 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 2050 2100 50  0001 C CNN
-F 3 "" H 2050 2100 50  0001 C CNN
-F 4 "DIOD-006" H 2050 2100 60  0001 C CNN "part_num"
-	1    2050 2100
+P 1950 2100
+F 0 "D?" H 1950 2200 50  0000 C CNN
+F 1 "TVS" H 1950 2000 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 1950 2100 50  0001 C CNN
+F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 1950 2100 50  0001 C CNN
+F 4 "DIOD-006" H 1950 2100 60  0001 C CNN "part_num"
+	1    1950 2100
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5B192C5E
-P 2350 2650
-F 0 "R?" V 2430 2650 50  0000 C CNN
-F 1 "10k" V 2350 2650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2280 2650 50  0001 C CNN
-F 3 "" H 2350 2650 50  0001 C CNN
-F 4 "RESS-005" V 2350 2650 60  0001 C CNN "part_num"
-	1    2350 2650
+P 2550 2650
+F 0 "R?" V 2630 2650 50  0000 C CNN
+F 1 "10K" V 2550 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 2650 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 2550 2650 50  0001 C CNN
+F 4 "RESS-005" V 2550 2650 60  0001 C CNN "part_num"
+	1    2550 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5B192CB8
-P 2650 2650
-F 0 "R?" V 2730 2650 50  0000 C CNN
-F 1 "12k" V 2650 2650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 2580 2650 50  0001 C CNN
-F 3 "" H 2650 2650 50  0001 C CNN
-F 4 "RESS-016" V 2650 2650 60  0001 C CNN "part_num"
-	1    2650 2650
+P 2800 2650
+F 0 "R?" V 2880 2650 50  0000 C CNN
+F 1 "12K" V 2800 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 2730 2650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2800 2650 50  0001 C CNN
+F 4 "RESS-016" V 2800 2650 60  0001 C CNN "part_num"
+	1    2800 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -171,9 +171,9 @@ L Device:R R?
 U 1 1 5B192D0B
 P 3000 2350
 F 0 "R?" V 3080 2350 50  0000 C CNN
-F 1 "1k" V 3000 2350 50  0000 C CNN
+F 1 "1K" V 3000 2350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 2350 50  0001 C CNN
-F 3 "" H 3000 2350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3000 2350 50  0001 C CNN
 F 4 "RESS-017" V 3000 2350 60  0001 C CNN "part_num"
 	1    3000 2350
 	0    1    1    0   
@@ -184,8 +184,8 @@ U 1 1 5B193B67
 P 5550 2750
 F 0 "C?" H 5575 2850 50  0000 L CNN
 F 1 "8pF" H 5575 2650 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 5588 2600 50  0001 C CNN
-F 3 "" H 5550 2750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5588 2600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10C080CB8NNNC.jsp" H 5550 2750 50  0001 C CNN
 F 4 "CAPP-011" H 5550 2750 60  0001 C CNN "part_num"
 	1    5550 2750
 	1    0    0    -1  
@@ -196,8 +196,8 @@ U 1 1 5B19574E
 P 2450 5350
 F 0 "C?" H 2475 5450 50  0000 L CNN
 F 1 "100nF" H 2475 5250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 2488 5200 50  0001 C CNN
-F 3 "" H 2450 5350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2488 5200 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2450 5350 50  0001 C CNN
 F 4 "CAPP-005" H 2450 5350 60  0001 C CNN "part_num"
 	1    2450 5350
 	1    0    0    -1  
@@ -210,8 +210,8 @@ U 1 1 5B1A433B
 P 4950 5150
 F 0 "C?" H 4975 5250 50  0000 L CNN
 F 1 "4.7uF" H 4975 5050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 4988 5000 50  0001 C CNN
-F 3 "" H 4950 5150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4988 5000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 4950 5150 50  0001 C CNN
 F 4 "CAPP-006" H 4950 5150 60  0001 C CNN "part_num"
 	1    4950 5150
 	1    0    0    -1  
@@ -222,8 +222,8 @@ U 1 1 5B1A4637
 P 2750 5350
 F 0 "C?" H 2775 5450 50  0000 L CNN
 F 1 "100nF" H 2775 5250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 2788 5200 50  0001 C CNN
-F 3 "" H 2750 5350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2788 5200 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2750 5350 50  0001 C CNN
 F 4 "CAPP-005" H 2750 5350 60  0001 C CNN "part_num"
 	1    2750 5350
 	1    0    0    -1  
@@ -234,8 +234,8 @@ U 1 1 5B1A4690
 P 3050 5350
 F 0 "C?" H 3075 5450 50  0000 L CNN
 F 1 "100nF" H 3075 5250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 3088 5200 50  0001 C CNN
-F 3 "" H 3050 5350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3088 5200 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 3050 5350 50  0001 C CNN
 F 4 "CAPP-005" H 3050 5350 60  0001 C CNN "part_num"
 	1    3050 5350
 	1    0    0    -1  
@@ -246,8 +246,8 @@ U 1 1 5B1A4789
 P 1650 6150
 F 0 "C?" H 1675 6250 50  0000 L CNN
 F 1 "100nF" H 1675 6050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 1688 6000 50  0001 C CNN
-F 3 "" H 1650 6150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1688 6000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 1650 6150 50  0001 C CNN
 F 4 "CAPP-005" H 1650 6150 60  0001 C CNN "part_num"
 	1    1650 6150
 	1    0    0    -1  
@@ -258,8 +258,8 @@ U 1 1 5B1A4790
 P 1950 6150
 F 0 "C?" H 1975 6250 50  0000 L CNN
 F 1 "100nF" H 1975 6050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 1988 6000 50  0001 C CNN
-F 3 "" H 1950 6150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1988 6000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 1950 6150 50  0001 C CNN
 F 4 "CAPP-005" H 1950 6150 60  0001 C CNN "part_num"
 	1    1950 6150
 	1    0    0    -1  
@@ -270,8 +270,8 @@ U 1 1 5B1A4797
 P 2250 6150
 F 0 "C?" H 2275 6250 50  0000 L CNN
 F 1 "100nF" H 2275 6050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 2288 6000 50  0001 C CNN
-F 3 "" H 2250 6150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2288 6000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2250 6150 50  0001 C CNN
 F 4 "CAPP-005" H 2250 6150 60  0001 C CNN "part_num"
 	1    2250 6150
 	1    0    0    -1  
@@ -282,8 +282,8 @@ U 1 1 5B1A4870
 P 5250 5150
 F 0 "C?" H 5275 5250 50  0000 L CNN
 F 1 "4.7uF" H 5275 5050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 5288 5000 50  0001 C CNN
-F 3 "" H 5250 5150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5288 5000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 5250 5150 50  0001 C CNN
 F 4 "CAPP-006" H 5250 5150 60  0001 C CNN "part_num"
 	1    5250 5150
 	1    0    0    -1  
@@ -294,8 +294,8 @@ U 1 1 5B1A48D8
 P 4350 5150
 F 0 "C?" H 4375 5250 50  0000 L CNN
 F 1 "100nF" H 4375 5050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 4388 5000 50  0001 C CNN
-F 3 "" H 4350 5150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4388 5000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 4350 5150 50  0001 C CNN
 F 4 "CAPP-005" H 4350 5150 60  0001 C CNN "part_num"
 	1    4350 5150
 	1    0    0    -1  
@@ -306,8 +306,8 @@ U 1 1 5B1A4943
 P 4650 5150
 F 0 "C?" H 4675 5250 50  0000 L CNN
 F 1 "100nF" H 4675 5050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 4688 5000 50  0001 C CNN
-F 3 "" H 4650 5150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4688 5000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 4650 5150 50  0001 C CNN
 F 4 "CAPP-005" H 4650 5150 60  0001 C CNN "part_num"
 	1    4650 5150
 	1    0    0    -1  
@@ -318,8 +318,8 @@ U 1 1 5B1A4BAA
 P 5950 4750
 F 0 "L?" V 5900 4750 50  0000 C CNN
 F 1 "600R" V 6060 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 5950 4750 50  0001 C CNN
-F 3 "" H 5950 4750 50  0001 C CNN
+F 2 "Inductors_SMD:L_0603_HandSoldering" H 5950 4750 50  0001 C CNN
+F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/WC706/doc_part/WC706.pdf" H 5950 4750 50  0001 C CNN
 F 4 "INDU-002" V 5950 4750 60  0001 C CNN "part_num"
 	1    5950 4750
 	0    -1   -1   0   
@@ -330,8 +330,8 @@ U 1 1 5B1A4FBF
 P 5600 4950
 F 0 "L?" V 5550 4950 50  0000 C CNN
 F 1 "600R" V 5710 4950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 5600 4950 50  0001 C CNN
-F 3 "" H 5600 4950 50  0001 C CNN
+F 2 "Inductors_SMD:L_0603_HandSoldering" H 5600 4950 50  0001 C CNN
+F 3 "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/WC706/doc_part/WC706.pdf" H 5600 4950 50  0001 C CNN
 F 4 "INDU-002" V 5600 4950 60  0001 C CNN "part_num"
 	1    5600 4950
 	0    -1   -1   0   
@@ -364,8 +364,8 @@ U 1 1 5B1A6311
 P 6500 5150
 F 0 "C?" H 6525 5250 50  0000 L CNN
 F 1 "100nF" H 6525 5050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6538 5000 50  0001 C CNN
-F 3 "" H 6500 5150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6538 5000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6500 5150 50  0001 C CNN
 F 4 "CAPP-005" H 6500 5150 60  0001 C CNN "part_num"
 	1    6500 5150
 	1    0    0    -1  
@@ -376,8 +376,8 @@ U 1 1 5B1A63F7
 P 6200 5150
 F 0 "C?" H 6225 5250 50  0000 L CNN
 F 1 "4.7uF" H 6225 5050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 6238 5000 50  0001 C CNN
-F 3 "" H 6200 5150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6238 5000 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 6200 5150 50  0001 C CNN
 F 4 "CAPP-006" H 6200 5150 60  0001 C CNN "part_num"
 	1    6200 5150
 	1    0    0    -1  
@@ -388,8 +388,8 @@ U 1 1 5B1A8A27
 P 2550 6150
 F 0 "C?" H 2575 6250 50  0000 L CNN
 F 1 "100nF" H 2575 6050 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 2588 6000 50  0001 C CNN
-F 3 "" H 2550 6150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2588 6000 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 2550 6150 50  0001 C CNN
 F 4 "CAPP-005" H 2550 6150 60  0001 C CNN "part_num"
 	1    2550 6150
 	1    0    0    -1  
@@ -422,8 +422,8 @@ U 1 1 5B1AF6AA
 P 3500 5350
 F 0 "C?" H 3525 5450 50  0000 L CNN
 F 1 "100nF" H 3525 5250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 3538 5200 50  0001 C CNN
-F 3 "" H 3500 5350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3538 5200 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 3500 5350 50  0001 C CNN
 F 4 "CAPP-005" H 3500 5350 60  0001 C CNN "part_num"
 	1    3500 5350
 	1    0    0    -1  
@@ -434,8 +434,8 @@ U 1 1 5B1AF726
 P 3800 5350
 F 0 "C?" H 3825 5450 50  0000 L CNN
 F 1 "4.7uF" H 3825 5250 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" H 3838 5200 50  0001 C CNN
-F 3 "" H 3800 5350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3838 5200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 3800 5350 50  0001 C CNN
 F 4 "CAPP-006" H 3800 5350 60  0001 C CNN "part_num"
 	1    3800 5350
 	1    0    0    -1  
@@ -493,9 +493,9 @@ L Device:R R?
 U 1 1 5B2565D0
 P 3000 1700
 F 0 "R?" V 2900 1700 50  0000 C CNN
-F 1 "10R" V 3000 1700 50  0000 C CNN
+F 1 "10" V 3000 1700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 1700 50  0001 C CNN
-F 3 "" H 3000 1700 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" H 3000 1700 50  0001 C CNN
 F 4 "RESS-018" V 3000 1700 60  0001 C CNN "part_num"
 	1    3000 1700
 	0    1    1    0   
@@ -505,9 +505,9 @@ L Device:R R?
 U 1 1 5B256932
 P 3000 1800
 F 0 "R?" V 3080 1800 50  0000 C CNN
-F 1 "10R" V 3000 1800 50  0000 C CNN
+F 1 "10" V 3000 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 1800 50  0001 C CNN
-F 3 "" H 3000 1800 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" H 3000 1800 50  0001 C CNN
 F 4 "RESS-018" V 3000 1800 60  0001 C CNN "part_num"
 	1    3000 1800
 	0    1    1    0   
@@ -521,9 +521,9 @@ L Device:R R?
 U 1 1 5B25A964
 P 8200 2000
 F 0 "R?" V 8250 1800 50  0000 C CNN
-F 1 "0R" V 8200 2000 50  0000 C CNN
+F 1 "0" V 8200 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 2000 50  0001 C CNN
-F 3 "" H 8200 2000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 8200 2000 50  0001 C CNN
 F 4 "RESS-001" V 8200 2000 60  0001 C CNN "part_num"
 	1    8200 2000
 	0    1    1    0   
@@ -533,9 +533,9 @@ L Device:R R?
 U 1 1 5B25BD92
 P 7950 1900
 F 0 "R?" V 8000 1700 50  0000 C CNN
-F 1 "220R" V 7950 1900 50  0000 C CNN
+F 1 "220" V 7950 1900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7880 1900 50  0001 C CNN
-F 3 "" H 7950 1900 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf" H 7950 1900 50  0001 C CNN
 F 4 "RESS-014" V 7950 1900 60  0001 C CNN "part_num"
 	1    7950 1900
 	0    1    1    0   
@@ -549,9 +549,9 @@ L Device:R R?
 U 1 1 5B25CA6C
 P 9700 2000
 F 0 "R?" V 9750 1800 50  0000 C CNN
-F 1 "0R" V 9700 2000 50  0000 C CNN
+F 1 "0" V 9700 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9630 2000 50  0001 C CNN
-F 3 "" H 9700 2000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 2000 50  0001 C CNN
 F 4 "RESS-001" V 9700 2000 60  0001 C CNN "part_num"
 	1    9700 2000
 	0    -1   1    0   
@@ -561,9 +561,9 @@ L Device:R R?
 U 1 1 5B25CA74
 P 9950 1900
 F 0 "R?" V 10000 1700 50  0000 C CNN
-F 1 "220R" V 9950 1900 50  0000 C CNN
+F 1 "220" V 9950 1900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9880 1900 50  0001 C CNN
-F 3 "" H 9950 1900 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf" H 9950 1900 50  0001 C CNN
 F 4 "RESS-014" V 9950 1900 60  0001 C CNN "part_num"
 	1    9950 1900
 	0    -1   1    0   
@@ -575,7 +575,7 @@ P 4650 2250
 F 0 "Y?" V 4700 2800 50  0000 L CNN
 F 1 "Crystal_GND24" V 4600 2550 50  0000 L CNN
 F 2 "Crystals:Crystal_SMD_2520-4pin_2.5x2.0mm" H 4650 2250 50  0001 C CNN
-F 3 "" H 4650 2250 50  0001 C CNN
+F 3 "https://abracon.com/Resonators/ABM10-166-12.000MHz.pdf" H 4650 2250 50  0001 C CNN
 F 4 "XTAL-003" V 4650 2250 60  0001 C CNN "part_num"
 	1    4650 2250
 	0    1    1    0   
@@ -638,39 +638,24 @@ UART1_RTS
 Text HLabel 8350 5100 0    60   Input ~ 0
 UART1_CTS
 Wire Wire Line
-	1500 1700 2050 1700
+	2550 2200 2550 2350
 Wire Wire Line
-	1500 1800 1750 1800
-Wire Wire Line
-	1750 1800 1750 1950
-Connection ~ 1750 1800
-Wire Wire Line
-	2050 1700 2050 1950
-Connection ~ 2050 1700
-Wire Wire Line
-	2350 2200 2350 2350
-Wire Wire Line
-	2350 2800 2350 2900
+	2550 2800 2550 2900
 Wire Wire Line
 	3300 2350 3150 2350
 Wire Wire Line
-	2350 2350 2850 2350
-Connection ~ 2350 2350
+	2550 2350 2850 2350
+Connection ~ 2550 2350
 Wire Wire Line
-	2650 2900 2650 2800
+	2800 2900 2800 2800
 Wire Wire Line
-	2650 2000 2650 2500
+	2800 2000 2800 2500
 Wire Wire Line
-	2650 2000 3300 2000
-Wire Wire Line
-	2050 2350 2050 2250
+	2800 2000 3300 2000
 Wire Wire Line
 	1100 2350 1200 2350
 Wire Wire Line
-	1750 2250 1750 2350
-Wire Wire Line
 	1200 2350 1200 2100
-Connection ~ 1750 2350
 Wire Wire Line
 	1100 2100 1100 2350
 Connection ~ 1200 2350
@@ -894,8 +879,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 1300 2350 1500
 Wire Wire Line
-	2350 1500 1500 1500
-Wire Wire Line
 	8050 2000 7650 2000
 Wire Wire Line
 	9850 2000 10250 2000
@@ -916,7 +899,6 @@ Wire Wire Line
 	4400 2250 4450 2250
 Wire Wire Line
 	2550 1300 2350 1300
-Connection ~ 2350 1500
 Wire Wire Line
 	10350 2100 9450 2100
 Wire Wire Line
@@ -943,17 +925,11 @@ Wire Wire Line
 	7650 2000 7650 1900
 Connection ~ 7650 1900
 Wire Wire Line
-	1750 1800 2850 1800
-Wire Wire Line
-	2050 1700 2850 1700
-Wire Wire Line
-	2350 2350 2350 2500
-Wire Wire Line
-	1750 2350 2050 2350
+	2550 2350 2550 2500
 Wire Wire Line
 	1750 2350 1750 2600
 Wire Wire Line
-	1200 2350 1750 2350
+	1200 2350 1650 2350
 Wire Wire Line
 	5550 3000 5550 3100
 Wire Wire Line
@@ -1045,7 +1021,52 @@ Wire Wire Line
 Wire Wire Line
 	4650 2050 5550 2050
 Wire Wire Line
-	2350 1500 2350 1900
-Wire Wire Line
 	7650 1900 7800 1900
+Wire Wire Line
+	2350 1500 2550 1500
+Wire Wire Line
+	2550 1500 2550 1900
+Text Notes 1650 1100 0    60   ~ 0
+Add OV and OC protection.
+Wire Wire Line
+	1500 1700 1950 1700
+Wire Wire Line
+	1650 2250 1650 2350
+Wire Wire Line
+	1500 1800 1650 1800
+Connection ~ 1650 2350
+Wire Wire Line
+	1650 2350 1750 2350
+Wire Wire Line
+	1750 2350 1950 2350
+Wire Wire Line
+	1950 2350 1950 2250
+Connection ~ 1750 2350
+Wire Wire Line
+	1650 1950 1650 1800
+Connection ~ 1650 1800
+Wire Wire Line
+	1650 1800 2850 1800
+Wire Wire Line
+	1950 1950 1950 1700
+Connection ~ 1950 1700
+Wire Wire Line
+	1950 1700 2850 1700
+$Comp
+L Device:D_Schottky D?
+U 1 1 5CC2FB03
+P 1800 1500
+F 0 "D?" H 1800 1284 50  0000 C CNN
+F 1 "D_Schottky" H 1800 1375 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123F" H 1800 1500 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 1800 1500 50  0001 C CNN
+F 4 "DIOD-007" H 0   0   50  0001 C CNN "part_num"
+	1    1800 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 1500 1650 1500
+Wire Wire Line
+	1950 1500 2350 1500
+Connection ~ 2350 1500
 $EndSCHEMATC
