@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -151,9 +152,11 @@ Populate resistors to select I2C address\n
 NoConn ~ 7400 1600
 NoConn ~ 7400 2300
 $Comp
-L Micro_SD_Card J37
+L Micro_SD_Card-RESCUE-ZeroPilot J37
 U 1 1 59517B7C
 P 8300 1900
+AR Path="/59517B7C" Ref="J37"  Part="1" 
+AR Path="/5920635A/59517B7C" Ref="J37"  Part="1" 
 F 0 "J37" H 7650 2500 50  0000 C CNN
 F 1 "Micro_SD_Card" H 8950 2500 50  0000 R CNN
 F 2 "WARG:micro_sd" H 9450 2200 50  0001 C CNN

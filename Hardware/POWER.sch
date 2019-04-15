@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:ZeroPilot-rescue
 LIBS:WARG
 LIBS:power
 LIBS:device
@@ -750,7 +751,7 @@ Text Label 5500 4900 0    60   ~ 0
 Text Label 5300 2250 0    60   ~ 0
 5V_EXT_FB
 $Comp
-L SPOX-2 J14
+L SPOX-2-RESCUE-ZeroPilot J14
 U 1 1 597DA04D
 P 750 2850
 F 0 "J14" H 850 3000 60  0000 C CNN
@@ -766,7 +767,7 @@ Power jumper\nUse to measure current and\ndebug power
 Text Notes 850  2150 0    60   ~ 0
 Reverse polarity protection
 $Comp
-L TS30013-M050QFNR U2
+L TS30013-M050QFNR-RESCUE-ZeroPilot U2
 U 1 1 597EBED9
 P 4700 4950
 F 0 "U2" H 4650 5900 60  0000 C CNN
@@ -778,7 +779,7 @@ F 4 "REGU-001" H 4750 6000 60  0000 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L TS30013-M050QFNR U1
+L TS30013-M050QFNR-RESCUE-ZeroPilot U1
 U 1 1 597EBF5F
 P 4700 2300
 F 0 "U1" H 4650 3250 60  0000 C CNN
