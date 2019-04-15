@@ -76,9 +76,9 @@ F 4 "RESS-007" V 3400 2700 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 Text HLabel 2950 2700 0    60   Input ~ 0
-EXT_BATT_IN
+V_ISENSE_IN
 Text HLabel 4400 2700 2    60   Output ~ 0
-EXT_BATT_OUT
+V_ISENSE_OUT
 Text HLabel 2950 1800 0    60   Input ~ 0
 VBATT_IN
 Text HLabel 4400 1800 2    60   Output ~ 0

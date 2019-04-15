@@ -513,18 +513,18 @@ VDD
 $Comp
 L Connector:TestPoint TP4
 U 1 1 596A3495
-P 7200 3200
-F 0 "TP4" H 7200 3500 50  0000 C BNN
-F 1 "TEST" H 7200 3450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7200 3200 50  0001 C CNN
-F 3 "" H 7200 3200 50  0001 C CNN
-	1    7200 3200
+P 7150 3200
+F 0 "TP4" H 7150 3500 50  0000 C BNN
+F 1 "TEST" H 7150 3450 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7150 3200 50  0001 C CNN
+F 3 "" H 7150 3200 50  0001 C CNN
+	1    7150 3200
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7200 3200 7200 3150
+	7150 3200 7150 3150
 Wire Wire Line
-	7200 3150 7400 3150
+	7150 3150 7400 3150
 NoConn ~ 3900 5400
 NoConn ~ 3900 5300
 NoConn ~ 3900 5200
@@ -863,6 +863,30 @@ Wire Notes Line
 	2350 2900 3050 2900
 Wire Notes Line
 	3050 2900 3050 2700
+$Comp
+L Device:R R?
+U 1 1 5CBCEAA5
+P 7400 3300
+F 0 "R?" V 7480 3300 50  0000 C CNN
+F 1 "100K" V 7400 3300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 3300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 7400 3300 50  0001 C CNN
+F 4 "RESS-008" V 7400 3300 60  0001 C CNN "part_num"
+	1    7400 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 7400 3150
 Wire Bus Line
 	1400 3700 1400 5350
+$Comp
+L power:GND #PWR?
+U 1 1 5CBD6D08
+P 7400 3450
+F 0 "#PWR?" H 7400 3200 50  0001 C CNN
+F 1 "GND" H 7405 3277 50  0000 C CNN
+F 2 "" H 7400 3450 50  0001 C CNN
+F 3 "" H 7400 3450 50  0001 C CNN
+	1    7400 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

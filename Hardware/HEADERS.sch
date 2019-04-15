@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1700 3200 2    60   Input ~ 0
-EXT_BATT
+V_ISENSE
 Text HLabel 1750 3800 2    60   Input ~ 0
 DBG_RX_SAFETY
 Text HLabel 1750 3700 2    60   Input ~ 0
@@ -241,134 +241,134 @@ F 4 "RESS-005" V 3550 4500 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:SPOX-3 J17
+L conn:Conn_01x03 J17
 U 1 1 595BD83D
 P 1250 2000
 F 0 "J17" H 1350 2250 60  0000 C CNN
-F 1 "SPOX-3" H 1350 1800 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5035_03x2.54mm_Straight" H 1250 2150 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035035_sd.pdf" H 1350 2250 60  0001 C CNN
-F 4 "CONN-002" H 1450 2350 60  0001 C CNN "part_num"
+F 1 "GH-3" H 1350 1800 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM03B-GHS-TBT_03x1.25mm_Straight" H 1250 2150 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1350 2250 60  0001 C CNN
+F 4 "CONN-014" H 1450 2350 60  0001 C CNN "part_num"
 	1    1250 2000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-6 J24
+L conn:Conn_01x06 J24
 U 1 1 595BDC13
-P 5400 2650
-F 0 "J24" H 5500 3000 60  0000 C CNN
-F 1 "SPOX-6" H 5500 2300 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 5400 2800 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 5400 2800 60  0001 C CNN
-F 4 "CONN-005" H 5600 3100 60  0001 C CNN "part_num"
-	1    5400 2650
-	1    0    0    -1  
+P 5400 2700
+F 0 "J24" H 5500 3050 60  0000 C CNN
+F 1 "GH-6" H 5500 2350 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5400 2850 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 2850 60  0001 C CNN
+F 4 "CONN-017" H 5600 3150 60  0001 C CNN "part_num"
+	1    5400 2700
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-6 J25
+L conn:Conn_01x06 J25
 U 1 1 595BDC6A
-P 5400 3500
-F 0 "J25" H 5500 3850 60  0000 C CNN
-F 1 "SPOX-6" H 5500 3150 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 5400 3650 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 5400 3650 60  0001 C CNN
-F 4 "CONN-005" H 5600 3950 60  0001 C CNN "part_num"
-	1    5400 3500
-	1    0    0    -1  
+P 5400 3550
+F 0 "J25" H 5500 3900 60  0000 C CNN
+F 1 "GH-6" H 5500 3200 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5400 3700 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 3700 60  0001 C CNN
+F 4 "CONN-017" H 5600 4000 60  0001 C CNN "part_num"
+	1    5400 3550
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-6 J26
+L conn:Conn_01x06 J26
 U 1 1 595BDCF6
-P 5400 5350
-F 0 "J26" H 5500 5700 60  0000 C CNN
-F 1 "SPOX-6" H 5500 5000 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 5400 5500 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 5400 5500 60  0001 C CNN
-F 4 "CONN-005" H 5600 5800 60  0001 C CNN "part_num"
-	1    5400 5350
-	1    0    0    -1  
+P 5400 5400
+F 0 "J26" H 5500 5750 60  0000 C CNN
+F 1 "GH-6" H 5500 5050 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5400 5550 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 5550 60  0001 C CNN
+F 4 "CONN-017" H 5600 5850 60  0001 C CNN "part_num"
+	1    5400 5400
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-6 J28
+L conn:Conn_01x06 J28
 U 1 1 595BDD92
-P 9000 3750
-F 0 "J28" H 9100 4100 60  0000 C CNN
-F 1 "SPOX-6" H 9100 3400 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 9000 3900 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 9000 3900 60  0001 C CNN
-F 4 "CONN-005" H 9200 4200 60  0001 C CNN "part_num"
-	1    9000 3750
-	1    0    0    -1  
+P 9000 3800
+F 0 "J28" H 9100 4150 60  0000 C CNN
+F 1 "GH-6" H 9100 3450 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 9000 3950 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 9000 3950 60  0001 C CNN
+F 4 "CONN-017" H 9200 4250 60  0001 C CNN "part_num"
+	1    9000 3800
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-6 J29
+L conn:Conn_01x06 J29
 U 1 1 595BDDDE
-P 9000 4550
-F 0 "J29" H 9100 4900 60  0000 C CNN
-F 1 "SPOX-6" H 9100 4200 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 9000 4700 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 9000 4700 60  0001 C CNN
-F 4 "CONN-005" H 9200 5000 60  0001 C CNN "part_num"
-	1    9000 4550
-	1    0    0    -1  
+P 9000 4600
+F 0 "J29" H 9100 4950 60  0000 C CNN
+F 1 "GH-6" H 9100 4250 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 9000 4750 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 9000 4750 60  0001 C CNN
+F 4 "CONN-017" H 9200 5050 60  0001 C CNN "part_num"
+	1    9000 4600
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-6 J30
+L conn:Conn_01x06 J30
 U 1 1 595BDE34
-P 9000 5400
-F 0 "J30" H 9100 5750 60  0000 C CNN
-F 1 "SPOX-6" H 9100 5050 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5065_06x2.54mm_Straight" H 9000 5550 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035065_sd.pdf" H 9000 5550 60  0001 C CNN
-F 4 "CONN-005" H 9200 5850 60  0001 C CNN "part_num"
-	1    9000 5400
-	1    0    0    -1  
+P 9000 5450
+F 0 "J30" H 9100 5800 60  0000 C CNN
+F 1 "GH-6" H 9100 5100 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 9000 5600 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 9000 5600 60  0001 C CNN
+F 4 "CONN-017" H 9200 5900 60  0001 C CNN "part_num"
+	1    9000 5450
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-4 J22
+L conn:Conn_01x04 J22
 U 1 1 595C306F
-P 3700 4450
-F 0 "J22" H 3800 4700 60  0000 C CNN
-F 1 "SPOX-4" H 3800 4200 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 3700 4500 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 3700 4500 60  0001 C CNN
-F 4 "CONN-003" H 3900 4800 60  0001 C CNN "part_num"
-	1    3700 4450
-	1    0    0    -1  
+P 3700 4500
+F 0 "J22" H 3800 4750 60  0000 C CNN
+F 1 "GH-4" H 3800 4250 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 4550 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 4550 60  0001 C CNN
+F 4 "CONN-015" H 3900 4850 60  0001 C CNN "part_num"
+	1    3700 4500
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-4 J23
+L conn:Conn_01x04 J23
 U 1 1 595C30C3
-P 3700 5000
-F 0 "J23" H 3800 5250 60  0000 C CNN
-F 1 "SPOX-4" H 3800 4750 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 3700 5050 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 3700 5050 60  0001 C CNN
-F 4 "CONN-003" H 3900 5350 60  0001 C CNN "part_num"
-	1    3700 5000
-	1    0    0    -1  
+P 3700 5050
+F 0 "J23" H 3800 5300 60  0000 C CNN
+F 1 "GH-4" H 3800 4800 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 5100 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 5100 60  0001 C CNN
+F 4 "CONN-015" H 3900 5400 60  0001 C CNN "part_num"
+	1    3700 5050
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-4 J16
+L conn:Conn_01x04 J16
 U 1 1 5966BE07
-P 1250 1350
-F 0 "J16" H 1350 1650 60  0000 C CNN
-F 1 "SPOX-4" H 1350 1100 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 1250 1500 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 1350 1600 60  0001 C CNN
-F 4 "CONN-002" H 1450 1700 60  0001 C CNN "part_num"
-	1    1250 1350
-	1    0    0    -1  
+P 1250 1400
+F 0 "J16" H 1350 1700 60  0000 C CNN
+F 1 "GH-4" H 1350 1150 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1250 1550 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1350 1650 60  0001 C CNN
+F 4 "CONN-015" H 1450 1750 60  0001 C CNN "part_num"
+	1    1250 1400
+	-1   0    0    1   
 $EndComp
 $Comp
-L WARG:SPOX-4 J18
+L conn:Conn_01x04 J18
 U 1 1 5966BE8B
 P 1250 2600
 F 0 "J18" H 1350 2850 60  0000 C CNN
-F 1 "SPOX-4" H 1350 2350 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 1250 2650 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 1250 2650 60  0001 C CNN
-F 4 "CONN-003" H 1450 2950 60  0001 C CNN "part_num"
+F 1 "GH-4" H 1350 2350 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1250 2650 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 2650 60  0001 C CNN
+F 4 "CONN-015" H 1450 2950 60  0001 C CNN "part_num"
 	1    1250 2600
 	1    0    0    -1  
 $EndComp
@@ -379,16 +379,16 @@ DBG_TX_PILOT
 Text HLabel 1750 4800 2    60   Input ~ 0
 UHF_TX
 $Comp
-L WARG:SPOX-2 J19
+L conn:Conn_01x02 J19
 U 1 1 597D9B19
-P 1250 3250
-F 0 "J19" H 1350 3400 60  0000 C CNN
-F 1 "SPOX-2" H 1350 3100 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5025_02x2.54mm_Straight" H 1250 3200 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035025_sd.pdf" H 1250 3200 60  0001 C CNN
-F 4 "CONN-001" H 1450 3500 60  0001 C CNN "part_num"
-	1    1250 3250
-	1    0    0    -1  
+P 1250 3300
+F 0 "J19" H 1350 3450 60  0000 C CNN
+F 1 "GH-2" H 1350 3150 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM02B-GHS-TBT_02x1.25mm_Straight" H 1250 3250 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 3250 60  0001 C CNN
+F 4 "CONN-013" H 1450 3550 60  0001 C CNN "part_num"
+	1    1250 3300
+	-1   0    0    1   
 $EndComp
 Text HLabel 3150 2900 0    60   Input ~ 0
 I2C_PULLUP
@@ -403,12 +403,12 @@ Wire Wire Line
 Wire Wire Line
 	4050 4600 4050 5150
 Wire Wire Line
-	4050 5150 3900 5150
+	4050 5150 3950 5150
 Wire Wire Line
 	3900 4600 4050 4600
 Connection ~ 4050 5150
 Wire Wire Line
-	4200 5050 3900 5050
+	4200 5050 3950 5050
 Wire Wire Line
 	4200 3250 4200 4500
 Wire Wire Line
@@ -1001,16 +1001,16 @@ RSSI
 Wire Wire Line
 	1450 1200 1650 1200
 $Comp
-L WARG:SPOX-4 J?
+L conn:Conn_01x04 J?
 U 1 1 5CB789D7
-P 1300 4850
-F 0 "J?" H 1400 5150 60  0000 C CNN
-F 1 "SPOX-4" H 1400 4600 60  0000 C CNN
-F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5045_04x2.54mm_Straight" H 1300 5000 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035045_sd.pdf" H 1400 5100 60  0001 C CNN
-F 4 "CONN-002" H 1500 5200 60  0001 C CNN "part_num"
-	1    1300 4850
-	1    0    0    -1  
+P 1300 4900
+F 0 "J?" H 1400 5200 60  0000 C CNN
+F 1 "GH-4" H 1400 4650 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1300 5050 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1400 5150 60  0001 C CNN
+F 4 "CONN-015" H 1500 5250 60  0001 C CNN "part_num"
+	1    1300 4900
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	1500 5000 1600 5000
@@ -1065,4 +1065,10 @@ F 3 "~" H 9450 900 50  0001 C CNN
 	1    9450 900 
 	1    0    0    -1  
 $EndComp
+Connection ~ 3950 5050
+Wire Wire Line
+	3950 5050 3900 5050
+Connection ~ 3950 5150
+Wire Wire Line
+	3950 5150 3900 5150
 $EndSCHEMATC

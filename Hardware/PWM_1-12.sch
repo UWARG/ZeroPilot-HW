@@ -14,347 +14,272 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Entry Wire Line
-	2150 5550 2250 5650
-Entry Wire Line
-	2150 4100 2250 4200
-Entry Wire Line
-	2150 2600 2250 2700
-Entry Wire Line
-	2150 1150 2250 1250
-Text Label 2350 1250 0    60   ~ 0
+Text Label 2700 1400 2    60   ~ 0
 PWM1
-Text Label 2350 2700 0    60   ~ 0
+Text Label 2700 1500 2    60   ~ 0
 PWM2
-Text Label 2350 4200 0    60   ~ 0
+Text Label 2700 2200 2    60   ~ 0
 PWM3
-Text Label 2350 5650 0    60   ~ 0
+Text Label 2700 2300 2    60   ~ 0
 PWM4
-Entry Wire Line
-	4850 5550 4950 5650
-Entry Wire Line
-	4850 4100 4950 4200
-Entry Wire Line
-	4850 2600 4950 2700
-Entry Wire Line
-	4850 1150 4950 1250
-Text Label 5050 1250 0    60   ~ 0
-PWM5
-Text Label 5050 2700 0    60   ~ 0
-PWM6
-Text Label 5050 4200 0    60   ~ 0
-PWM7
-Text Label 5050 5650 0    60   ~ 0
-PWM8
-Entry Wire Line
-	7700 5550 7800 5650
-Entry Wire Line
-	7700 4100 7800 4200
-Entry Wire Line
-	7700 2600 7800 2700
-Entry Wire Line
-	7700 1150 7800 1250
-Text Label 7900 1250 0    60   ~ 0
-PWM9
-Text Label 7900 2700 0    60   ~ 0
-PWM10
-Text Label 7900 4200 0    60   ~ 0
-PWM11
-Text Label 7900 5650 0    60   ~ 0
-PWM12
-Wire Wire Line
-	2250 5650 2700 5650
-Wire Wire Line
-	2250 4200 2700 4200
-Wire Wire Line
-	2700 2700 2250 2700
-Wire Wire Line
-	2250 1250 2700 1250
-Wire Wire Line
-	4950 5650 5400 5650
-Wire Wire Line
-	4950 4200 5400 4200
-Wire Wire Line
-	5400 2700 4950 2700
-Wire Wire Line
-	4950 1250 5400 1250
-Wire Wire Line
-	7800 5650 8250 5650
-Wire Wire Line
-	7800 4200 8250 4200
-Wire Wire Line
-	8250 2700 7800 2700
-Wire Wire Line
-	7800 1250 8250 1250
 Text HLabel 1100 900  0    60   Input ~ 0
 PWM[1..12]
 Text HLabel 1100 650  0    60   Input ~ 0
 PWM_6V
-Wire Bus Line
-	1100 900  7700 900 
 Text Label 1600 900  0    60   ~ 0
 PWM[1..12]
-Text Label 2700 1150 2    60   ~ 0
-PWM_6V
-Text Label 2700 4100 2    60   ~ 0
-PWM_6V
-Text Label 2700 5550 2    60   ~ 0
-PWM_6V
-Text Label 5400 1150 2    60   ~ 0
-PWM_6V
-Text Label 5400 2600 2    60   ~ 0
-PWM_6V
-Text Label 5400 4100 2    60   ~ 0
-PWM_6V
-Text Label 5400 5550 2    60   ~ 0
-PWM_6V
-Text Label 8250 1150 2    60   ~ 0
-PWM_6V
-Text Label 8250 2600 2    60   ~ 0
-PWM_6V
-Text Label 8250 4100 2    60   ~ 0
-PWM_6V
-Text Label 8250 5550 2    60   ~ 0
+Text Label 2700 2000 2    60   ~ 0
 PWM_6V
 Text Label 1100 650  0    60   ~ 0
 PWM_6V
-Text Label 2700 2600 2    60   ~ 0
+Text Label 2700 1200 2    60   ~ 0
 PWM_6V
-$Comp
-L conn:Conn_01x03 J1
-U 1 1 597DAC0F
-P 2900 1150
-F 0 "J1" H 2900 1350 50  0000 C CNN
-F 1 "Conn_01x03" V 3000 1150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 1150 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 2900 1150 50  0001 C CNN
-F 4 "CONN-007" H 2900 1150 60  0001 C CNN "part_num"
-	1    2900 1150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 597DB10B
-P 2300 5900
-F 0 "#PWR03" H 2300 5650 50  0001 C CNN
-F 1 "GND" H 2300 5750 50  0000 C CNN
-F 2 "" H 2300 5900 50  0001 C CNN
-F 3 "" H 2300 5900 50  0001 C CNN
-	1    2300 5900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2700 1050 2300 1050
-Wire Wire Line
-	2300 1050 2300 2500
-Wire Wire Line
-	2700 2500 2300 2500
-Connection ~ 2300 2500
-Wire Wire Line
-	2700 4000 2300 4000
-Wire Wire Line
-	2700 5450 2300 5450
-Connection ~ 2300 5450
-$Comp
-L power:GND #PWR04
-U 1 1 597DB1D3
-P 5000 5900
-F 0 "#PWR04" H 5000 5650 50  0001 C CNN
-F 1 "GND" H 5000 5750 50  0000 C CNN
-F 2 "" H 5000 5900 50  0001 C CNN
-F 3 "" H 5000 5900 50  0001 C CNN
-	1    5000 5900
+P 2300 2750
+F 0 "#PWR03" H 2300 2500 50  0001 C CNN
+F 1 "GND" H 2300 2600 50  0000 C CNN
+F 2 "" H 2300 2750 50  0001 C CNN
+F 3 "" H 2300 2750 50  0001 C CNN
+	1    2300 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR05
-U 1 1 597DB202
-P 7850 5800
-F 0 "#PWR05" H 7850 5550 50  0001 C CNN
-F 1 "GND" H 7850 5650 50  0000 C CNN
-F 2 "" H 7850 5800 50  0001 C CNN
-F 3 "" H 7850 5800 50  0001 C CNN
-	1    7850 5800
+L conn:Conn_01x06 J?
+U 1 1 5CBEBA42
+P 2900 1400
+F 0 "J?" H 2979 1392 50  0000 L CNN
+F 1 "GH-6" H 2979 1301 50  0000 L CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 2900 1400 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 2900 1400 50  0001 C CNN
+F 4 "CONN-017" H 0   0   50  0001 C CNN "part_num"
+	1    2900 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 1050 7850 2500
+	2700 1200 2700 1300
 Wire Wire Line
-	7850 1050 8250 1050
+	2700 1600 2300 1600
 Wire Wire Line
-	8250 2500 7850 2500
-Connection ~ 7850 2500
+	2700 1700 2700 1600
+Connection ~ 2700 1600
+Entry Wire Line
+	2150 1400 2250 1500
+Entry Wire Line
+	2150 1300 2250 1400
 Wire Wire Line
-	8250 4000 7850 4000
-Connection ~ 7850 4000
+	2700 1500 2250 1500
 Wire Wire Line
-	8250 5450 7850 5450
-Connection ~ 7850 5450
+	2700 1400 2250 1400
 Wire Wire Line
-	5400 4000 5000 4000
-Wire Wire Line
-	5000 1050 5000 2500
-Wire Wire Line
-	5400 1050 5000 1050
-Connection ~ 5000 4000
-Wire Wire Line
-	5400 5450 5000 5450
-Connection ~ 5000 5450
-Wire Wire Line
-	5400 2500 5000 2500
-Connection ~ 5000 2500
+	2300 1600 2300 2400
 $Comp
-L conn:Conn_01x03 J2
-U 1 1 5B47A50A
-P 2900 2600
-F 0 "J2" H 2900 2800 50  0000 C CNN
-F 1 "Conn_01x03" V 3000 2600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 2600 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 2900 2600 50  0001 C CNN
-F 4 "CONN-007" H 2900 2600 60  0001 C CNN "part_num"
-	1    2900 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J3
-U 1 1 5B47A572
-P 2900 4100
-F 0 "J3" H 2900 4300 50  0000 C CNN
-F 1 "Conn_01x03" V 3000 4100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 4100 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 2900 4100 50  0001 C CNN
-F 4 "CONN-007" H 2900 4100 60  0001 C CNN "part_num"
-	1    2900 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J4
-U 1 1 5B47A5CD
-P 2900 5550
-F 0 "J4" H 2900 5750 50  0000 C CNN
-F 1 "Conn_01x03" V 3000 5550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 5550 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 2900 5550 50  0001 C CNN
-F 4 "CONN-007" H 2900 5550 60  0001 C CNN "part_num"
-	1    2900 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J8
-U 1 1 5B47A679
-P 5600 5550
-F 0 "J8" H 5600 5750 50  0000 C CNN
-F 1 "Conn_01x03" V 5700 5550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 5550 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 5600 5550 50  0001 C CNN
-F 4 "CONN-007" H 5600 5550 60  0001 C CNN "part_num"
-	1    5600 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J7
-U 1 1 5B47A6F6
-P 5600 4100
-F 0 "J7" H 5600 4300 50  0000 C CNN
-F 1 "Conn_01x03" V 5700 4100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 4100 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 5600 4100 50  0001 C CNN
-F 4 "CONN-007" H 5600 4100 60  0001 C CNN "part_num"
-	1    5600 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J6
-U 1 1 5B47A774
-P 5600 2600
-F 0 "J6" H 5600 2800 50  0000 C CNN
-F 1 "Conn_01x03" V 5700 2600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 2600 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 5600 2600 50  0001 C CNN
-F 4 "CONN-007" H 5600 2600 60  0001 C CNN "part_num"
-	1    5600 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J5
-U 1 1 5B47A831
-P 5600 1150
-F 0 "J5" H 5600 1350 50  0000 C CNN
-F 1 "Conn_01x03" V 5700 1150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 1150 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 5600 1150 50  0001 C CNN
-F 4 "CONN-007" H 5600 1150 60  0001 C CNN "part_num"
-	1    5600 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J9
-U 1 1 5B47A8FB
-P 8450 1150
-F 0 "J9" H 8450 1350 50  0000 C CNN
-F 1 "Conn_01x03" V 8550 1150 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 1150 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 8450 1150 50  0001 C CNN
-F 4 "CONN-007" H 8450 1150 60  0001 C CNN "part_num"
-	1    8450 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J10
-U 1 1 5B47AA06
-P 8450 2600
-F 0 "J10" H 8450 2800 50  0000 C CNN
-F 1 "Conn_01x03" V 8550 2600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 2600 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 8450 2600 50  0001 C CNN
-F 4 "CONN-007" H 8450 2600 60  0001 C CNN "part_num"
-	1    8450 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J11
-U 1 1 5B47AB32
-P 8450 4100
-F 0 "J11" H 8450 4300 50  0000 C CNN
-F 1 "Conn_01x03" V 8550 4100 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 4100 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 8450 4100 50  0001 C CNN
-F 4 "CONN-007" H 8450 4100 60  0001 C CNN "part_num"
-	1    8450 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L conn:Conn_01x03 J12
-U 1 1 5B47AC5F
-P 8450 5550
-F 0 "J12" H 8450 5750 50  0000 C CNN
-F 1 "Conn_01x03" V 8550 5550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 5550 50  0001 C CNN
-F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 8450 5550 50  0001 C CNN
-F 4 "CONN-007" H 8450 5550 60  0001 C CNN "part_num"
-	1    8450 5550
+L conn:Conn_01x06 J?
+U 1 1 5CBF0512
+P 2900 2200
+F 0 "J?" H 2980 2192 50  0000 L CNN
+F 1 "GH-6" H 2980 2101 50  0000 L CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 2900 2200 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 2900 2200 50  0001 C CNN
+F 4 "CONN-017" H 0   0   50  0001 C CNN "part_num"
+	1    2900 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 5450 2300 5900
+	2700 2000 2700 2100
 Wire Wire Line
-	7850 2500 7850 4000
+	2700 2500 2700 2400
 Wire Wire Line
-	7850 4000 7850 5450
+	2700 2400 2300 2400
+Connection ~ 2700 2400
 Wire Wire Line
-	7850 5450 7850 5800
+	2300 2400 2300 2750
+Connection ~ 2300 2400
+Entry Wire Line
+	2150 2100 2250 2200
+Entry Wire Line
+	2150 2200 2250 2300
 Wire Wire Line
-	5000 4000 5000 5450
+	2700 2200 2250 2200
 Wire Wire Line
-	5000 5450 5000 5900
-Wire Wire Line
-	5000 2500 5000 4000
-Wire Wire Line
-	2300 2500 2300 5450
+	2250 2300 2700 2300
 Wire Bus Line
-	2150 900  2150 5550
+	1100 900  2150 900 
 Wire Bus Line
-	4850 900  4850 5550
+	2150 900  4850 900 
+Connection ~ 2150 900 
+Text Label 5400 1400 2    60   ~ 0
+PWM5
+Text Label 5400 1500 2    60   ~ 0
+PWM6
+Text Label 5400 2200 2    60   ~ 0
+PWM7
+Text Label 5400 2300 2    60   ~ 0
+PWM8
+Text Label 5400 2000 2    60   ~ 0
+PWM_6V
+Text Label 5400 1200 2    60   ~ 0
+PWM_6V
+$Comp
+L power:GND #PWR?
+U 1 1 5CBF3F2F
+P 5000 2750
+F 0 "#PWR?" H 5000 2500 50  0001 C CNN
+F 1 "GND" H 5000 2600 50  0000 C CNN
+F 2 "" H 5000 2750 50  0001 C CNN
+F 3 "" H 5000 2750 50  0001 C CNN
+	1    5000 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x06 J?
+U 1 1 5CBF3F35
+P 5600 1400
+F 0 "J?" H 5680 1392 50  0000 L CNN
+F 1 "GH-6" H 5680 1301 50  0000 L CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5600 1400 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5600 1400 50  0001 C CNN
+F 4 "CONN-017" H 0   0   50  0001 C CNN "part_num"
+	1    5600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 1200 5400 1300
+Wire Wire Line
+	5400 1600 5000 1600
+Wire Wire Line
+	5400 1700 5400 1600
+Connection ~ 5400 1600
+Entry Wire Line
+	4850 1400 4950 1500
+Entry Wire Line
+	4850 1300 4950 1400
+Wire Wire Line
+	5400 1500 4950 1500
+Wire Wire Line
+	5400 1400 4950 1400
+Wire Wire Line
+	5000 1600 5000 2400
+$Comp
+L conn:Conn_01x06 J?
+U 1 1 5CBF3F45
+P 5600 2200
+F 0 "J?" H 5680 2192 50  0000 L CNN
+F 1 "GH-6" H 5680 2101 50  0000 L CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5600 2200 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5600 2200 50  0001 C CNN
+F 4 "CONN-017" H 0   0   50  0001 C CNN "part_num"
+	1    5600 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2000 5400 2100
+Wire Wire Line
+	5400 2500 5400 2400
+Wire Wire Line
+	5400 2400 5000 2400
+Connection ~ 5400 2400
+Wire Wire Line
+	5000 2400 5000 2750
+Connection ~ 5000 2400
+Entry Wire Line
+	4850 2100 4950 2200
+Entry Wire Line
+	4850 2200 4950 2300
+Wire Wire Line
+	5400 2200 4950 2200
+Wire Wire Line
+	4950 2300 5400 2300
+Text Label 8250 1400 2    60   ~ 0
+PWM9
+Text Label 8250 1500 2    60   ~ 0
+PWM10
+Text Label 8250 2200 2    60   ~ 0
+PWM11
+Text Label 8250 2300 2    60   ~ 0
+PWM12
+Text Label 8250 2000 2    60   ~ 0
+PWM_6V
+Text Label 8250 1200 2    60   ~ 0
+PWM_6V
+$Comp
+L power:GND #PWR?
+U 1 1 5CBF4250
+P 7850 2750
+F 0 "#PWR?" H 7850 2500 50  0001 C CNN
+F 1 "GND" H 7850 2600 50  0000 C CNN
+F 2 "" H 7850 2750 50  0001 C CNN
+F 3 "" H 7850 2750 50  0001 C CNN
+	1    7850 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x06 J?
+U 1 1 5CBF4256
+P 8450 1400
+F 0 "J?" H 8530 1392 50  0000 L CNN
+F 1 "GH-6" H 8530 1301 50  0000 L CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 8450 1400 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 8450 1400 50  0001 C CNN
+F 4 "CONN-017" H 0   0   50  0001 C CNN "part_num"
+	1    8450 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1200 8250 1300
+Wire Wire Line
+	8250 1600 7850 1600
+Wire Wire Line
+	8250 1700 8250 1600
+Connection ~ 8250 1600
+Entry Wire Line
+	7700 1400 7800 1500
+Entry Wire Line
+	7700 1300 7800 1400
+Wire Wire Line
+	8250 1500 7800 1500
+Wire Wire Line
+	8250 1400 7800 1400
+Wire Wire Line
+	7850 1600 7850 2400
+$Comp
+L conn:Conn_01x06 J?
+U 1 1 5CBF4266
+P 8450 2200
+F 0 "J?" H 8530 2192 50  0000 L CNN
+F 1 "GH-6" H 8530 2101 50  0000 L CNN
+F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 8450 2200 50  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 8450 2200 50  0001 C CNN
+F 4 "CONN-017" H 0   0   50  0001 C CNN "part_num"
+	1    8450 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 2000 8250 2100
+Wire Wire Line
+	8250 2500 8250 2400
+Wire Wire Line
+	8250 2400 7850 2400
+Connection ~ 8250 2400
+Wire Wire Line
+	7850 2400 7850 2750
+Connection ~ 7850 2400
+Entry Wire Line
+	7700 2100 7800 2200
+Entry Wire Line
+	7700 2200 7800 2300
+Wire Wire Line
+	8250 2200 7800 2200
+Wire Wire Line
+	7800 2300 8250 2300
+Connection ~ 4850 900 
 Wire Bus Line
-	7700 900  7700 5550
+	4850 900  7700 900 
+Wire Bus Line
+	2150 900  2150 2200
+Wire Bus Line
+	4850 900  4850 2200
+Wire Bus Line
+	7700 900  7700 2200
 $EndSCHEMATC

@@ -1016,7 +1016,7 @@ Wire Wire Line
 	7850 2400 7850 2500
 Connection ~ 7850 2500
 Wire Wire Line
-	10450 2900 10050 2900
+	10450 2900 10250 2900
 Connection ~ 6350 4700
 Wire Wire Line
 	6050 3600 5950 3600
@@ -1296,4 +1296,32 @@ Wire Wire Line
 	3050 5000 3200 5000
 Wire Wire Line
 	2950 5650 3050 5650
+$Comp
+L Device:R R?
+U 1 1 5CB99043
+P 10250 3250
+F 0 "R?" V 10330 3250 50  0000 C CNN
+F 1 "100K" V 10250 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 10180 3250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10250 3250 50  0001 C CNN
+F 4 "RESS-008" V 10250 3250 60  0001 C CNN "part_num"
+	1    10250 3250
+	-1   0    0    1   
+$EndComp
+Connection ~ 10250 2900
+Wire Wire Line
+	10250 2900 10050 2900
+$Comp
+L power:GND #PWR?
+U 1 1 5CB99179
+P 10250 3400
+F 0 "#PWR?" H 10250 3150 50  0001 C CNN
+F 1 "GND" H 10250 3250 50  0000 C CNN
+F 2 "" H 10250 3400 50  0001 C CNN
+F 3 "" H 10250 3400 50  0001 C CNN
+	1    10250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 2900 10250 3100
 $EndSCHEMATC
