@@ -403,12 +403,8 @@ Wire Wire Line
 Wire Wire Line
 	4050 4600 4050 5150
 Wire Wire Line
-	4050 5150 3950 5150
-Wire Wire Line
 	3900 4600 4050 4600
 Connection ~ 4050 5150
-Wire Wire Line
-	4200 5050 3950 5050
 Wire Wire Line
 	4200 3250 4200 4500
 Wire Wire Line
@@ -1065,10 +1061,8 @@ F 3 "~" H 9450 900 50  0001 C CNN
 	1    9450 900 
 	1    0    0    -1  
 $EndComp
-Connection ~ 3950 5050
 Wire Wire Line
-	3950 5050 3900 5050
-Connection ~ 3950 5150
+	3900 5150 4050 5150
 Wire Wire Line
-	3950 5150 3900 5150
+	3900 5050 4200 5050
 $EndSCHEMATC

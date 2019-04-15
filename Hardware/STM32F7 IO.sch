@@ -1301,10 +1301,10 @@ L Device:R R?
 U 1 1 5CB99043
 P 10250 3250
 F 0 "R?" V 10330 3250 50  0000 C CNN
-F 1 "100K" V 10250 3250 50  0000 C CNN
+F 1 "10K" V 10250 3250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10180 3250 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10250 3250 50  0001 C CNN
-F 4 "RESS-008" V 10250 3250 60  0001 C CNN "part_num"
+F 4 "RESS-005" V 10250 3250 60  0001 C CNN "part_num"
 	1    10250 3250
 	-1   0    0    1   
 $EndComp

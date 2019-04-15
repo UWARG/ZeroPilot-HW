@@ -187,7 +187,7 @@ F 4 "CONN-013" H 1100 4750 60  0001 C CNN "part_num"
 	1    900  4500
 	-1   0    0    1   
 $EndComp
-Text Notes 9450 3150 0    60   ~ 0
+Text Notes 9450 3200 0    60   ~ 0
 Power jumper\nUse to measure current and\ndebug power
 Text Notes 800  3700 0    60   ~ 0
 Reverse polarity protection
@@ -1390,8 +1390,6 @@ Wire Wire Line
 Wire Wire Line
 	7550 2750 7550 2800
 Wire Wire Line
-	9100 2150 9900 2150
-Wire Wire Line
 	6150 2150 7650 2150
 Wire Wire Line
 	4200 2150 4200 1950
@@ -1472,4 +1470,6 @@ Wire Wire Line
 Connection ~ 10600 3650
 Wire Wire Line
 	10600 3650 10800 3650
+Wire Wire Line
+	9100 2150 9900 2150
 $EndSCHEMATC

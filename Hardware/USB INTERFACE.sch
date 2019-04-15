@@ -53,13 +53,13 @@ $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5B18DE9F
-P 1750 2100
-F 0 "D?" H 1750 2200 50  0000 C CNN
-F 1 "TVS" H 1750 2000 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 1750 2100 50  0001 C CNN
-F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 1750 2100 50  0001 C CNN
-F 4 "DIOD-006" H 1750 2100 60  0001 C CNN "part_num"
-	1    1750 2100
+P 1650 2100
+F 0 "D?" H 1650 2200 50  0000 C CNN
+F 1 "TVS" H 1650 2000 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 1650 2100 50  0001 C CNN
+F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 1650 2100 50  0001 C CNN
+F 4 "DIOD-006" H 1650 2100 60  0001 C CNN "part_num"
+	1    1650 2100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -133,13 +133,13 @@ $EndComp
 $Comp
 L Device:D_TVS D?
 U 1 1 5B192B88
-P 2050 2100
-F 0 "D?" H 2050 2200 50  0000 C CNN
-F 1 "TVS" H 2050 2000 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 2050 2100 50  0001 C CNN
-F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 2050 2100 50  0001 C CNN
-F 4 "DIOD-006" H 2050 2100 60  0001 C CNN "part_num"
-	1    2050 2100
+P 1950 2100
+F 0 "D?" H 1950 2200 50  0000 C CNN
+F 1 "TVS" H 1950 2000 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 1950 2100 50  0001 C CNN
+F 3 "https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf" H 1950 2100 50  0001 C CNN
+F 4 "DIOD-006" H 1950 2100 60  0001 C CNN "part_num"
+	1    1950 2100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -638,16 +638,6 @@ UART1_RTS
 Text HLabel 8350 5100 0    60   Input ~ 0
 UART1_CTS
 Wire Wire Line
-	1500 1700 2050 1700
-Wire Wire Line
-	1500 1800 1750 1800
-Wire Wire Line
-	1750 1800 1750 1950
-Connection ~ 1750 1800
-Wire Wire Line
-	2050 1700 2050 1950
-Connection ~ 2050 1700
-Wire Wire Line
 	2550 2200 2550 2350
 Wire Wire Line
 	2550 2800 2550 2900
@@ -663,14 +653,9 @@ Wire Wire Line
 Wire Wire Line
 	2800 2000 3300 2000
 Wire Wire Line
-	2050 2350 2050 2250
-Wire Wire Line
 	1100 2350 1200 2350
 Wire Wire Line
-	1750 2250 1750 2350
-Wire Wire Line
 	1200 2350 1200 2100
-Connection ~ 1750 2350
 Wire Wire Line
 	1100 2100 1100 2350
 Connection ~ 1200 2350
@@ -894,8 +879,6 @@ Wire Wire Line
 Wire Wire Line
 	2350 1300 2350 1500
 Wire Wire Line
-	2350 1500 1500 1500
-Wire Wire Line
 	8050 2000 7650 2000
 Wire Wire Line
 	9850 2000 10250 2000
@@ -942,17 +925,11 @@ Wire Wire Line
 	7650 2000 7650 1900
 Connection ~ 7650 1900
 Wire Wire Line
-	1750 1800 2850 1800
-Wire Wire Line
-	2050 1700 2850 1700
-Wire Wire Line
 	2550 2350 2550 2500
-Wire Wire Line
-	1750 2350 2050 2350
 Wire Wire Line
 	1750 2350 1750 2600
 Wire Wire Line
-	1200 2350 1750 2350
+	1200 2350 1650 2350
 Wire Wire Line
 	5550 3000 5550 3100
 Wire Wire Line
@@ -1049,7 +1026,47 @@ Wire Wire Line
 	2350 1500 2550 1500
 Wire Wire Line
 	2550 1500 2550 1900
-Connection ~ 2350 1500
 Text Notes 1650 1100 0    60   ~ 0
 Add OV and OC protection.
+Wire Wire Line
+	1500 1700 1950 1700
+Wire Wire Line
+	1650 2250 1650 2350
+Wire Wire Line
+	1500 1800 1650 1800
+Connection ~ 1650 2350
+Wire Wire Line
+	1650 2350 1750 2350
+Wire Wire Line
+	1750 2350 1950 2350
+Wire Wire Line
+	1950 2350 1950 2250
+Connection ~ 1750 2350
+Wire Wire Line
+	1650 1950 1650 1800
+Connection ~ 1650 1800
+Wire Wire Line
+	1650 1800 2850 1800
+Wire Wire Line
+	1950 1950 1950 1700
+Connection ~ 1950 1700
+Wire Wire Line
+	1950 1700 2850 1700
+$Comp
+L Device:D_Schottky D?
+U 1 1 5CC2FB03
+P 1800 1500
+F 0 "D?" H 1800 1284 50  0000 C CNN
+F 1 "D_Schottky" H 1800 1375 50  0000 C CNN
+F 2 "Diodes_SMD:D_SOD-123F" H 1800 1500 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 1800 1500 50  0001 C CNN
+F 4 "DIOD-007" H 0   0   50  0001 C CNN "part_num"
+	1    1800 1500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 1500 1650 1500
+Wire Wire Line
+	1950 1500 2350 1500
+Connection ~ 2350 1500
 $EndSCHEMATC

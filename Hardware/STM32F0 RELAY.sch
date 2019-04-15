@@ -868,16 +868,14 @@ L Device:R R?
 U 1 1 5CBCEAA5
 P 7400 3300
 F 0 "R?" V 7480 3300 50  0000 C CNN
-F 1 "100K" V 7400 3300 50  0000 C CNN
+F 1 "10K" V 7400 3300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7330 3300 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 7400 3300 50  0001 C CNN
-F 4 "RESS-008" V 7400 3300 60  0001 C CNN "part_num"
+F 4 "RESS-005" V 7400 3300 60  0001 C CNN "part_num"
 	1    7400 3300
 	1    0    0    -1  
 $EndComp
 Connection ~ 7400 3150
-Wire Bus Line
-	1400 3700 1400 5350
 $Comp
 L power:GND #PWR?
 U 1 1 5CBD6D08
@@ -889,4 +887,6 @@ F 3 "" H 7400 3450 50  0001 C CNN
 	1    7400 3450
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	1400 3700 1400 5350
 $EndSCHEMATC
