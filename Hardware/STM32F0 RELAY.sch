@@ -120,9 +120,9 @@ Wire Wire Line
 	1500 5300 1650 5300
 Wire Wire Line
 	1500 5450 1650 5450
-Text Label 3800 4450 2    60   ~ 0
+Text Label 3900 4550 2    60   ~ 0
 UART1_RX
-Text Label 3800 4550 2    60   ~ 0
+Text Label 3900 4450 2    60   ~ 0
 UART1_TX
 Text Label 3750 2850 2    60   ~ 0
 USART2_RX
@@ -457,9 +457,9 @@ Text HLabel 3050 2750 0    60   Output ~ 0
 REC_UART_TX
 Text HLabel 3050 2850 0    60   Input ~ 0
 REC_UART_RX
-Text HLabel 3200 4450 0    60   Input ~ 0
+Text HLabel 3200 4550 0    60   Input ~ 0
 DBG_UART_RX
-Text HLabel 3200 4550 0    60   Output ~ 0
+Text HLabel 3200 4450 0    60   Output ~ 0
 DBG_UART_TX
 Wire Notes Line
 	3200 4400 3200 4600
