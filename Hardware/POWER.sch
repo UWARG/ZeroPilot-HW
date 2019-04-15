@@ -104,7 +104,7 @@ P 10250 4800
 F 0 "R?" V 10330 4800 50  0000 C CNN
 F 1 "100" V 10250 4800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10180 4800 50  0001 C CNN
-F 3 "" H 10250 4800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10250 4800 50  0001 C CNN
 F 4 "RESS-006" V 10250 4800 60  0001 C CNN "part_num"
 	1    10250 4800
 	1    0    0    -1  
@@ -127,7 +127,7 @@ P 1550 4500
 F 0 "Q?" H 1750 4550 50  0000 L CNN
 F 1 "Q_PMOS_DGS" H 1750 4450 50  0000 L CNN
 F 2 "WARG:TSOT-23-6_MK06A_HandSoldering" H 1750 4600 50  0001 C CNN
-F 3 "" H 1550 4500 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irf5806pbf.pdf?fileId=5546d462533600a4015355e3fbdc19bc" H 1550 4500 50  0001 C CNN
 F 4 "TRAN-001" H 1550 4500 60  0001 C CNN "part_num"
 	1    1550 4500
 	0    -1   -1   0   
@@ -222,7 +222,7 @@ P 2600 5900
 F 0 "R?" V 2680 5900 50  0000 C CNN
 F 1 "226K" V 2600 5900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2530 5900 50  0001 C CNN
-F 3 "" H 2600 5900 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" H 2600 5900 50  0001 C CNN
 F 4 "RESS-009" V 2600 5900 60  0001 C CNN "part_num"
 	1    2600 5900
 	1    0    0    -1  
@@ -234,7 +234,7 @@ P 2600 6350
 F 0 "R?" V 2680 6350 50  0000 C CNN
 F 1 "56K" V 2600 6350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2530 6350 50  0001 C CNN
-F 3 "" H 2600 6350 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/chip-resistor/RC1608F563CS.jsp" H 2600 6350 50  0001 C CNN
 F 4 "RESS-010" V 2600 6350 60  0001 C CNN "part_num"
 	1    2600 6350
 	1    0    0    -1  
@@ -246,7 +246,7 @@ P 5150 6900
 F 0 "R?" V 5230 6900 50  0000 C CNN
 F 1 "13.7K" V 5150 6900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5080 6900 50  0001 C CNN
-F 3 "" H 5150 6900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 5150 6900 50  0001 C CNN
 F 4 "RESS-011" V 5150 6900 60  0001 C CNN "part_num"
 	1    5150 6900
 	1    0    0    -1  
@@ -258,7 +258,7 @@ P 5150 6500
 F 0 "R?" V 5230 6500 50  0000 C CNN
 F 1 "100K" V 5150 6500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5080 6500 50  0001 C CNN
-F 3 "" H 5150 6500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5150 6500 50  0001 C CNN
 F 4 "RESS-008" V 5150 6500 60  0001 C CNN "part_num"
 	1    5150 6500
 	1    0    0    -1  
@@ -315,7 +315,7 @@ P 2400 2200
 F 0 "R?" V 2480 2200 50  0000 C CNN
 F 1 "210K" V 2400 2200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2330 2200 50  0001 C CNN
-F 3 "" H 2400 2200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2400 2200 50  0001 C CNN
 F 4 "RESS-012" V 2400 2200 60  0001 C CNN "part_num"
 	1    2400 2200
 	1    0    0    -1  
@@ -327,7 +327,7 @@ P 2400 2650
 F 0 "R?" V 2480 2650 50  0000 C CNN
 F 1 "43.2K" V 2400 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2330 2650 50  0001 C CNN
-F 3 "" H 2400 2650 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" H 2400 2650 50  0001 C CNN
 F 4 "RESS-013" V 2400 2650 60  0001 C CNN "part_num"
 	1    2400 2650
 	1    0    0    -1  
@@ -339,7 +339,7 @@ P 4950 3200
 F 0 "R?" V 5030 3200 50  0000 C CNN
 F 1 "11K" V 4950 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4880 3200 50  0001 C CNN
-F 3 "" H 4950 3200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4950 3200 50  0001 C CNN
 F 4 "RESS-004" V 4950 3200 60  0001 C CNN "part_num"
 	1    4950 3200
 	1    0    0    -1  
@@ -362,7 +362,7 @@ P 4550 2350
 F 0 "L?" V 4500 2350 50  0000 C CNN
 F 1 "15uH" V 4625 2350 50  0000 C CNN
 F 2 "WARG:SRP6060FA-150M" H 4550 2350 50  0001 C CNN
-F 3 "" H 4550 2350 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/SRP6060FA.pdf" H 4550 2350 50  0001 C CNN
 F 4 "INDU-003" V 4550 2350 60  0001 C CNN "part_num"
 	1    4550 2350
 	0    1    1    0   
@@ -506,7 +506,7 @@ P 6000 2150
 F 0 "R?" V 5900 2150 50  0000 C CNN
 F 1 "0" V 6000 2150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5930 2150 50  0001 C CNN
-F 3 "" H 6000 2150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 6000 2150 50  0001 C CNN
 F 4 "RESS-001" V 6000 2150 60  0001 C CNN "part_num"
 	1    6000 2150
 	0    1    1    0   
@@ -518,7 +518,7 @@ P 4950 2800
 F 0 "R?" V 5030 2800 50  0000 C CNN
 F 1 "100K" V 4950 2800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4880 2800 50  0001 C CNN
-F 3 "" H 4950 2800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 4950 2800 50  0001 C CNN
 F 4 "RESS-008" V 4950 2800 60  0001 C CNN "part_num"
 	1    4950 2800
 	1    0    0    -1  
@@ -542,7 +542,7 @@ P 4750 6050
 F 0 "L?" V 4700 6050 50  0000 C CNN
 F 1 "15uH" V 4825 6050 50  0000 C CNN
 F 2 "WARG:SRP6060FA-150M" H 4750 6050 50  0001 C CNN
-F 3 "" H 4750 6050 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/SRP6060FA.pdf" H 4750 6050 50  0001 C CNN
 F 4 "INDU-003" V 4750 6050 60  0001 C CNN "part_num"
 	1    4750 6050
 	0    1    1    0   
@@ -756,7 +756,7 @@ P 9800 3650
 F 0 "R?" V 9700 3650 50  0000 C CNN
 F 1 "0" V 9800 3650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 3650 50  0001 C CNN
-F 3 "" H 9800 3650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9800 3650 50  0001 C CNN
 F 4 "RESS-001" V 9800 3650 60  0001 C CNN "part_num"
 	1    9800 3650
 	0    1    1    0   
@@ -768,7 +768,7 @@ P 6150 5850
 F 0 "R?" V 6050 5850 50  0000 C CNN
 F 1 "0" V 6150 5850 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6080 5850 50  0001 C CNN
-F 3 "" H 6150 5850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 6150 5850 50  0001 C CNN
 F 4 "RESS-001" V 6150 5850 60  0001 C CNN "part_num"
 	1    6150 5850
 	0    1    1    0   
@@ -803,7 +803,7 @@ P 9800 4250
 F 0 "R?" V 9700 4250 50  0000 C CNN
 F 1 "0" V 9800 4250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 4250 50  0001 C CNN
-F 3 "" H 9800 4250 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9800 4250 50  0001 C CNN
 F 4 "RESS-001" V 9800 4250 60  0001 C CNN "part_num"
 	1    9800 4250
 	0    1    1    0   
@@ -817,7 +817,7 @@ P 9800 3350
 F 0 "R?" V 9700 3350 50  0000 C CNN
 F 1 "0" V 9800 3350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 3350 50  0001 C CNN
-F 3 "" H 9800 3350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9800 3350 50  0001 C CNN
 F 4 "RESS-001" V 9800 3350 60  0001 C CNN "part_num"
 	1    9800 3350
 	0    1    1    0   
@@ -829,7 +829,7 @@ P 9800 3950
 F 0 "R?" V 9700 3950 50  0000 C CNN
 F 1 "0" V 9800 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 3950 50  0001 C CNN
-F 3 "" H 9800 3950 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9800 3950 50  0001 C CNN
 F 4 "RESS-001" V 9800 3950 60  0001 C CNN "part_num"
 	1    9800 3950
 	0    1    1    0   
@@ -1431,7 +1431,7 @@ P 10900 4650
 F 0 "R?" V 10980 4650 50  0000 C CNN
 F 1 "100" V 10900 4650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10830 4650 50  0001 C CNN
-F 3 "" H 10900 4650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10900 4650 50  0001 C CNN
 F 4 "RESS-006" V 10900 4650 60  0001 C CNN "part_num"
 	1    10900 4650
 	1    0    0    -1  
@@ -1456,7 +1456,7 @@ P 10900 4350
 F 0 "R?" V 10980 4350 50  0000 C CNN
 F 1 "100" V 10900 4350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 10830 4350 50  0001 C CNN
-F 3 "" H 10900 4350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10900 4350 50  0001 C CNN
 F 4 "RESS-006" V 10900 4350 60  0001 C CNN "part_num"
 	1    10900 4350
 	1    0    0    -1  

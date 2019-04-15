@@ -173,7 +173,7 @@ P 3350 3350
 F 0 "R47" V 3430 3350 50  0000 C CNN
 F 1 "10K" V 3350 3350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 3350 50  0001 C CNN
-F 3 "" H 3350 3350 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 3350 50  0001 C CNN
 F 4 "RESS-005" V 3350 3350 60  0001 C CNN "part_num"
 	1    3350 3350
 	1    0    0    -1  
@@ -187,7 +187,7 @@ P 3550 3350
 F 0 "R50" V 3630 3350 50  0000 C CNN
 F 1 "10K" V 3550 3350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 3350 50  0001 C CNN
-F 3 "" H 3550 3350 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 3350 50  0001 C CNN
 F 4 "RESS-005" V 3550 3350 60  0001 C CNN "part_num"
 	1    3550 3350
 	1    0    0    -1  
@@ -199,7 +199,7 @@ P 3550 3950
 F 0 "R51" V 3630 3950 50  0000 C CNN
 F 1 "10K" V 3550 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 3950 50  0001 C CNN
-F 3 "" H 3550 3950 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 3950 50  0001 C CNN
 F 4 "RESS-005" V 3550 3950 60  0001 C CNN "part_num"
 	1    3550 3950
 	1    0    0    -1  
@@ -211,7 +211,7 @@ P 3350 3950
 F 0 "R48" V 3430 3950 50  0000 C CNN
 F 1 "10K" V 3350 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 3950 50  0001 C CNN
-F 3 "" H 3350 3950 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 3950 50  0001 C CNN
 F 4 "RESS-005" V 3350 3950 60  0001 C CNN "part_num"
 	1    3350 3950
 	1    0    0    -1  
@@ -223,7 +223,7 @@ P 3350 4500
 F 0 "R49" V 3430 4500 50  0000 C CNN
 F 1 "10K" V 3350 4500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 4500 50  0001 C CNN
-F 3 "" H 3350 4500 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 4500 50  0001 C CNN
 F 4 "RESS-005" V 3350 4500 60  0001 C CNN "part_num"
 	1    3350 4500
 	1    0    0    -1  
@@ -235,7 +235,7 @@ P 3550 4500
 F 0 "R52" V 3630 4500 50  0000 C CNN
 F 1 "10K" V 3550 4500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 4500 50  0001 C CNN
-F 3 "" H 3550 4500 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 4500 50  0001 C CNN
 F 4 "RESS-005" V 3550 4500 60  0001 C CNN "part_num"
 	1    3550 4500
 	1    0    0    -1  
@@ -1023,46 +1023,46 @@ Text HLabel 1750 4700 2    60   Input ~ 0
 V_UHF
 $Comp
 L Mechanical:MountingHole H?
-U 1 1 5CCE10BC
-P 9450 1100
-F 0 "H?" H 9550 1146 50  0000 L CNN
-F 1 "MountingHole_M3" H 9550 1055 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9450 1100 50  0001 C CNN
-F 3 "~" H 9450 1100 50  0001 C CNN
-	1    9450 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H?
 U 1 1 5CCE1241
 P 10350 1100
 F 0 "H?" H 10450 1146 50  0000 L CNN
-F 1 "MountingHole_M3" H 10450 1055 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10350 1100 50  0001 C CNN
+F 1 "MountingHole_M4" H 10450 1055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 10350 1100 50  0001 C CNN
 F 3 "~" H 10350 1100 50  0001 C CNN
 	1    10350 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
-U 1 1 5CCE706E
-P 9450 850
-F 0 "H?" H 9550 896 50  0000 L CNN
-F 1 "MountingHole_M3" H 9550 805 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 9450 850 50  0001 C CNN
-F 3 "~" H 9450 850 50  0001 C CNN
-	1    9450 850 
+U 1 1 5CB39751
+P 10350 900
+F 0 "H?" H 10450 946 50  0000 L CNN
+F 1 "MountingHole_M4" H 10450 855 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 10350 900 50  0001 C CNN
+F 3 "~" H 10350 900 50  0001 C CNN
+	1    10350 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H?
-U 1 1 5CCE70E0
-P 10350 850
-F 0 "H?" H 10450 896 50  0000 L CNN
-F 1 "MountingHole_M3" H 10450 805 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_Pad" H 10350 850 50  0001 C CNN
-F 3 "~" H 10350 850 50  0001 C CNN
-	1    10350 850 
+U 1 1 5CB39892
+P 9450 1100
+F 0 "H?" H 9550 1146 50  0000 L CNN
+F 1 "MountingHole_M4" H 9550 1055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 9450 1100 50  0001 C CNN
+F 3 "~" H 9450 1100 50  0001 C CNN
+	1    9450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5CB39899
+P 9450 900
+F 0 "H?" H 9550 946 50  0000 L CNN
+F 1 "MountingHole_M4" H 9550 855 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 9450 900 50  0001 C CNN
+F 3 "~" H 9450 900 50  0001 C CNN
+	1    9450 900 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

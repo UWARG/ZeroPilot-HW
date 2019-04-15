@@ -127,7 +127,7 @@ P 2900 1150
 F 0 "J1" H 2900 1350 50  0000 C CNN
 F 1 "Conn_01x03" V 3000 1150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 1150 50  0001 C CNN
-F 3 "" H 2900 1150 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 2900 1150 50  0001 C CNN
 F 4 "CONN-007" H 2900 1150 60  0001 C CNN "part_num"
 	1    2900 1150
 	1    0    0    -1  
@@ -210,7 +210,7 @@ P 2900 2600
 F 0 "J2" H 2900 2800 50  0000 C CNN
 F 1 "Conn_01x03" V 3000 2600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 2600 50  0001 C CNN
-F 3 "" H 2900 2600 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 2900 2600 50  0001 C CNN
 F 4 "CONN-007" H 2900 2600 60  0001 C CNN "part_num"
 	1    2900 2600
 	1    0    0    -1  
@@ -222,7 +222,7 @@ P 2900 4100
 F 0 "J3" H 2900 4300 50  0000 C CNN
 F 1 "Conn_01x03" V 3000 4100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 4100 50  0001 C CNN
-F 3 "" H 2900 4100 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 2900 4100 50  0001 C CNN
 F 4 "CONN-007" H 2900 4100 60  0001 C CNN "part_num"
 	1    2900 4100
 	1    0    0    -1  
@@ -234,7 +234,7 @@ P 2900 5550
 F 0 "J4" H 2900 5750 50  0000 C CNN
 F 1 "Conn_01x03" V 3000 5550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2900 5550 50  0001 C CNN
-F 3 "" H 2900 5550 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 2900 5550 50  0001 C CNN
 F 4 "CONN-007" H 2900 5550 60  0001 C CNN "part_num"
 	1    2900 5550
 	1    0    0    -1  
@@ -246,7 +246,7 @@ P 5600 5550
 F 0 "J8" H 5600 5750 50  0000 C CNN
 F 1 "Conn_01x03" V 5700 5550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 5550 50  0001 C CNN
-F 3 "" H 5600 5550 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 5600 5550 50  0001 C CNN
 F 4 "CONN-007" H 5600 5550 60  0001 C CNN "part_num"
 	1    5600 5550
 	1    0    0    -1  
@@ -258,7 +258,7 @@ P 5600 4100
 F 0 "J7" H 5600 4300 50  0000 C CNN
 F 1 "Conn_01x03" V 5700 4100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 4100 50  0001 C CNN
-F 3 "" H 5600 4100 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 5600 4100 50  0001 C CNN
 F 4 "CONN-007" H 5600 4100 60  0001 C CNN "part_num"
 	1    5600 4100
 	1    0    0    -1  
@@ -270,7 +270,7 @@ P 5600 2600
 F 0 "J6" H 5600 2800 50  0000 C CNN
 F 1 "Conn_01x03" V 5700 2600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 2600 50  0001 C CNN
-F 3 "" H 5600 2600 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 5600 2600 50  0001 C CNN
 F 4 "CONN-007" H 5600 2600 60  0001 C CNN "part_num"
 	1    5600 2600
 	1    0    0    -1  
@@ -282,7 +282,7 @@ P 5600 1150
 F 0 "J5" H 5600 1350 50  0000 C CNN
 F 1 "Conn_01x03" V 5700 1150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5600 1150 50  0001 C CNN
-F 3 "" H 5600 1150 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 5600 1150 50  0001 C CNN
 F 4 "CONN-007" H 5600 1150 60  0001 C CNN "part_num"
 	1    5600 1150
 	1    0    0    -1  
@@ -294,7 +294,7 @@ P 8450 1150
 F 0 "J9" H 8450 1350 50  0000 C CNN
 F 1 "Conn_01x03" V 8550 1150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 1150 50  0001 C CNN
-F 3 "" H 8450 1150 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 8450 1150 50  0001 C CNN
 F 4 "CONN-007" H 8450 1150 60  0001 C CNN "part_num"
 	1    8450 1150
 	1    0    0    -1  
@@ -306,7 +306,7 @@ P 8450 2600
 F 0 "J10" H 8450 2800 50  0000 C CNN
 F 1 "Conn_01x03" V 8550 2600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 2600 50  0001 C CNN
-F 3 "" H 8450 2600 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 8450 2600 50  0001 C CNN
 F 4 "CONN-007" H 8450 2600 60  0001 C CNN "part_num"
 	1    8450 2600
 	1    0    0    -1  
@@ -318,7 +318,7 @@ P 8450 4100
 F 0 "J11" H 8450 4300 50  0000 C CNN
 F 1 "Conn_01x03" V 8550 4100 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 4100 50  0001 C CNN
-F 3 "" H 8450 4100 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 8450 4100 50  0001 C CNN
 F 4 "CONN-007" H 8450 4100 60  0001 C CNN "part_num"
 	1    8450 4100
 	1    0    0    -1  
@@ -330,7 +330,7 @@ P 8450 5550
 F 0 "J12" H 8450 5750 50  0000 C CNN
 F 1 "Conn_01x03" V 8550 5550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8450 5550 50  0001 C CNN
-F 3 "" H 8450 5550 50  0001 C CNN
+F 3 "https://media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf" H 8450 5550 50  0001 C CNN
 F 4 "CONN-007" H 8450 5550 60  0001 C CNN "part_num"
 	1    8450 5550
 	1    0    0    -1  

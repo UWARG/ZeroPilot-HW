@@ -58,7 +58,7 @@ P 3850 2900
 F 0 "R?" V 3930 2900 50  0000 C CNN
 F 1 "22K" V 3850 2900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3780 2900 50  0001 C CNN
-F 3 "" H 3850 2900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3850 2900 50  0001 C CNN
 F 4 "RESS-002" V 3850 2900 60  0001 C CNN "part_num"
 	1    3850 2900
 	1    0    0    -1  
@@ -70,7 +70,7 @@ P 3400 2700
 F 0 "R?" V 3480 2700 50  0000 C CNN
 F 1 "150K" V 3400 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3330 2700 50  0001 C CNN
-F 3 "" H 3400 2700 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3400 2700 50  0001 C CNN
 F 4 "RESS-007" V 3400 2700 60  0001 C CNN "part_num"
 	1    3400 2700
 	0    1    1    0   
@@ -140,7 +140,7 @@ P 3800 2050
 F 0 "R?" V 3880 2050 50  0000 C CNN
 F 1 "22K" V 3800 2050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 2050 50  0001 C CNN
-F 3 "" H 3800 2050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3800 2050 50  0001 C CNN
 F 4 "RESS-002" V 3800 2050 60  0001 C CNN "part_num"
 	1    3800 2050
 	1    0    0    -1  
@@ -170,7 +170,7 @@ P 3850 3900
 F 0 "R?" V 3930 3900 50  0000 C CNN
 F 1 "22K" V 3850 3900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3780 3900 50  0001 C CNN
-F 3 "" H 3850 3900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3850 3900 50  0001 C CNN
 F 4 "RESS-002" V 3850 3900 60  0001 C CNN "part_num"
 	1    3850 3900
 	1    0    0    -1  
@@ -186,7 +186,7 @@ P 3450 3600
 F 0 "R?" V 3530 3600 50  0000 C CNN
 F 1 "11K" V 3450 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3380 3600 50  0001 C CNN
-F 3 "" H 3450 3600 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3450 3600 50  0001 C CNN
 F 4 "RESS-004" V 3450 3600 60  0001 C CNN "part_num"
 	1    3450 3600
 	0    1    1    0   
@@ -201,7 +201,7 @@ P 3400 1800
 F 0 "R?" V 3480 1800 50  0000 C CNN
 F 1 "150K" V 3400 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3330 1800 50  0001 C CNN
-F 3 "" H 3400 1800 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3400 1800 50  0001 C CNN
 F 4 "RESS-007" V 3400 1800 60  0001 C CNN "part_num"
 	1    3400 1800
 	0    1    1    0   

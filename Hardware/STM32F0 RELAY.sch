@@ -488,7 +488,7 @@ P 5800 6150
 F 0 "R22" V 5880 6150 50  0000 C CNN
 F 1 "100" V 5800 6150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5730 6150 50  0001 C CNN
-F 3 "" H 5800 6150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5800 6150 50  0001 C CNN
 F 4 "RESS-006" V 5800 6150 60  0001 C CNN "part_num"
 	1    5800 6150
 	1    0    0    -1  
@@ -549,7 +549,7 @@ P 5450 6150
 F 0 "R20" V 5530 6150 50  0000 C CNN
 F 1 "100" V 5450 6150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5380 6150 50  0001 C CNN
-F 3 "" H 5450 6150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5450 6150 50  0001 C CNN
 F 4 "RESS-006" V 5450 6150 60  0001 C CNN "part_num"
 	1    5450 6150
 	1    0    0    -1  
@@ -588,7 +588,7 @@ P 6150 6150
 F 0 "R23" V 6230 6150 50  0000 C CNN
 F 1 "100" V 6150 6150 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6080 6150 50  0001 C CNN
-F 3 "" H 6150 6150 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 6150 6150 50  0001 C CNN
 F 4 "RESS-006" V 6150 6150 60  0001 C CNN "part_num"
 	1    6150 6150
 	1    0    0    -1  
@@ -754,7 +754,7 @@ P 5800 4750
 F 0 "R21" V 5880 4750 50  0000 C CNN
 F 1 "100K" V 5800 4750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5730 4750 50  0001 C CNN
-F 3 "" H 5800 4750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5800 4750 50  0001 C CNN
 F 4 "RESS-008" V 5800 4750 60  0001 C CNN "part_num"
 	1    5800 4750
 	1    0    0    -1  
@@ -794,7 +794,7 @@ P 6400 4500
 F 0 "Q2" H 6600 4550 50  0000 L CNN
 F 1 "Q_NMOS_GSD" H 6600 4450 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:TSOT-23" H 6600 4600 50  0001 C CNN
-F 3 "" H 6400 4500 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 6400 4500 50  0001 C CNN
 F 4 "TRAN-002" H 6400 4500 60  0001 C CNN "part_num"
 	1    6400 4500
 	1    0    0    -1  

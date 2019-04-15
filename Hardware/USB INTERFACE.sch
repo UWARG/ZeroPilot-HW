@@ -69,7 +69,7 @@ P 2550 2050
 F 0 "R?" V 2630 2050 50  0000 C CNN
 F 1 "4.7K" V 2550 2050 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 2050 50  0001 C CNN
-F 3 "" H 2550 2050 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 2050 50  0001 C CNN
 F 4 "RESS-015" V 2550 2050 60  0001 C CNN "part_num"
 	1    2550 2050
 	1    0    0    -1  
@@ -149,7 +149,7 @@ P 2550 2650
 F 0 "R?" V 2630 2650 50  0000 C CNN
 F 1 "10K" V 2550 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2480 2650 50  0001 C CNN
-F 3 "" H 2550 2650 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 2550 2650 50  0001 C CNN
 F 4 "RESS-005" V 2550 2650 60  0001 C CNN "part_num"
 	1    2550 2650
 	1    0    0    -1  
@@ -161,7 +161,7 @@ P 2800 2650
 F 0 "R?" V 2880 2650 50  0000 C CNN
 F 1 "12K" V 2800 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2730 2650 50  0001 C CNN
-F 3 "" H 2800 2650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2800 2650 50  0001 C CNN
 F 4 "RESS-016" V 2800 2650 60  0001 C CNN "part_num"
 	1    2800 2650
 	1    0    0    -1  
@@ -173,7 +173,7 @@ P 3000 2350
 F 0 "R?" V 3080 2350 50  0000 C CNN
 F 1 "1K" V 3000 2350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 2350 50  0001 C CNN
-F 3 "" H 3000 2350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3000 2350 50  0001 C CNN
 F 4 "RESS-017" V 3000 2350 60  0001 C CNN "part_num"
 	1    3000 2350
 	0    1    1    0   
@@ -495,7 +495,7 @@ P 3000 1700
 F 0 "R?" V 2900 1700 50  0000 C CNN
 F 1 "10" V 3000 1700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 1700 50  0001 C CNN
-F 3 "" H 3000 1700 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" H 3000 1700 50  0001 C CNN
 F 4 "RESS-018" V 3000 1700 60  0001 C CNN "part_num"
 	1    3000 1700
 	0    1    1    0   
@@ -507,7 +507,7 @@ P 3000 1800
 F 0 "R?" V 3080 1800 50  0000 C CNN
 F 1 "10" V 3000 1800 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2930 1800 50  0001 C CNN
-F 3 "" H 3000 1800 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_51_RoHS_P_0.pdf" H 3000 1800 50  0001 C CNN
 F 4 "RESS-018" V 3000 1800 60  0001 C CNN "part_num"
 	1    3000 1800
 	0    1    1    0   
@@ -523,7 +523,7 @@ P 8200 2000
 F 0 "R?" V 8250 1800 50  0000 C CNN
 F 1 "0" V 8200 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 2000 50  0001 C CNN
-F 3 "" H 8200 2000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 8200 2000 50  0001 C CNN
 F 4 "RESS-001" V 8200 2000 60  0001 C CNN "part_num"
 	1    8200 2000
 	0    1    1    0   
@@ -535,7 +535,7 @@ P 7950 1900
 F 0 "R?" V 8000 1700 50  0000 C CNN
 F 1 "220" V 7950 1900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7880 1900 50  0001 C CNN
-F 3 "" H 7950 1900 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf" H 7950 1900 50  0001 C CNN
 F 4 "RESS-014" V 7950 1900 60  0001 C CNN "part_num"
 	1    7950 1900
 	0    1    1    0   
@@ -551,7 +551,7 @@ P 9700 2000
 F 0 "R?" V 9750 1800 50  0000 C CNN
 F 1 "0" V 9700 2000 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9630 2000 50  0001 C CNN
-F 3 "" H 9700 2000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 2000 50  0001 C CNN
 F 4 "RESS-001" V 9700 2000 60  0001 C CNN "part_num"
 	1    9700 2000
 	0    -1   1    0   
@@ -563,7 +563,7 @@ P 9950 1900
 F 0 "R?" V 10000 1700 50  0000 C CNN
 F 1 "220" V 9950 1900 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9880 1900 50  0001 C CNN
-F 3 "" H 9950 1900 50  0001 C CNN
+F 3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-AC_51_RoHS_L_6.pdf" H 9950 1900 50  0001 C CNN
 F 4 "RESS-014" V 9950 1900 60  0001 C CNN "part_num"
 	1    9950 1900
 	0    -1   1    0   

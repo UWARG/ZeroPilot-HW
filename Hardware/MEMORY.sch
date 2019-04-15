@@ -80,7 +80,7 @@ P 1650 5650
 F 0 "R25" V 1730 5650 50  0000 C CNN
 F 1 "10K" V 1650 5650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1580 5650 50  0001 C CNN
-F 3 "" H 1650 5650 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 1650 5650 50  0001 C CNN
 F 4 "RESS-005" V 1650 5650 60  0001 C CNN "part_num"
 	1    1650 5650
 	1    0    0    -1  
@@ -92,7 +92,7 @@ P 1650 5100
 F 0 "R24" V 1730 5100 50  0000 C CNN
 F 1 "0" V 1650 5100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1580 5100 50  0001 C CNN
-F 3 "" H 1650 5100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1650 5100 50  0001 C CNN
 F 4 "RESS-001" V 1650 5100 60  0001 C CNN "part_num"
 	1    1650 5100
 	1    0    0    -1  
@@ -137,7 +137,7 @@ P 1900 5650
 F 0 "R27" V 1980 5650 50  0000 C CNN
 F 1 "10K" V 1900 5650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 5650 50  0001 C CNN
-F 3 "" H 1900 5650 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 1900 5650 50  0001 C CNN
 F 4 "RESS-005" V 1900 5650 60  0001 C CNN "part_num"
 	1    1900 5650
 	1    0    0    -1  
@@ -149,7 +149,7 @@ P 2150 5650
 F 0 "R29" V 2230 5650 50  0000 C CNN
 F 1 "10K" V 2150 5650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2080 5650 50  0001 C CNN
-F 3 "" H 2150 5650 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 2150 5650 50  0001 C CNN
 F 4 "RESS-005" V 2150 5650 60  0001 C CNN "part_num"
 	1    2150 5650
 	1    0    0    -1  
@@ -161,7 +161,7 @@ P 1900 5100
 F 0 "R26" V 1980 5100 50  0000 C CNN
 F 1 "0" V 1900 5100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 5100 50  0001 C CNN
-F 3 "" H 1900 5100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 5100 50  0001 C CNN
 F 4 "RESS-001" V 1900 5100 60  0001 C CNN "part_num"
 	1    1900 5100
 	1    0    0    -1  
@@ -173,7 +173,7 @@ P 2150 5100
 F 0 "R28" V 2230 5100 50  0000 C CNN
 F 1 "0" V 2150 5100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2080 5100 50  0001 C CNN
-F 3 "" H 2150 5100 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2150 5100 50  0001 C CNN
 F 4 "RESS-001" V 2150 5100 60  0001 C CNN "part_num"
 	1    2150 5100
 	1    0    0    -1  
@@ -185,7 +185,7 @@ P 3950 5300
 F 0 "R30" V 4030 5300 50  0000 C CNN
 F 1 "10K" V 3950 5300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3880 5300 50  0001 C CNN
-F 3 "" H 3950 5300 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3950 5300 50  0001 C CNN
 F 4 "RESS-005" V 3950 5300 60  0001 C CNN "part_num"
 	1    3950 5300
 	1    0    0    -1  
