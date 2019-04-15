@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ZeroPilot-rescue
-LIBS:WARG
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:ZeroPilot-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR38
+L power:GND #PWR38
 U 1 1 5920672F
 P 9150 2600
 F 0 "#PWR38" H 9150 2350 50  0001 C CNN
@@ -67,7 +36,7 @@ SD_VDD
 Text HLabel 6950 1700 0    60   Input ~ 0
 SD_CS
 $Comp
-L GND #PWR37
+L power:GND #PWR37
 U 1 1 592067B5
 P 7300 2400
 F 0 "#PWR37" H 7300 2150 50  0001 C CNN
@@ -78,7 +47,7 @@ F 3 "" H 7300 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR36
+L power:GND #PWR36
 U 1 1 592069E4
 P 5150 5850
 F 0 "#PWR36" H 5150 5600 50  0001 C CNN
@@ -105,7 +74,7 @@ E2
 Text Label 4650 5250 2    60   ~ 0
 E3
 $Comp
-L R R42
+L Device:R R42
 U 1 1 59206C6F
 P 1650 5650
 F 0 "R42" V 1730 5650 50  0000 C CNN
@@ -117,7 +86,7 @@ F 4 "RESS-005" V 1650 5650 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R41
+L Device:R R41
 U 1 1 59206D63
 P 1650 5100
 F 0 "R41" V 1730 5100 50  0000 C CNN
@@ -129,7 +98,7 @@ F 4 "RESS-001" V 1650 5100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR35
+L power:GND #PWR35
 U 1 1 59206DDE
 P 1900 5950
 F 0 "#PWR35" H 1900 5700 50  0001 C CNN
@@ -152,7 +121,7 @@ Populate resistors to select I2C address\n
 NoConn ~ 7400 1600
 NoConn ~ 7400 2300
 $Comp
-L Micro_SD_Card-RESCUE-ZeroPilot J37
+L ZeroPilot-rescue:Micro_SD_Card-RESCUE-ZeroPilot-ZeroPilot-rescue J37
 U 1 1 59517B7C
 P 8300 1900
 AR Path="/59517B7C" Ref="J37"  Part="1" 
@@ -166,7 +135,7 @@ F 4 "MEMM-002" H 8300 1900 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R44
+L Device:R R44
 U 1 1 59596B34
 P 1900 5650
 F 0 "R44" V 1980 5650 50  0000 C CNN
@@ -178,7 +147,7 @@ F 4 "RESS-005" V 1900 5650 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R46
+L Device:R R46
 U 1 1 59596B68
 P 2150 5650
 F 0 "R46" V 2230 5650 50  0000 C CNN
@@ -190,7 +159,7 @@ F 4 "RESS-005" V 2150 5650 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R43
+L Device:R R43
 U 1 1 59596BE6
 P 1900 5100
 F 0 "R43" V 1980 5100 50  0000 C CNN
@@ -202,7 +171,7 @@ F 4 "RESS-001" V 1900 5100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R45
+L Device:R R45
 U 1 1 59596C1A
 P 2150 5100
 F 0 "R45" V 2230 5100 50  0000 C CNN
@@ -214,7 +183,7 @@ F 4 "RESS-001" V 2150 5100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R47
+L Device:R R47
 U 1 1 59596D32
 P 3950 5300
 F 0 "R47" V 4030 5300 50  0000 C CNN
@@ -226,9 +195,11 @@ F 4 "RESS-005" V 3950 5300 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L M24C64-WDW6TP U20
+L WARG:M24C64-WDW6TP U20
 U 1 1 595FB585
 P 5300 5000
+AR Path="/595FB585" Ref="U20"  Part="1" 
+AR Path="/5920635A/595FB585" Ref="U20"  Part="1" 
 F 0 "U20" H 5300 5450 60  0000 C CNN
 F 1 "M24C64-WDW6TP" H 5250 4100 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-8_4.4x3mm_Pitch0.65mm" H 5200 5350 60  0001 C CNN
@@ -260,7 +231,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 5350 5750 5350
 Wire Wire Line
-	3850 5500 4650 5500
+	3850 5500 3950 5500
 Wire Wire Line
 	3950 5450 3950 5500
 Connection ~ 3950 5500
@@ -275,14 +246,14 @@ Wire Wire Line
 Wire Wire Line
 	1650 5800 1650 5900
 Wire Wire Line
-	1650 5900 2150 5900
+	1650 5900 1900 5900
 Wire Wire Line
 	2150 5900 2150 5800
 Wire Wire Line
-	1900 5800 1900 5950
+	1900 5800 1900 5900
 Connection ~ 1900 5900
 Wire Wire Line
-	1650 4800 2150 4800
+	1650 4800 1900 4800
 Wire Wire Line
 	1650 4800 1650 4950
 Wire Wire Line
@@ -298,4 +269,12 @@ Wire Wire Line
 	9150 2500 9100 2500
 Text HLabel 3850 5500 0    60   Input ~ 0
 WC
+Wire Wire Line
+	3950 5500 4650 5500
+Wire Wire Line
+	1900 5900 2150 5900
+Wire Wire Line
+	1900 5900 1900 5950
+Wire Wire Line
+	1900 4800 2150 4800
 $EndSCHEMATC

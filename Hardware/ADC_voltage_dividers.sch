@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ZeroPilot-rescue
-LIBS:WARG
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:ZeroPilot-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -46,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR40
+L power:GND #PWR40
 U 1 1 596892B4
 P 3850 3150
 F 0 "#PWR40" H 3850 2900 50  0001 C CNN
@@ -57,7 +26,7 @@ F 3 "" H 3850 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D19
+L Device:D D19
 U 1 1 596892D3
 P 4050 1450
 F 0 "D19" H 4050 1550 50  0000 C CNN
@@ -69,7 +38,7 @@ F 4 "DIOD-004" H 4050 1450 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L D D20
+L Device:D D20
 U 1 1 596892DB
 P 4050 2450
 F 0 "D20" H 4050 2550 50  0000 C CNN
@@ -83,7 +52,7 @@ $EndComp
 Wire Wire Line
 	3850 3050 3850 3150
 $Comp
-L R R52
+L Device:R R52
 U 1 1 596892FC
 P 3850 2900
 F 0 "R52" V 3930 2900 50  0000 C CNN
@@ -95,7 +64,7 @@ F 4 "RESS-002" V 3850 2900 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R49
+L Device:R R49
 U 1 1 59689304
 P 3400 2700
 F 0 "R49" V 3480 2700 50  0000 C CNN
@@ -119,11 +88,11 @@ AIRSPD_IN
 Wire Wire Line
 	4050 1600 4050 1800
 Wire Wire Line
-	3550 1800 4400 1800
+	3550 1800 3800 1800
 Wire Wire Line
 	4050 2600 4050 2700
 Wire Wire Line
-	3550 2700 4400 2700
+	3550 2700 3850 2700
 Wire Wire Line
 	4050 2300 4050 2200
 Wire Wire Line
@@ -152,7 +121,7 @@ Wire Wire Line
 	3850 2750 3850 2700
 Connection ~ 3850 2700
 $Comp
-L GND #PWR39
+L power:GND #PWR39
 U 1 1 59689CAD
 P 3800 2300
 F 0 "#PWR39" H 3800 2050 50  0001 C CNN
@@ -165,7 +134,7 @@ $EndComp
 Wire Wire Line
 	3800 2200 3800 2300
 $Comp
-L R R51
+L Device:R R51
 U 1 1 59689CB5
 P 3800 2050
 F 0 "R51" V 3880 2050 50  0000 C CNN
@@ -182,7 +151,7 @@ Connection ~ 3800 1800
 Text HLabel 4400 3600 2    60   Output ~ 0
 AIRSPD_OUT
 $Comp
-L GND #PWR41
+L power:GND #PWR41
 U 1 1 59689D8B
 P 3850 4150
 F 0 "#PWR41" H 3850 3900 50  0001 C CNN
@@ -195,7 +164,7 @@ $EndComp
 Wire Wire Line
 	3850 4050 3850 4150
 $Comp
-L R R53
+L Device:R R53
 U 1 1 59689D93
 P 3850 3900
 F 0 "R53" V 3930 3900 50  0000 C CNN
@@ -209,9 +178,9 @@ $EndComp
 Wire Wire Line
 	3850 3750 3850 3600
 Wire Wire Line
-	3600 3600 4400 3600
+	3600 3600 3850 3600
 $Comp
-L R R50
+L Device:R R50
 U 1 1 59689DC9
 P 3450 3600
 F 0 "R50" V 3530 3600 50  0000 C CNN
@@ -226,7 +195,7 @@ Connection ~ 3850 3600
 Wire Wire Line
 	3300 3600 2950 3600
 $Comp
-L R R48
+L Device:R R48
 U 1 1 599BFDE6
 P 3400 1800
 F 0 "R48" V 3480 1800 50  0000 C CNN
@@ -237,4 +206,14 @@ F 4 "RESS-007" V 3400 1800 60  0001 C CNN "part_num"
 	1    3400 1800
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4050 2700 4400 2700
+Wire Wire Line
+	4050 1800 4400 1800
+Wire Wire Line
+	3850 2700 4050 2700
+Wire Wire Line
+	3800 1800 4050 1800
+Wire Wire Line
+	3850 3600 4400 3600
 $EndSCHEMATC

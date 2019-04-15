@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ZeroPilot-rescue
-LIBS:WARG
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:ZeroPilot-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -237,7 +206,7 @@ PW_GOOD_INT
 Text Label 1600 1300 0    60   ~ 0
 PW_GOOD_EXT
 $Comp
-L TEST TP1
+L Connector:TestPoint TP1
 U 1 1 592D52D6
 P 2300 1300
 F 0 "TP1" H 2300 1600 50  0000 C BNN
@@ -248,7 +217,7 @@ F 3 "" H 2300 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TEST TP2
+L Connector:TestPoint TP2
 U 1 1 592D5525
 P 2450 1500
 F 0 "TP2" H 2450 1800 50  0000 C BNN
@@ -668,7 +637,7 @@ SWIO_SAFETY
 Text Label 4300 2100 2    59   ~ 0
 SCLK_SAFETY
 $Comp
-L CONN_01X04 J1
+L conn:CONN_01X04 J1
 U 1 1 594DE28B
 P 10450 2750
 F 0 "J1" H 10450 3000 50  0000 C CNN
@@ -680,7 +649,7 @@ F 4 "CONN-008" H 10450 2750 60  0001 C CNN "part_num"
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR1
+L power:GND #PWR1
 U 1 1 594DF6EB
 P 10150 3000
 F 0 "#PWR1" H 10150 2750 50  0001 C CNN
@@ -691,7 +660,7 @@ F 3 "" H 10150 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR2
+L power:GND #PWR2
 U 1 1 594F2D3B
 P 12300 5850
 F 0 "#PWR2" H 12300 5600 50  0001 C CNN
@@ -702,7 +671,7 @@ F 3 "" H 12300 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG1
+L power:PWR_FLAG #FLG1
 U 1 1 594F3124
 P 12300 5850
 F 0 "#FLG1" H 12300 5925 50  0001 C CNN
@@ -806,8 +775,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 6550 5650 6550
 Wire Bus Line
-	6450 4300 6450 6550
-Wire Bus Line
 	6450 4300 6200 4300
 Wire Wire Line
 	7200 4400 6550 4400
@@ -844,8 +811,6 @@ Wire Wire Line
 Wire Wire Line
 	5650 6650 6350 6650
 Wire Bus Line
-	9750 4100 9750 4800
-Wire Bus Line
 	9750 4400 10000 4400
 Wire Wire Line
 	9650 4900 8950 4900
@@ -855,14 +820,10 @@ Wire Wire Line
 	9650 4600 8950 4600
 Wire Wire Line
 	8950 4500 9650 4500
-Wire Bus Line
-	3750 5850 3750 6650
 Wire Wire Line
 	3850 6500 4350 6500
 Wire Wire Line
 	3850 6600 4350 6600
-Wire Bus Line
-	6450 2200 6450 3700
 Wire Bus Line
 	6450 3450 6150 3450
 Wire Wire Line
@@ -895,8 +856,6 @@ Wire Wire Line
 	6550 2300 7200 2300
 Wire Wire Line
 	7200 2400 6550 2400
-Wire Bus Line
-	600  3450 600  4750
 Wire Wire Line
 	700  3650 1350 3650
 Wire Wire Line
@@ -922,8 +881,6 @@ Wire Wire Line
 Wire Wire Line
 	1350 4850 700  4850
 Wire Bus Line
-	3500 3400 3500 3650
-Wire Bus Line
 	3500 3400 3800 3400
 Wire Wire Line
 	3400 3750 3150 3750
@@ -933,8 +890,6 @@ Wire Wire Line
 	3150 3850 3800 3850
 Wire Wire Line
 	3150 3950 3800 3950
-Wire Bus Line
-	600  5650 600  7350
 Wire Bus Line
 	600  5650 850  5650
 Wire Wire Line
@@ -1007,8 +962,6 @@ Wire Wire Line
 	4300 1600 3900 1600
 Wire Bus Line
 	6550 1250 6400 1250
-Wire Bus Line
-	6400 1250 6400 1600
 Wire Wire Line
 	6300 1400 6050 1400
 Wire Wire Line
@@ -1019,8 +972,6 @@ Wire Wire Line
 	6050 1700 6300 1700
 Wire Bus Line
 	6550 1800 6400 1800
-Wire Bus Line
-	6400 1800 6400 2000
 Wire Wire Line
 	6300 1950 6050 1950
 Wire Wire Line
@@ -1037,4 +988,24 @@ Text Label 3150 4400 0    59   ~ 0
 5V_INT
 Text Label 4300 750  2    60   ~ 0
 5V_INT
+Wire Bus Line
+	9750 4100 9750 4400
+Wire Bus Line
+	3500 3400 3500 3650
+Wire Bus Line
+	9750 4400 9750 4800
+Wire Bus Line
+	6400 1800 6400 2000
+Wire Bus Line
+	6400 1250 6400 1600
+Wire Bus Line
+	3750 5850 3750 6650
+Wire Bus Line
+	6450 2200 6450 3700
+Wire Bus Line
+	600  3450 600  4750
+Wire Bus Line
+	600  5650 600  7350
+Wire Bus Line
+	6450 4300 6450 6550
 $EndSCHEMATC

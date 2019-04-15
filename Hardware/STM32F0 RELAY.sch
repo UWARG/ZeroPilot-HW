@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ZeroPilot-rescue
-LIBS:WARG
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:ZeroPilot-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -79,8 +48,6 @@ Wire Bus Line
 	1200 3600 1300 3600
 Wire Bus Line
 	1300 3600 1400 3700
-Wire Bus Line
-	1400 3700 1400 5350
 Entry Wire Line
 	1400 3700 1500 3800
 Entry Wire Line
@@ -188,7 +155,7 @@ SWCLK
 Wire Wire Line
 	7650 4400 7850 4400
 Wire Wire Line
-	7850 4250 7850 4800
+	7850 4250 7850 4350
 Wire Wire Line
 	7900 4550 7850 4550
 Connection ~ 7850 4550
@@ -196,9 +163,9 @@ Connection ~ 7850 4450
 Wire Wire Line
 	8850 4450 8900 4450
 Wire Wire Line
-	8900 4250 8900 5300
+	8900 4250 8900 4350
 $Comp
-L C C34
+L Device:C C34
 U 1 1 5919967A
 P 7200 5050
 F 0 "C34" H 7225 5150 50  0000 L CNN
@@ -210,7 +177,7 @@ F 4 "CAPP-005" H 7200 5050 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C35
+L Device:C C35
 U 1 1 591996BB
 P 7450 5050
 F 0 "C35" H 7475 5150 50  0000 L CNN
@@ -222,7 +189,7 @@ F 4 "CAPP-006" H 7450 5050 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C36
+L Device:C C36
 U 1 1 591996E8
 P 7700 5050
 F 0 "C36" H 7725 5150 50  0000 L CNN
@@ -234,7 +201,7 @@ F 4 "CAPP-010" H 7700 5050 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C33
+L Device:C C33
 U 1 1 5919971A
 P 6950 5050
 F 0 "C33" H 6975 5150 50  0000 L CNN
@@ -246,7 +213,7 @@ F 4 "CAPP-005" H 6950 5050 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C37
+L Device:C C37
 U 1 1 5919974F
 P 7950 5050
 F 0 "C37" H 7975 5150 50  0000 L CNN
@@ -260,7 +227,7 @@ $EndComp
 Wire Wire Line
 	7950 4800 7950 4900
 Wire Wire Line
-	6950 4800 7950 4800
+	6950 4800 7200 4800
 Wire Wire Line
 	6950 4800 6950 4900
 Wire Wire Line
@@ -276,7 +243,7 @@ Connection ~ 7850 4800
 Wire Wire Line
 	6950 5200 6950 5300
 Wire Wire Line
-	6950 5300 8900 5300
+	6950 5300 7200 5300
 Wire Wire Line
 	7950 5300 7950 5200
 Wire Wire Line
@@ -289,7 +256,7 @@ Wire Wire Line
 	7200 5200 7200 5300
 Connection ~ 7200 5300
 $Comp
-L GND #PWR34
+L power:GND #PWR34
 U 1 1 59199AA1
 P 7450 5300
 F 0 "#PWR34" H 7450 5050 50  0001 C CNN
@@ -301,7 +268,7 @@ F 3 "" H 7450 5300 50  0001 C CNN
 $EndComp
 Connection ~ 7950 5300
 $Comp
-L Crystal Y1
+L Device:Crystal Y1
 U 1 1 5919A616
 P 7000 2300
 F 0 "Y1" H 7000 2450 50  0000 C CNN
@@ -313,7 +280,7 @@ F 4 "XTAL-001" H 7000 2300 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L Crystal Y2
+L Device:Crystal Y2
 U 1 1 5919A668
 P 7000 2850
 F 0 "Y2" H 7000 3000 50  0000 C CNN
@@ -325,19 +292,19 @@ F 4 "XTAL-002" H 7000 2850 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6700 2450 7400 2450
+	6700 2450 7000 2450
 Wire Wire Line
-	6700 2700 7400 2700
+	6700 2700 7000 2700
 Wire Wire Line
-	6700 3000 7400 3000
+	6700 3000 7000 3000
 Wire Wire Line
 	7400 3000 7400 2800
 Wire Wire Line
-	6700 2150 7400 2150
+	6700 2150 7000 2150
 Wire Wire Line
 	7400 2150 7400 2350
 $Comp
-L C C31
+L Device:C C31
 U 1 1 5919AAC2
 P 6550 2700
 F 0 "C31" H 6575 2800 50  0000 L CNN
@@ -349,7 +316,7 @@ F 4 "CAPP-009" H 6550 2700 60  0001 C CNN "part_num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C32
+L Device:C C32
 U 1 1 5919AB20
 P 6550 3000
 F 0 "C32" H 6575 3100 50  0000 L CNN
@@ -361,7 +328,7 @@ F 4 "CAPP-009" H 6550 3000 60  0001 C CNN "part_num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C30
+L Device:C C30
 U 1 1 5919ABF0
 P 6550 2450
 F 0 "C30" H 6575 2550 50  0000 L CNN
@@ -373,7 +340,7 @@ F 4 "CAPP-008" H 6550 2450 60  0001 C CNN "part_num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C29
+L Device:C C29
 U 1 1 5919AC3B
 P 6550 2150
 F 0 "C29" H 6575 2250 50  0000 L CNN
@@ -387,25 +354,25 @@ $EndComp
 Wire Wire Line
 	6400 2150 6350 2150
 Wire Wire Line
-	6350 2150 6350 2450
+	6350 2150 6350 2300
 Wire Wire Line
 	6350 2450 6400 2450
 Wire Wire Line
 	6400 2700 6350 2700
 Wire Wire Line
-	6350 2700 6350 3000
+	6350 2700 6350 2850
 Wire Wire Line
 	6350 3000 6400 3000
 Wire Wire Line
 	6350 2300 6300 2300
 Wire Wire Line
-	6300 2300 6300 2850
+	6300 2300 6300 2550
 Wire Wire Line
 	6300 2850 6350 2850
 Connection ~ 6350 2850
 Connection ~ 6350 2300
 $Comp
-L GND #PWR31
+L power:GND #PWR31
 U 1 1 5919B18A
 P 6150 2650
 F 0 "#PWR31" H 6150 2400 50  0001 C CNN
@@ -498,7 +465,7 @@ Wire Notes Line
 Wire Notes Line
 	2350 2700 3050 2700
 $Comp
-L LED D18
+L Device:LED D18
 U 1 1 59531E55
 P 5800 5750
 F 0 "D18" H 5800 5850 50  0000 C CNN
@@ -510,7 +477,7 @@ F 4 "DIOD-002" H 5800 5750 60  0001 C CNN "part_num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R40
+L Device:R R40
 U 1 1 59531EA2
 P 5800 6150
 F 0 "R40" V 5880 6150 50  0000 C CNN
@@ -522,7 +489,7 @@ F 4 "RESS-006" V 5800 6150 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR30
+L power:GND #PWR30
 U 1 1 59531EED
 P 5800 6400
 F 0 "#PWR30" H 5800 6150 50  0001 C CNN
@@ -539,9 +506,11 @@ Wire Wire Line
 Text Label 7250 4800 0    59   ~ 0
 VDD
 $Comp
-L TEST TP40
+L Connector:TestPoint TP40
 U 1 1 596A3495
 P 7200 3200
+AR Path="/596A3495" Ref="TP40"  Part="1" 
+AR Path="/5919369D/596A3495" Ref="TP40"  Part="1" 
 F 0 "TP40" H 7200 3500 50  0000 C BNN
 F 1 "TEST" H 7200 3450 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7200 3200 50  0001 C CNN
@@ -559,7 +528,7 @@ NoConn ~ 3900 5200
 NoConn ~ 3900 5100
 NoConn ~ 4900 4250
 $Comp
-L LED D1
+L Device:LED D1
 U 1 1 592CEFDB
 P 5450 5750
 F 0 "D1" H 5450 5850 50  0000 C CNN
@@ -571,7 +540,7 @@ F 4 "DIOD-002" H 5450 5750 60  0001 C CNN "part_num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R2
+L Device:R R2
 U 1 1 592CEFE3
 P 5450 6150
 F 0 "R2" V 5530 6150 50  0000 C CNN
@@ -583,7 +552,7 @@ F 4 "RESS-006" V 5450 6150 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR28
+L power:GND #PWR28
 U 1 1 592CEFEA
 P 5450 6400
 F 0 "#PWR28" H 5450 6150 50  0001 C CNN
@@ -598,7 +567,7 @@ Wire Wire Line
 Wire Wire Line
 	5450 6000 5450 5900
 $Comp
-L LED D2
+L Device:LED D2
 U 1 1 592CF150
 P 6150 5750
 F 0 "D2" H 6150 5850 50  0000 C CNN
@@ -610,7 +579,7 @@ F 4 "DIOD-002" H 6150 5750 60  0001 C CNN "part_num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R4
+L Device:R R4
 U 1 1 592CF158
 P 6150 6150
 F 0 "R4" V 6230 6150 50  0000 C CNN
@@ -622,7 +591,7 @@ F 4 "RESS-006" V 6150 6150 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR32
+L power:GND #PWR32
 U 1 1 592CF15F
 P 6150 6400
 F 0 "#PWR32" H 6150 6150 50  0001 C CNN
@@ -665,7 +634,7 @@ SCLK
 Wire Wire Line
 	3200 4150 3900 4150
 $Comp
-L GND #PWR29
+L power:GND #PWR29
 U 1 1 594F28B6
 P 5800 5000
 F 0 "#PWR29" H 5800 4750 50  0001 C CNN
@@ -676,7 +645,7 @@ F 3 "" H 5800 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Buzzer BZ1
+L Device:Buzzer BZ1
 U 1 1 594F2B8D
 P 6600 3950
 F 0 "BZ1" H 6750 4000 50  0000 L CNN
@@ -688,7 +657,7 @@ F 4 "BUZZ-001" H 6600 3950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L STM32F030R8T6 U19
+L WARG:STM32F030R8T6 U19
 U 1 1 599C1943
 P 4400 3200
 F 0 "U19" H 4400 4200 60  0000 C CNN
@@ -729,7 +698,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 4350 4900 4350
 $Comp
-L R R1
+L Device:R R1
 U 1 1 599C8783
 P 5800 4750
 F 0 "R1" V 5880 4750 50  0000 C CNN
@@ -749,12 +718,12 @@ Wire Wire Line
 Text HLabel 6350 3650 0    60   Input ~ 0
 V_SPK
 Wire Wire Line
-	5800 4350 5800 4600
+	5800 4350 5800 4500
 Wire Wire Line
 	5800 5000 5800 4900
 Connection ~ 5800 4500
 $Comp
-L GND #PWR33
+L power:GND #PWR33
 U 1 1 599C9676
 P 6500 4800
 F 0 "#PWR33" H 6500 4550 50  0001 C CNN
@@ -769,7 +738,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3650 6350 3650
 $Comp
-L Q_NMOS_GSD Q2
+L Device:Q_NMOS_GSD Q2
 U 1 1 599C9998
 P 6400 4500
 F 0 "Q2" H 6600 4550 50  0000 L CNN
@@ -781,7 +750,7 @@ F 4 "TRAN-002" H 6400 4500 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L STM32F030R8T6 U19
+L WARG:STM32F030R8T6 U19
 U 2 1 5CB5C200
 P 4400 4600
 F 0 "U19" H 4400 5600 60  0000 C CNN
@@ -792,7 +761,7 @@ F 3 "" H 4150 5100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L STM32F030R8T6 U19
+L WARG:STM32F030R8T6 U19
 U 3 1 5CB5C281
 P 4400 5850
 F 0 "U19" H 4400 6850 60  0000 C CNN
@@ -803,7 +772,7 @@ F 3 "" H 4150 6350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L STM32F030R8T6 U19
+L WARG:STM32F030R8T6 U19
 U 4 1 5CB5C31A
 P 8000 3000
 F 0 "U19" H 8000 4000 60  0000 C CNN
@@ -814,7 +783,7 @@ F 3 "" H 7750 3500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L STM32F030R8T6 U19
+L WARG:STM32F030R8T6 U19
 U 5 1 5CB5C5E0
 P 8350 4900
 F 0 "U19" H 8350 5900 60  0000 C CNN
@@ -829,4 +798,48 @@ NoConn ~ 8800 2750
 NoConn ~ 8800 2850
 NoConn ~ 8800 2950
 NoConn ~ 8800 3050
+Wire Wire Line
+	7850 4550 7850 4800
+Wire Wire Line
+	7850 4450 7850 4550
+Wire Wire Line
+	7200 4800 7450 4800
+Wire Wire Line
+	7450 4800 7700 4800
+Wire Wire Line
+	7700 4800 7850 4800
+Wire Wire Line
+	7850 4800 7950 4800
+Wire Wire Line
+	7700 5300 7950 5300
+Wire Wire Line
+	7450 5300 7700 5300
+Wire Wire Line
+	7200 5300 7450 5300
+Wire Wire Line
+	7950 5300 8900 5300
+Wire Wire Line
+	6350 2850 6350 3000
+Wire Wire Line
+	6350 2300 6350 2450
+Wire Wire Line
+	6300 2550 6300 2850
+Wire Wire Line
+	7000 2150 7400 2150
+Wire Wire Line
+	7000 2450 7400 2450
+Wire Wire Line
+	7000 2700 7400 2700
+Wire Wire Line
+	7000 3000 7400 3000
+Wire Wire Line
+	7850 4400 7850 4450
+Wire Wire Line
+	8900 4450 8900 5300
+Wire Wire Line
+	8900 4350 8900 4450
+Wire Wire Line
+	5800 4500 5800 4600
+Wire Bus Line
+	1400 3700 1400 5350
 $EndSCHEMATC

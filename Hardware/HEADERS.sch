@@ -1,37 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:ZeroPilot-rescue
-LIBS:WARG
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:ZeroPilot-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -52,7 +21,7 @@ DBG_RX_SAFETY
 Text HLabel 1750 3700 2    60   Input ~ 0
 DBG_TX_SAFETY
 $Comp
-L GND #PWR20
+L power:GND #PWR20
 U 1 1 5923E07E
 P 3700 5400
 F 0 "#PWR20" H 3700 5150 50  0001 C CNN
@@ -77,7 +46,7 @@ SDA4
 Text HLabel 4150 5050 2    60   Input ~ 0
 SCL4
 $Comp
-L GND #PWR21
+L power:GND #PWR21
 U 1 1 5923E229
 P 6500 5700
 F 0 "#PWR21" H 6500 5450 50  0001 C CNN
@@ -130,7 +99,7 @@ SPI5_SI
 Text HLabel 9300 5250 2    60   Input ~ 0
 SPI5_CK
 $Comp
-L GND #PWR22
+L power:GND #PWR22
 U 1 1 5923EE9C
 P 9950 5850
 F 0 "#PWR22" H 9950 5600 50  0001 C CNN
@@ -141,7 +110,7 @@ F 3 "" H 9950 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR18
+L power:GND #PWR18
 U 1 1 5923F1BC
 P 1600 5000
 F 0 "#PWR18" H 1600 4750 50  0001 C CNN
@@ -186,7 +155,7 @@ UART2_CTS
 Text HLabel 1750 4900 2    60   Input ~ 0
 UHF_RX
 $Comp
-L GND #PWR19
+L power:GND #PWR19
 U 1 1 594AA8BD
 P 1700 6950
 F 0 "#PWR19" H 1700 6700 50  0001 C CNN
@@ -209,7 +178,7 @@ SWIO_SAFETY
 Text HLabel 2050 5800 2    59   Input ~ 0
 SCLK_SAFETY
 $Comp
-L R R30
+L Device:R R30
 U 1 1 59526B7D
 P 3000 3450
 F 0 "R30" V 3080 3450 50  0000 C CNN
@@ -233,7 +202,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 4100 3700 4100
 Wire Wire Line
-	3700 4100 3700 5400
+	3700 4100 3700 4700
 Wire Wire Line
 	3700 5250 3550 5250
 Wire Wire Line
@@ -243,33 +212,32 @@ Connection ~ 3700 5250
 Wire Wire Line
 	3850 5150 3550 5150
 Wire Wire Line
-	3850 3350 3850 5150
+	3850 3350 3850 4000
 Wire Wire Line
 	3550 4600 3850 4600
 Connection ~ 3850 4600
 Connection ~ 3850 4000
 Wire Wire Line
-	3550 3800 4150 3800
+	3550 3800 3700 3800
 Wire Wire Line
-	3550 3900 4150 3900
+	3550 3900 3600 3900
 Wire Wire Line
-	3550 4400 4150 4400
+	3550 4400 3650 4400
 Wire Wire Line
-	3550 4500 4150 4500
+	3550 4500 3600 4500
 Wire Wire Line
-	3550 4950 4150 4950
+	3550 4950 3650 4950
 Wire Wire Line
-	3550 5050 4150 5050
+	3550 5050 3600 5050
 Wire Wire Line
 	3550 4000 3850 4000
 Wire Wire Line
 	5600 2900 6500 2900
 Wire Wire Line
-	6500 2900 6500 5700
+	6500 2900 6500 3750
 Wire Wire Line
 	6500 3750 5600 3750
 Connection ~ 6500 3750
-Connection ~ 6500 4600
 Connection ~ 6600 2400
 Wire Wire Line
 	5700 2500 5600 2500
@@ -291,7 +259,7 @@ Wire Wire Line
 	6600 3250 5600 3250
 Connection ~ 6600 3250
 Wire Wire Line
-	6600 2350 6600 5100
+	6600 2350 6600 2400
 Wire Wire Line
 	9300 3600 9200 3600
 Wire Wire Line
@@ -303,7 +271,7 @@ Wire Wire Line
 Wire Wire Line
 	9200 3500 10100 3500
 Wire Wire Line
-	10100 2650 10100 5150
+	10100 2650 10100 3500
 Wire Wire Line
 	9300 4400 9200 4400
 Wire Wire Line
@@ -348,7 +316,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 1900 1700 1900
 Wire Wire Line
-	1600 1500 1600 5000
+	1600 1500 1600 2100
 Wire Wire Line
 	1400 1500 1600 1500
 Connection ~ 1600 2100
@@ -361,13 +329,13 @@ Wire Wire Line
 Wire Wire Line
 	9300 3050 9200 3050
 Wire Wire Line
-	9200 2650 10100 2650
+	9200 2650 9850 2650
 Wire Wire Line
 	10100 3500 10100 4300
 Wire Wire Line
 	9200 3150 9950 3150
 Wire Wire Line
-	9950 3150 9950 5850
+	9950 3150 9950 4000
 Wire Wire Line
 	9850 2550 9850 2650
 Connection ~ 9850 2650
@@ -395,7 +363,7 @@ Wire Wire Line
 Wire Wire Line
 	6600 2400 5600 2400
 Wire Wire Line
-	1700 5900 1700 6950
+	1700 5900 1700 6650
 Wire Wire Line
 	1700 5900 1550 5900
 Wire Wire Line
@@ -413,7 +381,6 @@ Wire Wire Line
 	1550 5700 2050 5700
 Wire Wire Line
 	1550 5600 2050 5600
-Connection ~ 6600 4100
 Wire Wire Line
 	9200 4000 9950 4000
 Connection ~ 9950 4000
@@ -457,25 +424,25 @@ Connection ~ 3600 5050
 Wire Wire Line
 	3200 4400 3200 4450
 Wire Wire Line
-	2850 4400 3200 4400
+	2850 4400 3000 4400
 Wire Wire Line
 	3000 4400 3000 4450
 Wire Wire Line
 	3200 3850 3200 3900
 Wire Wire Line
-	2850 3850 3200 3850
+	2850 3850 3000 3850
 Wire Wire Line
 	3000 3850 3000 3900
 Wire Wire Line
 	3200 3250 3200 3300
 Wire Wire Line
-	2850 3250 3200 3250
+	2850 3250 3000 3250
 Wire Wire Line
 	3000 3250 3000 3300
 Text Label 3850 3650 1    59   ~ 0
 V_I2C
 $Comp
-L R R33
+L Device:R R33
 U 1 1 595B24C4
 P 3200 3450
 F 0 "R33" V 3280 3450 50  0000 C CNN
@@ -487,7 +454,7 @@ F 4 "RESS-005" V 3200 3450 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R34
+L Device:R R34
 U 1 1 595B2506
 P 3200 4050
 F 0 "R34" V 3280 4050 50  0000 C CNN
@@ -499,7 +466,7 @@ F 4 "RESS-005" V 3200 4050 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R31
+L Device:R R31
 U 1 1 595B2562
 P 3000 4050
 F 0 "R31" V 3080 4050 50  0000 C CNN
@@ -511,7 +478,7 @@ F 4 "RESS-005" V 3000 4050 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R32
+L Device:R R32
 U 1 1 595B25FA
 P 3000 4600
 F 0 "R32" V 3080 4600 50  0000 C CNN
@@ -523,7 +490,7 @@ F 4 "RESS-005" V 3000 4600 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R35
+L Device:R R35
 U 1 1 595B2654
 P 3200 4600
 F 0 "R35" V 3280 4600 50  0000 C CNN
@@ -535,7 +502,7 @@ F 4 "RESS-005" V 3200 4600 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-3-RESCUE-ZeroPilot J17
+L ZeroPilot-rescue:SPOX-3-RESCUE-ZeroPilot-ZeroPilot-rescue J17
 U 1 1 595BD83D
 P 1250 2000
 F 0 "J17" H 1350 2250 60  0000 C CNN
@@ -547,7 +514,7 @@ F 4 "CONN-002" H 1450 2350 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-3-RESCUE-ZeroPilot J20
+L ZeroPilot-rescue:SPOX-3-RESCUE-ZeroPilot-ZeroPilot-rescue J20
 U 1 1 595BD88E
 P 1300 3800
 F 0 "J20" H 1400 4050 60  0000 C CNN
@@ -559,7 +526,7 @@ F 4 "CONN-002" H 1500 4150 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-3-RESCUE-ZeroPilot J22
+L ZeroPilot-rescue:SPOX-3-RESCUE-ZeroPilot-ZeroPilot-rescue J22
 U 1 1 595BD8CE
 P 1350 4900
 F 0 "J22" H 1450 5150 60  0000 C CNN
@@ -571,7 +538,7 @@ F 4 "CONN-002" H 1550 5250 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6-RESCUE-ZeroPilot J28
+L ZeroPilot-rescue:SPOX-6-RESCUE-ZeroPilot-ZeroPilot-rescue J28
 U 1 1 595BDC13
 P 5400 2650
 F 0 "J28" H 5500 3000 60  0000 C CNN
@@ -583,7 +550,7 @@ F 4 "CONN-005" H 5600 3100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6-RESCUE-ZeroPilot J29
+L ZeroPilot-rescue:SPOX-6-RESCUE-ZeroPilot-ZeroPilot-rescue J29
 U 1 1 595BDC6A
 P 5400 3500
 F 0 "J29" H 5500 3850 60  0000 C CNN
@@ -595,7 +562,7 @@ F 4 "CONN-005" H 5600 3950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6-RESCUE-ZeroPilot J31
+L ZeroPilot-rescue:SPOX-6-RESCUE-ZeroPilot-ZeroPilot-rescue J31
 U 1 1 595BDCF6
 P 5400 5350
 F 0 "J31" H 5500 5700 60  0000 C CNN
@@ -607,7 +574,7 @@ F 4 "CONN-005" H 5600 5800 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6-RESCUE-ZeroPilot J33
+L ZeroPilot-rescue:SPOX-6-RESCUE-ZeroPilot-ZeroPilot-rescue J33
 U 1 1 595BDD44
 P 9000 2900
 F 0 "J33" H 9100 3250 60  0000 C CNN
@@ -619,7 +586,7 @@ F 4 "CONN-005" H 9200 3350 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6-RESCUE-ZeroPilot J34
+L ZeroPilot-rescue:SPOX-6-RESCUE-ZeroPilot-ZeroPilot-rescue J34
 U 1 1 595BDD92
 P 9000 3750
 F 0 "J34" H 9100 4100 60  0000 C CNN
@@ -631,7 +598,7 @@ F 4 "CONN-005" H 9200 4200 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6-RESCUE-ZeroPilot J35
+L ZeroPilot-rescue:SPOX-6-RESCUE-ZeroPilot-ZeroPilot-rescue J35
 U 1 1 595BDDDE
 P 9000 4550
 F 0 "J35" H 9100 4900 60  0000 C CNN
@@ -643,7 +610,7 @@ F 4 "CONN-005" H 9200 5000 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-6-RESCUE-ZeroPilot J36
+L ZeroPilot-rescue:SPOX-6-RESCUE-ZeroPilot-ZeroPilot-rescue J36
 U 1 1 595BDE34
 P 9000 5400
 F 0 "J36" H 9100 5750 60  0000 C CNN
@@ -655,7 +622,7 @@ F 4 "CONN-005" H 9200 5850 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-4-RESCUE-ZeroPilot J25
+L ZeroPilot-rescue:SPOX-4-RESCUE-ZeroPilot-ZeroPilot-rescue J25
 U 1 1 595C301B
 P 3350 3950
 F 0 "J25" H 3450 4200 60  0000 C CNN
@@ -667,7 +634,7 @@ F 4 "CONN-003" H 3550 4300 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-4-RESCUE-ZeroPilot J26
+L ZeroPilot-rescue:SPOX-4-RESCUE-ZeroPilot-ZeroPilot-rescue J26
 U 1 1 595C306F
 P 3350 4550
 F 0 "J26" H 3450 4800 60  0000 C CNN
@@ -679,7 +646,7 @@ F 4 "CONN-003" H 3550 4900 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-4-RESCUE-ZeroPilot J27
+L ZeroPilot-rescue:SPOX-4-RESCUE-ZeroPilot-ZeroPilot-rescue J27
 U 1 1 595C30C3
 P 3350 5100
 F 0 "J27" H 3450 5350 60  0000 C CNN
@@ -691,7 +658,7 @@ F 4 "CONN-003" H 3550 5450 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-3-RESCUE-ZeroPilot J16
+L ZeroPilot-rescue:SPOX-3-RESCUE-ZeroPilot-ZeroPilot-rescue J16
 U 1 1 5966BE07
 P 1200 1400
 F 0 "J16" H 1300 1650 60  0000 C CNN
@@ -703,7 +670,7 @@ F 4 "CONN-002" H 1400 1750 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-4-RESCUE-ZeroPilot J18
+L ZeroPilot-rescue:SPOX-4-RESCUE-ZeroPilot-ZeroPilot-rescue J18
 U 1 1 5966BE8B
 P 1250 2600
 F 0 "J18" H 1350 2850 60  0000 C CNN
@@ -715,7 +682,7 @@ F 4 "CONN-003" H 1450 2950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-5-RESCUE-ZeroPilot J24
+L ZeroPilot-rescue:SPOX-5-RESCUE-ZeroPilot-ZeroPilot-rescue J24
 U 1 1 59679B5A
 P 1350 6450
 F 0 "J24" H 1450 6750 60  0000 C CNN
@@ -727,7 +694,7 @@ F 4 "CONN-004" H 1550 6850 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPOX-5-RESCUE-ZeroPilot J23
+L ZeroPilot-rescue:SPOX-5-RESCUE-ZeroPilot-ZeroPilot-rescue J23
 U 1 1 59679BBF
 P 1350 5700
 F 0 "J23" H 1450 6000 60  0000 C CNN
@@ -741,7 +708,7 @@ $EndComp
 Wire Wire Line
 	1550 5500 1800 5500
 Wire Wire Line
-	1800 5350 1800 6250
+	1800 5350 1800 5500
 Wire Wire Line
 	1800 6250 1550 6250
 Text HLabel 1850 5350 2    60   Input ~ 0
@@ -750,7 +717,7 @@ Wire Wire Line
 	1850 5350 1800 5350
 Connection ~ 1800 5500
 $Comp
-L SPOX-3-RESCUE-ZeroPilot J21
+L ZeroPilot-rescue:SPOX-3-RESCUE-ZeroPilot-ZeroPilot-rescue J21
 U 1 1 596BAB07
 P 1300 4350
 F 0 "J21" H 1400 4600 60  0000 C CNN
@@ -778,7 +745,7 @@ Wire Wire Line
 	3700 3600 3700 3800
 Connection ~ 3700 3800
 $Comp
-L SPOX-2-RESCUE-ZeroPilot J19
+L ZeroPilot-rescue:SPOX-2-RESCUE-ZeroPilot-ZeroPilot-rescue J19
 U 1 1 597D9B19
 P 1300 3250
 F 0 "J19" H 1400 3400 60  0000 C CNN
@@ -794,7 +761,7 @@ I2C_PULLUP
 Wire Wire Line
 	2800 3000 2850 3000
 Wire Wire Line
-	2850 3000 2850 4400
+	2850 3000 2850 3250
 Connection ~ 3000 4400
 Connection ~ 2850 3850
 Connection ~ 3000 3850
@@ -804,4 +771,66 @@ Wire Wire Line
 	1650 1300 1400 1300
 Wire Wire Line
 	1400 1400 1650 1400
+Wire Wire Line
+	3700 4700 3700 5250
+Wire Wire Line
+	3700 5250 3700 5400
+Wire Wire Line
+	3850 4600 3850 5150
+Wire Wire Line
+	3850 4000 3850 4600
+Wire Wire Line
+	6600 2400 6600 3250
+Wire Wire Line
+	9950 5650 9950 5850
+Wire Wire Line
+	9950 4800 9950 5650
+Wire Wire Line
+	1600 3900 1600 4450
+Wire Wire Line
+	1600 3300 1600 3900
+Wire Wire Line
+	1600 2750 1600 3300
+Wire Wire Line
+	1600 2100 1600 2750
+Wire Wire Line
+	9850 2650 10100 2650
+Wire Wire Line
+	10100 4300 10100 5150
+Wire Wire Line
+	6500 5600 6500 5700
+Wire Wire Line
+	1700 6650 1700 6950
+Wire Wire Line
+	9950 4000 9950 4800
+Wire Wire Line
+	3600 3900 4150 3900
+Wire Wire Line
+	3650 4400 4150 4400
+Wire Wire Line
+	3600 4500 4150 4500
+Wire Wire Line
+	3650 4950 4150 4950
+Wire Wire Line
+	3600 5050 4150 5050
+Wire Wire Line
+	1800 5500 1800 6250
+Wire Wire Line
+	1600 4450 1600 5000
+Wire Wire Line
+	3700 3800 4150 3800
+Wire Wire Line
+	3000 4400 3200 4400
+Wire Wire Line
+	2850 3850 2850 4400
+Wire Wire Line
+	3000 3850 3200 3850
+Wire Wire Line
+	2850 3250 2850 3850
+Wire Wire Line
+	3000 3250 3200 3250
+Wire Wire Line
+	6500 3750 6500 5600
+Wire Wire Line
+	6600 3250 6600 5100
 $EndSCHEMATC
