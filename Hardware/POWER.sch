@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -175,18 +174,6 @@ F 4 "REGU-002" H 9450 6500 60  0001 C CNN "part_num"
 $EndComp
 Text Label 1100 4400 0    60   ~ 0
 BATT_IN
-$Comp
-L conn:Conn_01x02 J?
-U 1 1 597DA04D
-P 900 4500
-F 0 "J?" H 1000 4650 60  0000 C CNN
-F 1 "GH-2" H 1000 4350 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM02B-GHS-TBT_02x1.25mm_Straight" H 900 4450 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 900 4450 60  0001 C CNN
-F 4 "CONN-013" H 1100 4750 60  0001 C CNN "part_num"
-	1    900  4500
-	-1   0    0    1   
-$EndComp
 Text Notes 9450 3200 0    60   ~ 0
 Power jumper\nUse to measure current and\ndebug power
 Text Notes 800  3700 0    60   ~ 0
@@ -1472,4 +1459,16 @@ Wire Wire Line
 	10600 3650 10800 3650
 Wire Wire Line
 	9100 2150 9900 2150
+$Comp
+L WARG:SPOX-2 J?
+U 1 1 5CB5E0BD
+P 900 4450
+F 0 "J?" H 981 4747 60  0000 C CNN
+F 1 "SPOX-2" H 981 4641 60  0000 C CNN
+F 2 "Connectors_Molex:Molex_SPOX-5267_22-03-5025_02x2.54mm_Straight" H 900 4400 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035025_sd.pdf" H 900 4400 60  0001 C CNN
+F 4 "CONN-001" H 1100 4700 60  0001 C CNN "part_num"
+	1    900  4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -129,10 +128,6 @@ F10 "REC_UART_TX" O L 3550 1650 60
 F11 "REC_UART_RX" I L 3550 1750 60 
 F12 "DBG_UART_RX" I L 3550 1350 60 
 F13 "DBG_UART_TX" O L 3550 1450 60 
-F14 "MOSI" I R 5300 1350 60 
-F15 "MISO" I R 5300 1450 60 
-F16 "NSS" I R 5300 1550 60 
-F17 "SCLK" I R 5300 1650 60 
 F18 "V_SPK" I L 3550 700 60 
 F19 "RSSI" I L 3550 1000 60 
 $EndSheet
@@ -328,7 +323,7 @@ Entry Wire Line
 Entry Wire Line
 	6450 2300 6550 2400
 Text Notes 12150 3150 0    118  ~ 24
-Reserved lines:\nI2C1: flash memory and safety controller\nSPI5: SD card\nUART3: debug\nUART7: Reciever uart
+Reserved lines:\nI2C1: flash memory and safety controller\nSPI3: SD card\nUART3: debug\nUART7: Reciever uart
 Text Label 650  2950 0    59   ~ 0
 UART
 Entry Wire Line
@@ -584,14 +579,6 @@ Text Label 3150 3600 0    60   ~ 0
 UHF_TX
 Text Label 3150 3700 0    60   ~ 0
 UHF_RX
-Text Label 5300 1650 0    60   ~ 0
-SCK1
-Text Label 5300 1450 0    60   ~ 0
-MISO1
-Text Label 5300 1350 0    60   ~ 0
-MOSI1
-Text Label 5300 1550 0    60   ~ 0
-NSS1
 Text Label 9000 3850 0    60   ~ 0
 V_ISENSE_ADC
 Text Label 9000 3950 0    60   ~ 0
@@ -604,16 +591,6 @@ Text Label 8950 2800 0    60   ~ 0
 TDO
 Text Label 8950 3000 0    60   ~ 0
 JRST
-Entry Wire Line
-	5550 1650 5650 1550
-Entry Wire Line
-	5550 1550 5650 1450
-Entry Wire Line
-	5550 1450 5650 1350
-Entry Wire Line
-	5550 1350 5650 1250
-Text Label 5650 1200 0    60   ~ 0
-SPI
 Entry Wire Line
 	5550 2000 5650 1900
 Entry Wire Line
@@ -643,15 +620,15 @@ F10 "IMU_INT" I L 4550 4875 60
 F11 "IMU_NSS" I L 4550 4050 60 
 $EndSheet
 Text Label 4550 3825 2    60   ~ 0
-SCK5
+SCK1
 Text Label 4550 3950 2    60   ~ 0
-MOSI5
+MOSI1
 Text Label 4550 3700 2    60   ~ 0
-MISO5
+MISO1
 Text Label 4550 4525 2    60   ~ 0
-SDA1
+SDA2
 Text Label 4550 4650 2    60   ~ 0
-SCL1
+SCL2
 Text Notes 12175 3350 0    118  ~ 24
 SPI1: IMU
 Text Label 4550 4200 2    60   ~ 0
@@ -659,9 +636,9 @@ Text Label 4550 4200 2    60   ~ 0
 Text Label 4550 4325 2    60   ~ 0
 3V3
 Text Label 4550 4050 2    60   ~ 0
-NSS5
+NSS1
 Text Notes 12175 3550 0    118  ~ 24
-I2C1: altimeter
+I2C2: altimeter
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5B17AD8A
@@ -947,16 +924,6 @@ Wire Wire Line
 Wire Wire Line
 	3550 1650 3150 1650
 Wire Bus Line
-	5800 1200 5650 1200
-Wire Wire Line
-	5550 1350 5300 1350
-Wire Wire Line
-	5300 1450 5550 1450
-Wire Wire Line
-	5550 1550 5300 1550
-Wire Wire Line
-	5300 1650 5550 1650
-Wire Bus Line
 	5800 1750 5650 1750
 Wire Wire Line
 	5550 1900 5300 1900
@@ -1147,8 +1114,6 @@ Wire Bus Line
 	9750 4500 9750 4900
 Wire Bus Line
 	5650 1750 5650 1950
-Wire Bus Line
-	5650 1200 5650 1550
 Wire Bus Line
 	10700 800  10700 1450
 Wire Bus Line

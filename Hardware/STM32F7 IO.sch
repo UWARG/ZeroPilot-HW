@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1145,7 +1144,6 @@ NoConn ~ 7050 1750
 NoConn ~ 10050 1950
 NoConn ~ 10050 2050
 NoConn ~ 10050 2150
-NoConn ~ 2700 1600
 NoConn ~ 7050 2150
 NoConn ~ 7050 2050
 $Comp
@@ -1324,4 +1322,5 @@ F 3 "" H 10250 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10250 2900 10250 3100
+NoConn ~ 2700 1600
 $EndSCHEMATC

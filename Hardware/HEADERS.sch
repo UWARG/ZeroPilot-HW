@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -325,18 +324,6 @@ F 4 "CONN-017" H 9200 5900 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J22
-U 1 1 595C306F
-P 3700 4500
-F 0 "J22" H 3800 4750 60  0000 C CNN
-F 1 "GH-4" H 3800 4250 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 4550 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 4550 60  0001 C CNN
-F 4 "CONN-015" H 3900 4850 60  0001 C CNN "part_num"
-	1    3700 4500
-	-1   0    0    1   
-$EndComp
-$Comp
 L conn:Conn_01x04 J23
 U 1 1 595C30C3
 P 3700 5050
@@ -363,14 +350,14 @@ $EndComp
 $Comp
 L conn:Conn_01x04 J18
 U 1 1 5966BE8B
-P 1250 2600
-F 0 "J18" H 1350 2850 60  0000 C CNN
-F 1 "GH-4" H 1350 2350 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1250 2650 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 2650 60  0001 C CNN
-F 4 "CONN-015" H 1450 2950 60  0001 C CNN "part_num"
-	1    1250 2600
-	1    0    0    -1  
+P 1250 2650
+F 0 "J18" H 1350 2900 60  0000 C CNN
+F 1 "GH-4" H 1350 2400 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1250 2700 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 2700 60  0001 C CNN
+F 4 "CONN-015" H 1450 3000 60  0001 C CNN "part_num"
+	1    1250 2650
+	-1   0    0    1   
 $EndComp
 Text HLabel 1750 4300 2    60   Input ~ 0
 DBG_RX_PILOT
@@ -401,23 +388,9 @@ Wire Wire Line
 Wire Wire Line
 	1750 3800 1500 3800
 Wire Wire Line
-	4050 4600 4050 5150
-Wire Wire Line
-	3900 4600 4050 4600
-Connection ~ 4050 5150
-Wire Wire Line
-	4200 3250 4200 4500
-Wire Wire Line
-	3900 4500 4200 4500
-Connection ~ 4200 4500
-Wire Wire Line
 	3900 3700 4050 3700
 Wire Wire Line
 	3900 3800 3950 3800
-Wire Wire Line
-	3900 4300 4000 4300
-Wire Wire Line
-	3900 4400 3950 4400
 Wire Wire Line
 	3900 4850 4000 4850
 Wire Wire Line
@@ -546,14 +519,12 @@ Wire Wire Line
 	3550 4150 4000 4150
 Wire Wire Line
 	4000 4150 4000 4300
-Connection ~ 4000 4300
 Wire Wire Line
 	3350 4100 3350 4200
 Wire Wire Line
 	3350 4200 3950 4200
 Wire Wire Line
 	3950 4200 3950 4400
-Connection ~ 3950 4400
 Wire Wire Line
 	3550 4650 3550 4750
 Wire Wire Line
@@ -947,8 +918,6 @@ $EndComp
 Wire Wire Line
 	4050 5150 4050 5300
 Wire Wire Line
-	4200 4500 4200 5050
-Wire Wire Line
 	6600 2400 6600 3250
 Wire Wire Line
 	9950 5650 9950 5850
@@ -1065,4 +1034,34 @@ Wire Wire Line
 	3900 5150 4050 5150
 Wire Wire Line
 	3900 5050 4200 5050
+Wire Wire Line
+	4200 3250 4200 5050
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CBD2553
+P 3900 4300
+F 0 "TP?" H 3900 4600 50  0000 C BNN
+F 1 "TEST" H 3900 4550 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 4300 50  0001 C CNN
+F 3 "" H 3900 4300 50  0001 C CNN
+	1    3900 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CBD25D5
+P 3900 4400
+F 0 "TP?" H 3900 4700 50  0000 C BNN
+F 1 "TEST" H 3900 4650 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 4400 50  0001 C CNN
+F 3 "" H 3900 4400 50  0001 C CNN
+	1    3900 4400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 4400 3950 4400
+Connection ~ 3950 4400
+Wire Wire Line
+	3900 4300 4000 4300
+Connection ~ 4000 4300
 $EndSCHEMATC

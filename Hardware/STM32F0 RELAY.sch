@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -620,22 +619,6 @@ Wire Wire Line
 	6150 5300 6150 5600
 Wire Wire Line
 	4950 5300 6150 5300
-Text HLabel 3200 4350 0    60   Input ~ 0
-MOSI
-Text HLabel 3200 4250 0    60   Input ~ 0
-MISO
-Text HLabel 4950 3250 2    60   Input ~ 0
-NSS
-Wire Wire Line
-	4950 3250 4850 3250
-Wire Wire Line
-	3900 4250 3200 4250
-Wire Wire Line
-	3200 4350 3900 4350
-Text HLabel 3200 4150 0    60   Input ~ 0
-SCLK
-Wire Wire Line
-	3200 4150 3900 4150
 $Comp
 L power:GND #PWR034
 U 1 1 594F28B6
@@ -887,6 +870,10 @@ F 3 "" H 7400 3450 50  0001 C CNN
 	1    7400 3450
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3900 4350
+NoConn ~ 3900 4250
+NoConn ~ 3900 4150
+NoConn ~ 4850 3250
 Wire Bus Line
 	1400 3700 1400 5350
 $EndSCHEMATC
