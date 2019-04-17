@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR036
+L power:GND #PWR040
 U 1 1 5920672F
 P 9150 2600
-F 0 "#PWR036" H 9150 2350 50  0001 C CNN
+F 0 "#PWR040" H 9150 2350 50  0001 C CNN
 F 1 "GND" H 9150 2450 50  0000 C CNN
 F 2 "" H 9150 2600 50  0001 C CNN
 F 3 "" H 9150 2600 50  0001 C CNN
@@ -36,10 +36,10 @@ SD_VDD
 Text HLabel 6950 1700 0    60   Input ~ 0
 SD_DAT3
 $Comp
-L power:GND #PWR037
+L power:GND #PWR039
 U 1 1 592067B5
 P 7300 2400
-F 0 "#PWR037" H 7300 2150 50  0001 C CNN
+F 0 "#PWR039" H 7300 2150 50  0001 C CNN
 F 1 "GND" H 7300 2250 50  0000 C CNN
 F 2 "" H 7300 2400 50  0001 C CNN
 F 3 "" H 7300 2400 50  0001 C CNN
@@ -74,10 +74,10 @@ E2
 Text Label 4650 5250 2    60   ~ 0
 E3
 $Comp
-L Device:R R25
+L Device:R R29
 U 1 1 59206C6F
 P 1650 5650
-F 0 "R25" V 1730 5650 50  0000 C CNN
+F 0 "R29" V 1730 5650 50  0000 C CNN
 F 1 "10K" V 1650 5650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1580 5650 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 1650 5650 50  0001 C CNN
@@ -86,10 +86,10 @@ F 4 "RESS-005" V 1650 5650 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R24
+L Device:R R28
 U 1 1 59206D63
 P 1650 5100
-F 0 "R24" V 1730 5100 50  0000 C CNN
+F 0 "R28" V 1730 5100 50  0000 C CNN
 F 1 "0" V 1650 5100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1580 5100 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1650 5100 50  0001 C CNN
@@ -98,10 +98,10 @@ F 4 "RESS-001" V 1650 5100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR039
+L power:GND #PWR037
 U 1 1 59206DDE
 P 1900 5950
-F 0 "#PWR039" H 1900 5700 50  0001 C CNN
+F 0 "#PWR037" H 1900 5700 50  0001 C CNN
 F 1 "GND" H 1900 5800 50  0000 C CNN
 F 2 "" H 1900 5950 50  0001 C CNN
 F 3 "" H 1900 5950 50  0001 C CNN
@@ -119,10 +119,10 @@ E3
 Text Notes 1250 4650 0    60   ~ 0
 Populate resistors to select I2C address\n
 $Comp
-L conn:Micro_SD_Card J14
+L conn:Micro_SD_Card J8
 U 1 1 59517B7C
 P 8300 1900
-F 0 "J14" H 7650 2500 50  0000 C CNN
+F 0 "J8" H 7650 2500 50  0000 C CNN
 F 1 "Micro_SD_Card" H 8950 2500 50  0000 R CNN
 F 2 "WARG:micro_sd" H 9450 2200 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/5027740891_sd.pdf" H 8300 1900 50  0001 C CNN
@@ -131,10 +131,10 @@ F 4 "MEMM-002" H 8300 1900 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R27
+L Device:R R31
 U 1 1 59596B34
 P 1900 5650
-F 0 "R27" V 1980 5650 50  0000 C CNN
+F 0 "R31" V 1980 5650 50  0000 C CNN
 F 1 "10K" V 1900 5650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 5650 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 1900 5650 50  0001 C CNN
@@ -143,10 +143,10 @@ F 4 "RESS-005" V 1900 5650 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R29
+L Device:R R33
 U 1 1 59596B68
 P 2150 5650
-F 0 "R29" V 2230 5650 50  0000 C CNN
+F 0 "R33" V 2230 5650 50  0000 C CNN
 F 1 "10K" V 2150 5650 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2080 5650 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 2150 5650 50  0001 C CNN
@@ -155,10 +155,10 @@ F 4 "RESS-005" V 2150 5650 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R26
+L Device:R R30
 U 1 1 59596BE6
 P 1900 5100
-F 0 "R26" V 1980 5100 50  0000 C CNN
+F 0 "R30" V 1980 5100 50  0000 C CNN
 F 1 "0" V 1900 5100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1830 5100 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1900 5100 50  0001 C CNN
@@ -167,10 +167,10 @@ F 4 "RESS-001" V 1900 5100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R28
+L Device:R R32
 U 1 1 59596C1A
 P 2150 5100
-F 0 "R28" V 2230 5100 50  0000 C CNN
+F 0 "R32" V 2230 5100 50  0000 C CNN
 F 1 "0" V 2150 5100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2080 5100 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2150 5100 50  0001 C CNN
@@ -179,10 +179,10 @@ F 4 "RESS-001" V 2150 5100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R30
+L Device:R R34
 U 1 1 59596D32
 P 3950 5300
-F 0 "R30" V 4030 5300 50  0000 C CNN
+F 0 "R34" V 4030 5300 50  0000 C CNN
 F 1 "10K" V 3950 5300 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3880 5300 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3950 5300 50  0001 C CNN

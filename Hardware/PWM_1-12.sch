@@ -35,10 +35,10 @@ PWM_6V
 Text Label 2700 1200 2    60   ~ 0
 PWM_6V
 $Comp
-L power:GND #PWR03
+L power:GND #PWR02
 U 1 1 597DB10B
 P 2300 2750
-F 0 "#PWR03" H 2300 2500 50  0001 C CNN
+F 0 "#PWR02" H 2300 2500 50  0001 C CNN
 F 1 "GND" H 2300 2600 50  0000 C CNN
 F 2 "" H 2300 2750 50  0001 C CNN
 F 3 "" H 2300 2750 50  0001 C CNN
@@ -46,10 +46,10 @@ F 3 "" H 2300 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x06 J?
+L conn:Conn_01x06 J1
 U 1 1 5CBEBA42
 P 2900 1400
-F 0 "J?" H 2979 1392 50  0000 L CNN
+F 0 "J1" H 2979 1392 50  0000 L CNN
 F 1 "GH-6" H 2979 1301 50  0000 L CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 2900 1400 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 2900 1400 50  0001 C CNN
@@ -75,10 +75,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 1600 2300 2400
 $Comp
-L conn:Conn_01x06 J?
+L conn:Conn_01x06 J2
 U 1 1 5CBF0512
 P 2900 2200
-F 0 "J?" H 2980 2192 50  0000 L CNN
+F 0 "J2" H 2980 2192 50  0000 L CNN
 F 1 "GH-6" H 2980 2101 50  0000 L CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 2900 2200 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 2900 2200 50  0001 C CNN
@@ -122,10 +122,10 @@ PWM_6V
 Text Label 5400 1200 2    60   ~ 0
 PWM_6V
 $Comp
-L power:GND #PWR?
+L power:GND #PWR03
 U 1 1 5CBF3F2F
 P 5000 2750
-F 0 "#PWR?" H 5000 2500 50  0001 C CNN
+F 0 "#PWR03" H 5000 2500 50  0001 C CNN
 F 1 "GND" H 5000 2600 50  0000 C CNN
 F 2 "" H 5000 2750 50  0001 C CNN
 F 3 "" H 5000 2750 50  0001 C CNN
@@ -133,10 +133,10 @@ F 3 "" H 5000 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x06 J?
+L conn:Conn_01x06 J3
 U 1 1 5CBF3F35
 P 5600 1400
-F 0 "J?" H 5680 1392 50  0000 L CNN
+F 0 "J3" H 5680 1392 50  0000 L CNN
 F 1 "GH-6" H 5680 1301 50  0000 L CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5600 1400 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5600 1400 50  0001 C CNN
@@ -162,10 +162,10 @@ Wire Wire Line
 Wire Wire Line
 	5000 1600 5000 2400
 $Comp
-L conn:Conn_01x06 J?
+L conn:Conn_01x06 J4
 U 1 1 5CBF3F45
 P 5600 2200
-F 0 "J?" H 5680 2192 50  0000 L CNN
+F 0 "J4" H 5680 2192 50  0000 L CNN
 F 1 "GH-6" H 5680 2101 50  0000 L CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5600 2200 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5600 2200 50  0001 C CNN
@@ -204,10 +204,10 @@ PWM_6V
 Text Label 8250 1200 2    60   ~ 0
 PWM_6V
 $Comp
-L power:GND #PWR?
+L power:GND #PWR04
 U 1 1 5CBF4250
 P 7850 2750
-F 0 "#PWR?" H 7850 2500 50  0001 C CNN
+F 0 "#PWR04" H 7850 2500 50  0001 C CNN
 F 1 "GND" H 7850 2600 50  0000 C CNN
 F 2 "" H 7850 2750 50  0001 C CNN
 F 3 "" H 7850 2750 50  0001 C CNN
@@ -215,10 +215,10 @@ F 3 "" H 7850 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x06 J?
+L conn:Conn_01x06 J5
 U 1 1 5CBF4256
 P 8450 1400
-F 0 "J?" H 8530 1392 50  0000 L CNN
+F 0 "J5" H 8530 1392 50  0000 L CNN
 F 1 "GH-6" H 8530 1301 50  0000 L CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 8450 1400 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 8450 1400 50  0001 C CNN
@@ -244,10 +244,10 @@ Wire Wire Line
 Wire Wire Line
 	7850 1600 7850 2400
 $Comp
-L conn:Conn_01x06 J?
+L conn:Conn_01x06 J6
 U 1 1 5CBF4266
 P 8450 2200
-F 0 "J?" H 8530 2192 50  0000 L CNN
+F 0 "J6" H 8530 2192 50  0000 L CNN
 F 1 "GH-6" H 8530 2101 50  0000 L CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 8450 2200 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 8450 2200 50  0001 C CNN

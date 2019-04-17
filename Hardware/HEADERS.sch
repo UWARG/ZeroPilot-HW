@@ -21,10 +21,10 @@ DBG_RX_SAFETY
 Text HLabel 1750 3700 2    60   Input ~ 0
 DBG_TX_SAFETY
 $Comp
-L power:GND #PWR060
+L power:GND #PWR064
 U 1 1 5923E07E
 P 4050 5250
-F 0 "#PWR060" H 4050 5000 50  0001 C CNN
+F 0 "#PWR064" H 4050 5000 50  0001 C CNN
 F 1 "GND" H 4050 5100 50  0000 C CNN
 F 2 "" H 4050 5250 50  0001 C CNN
 F 3 "" H 4050 5250 50  0001 C CNN
@@ -46,10 +46,10 @@ SDA4
 Text HLabel 4500 3800 2    60   Input ~ 0
 SCL4
 $Comp
-L power:GND #PWR061
+L power:GND #PWR065
 U 1 1 5923E229
 P 6500 5700
-F 0 "#PWR061" H 6500 5450 50  0001 C CNN
+F 0 "#PWR065" H 6500 5450 50  0001 C CNN
 F 1 "GND" H 6500 5550 50  0000 C CNN
 F 2 "" H 6500 5700 50  0001 C CNN
 F 3 "" H 6500 5700 50  0001 C CNN
@@ -99,10 +99,10 @@ SPI5_SI
 Text HLabel 9300 5250 2    60   Input ~ 0
 SPI5_CK
 $Comp
-L power:GND #PWR062
+L power:GND #PWR066
 U 1 1 5923EE9C
 P 9950 5850
-F 0 "#PWR062" H 9950 5600 50  0001 C CNN
+F 0 "#PWR066" H 9950 5600 50  0001 C CNN
 F 1 "GND" H 9950 5700 50  0000 C CNN
 F 2 "" H 9950 5850 50  0001 C CNN
 F 3 "" H 9950 5850 50  0001 C CNN
@@ -167,10 +167,10 @@ SWIO_SAFETY
 Text HLabel 1800 6150 2    59   Input ~ 0
 SCLK_SAFETY
 $Comp
-L Device:R R47
+L Device:R R51
 U 1 1 59526B7D
 P 3350 2100
-F 0 "R47" V 3430 2100 50  0000 C CNN
+F 0 "R51" V 3430 2100 50  0000 C CNN
 F 1 "10K" V 3350 2100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 2100 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 2100 50  0001 C CNN
@@ -181,10 +181,10 @@ $EndComp
 Text Label 4200 2300 1    59   ~ 0
 V_I2C
 $Comp
-L Device:R R50
+L Device:R R54
 U 1 1 595B24C4
 P 3550 2100
-F 0 "R50" V 3630 2100 50  0000 C CNN
+F 0 "R54" V 3630 2100 50  0000 C CNN
 F 1 "10K" V 3550 2100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 2100 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 2100 50  0001 C CNN
@@ -193,10 +193,10 @@ F 4 "RESS-005" V 3550 2100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R51
+L Device:R R55
 U 1 1 595B2506
 P 3550 2700
-F 0 "R51" V 3630 2700 50  0000 C CNN
+F 0 "R55" V 3630 2700 50  0000 C CNN
 F 1 "10K" V 3550 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 2700 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 2700 50  0001 C CNN
@@ -205,10 +205,10 @@ F 4 "RESS-005" V 3550 2700 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R48
+L Device:R R52
 U 1 1 595B2562
 P 3350 2700
-F 0 "R48" V 3430 2700 50  0000 C CNN
+F 0 "R52" V 3430 2700 50  0000 C CNN
 F 1 "10K" V 3350 2700 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 2700 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 2700 50  0001 C CNN
@@ -217,10 +217,10 @@ F 4 "RESS-005" V 3350 2700 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R49
+L Device:R R53
 U 1 1 595B25FA
 P 3350 3250
-F 0 "R49" V 3430 3250 50  0000 C CNN
+F 0 "R53" V 3430 3250 50  0000 C CNN
 F 1 "10K" V 3350 3250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 3250 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 3250 50  0001 C CNN
@@ -229,10 +229,10 @@ F 4 "RESS-005" V 3350 3250 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R52
+L Device:R R56
 U 1 1 595B2654
 P 3550 3250
-F 0 "R52" V 3630 3250 50  0000 C CNN
+F 0 "R56" V 3630 3250 50  0000 C CNN
 F 1 "10K" V 3550 3250 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 3250 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 3250 50  0001 C CNN
@@ -241,10 +241,10 @@ F 4 "RESS-005" V 3550 3250 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x03 J17
+L conn:Conn_01x03 J11
 U 1 1 595BD83D
 P 1250 2000
-F 0 "J17" H 1350 2250 60  0000 C CNN
+F 0 "J11" H 1350 2250 60  0000 C CNN
 F 1 "GH-3" H 1350 1800 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM03B-GHS-TBT_03x1.25mm_Straight" H 1250 2150 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1350 2250 60  0001 C CNN
@@ -253,10 +253,10 @@ F 4 "CONN-014" H 1450 2350 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J24
+L conn:Conn_01x06 J18
 U 1 1 595BDC13
 P 5400 2700
-F 0 "J24" H 5500 3050 60  0000 C CNN
+F 0 "J18" H 5500 3050 60  0000 C CNN
 F 1 "GH-6" H 5500 2350 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5400 2850 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 2850 60  0001 C CNN
@@ -265,10 +265,10 @@ F 4 "CONN-017" H 5600 3150 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J25
+L conn:Conn_01x06 J19
 U 1 1 595BDC6A
 P 5400 3550
-F 0 "J25" H 5500 3900 60  0000 C CNN
+F 0 "J19" H 5500 3900 60  0000 C CNN
 F 1 "GH-6" H 5500 3200 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5400 3700 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 3700 60  0001 C CNN
@@ -277,10 +277,10 @@ F 4 "CONN-017" H 5600 4000 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J26
+L conn:Conn_01x06 J20
 U 1 1 595BDCF6
 P 5400 5400
-F 0 "J26" H 5500 5750 60  0000 C CNN
+F 0 "J20" H 5500 5750 60  0000 C CNN
 F 1 "GH-6" H 5500 5050 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5400 5550 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 5550 60  0001 C CNN
@@ -289,10 +289,10 @@ F 4 "CONN-017" H 5600 5850 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J28
+L conn:Conn_01x06 J21
 U 1 1 595BDD92
 P 9000 3800
-F 0 "J28" H 9100 4150 60  0000 C CNN
+F 0 "J21" H 9100 4150 60  0000 C CNN
 F 1 "GH-6" H 9100 3450 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 9000 3950 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 9000 3950 60  0001 C CNN
@@ -301,10 +301,10 @@ F 4 "CONN-017" H 9200 4250 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J29
+L conn:Conn_01x06 J22
 U 1 1 595BDDDE
 P 9000 4600
-F 0 "J29" H 9100 4950 60  0000 C CNN
+F 0 "J22" H 9100 4950 60  0000 C CNN
 F 1 "GH-6" H 9100 4250 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 9000 4750 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 9000 4750 60  0001 C CNN
@@ -313,10 +313,10 @@ F 4 "CONN-017" H 9200 5050 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J30
+L conn:Conn_01x06 J23
 U 1 1 595BDE34
 P 9000 5450
-F 0 "J30" H 9100 5800 60  0000 C CNN
+F 0 "J23" H 9100 5800 60  0000 C CNN
 F 1 "GH-6" H 9100 5100 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 9000 5600 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 9000 5600 60  0001 C CNN
@@ -325,10 +325,10 @@ F 4 "CONN-017" H 9200 5900 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J23
+L conn:Conn_01x04 J15
 U 1 1 595C30C3
 P 3700 3800
-F 0 "J23" H 3800 4050 60  0000 C CNN
+F 0 "J15" H 3800 4050 60  0000 C CNN
 F 1 "GH-4" H 3800 3550 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 3850 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 3850 60  0001 C CNN
@@ -337,10 +337,10 @@ F 4 "CONN-015" H 3900 4150 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J16
+L conn:Conn_01x04 J10
 U 1 1 5966BE07
 P 1250 1400
-F 0 "J16" H 1350 1700 60  0000 C CNN
+F 0 "J10" H 1350 1700 60  0000 C CNN
 F 1 "GH-4" H 1350 1150 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1250 1550 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1350 1650 60  0001 C CNN
@@ -349,10 +349,10 @@ F 4 "CONN-015" H 1450 1750 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J18
+L conn:Conn_01x04 J12
 U 1 1 5966BE8B
 P 1250 2650
-F 0 "J18" H 1350 2900 60  0000 C CNN
+F 0 "J12" H 1350 2900 60  0000 C CNN
 F 1 "GH-4" H 1350 2400 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1250 2700 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 2700 60  0001 C CNN
@@ -367,10 +367,10 @@ DBG_TX_PILOT
 Text HLabel 1750 4800 2    60   Input ~ 0
 UHF_TX
 $Comp
-L conn:Conn_01x02 J19
+L conn:Conn_01x02 J13
 U 1 1 597D9B19
 P 1250 3300
-F 0 "J19" H 1350 3450 60  0000 C CNN
+F 0 "J13" H 1350 3450 60  0000 C CNN
 F 1 "GH-2" H 1350 3150 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM02B-GHS-TBT_02x1.25mm_Straight" H 1250 3250 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 3250 60  0001 C CNN
@@ -590,10 +590,10 @@ Wire Wire Line
 Wire Wire Line
 	9200 2850 9300 2850
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint TP8
 U 1 1 5B321D7E
 P 1500 3700
-F 0 "TP5" V 1550 4350 50  0000 C BNN
+F 0 "TP8" V 1550 4350 50  0000 C BNN
 F 1 "TXS_TST" V 1500 4100 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 3700 50  0001 C CNN
 F 3 "" H 1500 3700 50  0001 C CNN
@@ -601,10 +601,10 @@ F 3 "" H 1500 3700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint TP9
 U 1 1 5B322406
 P 1500 3800
-F 0 "TP6" V 1550 4450 50  0000 C BNN
+F 0 "TP9" V 1550 4450 50  0000 C BNN
 F 1 "RXS_TST" V 1500 4200 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 3800 50  0001 C CNN
 F 3 "" H 1500 3800 50  0001 C CNN
@@ -612,10 +612,10 @@ F 3 "" H 1500 3800 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint TP11
 U 1 1 5B322A72
 P 1500 4200
-F 0 "TP8" V 1550 4850 50  0000 C BNN
+F 0 "TP11" V 1550 4850 50  0000 C BNN
 F 1 "TXP_TST" V 1500 4600 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 4200 50  0001 C CNN
 F 3 "" H 1500 4200 50  0001 C CNN
@@ -623,10 +623,10 @@ F 3 "" H 1500 4200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L Connector:TestPoint TP12
 U 1 1 5B322A78
 P 1500 4300
-F 0 "TP9" V 1550 4950 50  0000 C BNN
+F 0 "TP12" V 1550 4950 50  0000 C BNN
 F 1 "RXP_TST" V 1500 4700 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 4300 50  0001 C CNN
 F 3 "" H 1500 4300 50  0001 C CNN
@@ -634,10 +634,10 @@ F 3 "" H 1500 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint TP10
 U 1 1 5B322A7E
 P 1500 4000
-F 0 "TP7" V 1550 4650 50  0000 C BNN
+F 0 "TP10" V 1550 4650 50  0000 C BNN
 F 1 "GND_TST" V 1500 4400 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 4000 50  0001 C CNN
 F 3 "" H 1500 4000 50  0001 C CNN
@@ -645,10 +645,10 @@ F 3 "" H 1500 4000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L Connector:TestPoint TP13
 U 1 1 5B322C50
 P 1800 5950
-F 0 "TP10" V 1850 6650 50  0000 C BNN
+F 0 "TP13" V 1850 6650 50  0000 C BNN
 F 1 "NRSTS_TST" V 1800 6350 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 5950 50  0001 C CNN
 F 3 "" H 1800 5950 50  0001 C CNN
@@ -656,10 +656,10 @@ F 3 "" H 1800 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L Connector:TestPoint TP14
 U 1 1 5B322C56
 P 1800 6050
-F 0 "TP11" V 1850 6750 50  0000 C BNN
+F 0 "TP14" V 1850 6750 50  0000 C BNN
 F 1 "SWIOS_TST" V 1800 6450 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6050 50  0001 C CNN
 F 3 "" H 1800 6050 50  0001 C CNN
@@ -667,10 +667,10 @@ F 3 "" H 1800 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP12
+L Connector:TestPoint TP15
 U 1 1 5B322C9E
 P 1800 6150
-F 0 "TP12" V 1850 6850 50  0000 C BNN
+F 0 "TP15" V 1850 6850 50  0000 C BNN
 F 1 "SCLKS_TST" V 1800 6550 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6150 50  0001 C CNN
 F 3 "" H 1800 6150 50  0001 C CNN
@@ -678,10 +678,10 @@ F 3 "" H 1800 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP14
+L Connector:TestPoint TP17
 U 1 1 5B322FC5
 P 1800 6500
-F 0 "TP14" V 1850 7200 50  0000 C BNN
+F 0 "TP17" V 1850 7200 50  0000 C BNN
 F 1 "SWIOP_TST" V 1800 6900 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6500 50  0001 C CNN
 F 3 "" H 1800 6500 50  0001 C CNN
@@ -689,10 +689,10 @@ F 3 "" H 1800 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP15
+L Connector:TestPoint TP18
 U 1 1 5B322FCB
 P 1800 6600
-F 0 "TP15" V 1850 7300 50  0000 C BNN
+F 0 "TP18" V 1850 7300 50  0000 C BNN
 F 1 "SCLKP_TST" V 1800 7000 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6600 50  0001 C CNN
 F 3 "" H 1800 6600 50  0001 C CNN
@@ -700,10 +700,10 @@ F 3 "" H 1800 6600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP16
+L Connector:TestPoint TP19
 U 1 1 5B322FD1
 P 1800 6850
-F 0 "TP16" V 1850 7550 50  0000 C BNN
+F 0 "TP19" V 1850 7550 50  0000 C BNN
 F 1 "GND_TST" V 1800 7250 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6850 50  0001 C CNN
 F 3 "" H 1800 6850 50  0001 C CNN
@@ -711,10 +711,10 @@ F 3 "" H 1800 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP13
+L Connector:TestPoint TP16
 U 1 1 5B322FD7
 P 1800 6400
-F 0 "TP13" V 1850 7100 50  0000 C BNN
+F 0 "TP16" V 1850 7100 50  0000 C BNN
 F 1 "NRSTP_TST" V 1800 6800 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6400 50  0001 C CNN
 F 3 "" H 1800 6400 50  0001 C CNN
@@ -726,10 +726,10 @@ Wire Wire Line
 Wire Wire Line
 	1900 6850 1900 7000
 $Comp
-L Connector:TestPoint TP17
+L Connector:TestPoint TP20
 U 1 1 5B2B2080
 P 3550 5950
-F 0 "TP17" V 3600 6800 50  0000 C BNN
+F 0 "TP20" V 3600 6800 50  0000 C BNN
 F 1 "TDO1_TST" V 3550 6350 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 5950 50  0001 C CNN
 F 3 "" H 3550 5950 50  0001 C CNN
@@ -737,10 +737,10 @@ F 3 "" H 3550 5950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP18
+L Connector:TestPoint TP21
 U 1 1 5B2C685E
 P 3550 6050
-F 0 "TP18" V 3600 6900 50  0000 C BNN
+F 0 "TP21" V 3600 6900 50  0000 C BNN
 F 1 "TMS1_TST" V 3550 6450 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6050 50  0001 C CNN
 F 3 "" H 3550 6050 50  0001 C CNN
@@ -748,10 +748,10 @@ F 3 "" H 3550 6050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP20
+L Connector:TestPoint TP22
 U 1 1 5B2C6D6F
 P 3550 6400
-F 0 "TP20" V 3600 7250 50  0000 C BNN
+F 0 "TP22" V 3600 7250 50  0000 C BNN
 F 1 "TDO2_TST" V 3550 6800 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6400 50  0001 C CNN
 F 3 "" H 3550 6400 50  0001 C CNN
@@ -759,10 +759,10 @@ F 3 "" H 3550 6400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP21
+L Connector:TestPoint TP23
 U 1 1 5B2C6D75
 P 3550 6500
-F 0 "TP21" V 3600 7350 50  0000 C BNN
+F 0 "TP23" V 3600 7350 50  0000 C BNN
 F 1 "TMS2_TST" V 3550 6900 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6500 50  0001 C CNN
 F 3 "" H 3550 6500 50  0001 C CNN
@@ -770,10 +770,10 @@ F 3 "" H 3550 6500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP23
+L Connector:TestPoint TP24
 U 1 1 5B2C6F3D
 P 3550 6850
-F 0 "TP23" V 3600 7700 50  0000 C BNN
+F 0 "TP24" V 3600 7700 50  0000 C BNN
 F 1 "UART1_RTS_TST" V 3550 7350 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6850 50  0001 C CNN
 F 3 "" H 3550 6850 50  0001 C CNN
@@ -781,10 +781,10 @@ F 3 "" H 3550 6850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP24
+L Connector:TestPoint TP25
 U 1 1 5B2C716A
 P 3550 6950
-F 0 "TP24" V 3600 7800 50  0000 C BNN
+F 0 "TP25" V 3600 7800 50  0000 C BNN
 F 1 "UART1_CTS_TST" V 3550 7450 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6950 50  0001 C CNN
 F 3 "" H 3550 6950 50  0001 C CNN
@@ -792,10 +792,10 @@ F 3 "" H 3550 6950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP25
+L Connector:TestPoint TP26
 U 1 1 5B2C726E
 P 3550 7200
-F 0 "TP25" V 3600 8050 50  0000 C BNN
+F 0 "TP26" V 3600 8050 50  0000 C BNN
 F 1 "UART2_RTS_TST" V 3550 7700 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 7200 50  0001 C CNN
 F 3 "" H 3550 7200 50  0001 C CNN
@@ -803,10 +803,10 @@ F 3 "" H 3550 7200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP26
+L Connector:TestPoint TP27
 U 1 1 5B2C7274
 P 3550 7300
-F 0 "TP26" V 3600 8150 50  0000 C BNN
+F 0 "TP27" V 3600 8150 50  0000 C BNN
 F 1 "UART2_CTS_TST" V 3550 7800 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 7300 50  0001 C CNN
 F 3 "" H 3550 7300 50  0001 C CNN
@@ -874,10 +874,10 @@ F 3 "" H 9200 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP30
+L Connector:TestPoint TP28
 U 1 1 5B3C1DA0
 P 3900 2450
-F 0 "TP30" H 3900 2750 50  0000 C BNN
+F 0 "TP28" H 3900 2750 50  0000 C BNN
 F 1 "TEST" H 3900 2700 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 2450 50  0001 C CNN
 F 3 "" H 3900 2450 50  0001 C CNN
@@ -885,10 +885,10 @@ F 3 "" H 3900 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP31
+L Connector:TestPoint TP29
 U 1 1 5B3C21DB
 P 3900 2550
-F 0 "TP31" H 3900 2850 50  0000 C BNN
+F 0 "TP29" H 3900 2850 50  0000 C BNN
 F 1 "TEST" H 3900 2800 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 2550 50  0001 C CNN
 F 3 "" H 3900 2550 50  0001 C CNN
@@ -896,10 +896,10 @@ F 3 "" H 3900 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR064
+L power:GND #PWR062
 U 1 1 5923F1BC
 P 1600 5200
-F 0 "#PWR064" H 1600 4950 50  0001 C CNN
+F 0 "#PWR062" H 1600 4950 50  0001 C CNN
 F 1 "GND" H 1600 5050 50  0000 C CNN
 F 2 "" H 1600 5200 50  0001 C CNN
 F 3 "" H 1600 5200 50  0001 C CNN
@@ -951,10 +951,10 @@ RSSI
 Wire Wire Line
 	1450 1200 1650 1200
 $Comp
-L conn:Conn_01x04 J?
+L conn:Conn_01x04 J14
 U 1 1 5CB789D7
 P 1300 4900
-F 0 "J?" H 1400 5200 60  0000 C CNN
+F 0 "J14" H 1400 5200 60  0000 C CNN
 F 1 "GH-4" H 1400 4650 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1300 5050 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1400 5150 60  0001 C CNN
@@ -972,10 +972,10 @@ Wire Wire Line
 Text HLabel 1750 4700 2    60   Input ~ 0
 V_UHF
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 5CCE1241
 P 10350 1100
-F 0 "H?" H 10450 1146 50  0000 L CNN
+F 0 "H4" H 10450 1146 50  0000 L CNN
 F 1 "MountingHole_M4" H 10450 1055 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 10350 1100 50  0001 C CNN
 F 3 "~" H 10350 1100 50  0001 C CNN
@@ -983,10 +983,10 @@ F 3 "~" H 10350 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 5CB39751
 P 10350 900
-F 0 "H?" H 10450 946 50  0000 L CNN
+F 0 "H3" H 10450 946 50  0000 L CNN
 F 1 "MountingHole_M4" H 10450 855 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 10350 900 50  0001 C CNN
 F 3 "~" H 10350 900 50  0001 C CNN
@@ -994,10 +994,10 @@ F 3 "~" H 10350 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 5CB39892
 P 9450 1100
-F 0 "H?" H 9550 1146 50  0000 L CNN
+F 0 "H2" H 9550 1146 50  0000 L CNN
 F 1 "MountingHole_M4" H 9550 1055 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 9450 1100 50  0001 C CNN
 F 3 "~" H 9450 1100 50  0001 C CNN
@@ -1005,10 +1005,10 @@ F 3 "~" H 9450 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 5CB39899
 P 9450 900
-F 0 "H?" H 9550 946 50  0000 L CNN
+F 0 "H1" H 9550 946 50  0000 L CNN
 F 1 "MountingHole_M4" H 9550 855 50  0000 L CNN
 F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 9450 900 50  0001 C CNN
 F 3 "~" H 9450 900 50  0001 C CNN
@@ -1018,10 +1018,10 @@ $EndComp
 Wire Wire Line
 	3900 3900 4050 3900
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP30
 U 1 1 5CBD2553
 P 3900 3050
-F 0 "TP?" H 3900 3350 50  0000 C BNN
+F 0 "TP30" H 3900 3350 50  0000 C BNN
 F 1 "TEST" H 3900 3300 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3050 50  0001 C CNN
 F 3 "" H 3900 3050 50  0001 C CNN
@@ -1029,10 +1029,10 @@ F 3 "" H 3900 3050 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP31
 U 1 1 5CBD25D5
 P 3900 3150
-F 0 "TP?" H 3900 3450 50  0000 C BNN
+F 0 "TP31" H 3900 3450 50  0000 C BNN
 F 1 "TEST" H 3900 3400 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3150 50  0001 C CNN
 F 3 "" H 3900 3150 50  0001 C CNN
@@ -1046,10 +1046,10 @@ Wire Wire Line
 	3900 3050 4000 3050
 Connection ~ 4000 3050
 $Comp
-L conn:Conn_01x04 J?
+L conn:Conn_01x04 J16
 U 1 1 5CB87A1F
 P 3700 4400
-F 0 "J?" H 3800 4650 60  0000 C CNN
+F 0 "J16" H 3800 4650 60  0000 C CNN
 F 1 "GH-4" H 3800 4150 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 4450 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 4450 60  0001 C CNN
@@ -1058,10 +1058,10 @@ F 4 "CONN-015" H 3900 4750 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J?
+L conn:Conn_01x04 J17
 U 1 1 5CB87AB3
 P 3700 5000
-F 0 "J?" H 3800 5250 60  0000 C CNN
+F 0 "J17" H 3800 5250 60  0000 C CNN
 F 1 "GH-4" H 3800 4750 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 5050 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 5050 60  0001 C CNN
