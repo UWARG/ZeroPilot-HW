@@ -23,27 +23,27 @@ DBG_TX_SAFETY
 $Comp
 L power:GND #PWR060
 U 1 1 5923E07E
-P 4050 5300
-F 0 "#PWR060" H 4050 5050 50  0001 C CNN
-F 1 "GND" H 4050 5150 50  0000 C CNN
-F 2 "" H 4050 5300 50  0001 C CNN
-F 3 "" H 4050 5300 50  0001 C CNN
-	1    4050 5300
+P 4050 5250
+F 0 "#PWR060" H 4050 5000 50  0001 C CNN
+F 1 "GND" H 4050 5100 50  0000 C CNN
+F 2 "" H 4050 5250 50  0001 C CNN
+F 3 "" H 4050 5250 50  0001 C CNN
+	1    4050 5250
 	1    0    0    -1  
 $EndComp
-Text HLabel 4200 3250 1    60   Input ~ 0
+Text HLabel 4200 2000 1    60   Input ~ 0
 V_I2C
-Text HLabel 4500 3700 2    60   Input ~ 0
+Text HLabel 4500 2450 2    60   Input ~ 0
 SDA1
-Text HLabel 4500 3800 2    60   Input ~ 0
+Text HLabel 4500 2550 2    60   Input ~ 0
 SCL1
-Text HLabel 4500 4300 2    60   Input ~ 0
+Text HLabel 4500 3050 2    60   Input ~ 0
 SDA2
-Text HLabel 4500 4400 2    60   Input ~ 0
+Text HLabel 4500 3150 2    60   Input ~ 0
 SCL2
-Text HLabel 4500 4850 2    60   Input ~ 0
+Text HLabel 4500 3700 2    60   Input ~ 0
 SDA4
-Text HLabel 4500 4950 2    60   Input ~ 0
+Text HLabel 4500 3800 2    60   Input ~ 0
 SCL4
 $Comp
 L power:GND #PWR061
@@ -169,75 +169,75 @@ SCLK_SAFETY
 $Comp
 L Device:R R47
 U 1 1 59526B7D
-P 3350 3350
-F 0 "R47" V 3430 3350 50  0000 C CNN
-F 1 "10K" V 3350 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 3350 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 3350 50  0001 C CNN
-F 4 "RESS-005" V 3350 3350 60  0001 C CNN "part_num"
-	1    3350 3350
+P 3350 2100
+F 0 "R47" V 3430 2100 50  0000 C CNN
+F 1 "10K" V 3350 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 2100 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 2100 50  0001 C CNN
+F 4 "RESS-005" V 3350 2100 60  0001 C CNN "part_num"
+	1    3350 2100
 	1    0    0    -1  
 $EndComp
-Text Label 4200 3550 1    59   ~ 0
+Text Label 4200 2300 1    59   ~ 0
 V_I2C
 $Comp
 L Device:R R50
 U 1 1 595B24C4
-P 3550 3350
-F 0 "R50" V 3630 3350 50  0000 C CNN
-F 1 "10K" V 3550 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 3350 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 3350 50  0001 C CNN
-F 4 "RESS-005" V 3550 3350 60  0001 C CNN "part_num"
-	1    3550 3350
+P 3550 2100
+F 0 "R50" V 3630 2100 50  0000 C CNN
+F 1 "10K" V 3550 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 2100 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 2100 50  0001 C CNN
+F 4 "RESS-005" V 3550 2100 60  0001 C CNN "part_num"
+	1    3550 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R51
 U 1 1 595B2506
-P 3550 3950
-F 0 "R51" V 3630 3950 50  0000 C CNN
-F 1 "10K" V 3550 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 3950 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 3950 50  0001 C CNN
-F 4 "RESS-005" V 3550 3950 60  0001 C CNN "part_num"
-	1    3550 3950
+P 3550 2700
+F 0 "R51" V 3630 2700 50  0000 C CNN
+F 1 "10K" V 3550 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 2700 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 2700 50  0001 C CNN
+F 4 "RESS-005" V 3550 2700 60  0001 C CNN "part_num"
+	1    3550 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R48
 U 1 1 595B2562
-P 3350 3950
-F 0 "R48" V 3430 3950 50  0000 C CNN
-F 1 "10K" V 3350 3950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 3950 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 3950 50  0001 C CNN
-F 4 "RESS-005" V 3350 3950 60  0001 C CNN "part_num"
-	1    3350 3950
+P 3350 2700
+F 0 "R48" V 3430 2700 50  0000 C CNN
+F 1 "10K" V 3350 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 2700 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 2700 50  0001 C CNN
+F 4 "RESS-005" V 3350 2700 60  0001 C CNN "part_num"
+	1    3350 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R49
 U 1 1 595B25FA
-P 3350 4500
-F 0 "R49" V 3430 4500 50  0000 C CNN
-F 1 "10K" V 3350 4500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 4500 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 4500 50  0001 C CNN
-F 4 "RESS-005" V 3350 4500 60  0001 C CNN "part_num"
-	1    3350 4500
+P 3350 3250
+F 0 "R49" V 3430 3250 50  0000 C CNN
+F 1 "10K" V 3350 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 3250 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 3250 50  0001 C CNN
+F 4 "RESS-005" V 3350 3250 60  0001 C CNN "part_num"
+	1    3350 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R52
 U 1 1 595B2654
-P 3550 4500
-F 0 "R52" V 3630 4500 50  0000 C CNN
-F 1 "10K" V 3550 4500 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 4500 50  0001 C CNN
-F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 4500 50  0001 C CNN
-F 4 "RESS-005" V 3550 4500 60  0001 C CNN "part_num"
-	1    3550 4500
+P 3550 3250
+F 0 "R52" V 3630 3250 50  0000 C CNN
+F 1 "10K" V 3550 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 3250 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 3250 50  0001 C CNN
+F 4 "RESS-005" V 3550 3250 60  0001 C CNN "part_num"
+	1    3550 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -327,13 +327,13 @@ $EndComp
 $Comp
 L conn:Conn_01x04 J23
 U 1 1 595C30C3
-P 3700 5050
-F 0 "J23" H 3800 5300 60  0000 C CNN
-F 1 "GH-4" H 3800 4800 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 5100 60  0001 C CNN
-F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 5100 60  0001 C CNN
-F 4 "CONN-015" H 3900 5400 60  0001 C CNN "part_num"
-	1    3700 5050
+P 3700 3800
+F 0 "J23" H 3800 4050 60  0000 C CNN
+F 1 "GH-4" H 3800 3550 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 3850 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 3850 60  0001 C CNN
+F 4 "CONN-015" H 3900 4150 60  0001 C CNN "part_num"
+	1    3700 3800
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -378,7 +378,7 @@ F 4 "CONN-013" H 1450 3550 60  0001 C CNN "part_num"
 	1    1250 3300
 	-1   0    0    1   
 $EndComp
-Text HLabel 3150 2900 0    60   Input ~ 0
+Text HLabel 3150 1650 0    60   Input ~ 0
 I2C_PULLUP
 Wire Wire Line
 	1600 3300 1450 3300
@@ -389,13 +389,9 @@ Wire Wire Line
 Wire Wire Line
 	1750 3800 1500 3800
 Wire Wire Line
-	3900 3700 4050 3700
+	3900 2450 4050 2450
 Wire Wire Line
-	3900 3800 3950 3800
-Wire Wire Line
-	3900 4850 4000 4850
-Wire Wire Line
-	3900 4950 3950 4950
+	3900 2550 3950 2550
 Wire Wire Line
 	5600 2900 6500 2900
 Wire Wire Line
@@ -506,58 +502,52 @@ Wire Wire Line
 Wire Wire Line
 	9200 4000 9950 4000
 Wire Wire Line
-	3350 3500 3350 3600
+	3350 2250 3350 2350
 Wire Wire Line
-	3350 3600 3950 3600
+	3350 2350 3950 2350
 Wire Wire Line
-	3950 3600 3950 3800
-Connection ~ 3950 3800
+	3950 2350 3950 2550
+Connection ~ 3950 2550
 Wire Wire Line
-	3550 3500 4050 3500
+	3550 2250 4050 2250
 Wire Wire Line
-	3550 4100 3550 4150
+	3550 2850 3550 2900
 Wire Wire Line
-	3550 4150 4000 4150
+	3550 2900 4000 2900
 Wire Wire Line
-	4000 4150 4000 4300
+	4000 2900 4000 3050
 Wire Wire Line
-	3350 4100 3350 4200
+	3350 2850 3350 2950
 Wire Wire Line
-	3350 4200 3950 4200
+	3350 2950 3950 2950
 Wire Wire Line
-	3950 4200 3950 4400
+	3950 2950 3950 3150
 Wire Wire Line
-	3550 4650 3550 4750
+	3550 3400 3550 3500
 Wire Wire Line
-	3550 4750 4000 4750
+	3550 3500 4000 3500
 Wire Wire Line
-	4000 4750 4000 4850
-Connection ~ 4000 4850
+	3350 3400 3350 3550
 Wire Wire Line
-	3350 4650 3350 4800
+	3350 3550 3950 3550
 Wire Wire Line
-	3350 4800 3950 4800
+	3550 3050 3550 3100
 Wire Wire Line
-	3950 4800 3950 4950
-Connection ~ 3950 4950
+	3200 3050 3350 3050
 Wire Wire Line
-	3550 4300 3550 4350
+	3350 3050 3350 3100
 Wire Wire Line
-	3200 4300 3350 4300
+	3550 2500 3550 2550
 Wire Wire Line
-	3350 4300 3350 4350
+	3200 2500 3350 2500
 Wire Wire Line
-	3550 3750 3550 3800
+	3350 2500 3350 2550
 Wire Wire Line
-	3200 3750 3350 3750
+	3550 1900 3550 1950
 Wire Wire Line
-	3350 3750 3350 3800
+	3200 1900 3350 1900
 Wire Wire Line
-	3550 3150 3550 3200
-Wire Wire Line
-	3200 3150 3350 3150
-Wire Wire Line
-	3350 3150 3350 3200
+	3350 1900 3350 1950
 Wire Wire Line
 	1500 4000 1600 4000
 Connection ~ 1600 4000
@@ -566,17 +556,17 @@ Wire Wire Line
 Wire Wire Line
 	1500 4300 1750 4300
 Wire Wire Line
-	4050 3500 4050 3700
-Connection ~ 4050 3700
+	4050 2250 4050 2450
+Connection ~ 4050 2450
 Wire Wire Line
-	3150 2900 3200 2900
+	3150 1650 3200 1650
 Wire Wire Line
-	3200 2900 3200 3150
-Connection ~ 3350 4300
-Connection ~ 3200 3750
-Connection ~ 3350 3750
-Connection ~ 3200 3150
-Connection ~ 3350 3150
+	3200 1650 3200 1900
+Connection ~ 3350 3050
+Connection ~ 3200 2500
+Connection ~ 3350 2500
+Connection ~ 3200 1900
+Connection ~ 3350 1900
 Wire Wire Line
 	1650 1300 1450 1300
 Wire Wire Line
@@ -886,23 +876,23 @@ $EndComp
 $Comp
 L Connector:TestPoint TP30
 U 1 1 5B3C1DA0
-P 3900 3700
-F 0 "TP30" H 3900 4000 50  0000 C BNN
-F 1 "TEST" H 3900 3950 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3700 50  0001 C CNN
-F 3 "" H 3900 3700 50  0001 C CNN
-	1    3900 3700
+P 3900 2450
+F 0 "TP30" H 3900 2750 50  0000 C BNN
+F 1 "TEST" H 3900 2700 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 2450 50  0001 C CNN
+F 3 "" H 3900 2450 50  0001 C CNN
+	1    3900 2450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP31
 U 1 1 5B3C21DB
-P 3900 3800
-F 0 "TP31" H 3900 4100 50  0000 C BNN
-F 1 "TEST" H 3900 4050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3800 50  0001 C CNN
-F 3 "" H 3900 3800 50  0001 C CNN
-	1    3900 3800
+P 3900 2550
+F 0 "TP31" H 3900 2850 50  0000 C BNN
+F 1 "TEST" H 3900 2800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 2550 50  0001 C CNN
+F 3 "" H 3900 2550 50  0001 C CNN
+	1    3900 2550
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -916,8 +906,6 @@ F 3 "" H 1600 5200 50  0001 C CNN
 	1    1600 5200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4050 5150 4050 5300
 Wire Wire Line
 	6600 2400 6600 3250
 Wire Wire Line
@@ -935,29 +923,25 @@ Wire Wire Line
 Wire Wire Line
 	6500 5600 6500 5700
 Wire Wire Line
-	3950 3800 4500 3800
+	3950 2550 4500 2550
 Wire Wire Line
-	4000 4300 4500 4300
+	4000 3050 4500 3050
 Wire Wire Line
-	3950 4400 4500 4400
-Wire Wire Line
-	4000 4850 4500 4850
-Wire Wire Line
-	3950 4950 4500 4950
+	3950 3150 4500 3150
 Wire Wire Line
 	1600 4000 1600 5000
 Wire Wire Line
-	4050 3700 4500 3700
+	4050 2450 4500 2450
 Wire Wire Line
-	3350 4300 3550 4300
+	3350 3050 3550 3050
 Wire Wire Line
-	3200 3750 3200 4300
+	3200 2500 3200 3050
 Wire Wire Line
-	3350 3750 3550 3750
+	3350 2500 3550 2500
 Wire Wire Line
-	3200 3150 3200 3750
+	3200 1900 3200 2500
 Wire Wire Line
-	3350 3150 3550 3150
+	3350 1900 3550 1900
 Wire Wire Line
 	6500 3750 6500 5600
 Wire Wire Line
@@ -1032,37 +1016,115 @@ F 3 "~" H 9450 900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 5150 4050 5150
-Wire Wire Line
-	3900 5050 4200 5050
-Wire Wire Line
-	4200 3250 4200 5050
+	3900 3900 4050 3900
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5CBD2553
-P 3900 4300
-F 0 "TP?" H 3900 4600 50  0000 C BNN
-F 1 "TEST" H 3900 4550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 4300 50  0001 C CNN
-F 3 "" H 3900 4300 50  0001 C CNN
-	1    3900 4300
+P 3900 3050
+F 0 "TP?" H 3900 3350 50  0000 C BNN
+F 1 "TEST" H 3900 3300 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3050 50  0001 C CNN
+F 3 "" H 3900 3050 50  0001 C CNN
+	1    3900 3050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5CBD25D5
-P 3900 4400
-F 0 "TP?" H 3900 4700 50  0000 C BNN
-F 1 "TEST" H 3900 4650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 4400 50  0001 C CNN
-F 3 "" H 3900 4400 50  0001 C CNN
-	1    3900 4400
+P 3900 3150
+F 0 "TP?" H 3900 3450 50  0000 C BNN
+F 1 "TEST" H 3900 3400 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3150 50  0001 C CNN
+F 3 "" H 3900 3150 50  0001 C CNN
+	1    3900 3150
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3900 4400 3950 4400
+	3900 3150 3950 3150
+Connection ~ 3950 3150
+Wire Wire Line
+	3900 3050 4000 3050
+Connection ~ 4000 3050
+$Comp
+L conn:Conn_01x04 J?
+U 1 1 5CB87A1F
+P 3700 4400
+F 0 "J?" H 3800 4650 60  0000 C CNN
+F 1 "GH-4" H 3800 4150 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 4450 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 4450 60  0001 C CNN
+F 4 "CONN-015" H 3900 4750 60  0001 C CNN "part_num"
+	1    3700 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L conn:Conn_01x04 J?
+U 1 1 5CB87AB3
+P 3700 5000
+F 0 "J?" H 3800 5250 60  0000 C CNN
+F 1 "GH-4" H 3800 4750 60  0000 C CNN
+F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 5050 60  0001 C CNN
+F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 5050 60  0001 C CNN
+F 4 "CONN-015" H 3900 5350 60  0001 C CNN "part_num"
+	1    3700 5000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 4500 4050 4500
+Wire Wire Line
+	4050 4500 4050 5100
+Wire Wire Line
+	3900 5100 4050 5100
+Connection ~ 4050 5100
+Wire Wire Line
+	4050 5100 4050 5250
+Wire Wire Line
+	4050 3900 4050 4500
+Connection ~ 4050 4500
+Wire Wire Line
+	4200 2000 4200 3600
+Wire Wire Line
+	3900 3800 3950 3800
+Wire Wire Line
+	3900 3700 4000 3700
+Wire Wire Line
+	3950 3550 3950 3800
+Connection ~ 3950 3800
+Connection ~ 4200 3600
+Wire Wire Line
+	3900 3600 4200 3600
+Wire Wire Line
+	3950 3800 4500 3800
+Wire Wire Line
+	4000 3500 4000 3700
+Connection ~ 4000 3700
+Wire Wire Line
+	4000 3700 4500 3700
+Wire Wire Line
+	3950 3800 3950 4400
+Wire Wire Line
+	3950 4400 3900 4400
+Wire Wire Line
+	3950 4400 3950 5000
+Wire Wire Line
+	3950 5000 3900 5000
 Connection ~ 3950 4400
+Wire Wire Line
+	3900 4900 4000 4900
+Wire Wire Line
+	4000 4900 4000 4300
 Wire Wire Line
 	3900 4300 4000 4300
 Connection ~ 4000 4300
+Wire Wire Line
+	4000 4300 4000 3700
+Wire Wire Line
+	3900 4200 4200 4200
+Wire Wire Line
+	4200 3600 4200 4200
+Connection ~ 4200 4200
+Wire Wire Line
+	3900 4800 4200 4800
+Wire Wire Line
+	4200 4200 4200 4800
 $EndSCHEMATC

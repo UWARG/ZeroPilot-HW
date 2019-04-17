@@ -551,8 +551,6 @@ F 3 "" H 12300 5850 50  0001 C CNN
 $EndComp
 Text Label 5650 7150 0    60   ~ 0
 3V3
-Text Label 3150 4600 0    60   ~ 0
-3V3
 $Sheet
 S 9900 3450 750  850 
 U 59688A25
