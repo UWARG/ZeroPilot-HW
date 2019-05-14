@@ -29,3 +29,7 @@ Hardware/Gerber.zip
 Hardware/Gerber
 Hardware/ZeroPilot-rescue.lib
 *.lib
+
+Hardware/ZeroPilot-rescue\.dcm
+
+Hardware/fp-info-cache

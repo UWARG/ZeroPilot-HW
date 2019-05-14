@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -119,7 +118,7 @@ E3
 Text Notes 1250 4650 0    60   ~ 0
 Populate resistors to select I2C address\n
 $Comp
-L conn:Micro_SD_Card J8
+L Connector:Micro_SD_Card J8
 U 1 1 59517B7C
 P 8300 1900
 F 0 "J8" H 7650 2500 50  0000 C CNN

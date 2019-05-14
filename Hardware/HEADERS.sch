@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -115,9 +114,9 @@ Text HLabel 1650 2550 2    60   Input ~ 0
 IC/OC2
 Text HLabel 1650 2450 2    60   Input ~ 0
 V_USS
-Text HLabel 1700 2000 2    60   Input ~ 0
-V_AIRSPD
 Text HLabel 1700 1900 2    60   Input ~ 0
+V_AIRSPD
+Text HLabel 1700 2000 2    60   Input ~ 0
 AIRSPD
 Text HLabel 1650 1200 2    60   Input ~ 0
 V_PPM
@@ -241,7 +240,7 @@ F 4 "RESS-005" V 3550 3250 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:Conn_01x03 J11
+L Connector_Generic:Conn_01x03 J11
 U 1 1 595BD83D
 P 1250 2000
 F 0 "J11" H 1350 2250 60  0000 C CNN
@@ -253,7 +252,7 @@ F 4 "CONN-014" H 1450 2350 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J18
+L Connector_Generic:Conn_01x06 J18
 U 1 1 595BDC13
 P 5400 2700
 F 0 "J18" H 5500 3050 60  0000 C CNN
@@ -265,7 +264,7 @@ F 4 "CONN-017" H 5600 3150 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J19
+L Connector_Generic:Conn_01x06 J19
 U 1 1 595BDC6A
 P 5400 3550
 F 0 "J19" H 5500 3900 60  0000 C CNN
@@ -277,7 +276,7 @@ F 4 "CONN-017" H 5600 4000 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J20
+L Connector_Generic:Conn_01x06 J20
 U 1 1 595BDCF6
 P 5400 5400
 F 0 "J20" H 5500 5750 60  0000 C CNN
@@ -289,7 +288,7 @@ F 4 "CONN-017" H 5600 5850 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J21
+L Connector_Generic:Conn_01x06 J21
 U 1 1 595BDD92
 P 9000 3800
 F 0 "J21" H 9100 4150 60  0000 C CNN
@@ -301,7 +300,7 @@ F 4 "CONN-017" H 9200 4250 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J22
+L Connector_Generic:Conn_01x06 J22
 U 1 1 595BDDDE
 P 9000 4600
 F 0 "J22" H 9100 4950 60  0000 C CNN
@@ -313,7 +312,7 @@ F 4 "CONN-017" H 9200 5050 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x06 J23
+L Connector_Generic:Conn_01x06 J23
 U 1 1 595BDE34
 P 9000 5450
 F 0 "J23" H 9100 5800 60  0000 C CNN
@@ -325,7 +324,7 @@ F 4 "CONN-017" H 9200 5900 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J15
+L Connector_Generic:Conn_01x04 J15
 U 1 1 595C30C3
 P 3700 3800
 F 0 "J15" H 3800 4050 60  0000 C CNN
@@ -337,7 +336,7 @@ F 4 "CONN-015" H 3900 4150 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J10
+L Connector_Generic:Conn_01x04 J10
 U 1 1 5966BE07
 P 1250 1400
 F 0 "J10" H 1350 1700 60  0000 C CNN
@@ -349,7 +348,7 @@ F 4 "CONN-015" H 1450 1750 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J12
+L Connector_Generic:Conn_01x04 J12
 U 1 1 5966BE8B
 P 1250 2650
 F 0 "J12" H 1350 2900 60  0000 C CNN
@@ -367,9 +366,11 @@ DBG_TX_PILOT
 Text HLabel 1750 4800 2    60   Input ~ 0
 UHF_TX
 $Comp
-L conn:Conn_01x02 J13
+L Connector_Generic:Conn_01x02 J13
 U 1 1 597D9B19
 P 1250 3300
+AR Path="/597D9B19" Ref="J13"  Part="1" 
+AR Path="/59234D3B/597D9B19" Ref="J13"  Part="1" 
 F 0 "J13" H 1350 3450 60  0000 C CNN
 F 1 "GH-2" H 1350 3150 60  0000 C CNN
 F 2 "Connectors_JST:JST_GH_BM02B-GHS-TBT_02x1.25mm_Straight" H 1250 3250 60  0001 C CNN
@@ -549,9 +550,6 @@ Wire Wire Line
 Wire Wire Line
 	3350 1900 3350 1950
 Wire Wire Line
-	1500 4000 1600 4000
-Connection ~ 1600 4000
-Wire Wire Line
 	1500 4200 1750 4200
 Wire Wire Line
 	1500 4300 1750 4300
@@ -593,6 +591,8 @@ $Comp
 L Connector:TestPoint TP8
 U 1 1 5B321D7E
 P 1500 3700
+AR Path="/5B321D7E" Ref="TP8"  Part="1" 
+AR Path="/59234D3B/5B321D7E" Ref="TP8"  Part="1" 
 F 0 "TP8" V 1550 4350 50  0000 C BNN
 F 1 "TXS_TST" V 1500 4100 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 3700 50  0001 C CNN
@@ -604,6 +604,8 @@ $Comp
 L Connector:TestPoint TP9
 U 1 1 5B322406
 P 1500 3800
+AR Path="/5B322406" Ref="TP9"  Part="1" 
+AR Path="/59234D3B/5B322406" Ref="TP9"  Part="1" 
 F 0 "TP9" V 1550 4450 50  0000 C BNN
 F 1 "RXS_TST" V 1500 4200 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 3800 50  0001 C CNN
@@ -615,6 +617,8 @@ $Comp
 L Connector:TestPoint TP11
 U 1 1 5B322A72
 P 1500 4200
+AR Path="/5B322A72" Ref="TP11"  Part="1" 
+AR Path="/59234D3B/5B322A72" Ref="TP11"  Part="1" 
 F 0 "TP11" V 1550 4850 50  0000 C BNN
 F 1 "TXP_TST" V 1500 4600 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 4200 50  0001 C CNN
@@ -626,6 +630,8 @@ $Comp
 L Connector:TestPoint TP12
 U 1 1 5B322A78
 P 1500 4300
+AR Path="/5B322A78" Ref="TP12"  Part="1" 
+AR Path="/59234D3B/5B322A78" Ref="TP12"  Part="1" 
 F 0 "TP12" V 1550 4950 50  0000 C BNN
 F 1 "RXP_TST" V 1500 4700 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 4300 50  0001 C CNN
@@ -634,20 +640,11 @@ F 3 "" H 1500 4300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:TestPoint TP10
-U 1 1 5B322A7E
-P 1500 4000
-F 0 "TP10" V 1550 4650 50  0000 C BNN
-F 1 "GND_TST" V 1500 4400 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 4000 50  0001 C CNN
-F 3 "" H 1500 4000 50  0001 C CNN
-	1    1500 4000
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector:TestPoint TP13
 U 1 1 5B322C50
 P 1800 5950
+AR Path="/5B322C50" Ref="TP13"  Part="1" 
+AR Path="/59234D3B/5B322C50" Ref="TP13"  Part="1" 
 F 0 "TP13" V 1850 6650 50  0000 C BNN
 F 1 "NRSTS_TST" V 1800 6350 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 5950 50  0001 C CNN
@@ -659,6 +656,8 @@ $Comp
 L Connector:TestPoint TP14
 U 1 1 5B322C56
 P 1800 6050
+AR Path="/5B322C56" Ref="TP14"  Part="1" 
+AR Path="/59234D3B/5B322C56" Ref="TP14"  Part="1" 
 F 0 "TP14" V 1850 6750 50  0000 C BNN
 F 1 "SWIOS_TST" V 1800 6450 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6050 50  0001 C CNN
@@ -670,6 +669,8 @@ $Comp
 L Connector:TestPoint TP15
 U 1 1 5B322C9E
 P 1800 6150
+AR Path="/5B322C9E" Ref="TP15"  Part="1" 
+AR Path="/59234D3B/5B322C9E" Ref="TP15"  Part="1" 
 F 0 "TP15" V 1850 6850 50  0000 C BNN
 F 1 "SCLKS_TST" V 1800 6550 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6150 50  0001 C CNN
@@ -681,6 +682,8 @@ $Comp
 L Connector:TestPoint TP17
 U 1 1 5B322FC5
 P 1800 6500
+AR Path="/5B322FC5" Ref="TP17"  Part="1" 
+AR Path="/59234D3B/5B322FC5" Ref="TP17"  Part="1" 
 F 0 "TP17" V 1850 7200 50  0000 C BNN
 F 1 "SWIOP_TST" V 1800 6900 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6500 50  0001 C CNN
@@ -692,6 +695,8 @@ $Comp
 L Connector:TestPoint TP18
 U 1 1 5B322FCB
 P 1800 6600
+AR Path="/5B322FCB" Ref="TP18"  Part="1" 
+AR Path="/59234D3B/5B322FCB" Ref="TP18"  Part="1" 
 F 0 "TP18" V 1850 7300 50  0000 C BNN
 F 1 "SCLKP_TST" V 1800 7000 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6600 50  0001 C CNN
@@ -703,6 +708,8 @@ $Comp
 L Connector:TestPoint TP19
 U 1 1 5B322FD1
 P 1800 6850
+AR Path="/5B322FD1" Ref="TP19"  Part="1" 
+AR Path="/59234D3B/5B322FD1" Ref="TP19"  Part="1" 
 F 0 "TP19" V 1850 7550 50  0000 C BNN
 F 1 "GND_TST" V 1800 7250 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6850 50  0001 C CNN
@@ -714,6 +721,8 @@ $Comp
 L Connector:TestPoint TP16
 U 1 1 5B322FD7
 P 1800 6400
+AR Path="/5B322FD7" Ref="TP16"  Part="1" 
+AR Path="/59234D3B/5B322FD7" Ref="TP16"  Part="1" 
 F 0 "TP16" V 1850 7100 50  0000 C BNN
 F 1 "NRSTP_TST" V 1800 6800 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6400 50  0001 C CNN
@@ -724,11 +733,13 @@ $EndComp
 Wire Wire Line
 	1800 6850 1900 6850
 Wire Wire Line
-	1900 6850 1900 7000
+	1900 6850 1900 6950
 $Comp
 L Connector:TestPoint TP20
 U 1 1 5B2B2080
 P 3550 5950
+AR Path="/5B2B2080" Ref="TP20"  Part="1" 
+AR Path="/59234D3B/5B2B2080" Ref="TP20"  Part="1" 
 F 0 "TP20" V 3600 6800 50  0000 C BNN
 F 1 "TDO1_TST" V 3550 6350 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 5950 50  0001 C CNN
@@ -740,6 +751,8 @@ $Comp
 L Connector:TestPoint TP21
 U 1 1 5B2C685E
 P 3550 6050
+AR Path="/5B2C685E" Ref="TP21"  Part="1" 
+AR Path="/59234D3B/5B2C685E" Ref="TP21"  Part="1" 
 F 0 "TP21" V 3600 6900 50  0000 C BNN
 F 1 "TMS1_TST" V 3550 6450 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6050 50  0001 C CNN
@@ -751,6 +764,8 @@ $Comp
 L Connector:TestPoint TP22
 U 1 1 5B2C6D6F
 P 3550 6400
+AR Path="/5B2C6D6F" Ref="TP22"  Part="1" 
+AR Path="/59234D3B/5B2C6D6F" Ref="TP22"  Part="1" 
 F 0 "TP22" V 3600 7250 50  0000 C BNN
 F 1 "TDO2_TST" V 3550 6800 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6400 50  0001 C CNN
@@ -762,6 +777,8 @@ $Comp
 L Connector:TestPoint TP23
 U 1 1 5B2C6D75
 P 3550 6500
+AR Path="/5B2C6D75" Ref="TP23"  Part="1" 
+AR Path="/59234D3B/5B2C6D75" Ref="TP23"  Part="1" 
 F 0 "TP23" V 3600 7350 50  0000 C BNN
 F 1 "TMS2_TST" V 3550 6900 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6500 50  0001 C CNN
@@ -773,6 +790,8 @@ $Comp
 L Connector:TestPoint TP24
 U 1 1 5B2C6F3D
 P 3550 6850
+AR Path="/5B2C6F3D" Ref="TP24"  Part="1" 
+AR Path="/59234D3B/5B2C6F3D" Ref="TP24"  Part="1" 
 F 0 "TP24" V 3600 7700 50  0000 C BNN
 F 1 "UART1_RTS_TST" V 3550 7350 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6850 50  0001 C CNN
@@ -784,6 +803,8 @@ $Comp
 L Connector:TestPoint TP25
 U 1 1 5B2C716A
 P 3550 6950
+AR Path="/5B2C716A" Ref="TP25"  Part="1" 
+AR Path="/59234D3B/5B2C716A" Ref="TP25"  Part="1" 
 F 0 "TP25" V 3600 7800 50  0000 C BNN
 F 1 "UART1_CTS_TST" V 3550 7450 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6950 50  0001 C CNN
@@ -795,6 +816,8 @@ $Comp
 L Connector:TestPoint TP26
 U 1 1 5B2C726E
 P 3550 7200
+AR Path="/5B2C726E" Ref="TP26"  Part="1" 
+AR Path="/59234D3B/5B2C726E" Ref="TP26"  Part="1" 
 F 0 "TP26" V 3600 8050 50  0000 C BNN
 F 1 "UART2_RTS_TST" V 3550 7700 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 7200 50  0001 C CNN
@@ -806,6 +829,8 @@ $Comp
 L Connector:TestPoint TP27
 U 1 1 5B2C7274
 P 3550 7300
+AR Path="/5B2C7274" Ref="TP27"  Part="1" 
+AR Path="/59234D3B/5B2C7274" Ref="TP27"  Part="1" 
 F 0 "TP27" V 3600 8150 50  0000 C BNN
 F 1 "UART2_CTS_TST" V 3550 7800 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 7300 50  0001 C CNN
@@ -833,6 +858,8 @@ $Comp
 L Connector:TestPoint TP32
 U 1 1 5B3C0C72
 P 9200 2750
+AR Path="/5B3C0C72" Ref="TP32"  Part="1" 
+AR Path="/59234D3B/5B3C0C72" Ref="TP32"  Part="1" 
 F 0 "TP32" H 9200 3050 50  0000 C BNN
 F 1 "TEST" H 9200 3000 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 2750 50  0001 C CNN
@@ -844,6 +871,8 @@ $Comp
 L Connector:TestPoint TP33
 U 1 1 5B3C0F1B
 P 9200 2850
+AR Path="/5B3C0F1B" Ref="TP33"  Part="1" 
+AR Path="/59234D3B/5B3C0F1B" Ref="TP33"  Part="1" 
 F 0 "TP33" H 9200 3150 50  0000 C BNN
 F 1 "TEST" H 9200 3100 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 2850 50  0001 C CNN
@@ -855,6 +884,8 @@ $Comp
 L Connector:TestPoint TP34
 U 1 1 5B3C1148
 P 9200 2950
+AR Path="/5B3C1148" Ref="TP34"  Part="1" 
+AR Path="/59234D3B/5B3C1148" Ref="TP34"  Part="1" 
 F 0 "TP34" H 9200 3250 50  0000 C BNN
 F 1 "TEST" H 9200 3200 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 2950 50  0001 C CNN
@@ -866,6 +897,8 @@ $Comp
 L Connector:TestPoint TP35
 U 1 1 5B3C1282
 P 9200 3050
+AR Path="/5B3C1282" Ref="TP35"  Part="1" 
+AR Path="/59234D3B/5B3C1282" Ref="TP35"  Part="1" 
 F 0 "TP35" H 9200 3350 50  0000 C BNN
 F 1 "TEST" H 9200 3300 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 3050 50  0001 C CNN
@@ -877,6 +910,8 @@ $Comp
 L Connector:TestPoint TP28
 U 1 1 5B3C1DA0
 P 3900 2450
+AR Path="/5B3C1DA0" Ref="TP28"  Part="1" 
+AR Path="/59234D3B/5B3C1DA0" Ref="TP28"  Part="1" 
 F 0 "TP28" H 3900 2750 50  0000 C BNN
 F 1 "TEST" H 3900 2700 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 2450 50  0001 C CNN
@@ -888,6 +923,8 @@ $Comp
 L Connector:TestPoint TP29
 U 1 1 5B3C21DB
 P 3900 2550
+AR Path="/5B3C21DB" Ref="TP29"  Part="1" 
+AR Path="/59234D3B/5B3C21DB" Ref="TP29"  Part="1" 
 F 0 "TP29" H 3900 2850 50  0000 C BNN
 F 1 "TEST" H 3900 2800 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 2550 50  0001 C CNN
@@ -913,8 +950,6 @@ Wire Wire Line
 Wire Wire Line
 	9950 4800 9950 5650
 Wire Wire Line
-	1600 3300 1600 4000
-Wire Wire Line
 	1600 2750 1600 3300
 Wire Wire Line
 	1600 2100 1600 2750
@@ -928,8 +963,6 @@ Wire Wire Line
 	4000 3050 4500 3050
 Wire Wire Line
 	3950 3150 4500 3150
-Wire Wire Line
-	1600 4000 1600 5000
 Wire Wire Line
 	4050 2450 4500 2450
 Wire Wire Line
@@ -951,7 +984,7 @@ RSSI
 Wire Wire Line
 	1450 1200 1650 1200
 $Comp
-L conn:Conn_01x04 J14
+L Connector_Generic:Conn_01x04 J14
 U 1 1 5CB789D7
 P 1300 4900
 F 0 "J14" H 1400 5200 60  0000 C CNN
@@ -976,8 +1009,8 @@ L Mechanical:MountingHole H4
 U 1 1 5CCE1241
 P 10350 1100
 F 0 "H4" H 10450 1146 50  0000 L CNN
-F 1 "MountingHole_M4" H 10450 1055 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 10350 1100 50  0001 C CNN
+F 1 "MountingHole_M3" H 10450 1055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10350 1100 50  0001 C CNN
 F 3 "~" H 10350 1100 50  0001 C CNN
 	1    10350 1100
 	1    0    0    -1  
@@ -987,8 +1020,8 @@ L Mechanical:MountingHole H3
 U 1 1 5CB39751
 P 10350 900
 F 0 "H3" H 10450 946 50  0000 L CNN
-F 1 "MountingHole_M4" H 10450 855 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 10350 900 50  0001 C CNN
+F 1 "MountingHole_M3" H 10450 855 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10350 900 50  0001 C CNN
 F 3 "~" H 10350 900 50  0001 C CNN
 	1    10350 900 
 	1    0    0    -1  
@@ -998,8 +1031,8 @@ L Mechanical:MountingHole H2
 U 1 1 5CB39892
 P 9450 1100
 F 0 "H2" H 9550 1146 50  0000 L CNN
-F 1 "MountingHole_M4" H 9550 1055 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 9450 1100 50  0001 C CNN
+F 1 "MountingHole_M3" H 9550 1055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 9450 1100 50  0001 C CNN
 F 3 "~" H 9450 1100 50  0001 C CNN
 	1    9450 1100
 	1    0    0    -1  
@@ -1009,8 +1042,8 @@ L Mechanical:MountingHole H1
 U 1 1 5CB39899
 P 9450 900
 F 0 "H1" H 9550 946 50  0000 L CNN
-F 1 "MountingHole_M4" H 9550 855 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_4.3mm_M4_Pad" H 9450 900 50  0001 C CNN
+F 1 "MountingHole_M3" H 9550 855 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 9450 900 50  0001 C CNN
 F 3 "~" H 9450 900 50  0001 C CNN
 	1    9450 900 
 	1    0    0    -1  
@@ -1021,6 +1054,8 @@ $Comp
 L Connector:TestPoint TP30
 U 1 1 5CBD2553
 P 3900 3050
+AR Path="/5CBD2553" Ref="TP30"  Part="1" 
+AR Path="/59234D3B/5CBD2553" Ref="TP30"  Part="1" 
 F 0 "TP30" H 3900 3350 50  0000 C BNN
 F 1 "TEST" H 3900 3300 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3050 50  0001 C CNN
@@ -1032,6 +1067,8 @@ $Comp
 L Connector:TestPoint TP31
 U 1 1 5CBD25D5
 P 3900 3150
+AR Path="/5CBD25D5" Ref="TP31"  Part="1" 
+AR Path="/59234D3B/5CBD25D5" Ref="TP31"  Part="1" 
 F 0 "TP31" H 3900 3450 50  0000 C BNN
 F 1 "TEST" H 3900 3400 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3150 50  0001 C CNN
@@ -1046,7 +1083,7 @@ Wire Wire Line
 	3900 3050 4000 3050
 Connection ~ 4000 3050
 $Comp
-L conn:Conn_01x04 J16
+L Connector_Generic:Conn_01x04 J16
 U 1 1 5CB87A1F
 P 3700 4400
 F 0 "J16" H 3800 4650 60  0000 C CNN
@@ -1058,7 +1095,7 @@ F 4 "CONN-015" H 3900 4750 60  0001 C CNN "part_num"
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:Conn_01x04 J17
+L Connector_Generic:Conn_01x04 J17
 U 1 1 5CB87AB3
 P 3700 5000
 F 0 "J17" H 3800 5250 60  0000 C CNN
@@ -1127,4 +1164,24 @@ Wire Wire Line
 	3900 4800 4200 4800
 Wire Wire Line
 	4200 4200 4200 4800
+Wire Wire Line
+	1600 3300 1600 5000
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5CF92AB8
+P 1800 6950
+AR Path="/5CF92AB8" Ref="TP?"  Part="1" 
+AR Path="/59234D3B/5CF92AB8" Ref="TP10"  Part="1" 
+F 0 "TP10" V 1850 7650 50  0000 C BNN
+F 1 "GND_TST" V 1800 7350 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6950 50  0001 C CNN
+F 3 "" H 1800 6950 50  0001 C CNN
+	1    1800 6950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1800 6950 1900 6950
+Connection ~ 1900 6950
+Wire Wire Line
+	1900 6950 1900 7000
 $EndSCHEMATC

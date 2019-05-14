@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -33,7 +32,7 @@ Text Notes 4100 5000 0    60   ~ 0
 5V Internal Reg
 Text HLabel 10400 3950 2    60   Output ~ 0
 5V_INT
-Text HLabel 10800 3650 2    60   Output ~ 0
+Text HLabel 10800 3400 2    60   Output ~ 0
 6V_EXT
 $Comp
 L power:GND #PWR018
@@ -83,7 +82,7 @@ F 4 "CAPP-005" H 10100 6050 60  0001 C CNN "part_num"
 $EndComp
 Text HLabel 10400 4250 2    60   Output ~ 0
 3V3
-Text HLabel 10400 3350 2    60   Output ~ 0
+Text HLabel 10400 2850 2    60   Output ~ 0
 VBATT
 $Comp
 L Device:LED D3
@@ -143,13 +142,13 @@ F 3 "" H 2000 4350 50  0001 C CNN
 	1    2000 4350
 	1    0    0    -1  
 $EndComp
-Text Label 9450 3350 2    60   ~ 0
+Text Label 9450 2850 2    60   ~ 0
 VBATT_JMP
-Text Label 9950 3350 0    60   ~ 0
+Text Label 9950 2850 0    60   ~ 0
 VBATT
-Text Label 10000 3650 0    59   ~ 0
+Text Label 10000 3400 0    59   ~ 0
 6V_EXT
-Text Label 9450 3650 2    59   ~ 0
+Text Label 9450 3400 2    59   ~ 0
 6V_EXT_JMP
 Text Label 10000 3950 0    59   ~ 0
 5V_INT
@@ -175,7 +174,7 @@ F 4 "REGU-002" H 9450 6500 60  0001 C CNN "part_num"
 $EndComp
 Text Label 1100 4400 0    60   ~ 0
 BATT_IN
-Text Notes 9450 3200 0    60   ~ 0
+Text Notes 9450 2700 0    60   ~ 0
 Power jumper\nUse to measure current and\ndebug power
 Text Notes 800  3700 0    60   ~ 0
 Reverse polarity protection
@@ -377,10 +376,8 @@ F 3 "" H 4950 3500 50  0001 C CNN
 	1    4950 3500
 	1    0    0    -1  
 $EndComp
-Text Label 8850 2150 0    60   ~ 0
+Text Label 9050 2150 2    60   ~ 0
 6V_EXT_JMP
-Text Label 6500 4500 0    60   ~ 0
-5V_USB+
 $Comp
 L WARG:TPS54308 U2
 U 1 1 5B16D2E6
@@ -391,18 +388,6 @@ F 2 "WARG:TPS54308DDCT" H 3600 6450 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps54308.pdf" H 3600 7350 60  0001 C CNN
 F 4 "REGU-003" H 3600 7400 60  0000 C CNN "part_num"
 	1    3600 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L WARG:TPS54308 U1
-U 1 1 5B16D358
-P 3400 2750
-F 0 "U1" H 3100 3550 60  0000 C CNN
-F 1 "TPS54308" H 3400 2700 60  0000 C CNN
-F 2 "WARG:TPS54308DDCT" H 3400 2750 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps54308.pdf" H 3400 3650 60  0001 C CNN
-F 4 "REGU-003" H 3400 2750 60  0001 C CNN "part_num"
-	1    3400 2750
 	1    0    0    -1  
 $EndComp
 Text Label 2650 6050 0    60   ~ 0
@@ -425,8 +410,6 @@ Text Label 5100 2150 0    60   ~ 0
 EXT_BUCK
 Text Label 4150 2550 0    60   ~ 0
 EXT_FB
-Text Label 6350 2150 0    60   ~ 0
-EXT_JMP1
 $Comp
 L Device:C C14
 U 1 1 5B209498
@@ -488,18 +471,6 @@ F 4 "CAPP-003" H 5800 2650 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
-U 1 1 5B20C4A4
-P 6000 2150
-F 0 "R9" V 5900 2150 50  0000 C CNN
-F 1 "0" V 6000 2150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 5930 2150 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 6000 2150 50  0001 C CNN
-F 4 "RESS-001" V 6000 2150 60  0001 C CNN "part_num"
-	1    6000 2150
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R5
 U 1 1 5B20CFA9
 P 4950 2800
@@ -517,7 +488,7 @@ U 1 1 5B20F7C3
 P 1400 2200
 F 0 "C3" H 1425 2300 50  0000 L CNN
 F 1 "6.8uF" H 1425 2100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1438 2050 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1438 2050 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 1400 2200 50  0001 C CNN
 F 4 "CAPP-013" H 1400 2200 60  0001 C CNN "part_num"
 	1    1400 2200
@@ -536,30 +507,6 @@ F 4 "INDU-003" V 4750 6050 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L WARG:TPS22810DRV U4
-U 1 1 5B21CE33
-P 7600 4650
-F 0 "U4" H 7400 4950 60  0000 C CNN
-F 1 "TPS22810DRV" H 7600 4450 60  0000 C CNN
-F 2 "WARG:TPS22810DRV" H 7550 4650 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps22810.pdf" H 7550 4650 60  0001 C CNN
-F 4 "CHIP-006" H 7600 4650 60  0001 C CNN "part_num"
-	1    7600 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L WARG:TPS22810DRV U5
-U 1 1 5B21CF66
-P 7600 6000
-F 0 "U5" H 7400 6300 60  0000 C CNN
-F 1 "TPS22810DRV" H 7600 5800 60  0000 C CNN
-F 2 "WARG:TPS22810DRV" H 7550 6000 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps22810.pdf" H 7550 6000 60  0001 C CNN
-F 4 "CHIP-006" H 7600 6000 60  0001 C CNN "part_num"
-	1    7600 6000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C21
 U 1 1 5B21EBD0
 P 8650 6050
@@ -571,15 +518,13 @@ F 4 "CAPP-004" H 8650 6050 60  0001 C CNN "part_num"
 	1    8650 6050
 	1    0    0    -1  
 $EndComp
-Text Label 6500 5850 0    60   ~ 0
-INT_JMP1
 $Comp
 L Device:C C5
 U 1 1 5B2215D5
 P 1700 2200
 F 0 "C5" H 1725 2300 50  0000 L CNN
 F 1 "6.8uF" H 1725 2100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1738 2050 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1738 2050 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 1700 2200 50  0001 C CNN
 F 4 "CAPP-013" H 1700 2200 60  0001 C CNN "part_num"
 	1    1700 2200
@@ -591,7 +536,7 @@ U 1 1 5B22166C
 P 2050 2200
 F 0 "C7" H 2075 2300 50  0000 L CNN
 F 1 "6.8uF" H 2075 2100 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2088 2050 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2088 2050 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 2050 2200 50  0001 C CNN
 F 4 "CAPP-013" H 2050 2200 60  0001 C CNN "part_num"
 	1    2050 2200
@@ -603,7 +548,7 @@ U 1 1 5B221D77
 P 1600 5900
 F 0 "C4" H 1625 6000 50  0000 L CNN
 F 1 "6.8uF" H 1625 5800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1638 5750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1638 5750 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 1600 5900 50  0001 C CNN
 F 4 "CAPP-013" H 1600 5900 60  0001 C CNN "part_num"
 	1    1600 5900
@@ -615,7 +560,7 @@ U 1 1 5B221FA1
 P 1900 5900
 F 0 "C6" H 1925 6000 50  0000 L CNN
 F 1 "6.8uF" H 1925 5800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1938 5750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 1938 5750 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 1900 5900 50  0001 C CNN
 F 4 "CAPP-013" H 1900 5900 60  0001 C CNN "part_num"
 	1    1900 5900
@@ -627,7 +572,7 @@ U 1 1 5B222032
 P 2250 5900
 F 0 "C8" H 2275 6000 50  0000 L CNN
 F 1 "6.8uF" H 2275 5800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2288 5750 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 2288 5750 50  0001 C CNN
 F 3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" H 2250 5900 50  0001 C CNN
 F 4 "CAPP-013" H 2250 5900 60  0001 C CNN "part_num"
 	1    2250 5900
@@ -657,133 +602,24 @@ F 4 "CAPP-014" H 1000 2200 60  0001 C CNN "part_num"
 	1    1000 2200
 	1    0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR012
-U 1 1 5B223354
-P 5850 5300
-F 0 "#PWR012" H 5850 5050 50  0001 C CNN
-F 1 "GND" H 5850 5150 50  0000 C CNN
-F 2 "" H 5850 5300 50  0001 C CNN
-F 3 "" H 5850 5300 50  0001 C CNN
-	1    5850 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L WARG:NC7S04P5X U3
-U 1 1 5B26B5BE
-P 6350 5250
-F 0 "U3" H 6150 5700 60  0000 C CNN
-F 1 "NC7S04P5X" H 6400 5150 60  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-353_SC-70-5_Handsoldering" H 6400 5000 60  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/NC7S04-D.PDF" H 6300 5250 60  0001 C CNN
-F 4 "CHIP-007" H 6350 5800 60  0001 C CNN "part_num"
-	1    6350 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D2
-U 1 1 5B283E32
-P 7000 5400
-F 0 "D2" H 7000 5500 50  0000 C CNN
-F 1 "D" H 7000 5600 50  0001 C CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 7000 5400 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 7000 5400 50  0001 C CNN
-F 4 "DIOD-005" H 7000 5400 60  0001 C CNN "part_num"
-	1    7000 5400
-	0    1    1    0   
-$EndComp
-Text Label 7000 800  0    60   ~ 0
-5V_USB+
-$Comp
-L WARG:TPS22810DRV U6
-U 1 1 5B28B66E
-P 8100 950
-F 0 "U6" H 7900 1250 60  0000 C CNN
-F 1 "TPS22810DRV" H 8150 700 60  0000 C CNN
-F 2 "WARG:TPS22810DRV" H 8050 950 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps22810.pdf" H 8050 950 60  0001 C CNN
-F 4 "CHIP-006" H 8100 950 60  0001 C CNN "part_num"
-	1    8100 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L WARG:TPS22810DRV U7
-U 1 1 5B28B675
-P 8100 2300
-F 0 "U7" H 7900 2600 60  0000 C CNN
-F 1 "TPS22810DRV" H 8150 2050 60  0000 C CNN
-F 2 "WARG:TPS22810DRV" H 8050 2300 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tps22810.pdf" H 8050 2300 60  0001 C CNN
-F 4 "CHIP-006" H 8100 2300 60  0001 C CNN "part_num"
-	1    8100 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 5B28DFBE
-P 7550 2800
-F 0 "#PWR015" H 7550 2550 50  0001 C CNN
-F 1 "GND" H 7550 2650 50  0000 C CNN
-F 2 "" H 7550 2800 50  0001 C CNN
-F 3 "" H 7550 2800 50  0001 C CNN
-	1    7550 2800
-	1    0    0    -1  
-$EndComp
 Text Label 900  5650 0    60   ~ 0
 VBATT
 Text Label 850  1950 0    60   ~ 0
 VBATT
-Text HLabel 6900 800  0    60   Input ~ 0
-5V_USB+
-Text HLabel 6400 4500 0    60   Input ~ 0
+Text HLabel 10300 3100 0    60   Input ~ 0
 5V_USB+
 $Comp
 L Device:R R12
 U 1 1 5B295982
-P 9800 3650
-F 0 "R12" V 9700 3650 50  0000 C CNN
-F 1 "0" V 9800 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 3650 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9800 3650 50  0001 C CNN
-F 4 "RESS-001" V 9800 3650 60  0001 C CNN "part_num"
-	1    9800 3650
+P 9800 3400
+F 0 "R12" V 9700 3400 50  0000 C CNN
+F 1 "0" V 9800 3400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 3400 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9800 3400 50  0001 C CNN
+F 4 "RESS-001" V 9800 3400 60  0001 C CNN "part_num"
+	1    9800 3400
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R10
-U 1 1 5B29687B
-P 6150 5850
-F 0 "R10" V 6050 5850 50  0000 C CNN
-F 1 "0" V 6150 5850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 6080 5850 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 6150 5850 50  0001 C CNN
-F 4 "RESS-001" V 6150 5850 60  0001 C CNN "part_num"
-	1    6150 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 5B29EF8B
-P 7350 900
-F 0 "#PWR014" H 7350 650 50  0001 C CNN
-F 1 "GND" H 7350 750 50  0000 C CNN
-F 2 "" H 7350 900 50  0001 C CNN
-F 3 "" H 7350 900 50  0001 C CNN
-	1    7350 900 
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 5B29FB49
-P 6850 4600
-F 0 "#PWR013" H 6850 4350 50  0001 C CNN
-F 1 "GND" H 6850 4450 50  0000 C CNN
-F 2 "" H 6850 4600 50  0001 C CNN
-F 3 "" H 6850 4600 50  0001 C CNN
-	1    6850 4600
-	0    1    1    0   
-$EndComp
-NoConn ~ 5900 4950
 $Comp
 L Device:R R14
 U 1 1 5B2B489A
@@ -801,13 +637,13 @@ Text Label 9450 4250 2    60   ~ 0
 $Comp
 L Device:R R11
 U 1 1 5B2ED738
-P 9800 3350
-F 0 "R11" V 9700 3350 50  0000 C CNN
-F 1 "0" V 9800 3350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 3350 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9800 3350 50  0001 C CNN
-F 4 "RESS-001" V 9800 3350 60  0001 C CNN "part_num"
-	1    9800 3350
+P 9800 2850
+F 0 "R11" V 9700 2850 50  0000 C CNN
+F 1 "0" V 9800 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9730 2850 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9800 2850 50  0001 C CNN
+F 4 "RESS-001" V 9800 2850 60  0001 C CNN "part_num"
+	1    9800 2850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -823,197 +659,43 @@ F 4 "RESS-001" V 9800 3950 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C20
-U 1 1 5B2F62D8
-P 8600 2550
-F 0 "C20" H 8625 2650 50  0000 L CNN
-F 1 "10nF" H 8625 2450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8638 2400 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 8600 2550 50  0001 C CNN
-F 4 "CAPP-010" H 8600 2550 60  0001 C CNN "part_num"
-F 5 "NO LOAD" H 9000 2350 60  0000 R BNN "NO LOAD"
-	1    8600 2550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C22
 U 1 1 5B2F8C14
-P 9100 2400
-F 0 "C22" H 9125 2500 50  0000 L CNN
-F 1 "1uF" H 9125 2300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9138 2250 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 9100 2400 50  0001 C CNN
-F 4 "CAPP-004" H 9100 2400 60  0001 C CNN "part_num"
-	1    9100 2400
+P 8250 2400
+F 0 "C22" H 8275 2500 50  0000 L CNN
+F 1 "1uF" H 8275 2300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8288 2250 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 8250 2400 50  0001 C CNN
+F 4 "CAPP-004" H 8250 2400 60  0001 C CNN "part_num"
+	1    8250 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 5B2F8DF1
-P 9100 2650
-F 0 "#PWR019" H 9100 2400 50  0001 C CNN
-F 1 "GND" H 9100 2500 50  0000 C CNN
-F 2 "" H 9100 2650 50  0000 C CNN
-F 3 "" H 9100 2650 50  0000 C CNN
-	1    9100 2650
+P 8250 2650
+F 0 "#PWR019" H 8250 2400 50  0001 C CNN
+F 1 "GND" H 8250 2500 50  0000 C CNN
+F 2 "" H 8250 2650 50  0000 C CNN
+F 3 "" H 8250 2650 50  0000 C CNN
+	1    8250 2650
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C18
-U 1 1 5B2F932F
-P 8100 6250
-F 0 "C18" H 8125 6350 50  0000 L CNN
-F 1 "10nF" H 8125 6150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8138 6100 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 8100 6250 50  0001 C CNN
-F 4 "CAPP-010" H 8100 6250 60  0001 C CNN "part_num"
-F 5 "NO LOAD" H 8550 6050 60  0000 R BNN "NO LOAD"
-	1    8100 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C19
-U 1 1 5B307872
-P 8550 1250
-F 0 "C19" H 8575 1350 50  0000 L CNN
-F 1 "10nF" H 8550 1150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8588 1100 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 8550 1250 50  0001 C CNN
-F 4 "CAPP-010" H 8550 1250 60  0001 C CNN "part_num"
-F 5 "NO LOAD" H 8550 1100 60  0000 R BNN "NO LOAD"
-	1    8550 1250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 5B308240
-P 8550 1500
-F 0 "#PWR017" H 8550 1250 50  0001 C CNN
-F 1 "GND" H 8550 1350 50  0000 C CNN
-F 2 "" H 8550 1500 50  0001 C CNN
-F 3 "" H 8550 1500 50  0001 C CNN
-	1    8550 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C17
-U 1 1 5B308A27
-P 8050 4900
-F 0 "C17" H 8075 5000 50  0000 L CNN
-F 1 "10nF" H 8050 4800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 8088 4750 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 8050 4900 50  0001 C CNN
-F 4 "CAPP-010" H 8050 4900 60  0001 C CNN "part_num"
-F 5 "NO LOAD" H 8050 4750 60  0000 R BNN "NO LOAD"
-	1    8050 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 5B308C3B
-P 8050 5150
-F 0 "#PWR016" H 8050 4900 50  0001 C CNN
-F 1 "GND" H 8050 5000 50  0000 C CNN
-F 2 "" H 8050 5150 50  0000 C CNN
-F 3 "" H 8050 5150 50  0000 C CNN
-	1    8050 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D D1
-U 1 1 5B31786B
-P 7000 4800
-F 0 "D1" H 7000 4900 50  0000 C CNN
-F 1 "D" H 7000 5000 50  0001 C CNN
-F 2 "Diodes_SMD:D_SMA_Handsoldering" H 7000 4800 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds16003.pdf" H 7000 4800 50  0001 C CNN
-F 4 "DIOD-005" H 7000 4800 60  0001 C CNN "part_num"
-	1    7000 4800
-	0    -1   -1   0   
-$EndComp
-Text Label 7300 1000 0    60   ~ 0
-USB_EN
-Text Label 7100 5050 0    60   ~ 0
-USB_EN
-Text Label 7300 2350 2    60   ~ 0
-INT_JMP1
 Wire Wire Line
-	9650 3350 9450 3350
+	9650 2850 9450 2850
 Wire Wire Line
-	9650 3650 9450 3650
+	9650 3400 9450 3400
 Wire Wire Line
 	9650 4250 9450 4250
-Connection ~ 8700 900 
-Wire Wire Line
-	8500 900  8700 900 
-Connection ~ 8200 4600
-Wire Wire Line
-	8000 4600 8200 4600
-Wire Wire Line
-	6850 4600 7150 4600
-Wire Wire Line
-	7350 900  7650 900 
-Wire Wire Line
-	7550 2250 7550 2750
-Wire Wire Line
-	7300 1000 7650 1000
-Wire Wire Line
-	8700 2250 8500 2250
-Wire Wire Line
-	7300 2350 7650 2350
-Connection ~ 8700 2150
-Wire Wire Line
-	8700 800  8700 900 
-Wire Wire Line
-	8500 800  8700 800 
-Wire Wire Line
-	6900 800  7650 800 
-Wire Wire Line
-	7550 2250 7650 2250
-Connection ~ 6350 5850
-Wire Wire Line
-	6350 5650 6350 5850
-Wire Wire Line
-	5750 5650 6350 5650
-Wire Wire Line
-	7100 4700 7150 4700
-Wire Wire Line
-	7100 4700 7100 5050
 Wire Wire Line
 	8850 6300 8650 6300
-Wire Wire Line
-	8200 5950 8000 5950
-Wire Wire Line
-	7000 6050 7150 6050
-Connection ~ 7000 5850
 Wire Wire Line
 	8650 6300 8650 6200
 Wire Wire Line
 	8650 5850 8650 5900
-Connection ~ 7000 5150
-Connection ~ 7000 4500
-Wire Wire Line
-	7000 4500 7000 4650
-Wire Wire Line
-	5750 5050 5900 5050
-Wire Wire Line
-	5750 5650 5750 5050
-Wire Wire Line
-	7100 5050 6850 5050
-Wire Wire Line
-	6850 5150 7000 5150
-Wire Wire Line
-	7000 4950 7000 5150
-Wire Wire Line
-	7000 5550 7000 5850
-Connection ~ 8200 5850
 Connection ~ 1600 5650
 Wire Wire Line
 	1600 5650 1600 5750
-Wire Wire Line
-	5850 5150 5850 5300
-Wire Wire Line
-	5900 5150 5850 5150
 Connection ~ 1400 2500
 Wire Wire Line
 	1000 2350 1000 2500
@@ -1027,13 +709,7 @@ Connection ~ 1300 5650
 Wire Wire Line
 	1300 5750 1300 5650
 Wire Wire Line
-	8200 4500 8200 4600
-Wire Wire Line
 	8650 5850 8900 5850
-Wire Wire Line
-	8000 4500 8200 4500
-Wire Wire Line
-	6300 5850 6350 5850
 Connection ~ 1700 2500
 Wire Wire Line
 	1400 2350 1400 2500
@@ -1043,7 +719,6 @@ Wire Wire Line
 Connection ~ 1700 1950
 Wire Wire Line
 	1700 1950 1700 2050
-Connection ~ 5950 7200
 Wire Wire Line
 	5950 7200 5950 6550
 Connection ~ 5950 5850
@@ -1052,15 +727,7 @@ Wire Wire Line
 Connection ~ 1900 6200
 Wire Wire Line
 	1600 6050 1600 6200
-Wire Wire Line
-	6400 4500 7000 4500
 Connection ~ 5700 7200
-Wire Wire Line
-	6300 7200 6300 6450
-Wire Wire Line
-	6300 5950 7150 5950
-Wire Wire Line
-	8500 2150 8700 2150
 Wire Wire Line
 	2600 6600 2950 6600
 Wire Wire Line
@@ -1200,7 +867,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 3950 9950 3950
 Wire Wire Line
-	10400 3350 9950 3350
+	10400 2850 9950 2850
 Connection ~ 2000 4400
 Wire Wire Line
 	2000 4350 2000 4400
@@ -1237,64 +904,9 @@ Wire Wire Line
 Wire Wire Line
 	9450 3950 9650 3950
 Wire Wire Line
-	8100 6100 8100 6050
+	8250 2250 8250 2150
 Wire Wire Line
-	8100 6050 8000 6050
-Wire Wire Line
-	8100 6400 8100 6450
-Wire Wire Line
-	8100 6450 6300 6450
-Connection ~ 6300 6450
-Wire Wire Line
-	8600 2400 8600 2350
-Wire Wire Line
-	8600 2350 8500 2350
-Wire Wire Line
-	8600 2700 8600 2750
-Wire Wire Line
-	8600 2750 7550 2750
-Connection ~ 7550 2750
-Wire Wire Line
-	9100 2250 9100 2150
-Connection ~ 9100 2150
-Wire Wire Line
-	9100 2550 9100 2650
-Wire Wire Line
-	8500 1000 8550 1000
-Wire Wire Line
-	8550 1000 8550 1100
-Wire Wire Line
-	8550 1400 8550 1500
-Wire Wire Line
-	8050 5050 8050 5150
-Wire Wire Line
-	8050 4750 8050 4700
-Wire Wire Line
-	8050 4700 8000 4700
-Text Label 8200 5800 1    60   ~ 0
-5V_INT_JMP
-Wire Wire Line
-	8000 5850 8200 5850
-Wire Wire Line
-	8700 900  8700 2150
-Wire Wire Line
-	8200 4600 8200 5850
-Wire Wire Line
-	8700 2150 9100 2150
-Wire Wire Line
-	8700 2150 8700 2250
-Wire Wire Line
-	6350 5850 7000 5850
-Wire Wire Line
-	7000 5850 7000 6050
-Wire Wire Line
-	7000 5850 7150 5850
-Wire Wire Line
-	7000 5150 7000 5250
-Wire Wire Line
-	7000 4500 7150 4500
-Wire Wire Line
-	8200 5850 8200 5950
+	8250 2550 8250 2650
 Wire Wire Line
 	1600 5650 1900 5650
 Wire Wire Line
@@ -1312,15 +924,9 @@ Wire Wire Line
 Wire Wire Line
 	1700 1950 2050 1950
 Wire Wire Line
-	5950 7200 6300 7200
-Wire Wire Line
-	5950 5850 6000 5850
-Wire Wire Line
 	1900 6200 2250 6200
 Wire Wire Line
 	5700 7200 5950 7200
-Wire Wire Line
-	5800 2150 5850 2150
 Wire Wire Line
 	5500 3450 5800 3450
 Wire Wire Line
@@ -1333,8 +939,6 @@ Wire Wire Line
 	5250 2150 5500 2150
 Wire Wire Line
 	4950 3000 4950 3050
-Wire Wire Line
-	4950 2150 5250 2150
 Wire Wire Line
 	4950 2350 4950 2650
 Wire Wire Line
@@ -1374,12 +978,6 @@ Wire Wire Line
 Wire Wire Line
 	8850 6150 8850 6300
 Wire Wire Line
-	6300 6450 6300 5950
-Wire Wire Line
-	7550 2750 7550 2800
-Wire Wire Line
-	6150 2150 7650 2150
-Wire Wire Line
 	4200 2150 4200 1950
 Wire Wire Line
 	4200 1950 4400 1950
@@ -1387,14 +985,12 @@ Wire Wire Line
 	4050 2150 4200 2150
 Wire Wire Line
 	4400 2250 4400 2350
-Connection ~ 4400 2350
 Wire Wire Line
 	4450 5850 4450 5650
 Wire Wire Line
 	4450 5650 4600 5650
 Wire Wire Line
 	4600 6050 4600 5950
-Connection ~ 4600 6050
 Connection ~ 10250 4250
 Wire Wire Line
 	10250 4250 10400 4250
@@ -1448,18 +1044,14 @@ F 4 "RESS-006" V 10900 4350 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9950 3650 10600 3650
+	9950 3400 10600 3400
 Wire Wire Line
-	10600 3650 10600 3800
+	10600 3400 10600 3550
+Connection ~ 10600 3400
 Wire Wire Line
-	10600 3800 10900 3800
+	10600 3400 10800 3400
 Wire Wire Line
-	10900 3800 10900 4200
-Connection ~ 10600 3650
-Wire Wire Line
-	10600 3650 10800 3650
-Wire Wire Line
-	9100 2150 9900 2150
+	8250 2150 9050 2150
 $Comp
 L WARG:SPOX-2 J7
 U 1 1 5CB5E0BD
@@ -1472,4 +1064,91 @@ F 4 "CONN-001" H 1100 4700 60  0001 C CNN "part_num"
 	1    900  4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L WARG:TPS54308 U1
+U 1 1 5B16D358
+P 3400 2750
+F 0 "U1" H 3100 3550 60  0000 C CNN
+F 1 "TPS54308" H 3400 2700 60  0000 C CNN
+F 2 "WARG:TPS54308DDCT" H 3400 2750 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps54308.pdf" H 3400 3650 60  0001 C CNN
+F 4 "REGU-003" H 3400 2750 60  0001 C CNN "part_num"
+	1    3400 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 8250 2150
+$Comp
+L Device:D D2
+U 1 1 5CF5F66A
+P 10400 3800
+F 0 "D2" V 10446 3721 50  0000 R CNN
+F 1 "D" V 10355 3721 50  0000 R CNN
+F 2 "Diodes_SMD:D_PowerDI-123" H 10400 3800 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30492.pdf" H 10400 3800 50  0001 C CNN
+F 4 "DIOD-007" V 10400 3800 50  0001 C CNN "part_num"
+	1    10400 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5CF5FEF3
+P 10600 3250
+F 0 "D1" V 10646 3171 50  0000 R CNN
+F 1 "D" V 10555 3171 50  0000 R CNN
+F 2 "Diodes_SMD:D_PowerDI-123" H 10600 3250 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30492.pdf" H 10600 3250 50  0001 C CNN
+F 4 "DIOD-007" H 10600 3250 50  0001 C CNN "part_num"
+	1    10600 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 5CF610BB
+P 7750 6100
+F 0 "C17" H 7775 6200 50  0000 L CNN
+F 1 "1uF" H 7775 6000 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7788 5950 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 7750 6100 50  0001 C CNN
+F 4 "CAPP-004" H 7750 6100 60  0001 C CNN "part_num"
+	1    7750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5CF610C1
+P 7750 6350
+F 0 "#PWR0101" H 7750 6100 50  0001 C CNN
+F 1 "GND" H 7750 6200 50  0000 C CNN
+F 2 "" H 7750 6350 50  0000 C CNN
+F 3 "" H 7750 6350 50  0000 C CNN
+	1    7750 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 6250 7750 6350
+Text Label 7900 5850 0    59   ~ 0
+5V_INT_JMP
+Wire Wire Line
+	5100 2150 5250 2150
+Wire Wire Line
+	4950 2150 5250 2150
+Wire Wire Line
+	10300 3100 10600 3100
+Text HLabel 10100 3650 0    60   Input ~ 0
+5V_USB+
+Wire Wire Line
+	10100 3650 10400 3650
+Wire Wire Line
+	7750 5950 7750 5850
+Connection ~ 7750 5850
+Wire Wire Line
+	7750 5850 7900 5850
+Wire Wire Line
+	5800 2150 8250 2150
+Wire Wire Line
+	5950 5850 7750 5850
+Wire Wire Line
+	10900 3550 10900 4200
+Wire Wire Line
+	10600 3550 10900 3550
 $EndSCHEMATC

@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -517,18 +516,6 @@ TCK1
 Text HLabel 7550 1900 0    60   Input ~ 0
 TDI1
 $Comp
-L Device:R R48
-U 1 1 5B25A964
-P 8200 2000
-F 0 "R48" V 8250 1800 50  0000 C CNN
-F 1 "0" V 8200 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 2000 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 8200 2000 50  0001 C CNN
-F 4 "RESS-001" V 8200 2000 60  0001 C CNN "part_num"
-	1    8200 2000
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R47
 U 1 1 5B25BD92
 P 7950 1900
@@ -544,18 +531,6 @@ Text HLabel 10350 1800 2    60   Input ~ 0
 TCK2
 Text HLabel 10350 1900 2    60   Input ~ 0
 TDI2
-$Comp
-L Device:R R49
-U 1 1 5B25CA6C
-P 9700 2000
-F 0 "R49" V 9750 1800 50  0000 C CNN
-F 1 "0" V 9700 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 9630 2000 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 2000 50  0001 C CNN
-F 4 "RESS-001" V 9700 2000 60  0001 C CNN "part_num"
-	1    9700 2000
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:R R50
 U 1 1 5B25CA74
@@ -602,7 +577,7 @@ F 3 "" H 4400 2250 50  0001 C CNN
 	1    4400 2250
 	1    0    0    -1  
 $EndComp
-Text HLabel 2550 1300 2    60   Output ~ 0
+Text HLabel 2750 1300 2    60   Output ~ 0
 USB_VBUS
 NoConn ~ 1500 1900
 Text HLabel 7550 2100 0    60   Input ~ 0
@@ -865,8 +840,6 @@ Wire Wire Line
 Wire Wire Line
 	8350 2000 8450 2000
 Wire Wire Line
-	8100 1900 8450 1900
-Wire Wire Line
 	7550 1800 8450 1800
 Wire Wire Line
 	9550 2000 9450 2000
@@ -877,7 +850,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 1800 10350 1800
 Wire Wire Line
-	2350 1300 2350 1500
+	2550 1300 2550 1500
 Wire Wire Line
 	8050 2000 7650 2000
 Wire Wire Line
@@ -898,7 +871,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 2250 4450 2250
 Wire Wire Line
-	2550 1300 2350 1300
+	2750 1300 2550 1300
 Wire Wire Line
 	10350 2100 9450 2100
 Wire Wire Line
@@ -1023,12 +996,6 @@ Wire Wire Line
 Wire Wire Line
 	7650 1900 7800 1900
 Wire Wire Line
-	2350 1500 2550 1500
-Wire Wire Line
-	2550 1500 2550 1900
-Text Notes 1650 1100 0    60   ~ 0
-Add OV and OC protection.
-Wire Wire Line
 	1500 1700 1950 1700
 Wire Wire Line
 	1650 2250 1650 2350
@@ -1052,21 +1019,35 @@ Wire Wire Line
 Connection ~ 1950 1700
 Wire Wire Line
 	1950 1700 2850 1700
+Wire Wire Line
+	8100 1900 8450 1900
 $Comp
-L Device:D_Schottky D14
-U 1 1 5CC2FB03
-P 1800 1500
-F 0 "D14" H 1800 1284 50  0000 C CNN
-F 1 "D_Schottky" H 1800 1375 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-123F" H 1800 1500 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub/Collateral/MBR120VLSFT1-D.PDF" H 1800 1500 50  0001 C CNN
-F 4 "DIOD-007" H 0   0   50  0001 C CNN "part_num"
-	1    1800 1500
-	-1   0    0    1   
+L Device:R R49
+U 1 1 5B25CA6C
+P 9700 2000
+F 0 "R49" V 9750 1800 50  0000 C CNN
+F 1 "0" V 9700 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 9630 2000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9700 2000 50  0001 C CNN
+F 4 "RESS-001" V 9700 2000 60  0001 C CNN "part_num"
+	1    9700 2000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R48
+U 1 1 5B25A964
+P 8200 2000
+F 0 "R48" V 8250 1800 50  0000 C CNN
+F 1 "0" V 8200 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 8130 2000 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 8200 2000 50  0001 C CNN
+F 4 "RESS-001" V 8200 2000 60  0001 C CNN "part_num"
+	1    8200 2000
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	1500 1500 1650 1500
+	2550 1900 2550 1500
 Wire Wire Line
-	1950 1500 2350 1500
-Connection ~ 2350 1500
+	1500 1500 2550 1500
+Connection ~ 2550 1500
 $EndSCHEMATC

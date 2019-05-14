@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -546,6 +545,8 @@ $Comp
 L Connector:TestPoint TP6
 U 1 1 596A0986
 P 10450 2900
+AR Path="/596A0986" Ref="TP6"  Part="1" 
+AR Path="/5918F046/596A0986" Ref="TP6"  Part="1" 
 F 0 "TP6" H 10450 3200 50  0000 C BNN
 F 1 "TEST" H 10450 3150 50  0000 C CNN
 F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10450 2900 50  0001 C CNN

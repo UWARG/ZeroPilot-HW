@@ -24,4 +24,5 @@
   (lib (name contrib)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/contrib.lib)(options "")(descr ""))
   (lib (name valves)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/valves.lib)(options "")(descr ""))
   (lib (name WARG)(type Legacy)(uri C:/Users/Mark/Documents/WARG/WARG-KiCAD/WARG.lib)(options "")(descr ""))
+  (lib (name ZeroPilot-rescue)(type Legacy)(uri ${KIPRJMOD}/ZeroPilot-rescue.lib)(options "")(descr ""))
 )
