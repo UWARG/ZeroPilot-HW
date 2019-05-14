@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ZeroPilot-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -643,7 +644,7 @@ U 1 1 5B17AD8A
 P 4550 4875
 F 0 "TP1" H 4550 5175 50  0000 C BNN
 F 1 "TEST" H 4550 5125 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4550 4875 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4550 4875 50  0001 C CNN
 F 3 "" H 4550 4875 50  0001 C CNN
 	1    4550 4875
 	0    -1   -1   0   
@@ -654,7 +655,7 @@ U 1 1 5B17B9D1
 P 4550 5080
 F 0 "TP2" H 4550 5380 50  0000 C BNN
 F 1 "TEST" H 4550 5330 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4550 5080 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4550 5080 50  0001 C CNN
 F 3 "" H 4550 5080 50  0001 C CNN
 	1    4550 5080
 	0    -1   -1   0   
@@ -1041,7 +1042,7 @@ U 1 1 5B375115
 P 10350 2700
 F 0 "TP3" H 10350 3000 50  0000 C BNN
 F 1 "TEST" H 10350 2950 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10350 2700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10350 2700 50  0001 C CNN
 F 3 "" H 10350 2700 50  0001 C CNN
 	1    10350 2700
 	1    0    0    -1  
@@ -1052,7 +1053,7 @@ U 1 1 5B375EC5
 P 10500 2800
 F 0 "TP4" H 10500 3100 50  0000 C BNN
 F 1 "TEST" H 10500 3050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10500 2800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10500 2800 50  0001 C CNN
 F 3 "" H 10500 2800 50  0001 C CNN
 	1    10500 2800
 	1    0    0    -1  
@@ -1063,7 +1064,7 @@ U 1 1 5B37635D
 P 10600 2900
 F 0 "TP5" H 10600 3200 50  0000 C BNN
 F 1 "TEST" H 10600 3150 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10600 2900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10600 2900 50  0001 C CNN
 F 3 "" H 10600 2900 50  0001 C CNN
 	1    10600 2900
 	1    0    0    -1  

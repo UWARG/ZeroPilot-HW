@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ZeroPilot-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -108,7 +109,7 @@ U 1 1 5CBF3F45
 P 5600 2200
 F 0 "J4" H 5680 2192 50  0000 L CNN
 F 1 "GH-6" H 5680 2101 50  0000 L CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5600 2200 50  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 5600 2200 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5600 2200 50  0001 C CNN
 F 4 "CONN-017" H 0   0   50  0001 C CNN "part_num"
 	1    5600 2200
@@ -210,19 +211,13 @@ Wire Wire Line
 Connection ~ 7850 2000
 Wire Wire Line
 	7850 2000 7850 2750
-Wire Bus Line
-	2150 900  2150 2200
-Wire Bus Line
-	4850 900  4850 2200
-Wire Bus Line
-	7700 900  7700 2200
 $Comp
 L Connector_Generic:Conn_01x06 J3
 U 1 1 5CEE26FD
 P 5600 1400
 F 0 "J3" H 5680 1392 50  0000 L CNN
 F 1 "GH-6" H 5680 1301 50  0000 L CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5600 1400 50  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 5600 1400 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5600 1400 50  0001 C CNN
 F 4 "CONN-017" H 0   -800 50  0001 C CNN "part_num"
 	1    5600 1400
@@ -235,7 +230,7 @@ U 1 1 5CEE30E6
 P 8450 1400
 F 0 "J5" H 8530 1392 50  0000 L CNN
 F 1 "GH-6" H 8530 1301 50  0000 L CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 8450 1400 50  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 8450 1400 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 8450 1400 50  0001 C CNN
 F 4 "CONN-017" H 2850 -800 50  0001 C CNN "part_num"
 	1    8450 1400
@@ -248,7 +243,7 @@ U 1 1 5CEE3EBF
 P 8450 2200
 F 0 "J6" H 8530 2192 50  0000 L CNN
 F 1 "GH-6" H 8530 2101 50  0000 L CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 8450 2200 50  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 8450 2200 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 8450 2200 50  0001 C CNN
 F 4 "CONN-017" H 2850 0   50  0001 C CNN "part_num"
 	1    8450 2200
@@ -261,7 +256,7 @@ U 1 1 5CEE43E8
 P 2900 2200
 F 0 "J2" H 2980 2192 50  0000 L CNN
 F 1 "GH-6" H 2980 2101 50  0000 L CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 2900 2200 50  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 2900 2200 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 2900 2200 50  0001 C CNN
 F 4 "CONN-017" H -2700 0   50  0001 C CNN "part_num"
 	1    2900 2200
@@ -274,11 +269,17 @@ U 1 1 5CEE50A1
 P 2900 1400
 F 0 "J1" H 2980 1392 50  0000 L CNN
 F 1 "GH-6" H 2980 1301 50  0000 L CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 2900 1400 50  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 2900 1400 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 2900 1400 50  0001 C CNN
 F 4 "CONN-017" H -2700 -800 50  0001 C CNN "part_num"
 	1    2900 1400
 	1    0    0    -1  
 $EndComp
 Connection ~ 2700 1200
+Wire Bus Line
+	2150 900  2150 2200
+Wire Bus Line
+	4850 900  4850 2200
+Wire Bus Line
+	7700 900  7700 2200
 $EndSCHEMATC

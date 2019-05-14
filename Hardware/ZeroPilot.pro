@@ -1,6 +1,6 @@
-update=5/13/2019 9:26:21 PM
+update=5/14/2019 12:52:40 PM
 version=1
-last_client=pcbnew
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -240,7 +240,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.0889
+Clearance=0.127
 TrackWidth=0.2032
 ViaDiameter=0.508
 ViaDrill=0.254

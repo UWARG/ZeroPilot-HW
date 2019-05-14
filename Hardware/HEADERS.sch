@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ZeroPilot-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -171,7 +172,7 @@ U 1 1 59526B7D
 P 3350 2100
 F 0 "R51" V 3430 2100 50  0000 C CNN
 F 1 "10K" V 3350 2100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3280 2100 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 2100 50  0001 C CNN
 F 4 "RESS-005" V 3350 2100 60  0001 C CNN "part_num"
 	1    3350 2100
@@ -185,7 +186,7 @@ U 1 1 595B24C4
 P 3550 2100
 F 0 "R54" V 3630 2100 50  0000 C CNN
 F 1 "10K" V 3550 2100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 2100 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 2100 50  0001 C CNN
 F 4 "RESS-005" V 3550 2100 60  0001 C CNN "part_num"
 	1    3550 2100
@@ -197,7 +198,7 @@ U 1 1 595B2506
 P 3550 2700
 F 0 "R55" V 3630 2700 50  0000 C CNN
 F 1 "10K" V 3550 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 2700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 2700 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 2700 50  0001 C CNN
 F 4 "RESS-005" V 3550 2700 60  0001 C CNN "part_num"
 	1    3550 2700
@@ -209,7 +210,7 @@ U 1 1 595B2562
 P 3350 2700
 F 0 "R52" V 3430 2700 50  0000 C CNN
 F 1 "10K" V 3350 2700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 2700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3280 2700 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 2700 50  0001 C CNN
 F 4 "RESS-005" V 3350 2700 60  0001 C CNN "part_num"
 	1    3350 2700
@@ -221,7 +222,7 @@ U 1 1 595B25FA
 P 3350 3250
 F 0 "R53" V 3430 3250 50  0000 C CNN
 F 1 "10K" V 3350 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3280 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3280 3250 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3350 3250 50  0001 C CNN
 F 4 "RESS-005" V 3350 3250 60  0001 C CNN "part_num"
 	1    3350 3250
@@ -233,7 +234,7 @@ U 1 1 595B2654
 P 3550 3250
 F 0 "R56" V 3630 3250 50  0000 C CNN
 F 1 "10K" V 3550 3250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 3250 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3480 3250 50  0001 C CNN
 F 3 "http://industrial.panasonic.com/www-cgi/jvcr13pz.cgi?E+PZ+3+AOA0001+ERJ3GEYJ103V+7+WW" H 3550 3250 50  0001 C CNN
 F 4 "RESS-005" V 3550 3250 60  0001 C CNN "part_num"
 	1    3550 3250
@@ -245,7 +246,7 @@ U 1 1 595BD83D
 P 1250 2000
 F 0 "J11" H 1350 2250 60  0000 C CNN
 F 1 "GH-3" H 1350 1800 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM03B-GHS-TBT_03x1.25mm_Straight" H 1250 2150 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM03B-GHS-TBT_1x03-1MP_P1.25mm_Vertical" H 1250 2150 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1350 2250 60  0001 C CNN
 F 4 "CONN-014" H 1450 2350 60  0001 C CNN "part_num"
 	1    1250 2000
@@ -257,7 +258,7 @@ U 1 1 595BDC13
 P 5400 2700
 F 0 "J18" H 5500 3050 60  0000 C CNN
 F 1 "GH-6" H 5500 2350 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5400 2850 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 5400 2850 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 2850 60  0001 C CNN
 F 4 "CONN-017" H 5600 3150 60  0001 C CNN "part_num"
 	1    5400 2700
@@ -269,7 +270,7 @@ U 1 1 595BDC6A
 P 5400 3550
 F 0 "J19" H 5500 3900 60  0000 C CNN
 F 1 "GH-6" H 5500 3200 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5400 3700 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 5400 3700 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 3700 60  0001 C CNN
 F 4 "CONN-017" H 5600 4000 60  0001 C CNN "part_num"
 	1    5400 3550
@@ -281,7 +282,7 @@ U 1 1 595BDCF6
 P 5400 5400
 F 0 "J20" H 5500 5750 60  0000 C CNN
 F 1 "GH-6" H 5500 5050 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 5400 5550 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 5400 5550 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 5400 5550 60  0001 C CNN
 F 4 "CONN-017" H 5600 5850 60  0001 C CNN "part_num"
 	1    5400 5400
@@ -293,7 +294,7 @@ U 1 1 595BDD92
 P 9000 3800
 F 0 "J21" H 9100 4150 60  0000 C CNN
 F 1 "GH-6" H 9100 3450 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 9000 3950 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 9000 3950 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 9000 3950 60  0001 C CNN
 F 4 "CONN-017" H 9200 4250 60  0001 C CNN "part_num"
 	1    9000 3800
@@ -305,7 +306,7 @@ U 1 1 595BDDDE
 P 9000 4600
 F 0 "J22" H 9100 4950 60  0000 C CNN
 F 1 "GH-6" H 9100 4250 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 9000 4750 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 9000 4750 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 9000 4750 60  0001 C CNN
 F 4 "CONN-017" H 9200 5050 60  0001 C CNN "part_num"
 	1    9000 4600
@@ -317,7 +318,7 @@ U 1 1 595BDE34
 P 9000 5450
 F 0 "J23" H 9100 5800 60  0000 C CNN
 F 1 "GH-6" H 9100 5100 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM06B-GHS-TBT_06x1.25mm_Straight" H 9000 5600 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical" H 9000 5600 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 9000 5600 60  0001 C CNN
 F 4 "CONN-017" H 9200 5900 60  0001 C CNN "part_num"
 	1    9000 5450
@@ -329,7 +330,7 @@ U 1 1 595C30C3
 P 3700 3800
 F 0 "J15" H 3800 4050 60  0000 C CNN
 F 1 "GH-4" H 3800 3550 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 3850 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 3700 3850 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 3850 60  0001 C CNN
 F 4 "CONN-015" H 3900 4150 60  0001 C CNN "part_num"
 	1    3700 3800
@@ -341,7 +342,7 @@ U 1 1 5966BE07
 P 1250 1400
 F 0 "J10" H 1350 1700 60  0000 C CNN
 F 1 "GH-4" H 1350 1150 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1250 1550 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 1250 1550 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1350 1650 60  0001 C CNN
 F 4 "CONN-015" H 1450 1750 60  0001 C CNN "part_num"
 	1    1250 1400
@@ -353,7 +354,7 @@ U 1 1 5966BE8B
 P 1250 2650
 F 0 "J12" H 1350 2900 60  0000 C CNN
 F 1 "GH-4" H 1350 2400 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1250 2700 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 1250 2700 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 2700 60  0001 C CNN
 F 4 "CONN-015" H 1450 3000 60  0001 C CNN "part_num"
 	1    1250 2650
@@ -373,7 +374,7 @@ AR Path="/597D9B19" Ref="J13"  Part="1"
 AR Path="/59234D3B/597D9B19" Ref="J13"  Part="1" 
 F 0 "J13" H 1350 3450 60  0000 C CNN
 F 1 "GH-2" H 1350 3150 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM02B-GHS-TBT_02x1.25mm_Straight" H 1250 3250 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical" H 1250 3250 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1250 3250 60  0001 C CNN
 F 4 "CONN-013" H 1450 3550 60  0001 C CNN "part_num"
 	1    1250 3300
@@ -595,7 +596,7 @@ AR Path="/5B321D7E" Ref="TP8"  Part="1"
 AR Path="/59234D3B/5B321D7E" Ref="TP8"  Part="1" 
 F 0 "TP8" V 1550 4350 50  0000 C BNN
 F 1 "TXS_TST" V 1500 4100 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 3700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1500 3700 50  0001 C CNN
 F 3 "" H 1500 3700 50  0001 C CNN
 	1    1500 3700
 	0    -1   -1   0   
@@ -608,7 +609,7 @@ AR Path="/5B322406" Ref="TP9"  Part="1"
 AR Path="/59234D3B/5B322406" Ref="TP9"  Part="1" 
 F 0 "TP9" V 1550 4450 50  0000 C BNN
 F 1 "RXS_TST" V 1500 4200 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 3800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1500 3800 50  0001 C CNN
 F 3 "" H 1500 3800 50  0001 C CNN
 	1    1500 3800
 	0    -1   -1   0   
@@ -621,7 +622,7 @@ AR Path="/5B322A72" Ref="TP11"  Part="1"
 AR Path="/59234D3B/5B322A72" Ref="TP11"  Part="1" 
 F 0 "TP11" V 1550 4850 50  0000 C BNN
 F 1 "TXP_TST" V 1500 4600 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 4200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1500 4200 50  0001 C CNN
 F 3 "" H 1500 4200 50  0001 C CNN
 	1    1500 4200
 	0    -1   -1   0   
@@ -634,7 +635,7 @@ AR Path="/5B322A78" Ref="TP12"  Part="1"
 AR Path="/59234D3B/5B322A78" Ref="TP12"  Part="1" 
 F 0 "TP12" V 1550 4950 50  0000 C BNN
 F 1 "RXP_TST" V 1500 4700 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1500 4300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1500 4300 50  0001 C CNN
 F 3 "" H 1500 4300 50  0001 C CNN
 	1    1500 4300
 	0    -1   -1   0   
@@ -647,7 +648,7 @@ AR Path="/5B322C50" Ref="TP13"  Part="1"
 AR Path="/59234D3B/5B322C50" Ref="TP13"  Part="1" 
 F 0 "TP13" V 1850 6650 50  0000 C BNN
 F 1 "NRSTS_TST" V 1800 6350 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 5950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 5950 50  0001 C CNN
 F 3 "" H 1800 5950 50  0001 C CNN
 	1    1800 5950
 	0    -1   -1   0   
@@ -660,7 +661,7 @@ AR Path="/5B322C56" Ref="TP14"  Part="1"
 AR Path="/59234D3B/5B322C56" Ref="TP14"  Part="1" 
 F 0 "TP14" V 1850 6750 50  0000 C BNN
 F 1 "SWIOS_TST" V 1800 6450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 6050 50  0001 C CNN
 F 3 "" H 1800 6050 50  0001 C CNN
 	1    1800 6050
 	0    -1   -1   0   
@@ -673,7 +674,7 @@ AR Path="/5B322C9E" Ref="TP15"  Part="1"
 AR Path="/59234D3B/5B322C9E" Ref="TP15"  Part="1" 
 F 0 "TP15" V 1850 6850 50  0000 C BNN
 F 1 "SCLKS_TST" V 1800 6550 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 6150 50  0001 C CNN
 F 3 "" H 1800 6150 50  0001 C CNN
 	1    1800 6150
 	0    -1   -1   0   
@@ -686,7 +687,7 @@ AR Path="/5B322FC5" Ref="TP17"  Part="1"
 AR Path="/59234D3B/5B322FC5" Ref="TP17"  Part="1" 
 F 0 "TP17" V 1850 7200 50  0000 C BNN
 F 1 "SWIOP_TST" V 1800 6900 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 6500 50  0001 C CNN
 F 3 "" H 1800 6500 50  0001 C CNN
 	1    1800 6500
 	0    -1   -1   0   
@@ -699,7 +700,7 @@ AR Path="/5B322FCB" Ref="TP18"  Part="1"
 AR Path="/59234D3B/5B322FCB" Ref="TP18"  Part="1" 
 F 0 "TP18" V 1850 7300 50  0000 C BNN
 F 1 "SCLKP_TST" V 1800 7000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 6600 50  0001 C CNN
 F 3 "" H 1800 6600 50  0001 C CNN
 	1    1800 6600
 	0    -1   -1   0   
@@ -712,7 +713,7 @@ AR Path="/5B322FD1" Ref="TP19"  Part="1"
 AR Path="/59234D3B/5B322FD1" Ref="TP19"  Part="1" 
 F 0 "TP19" V 1850 7550 50  0000 C BNN
 F 1 "GND_TST" V 1800 7250 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 6850 50  0001 C CNN
 F 3 "" H 1800 6850 50  0001 C CNN
 	1    1800 6850
 	0    -1   -1   0   
@@ -725,7 +726,7 @@ AR Path="/5B322FD7" Ref="TP16"  Part="1"
 AR Path="/59234D3B/5B322FD7" Ref="TP16"  Part="1" 
 F 0 "TP16" V 1850 7100 50  0000 C BNN
 F 1 "NRSTP_TST" V 1800 6800 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 6400 50  0001 C CNN
 F 3 "" H 1800 6400 50  0001 C CNN
 	1    1800 6400
 	0    -1   -1   0   
@@ -742,7 +743,7 @@ AR Path="/5B2B2080" Ref="TP20"  Part="1"
 AR Path="/59234D3B/5B2B2080" Ref="TP20"  Part="1" 
 F 0 "TP20" V 3600 6800 50  0000 C BNN
 F 1 "TDO1_TST" V 3550 6350 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 5950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 5950 50  0001 C CNN
 F 3 "" H 3550 5950 50  0001 C CNN
 	1    3550 5950
 	0    -1   -1   0   
@@ -755,7 +756,7 @@ AR Path="/5B2C685E" Ref="TP21"  Part="1"
 AR Path="/59234D3B/5B2C685E" Ref="TP21"  Part="1" 
 F 0 "TP21" V 3600 6900 50  0000 C BNN
 F 1 "TMS1_TST" V 3550 6450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6050 50  0001 C CNN
 F 3 "" H 3550 6050 50  0001 C CNN
 	1    3550 6050
 	0    -1   -1   0   
@@ -768,7 +769,7 @@ AR Path="/5B2C6D6F" Ref="TP22"  Part="1"
 AR Path="/59234D3B/5B2C6D6F" Ref="TP22"  Part="1" 
 F 0 "TP22" V 3600 7250 50  0000 C BNN
 F 1 "TDO2_TST" V 3550 6800 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6400 50  0001 C CNN
 F 3 "" H 3550 6400 50  0001 C CNN
 	1    3550 6400
 	0    -1   -1   0   
@@ -781,7 +782,7 @@ AR Path="/5B2C6D75" Ref="TP23"  Part="1"
 AR Path="/59234D3B/5B2C6D75" Ref="TP23"  Part="1" 
 F 0 "TP23" V 3600 7350 50  0000 C BNN
 F 1 "TMS2_TST" V 3550 6900 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6500 50  0001 C CNN
 F 3 "" H 3550 6500 50  0001 C CNN
 	1    3550 6500
 	0    -1   -1   0   
@@ -794,7 +795,7 @@ AR Path="/5B2C6F3D" Ref="TP24"  Part="1"
 AR Path="/59234D3B/5B2C6F3D" Ref="TP24"  Part="1" 
 F 0 "TP24" V 3600 7700 50  0000 C BNN
 F 1 "UART1_RTS_TST" V 3550 7350 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6850 50  0001 C CNN
 F 3 "" H 3550 6850 50  0001 C CNN
 	1    3550 6850
 	0    -1   -1   0   
@@ -807,7 +808,7 @@ AR Path="/5B2C716A" Ref="TP25"  Part="1"
 AR Path="/59234D3B/5B2C716A" Ref="TP25"  Part="1" 
 F 0 "TP25" V 3600 7800 50  0000 C BNN
 F 1 "UART1_CTS_TST" V 3550 7450 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 6950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 6950 50  0001 C CNN
 F 3 "" H 3550 6950 50  0001 C CNN
 	1    3550 6950
 	0    -1   -1   0   
@@ -820,7 +821,7 @@ AR Path="/5B2C726E" Ref="TP26"  Part="1"
 AR Path="/59234D3B/5B2C726E" Ref="TP26"  Part="1" 
 F 0 "TP26" V 3600 8050 50  0000 C BNN
 F 1 "UART2_RTS_TST" V 3550 7700 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 7200 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 7200 50  0001 C CNN
 F 3 "" H 3550 7200 50  0001 C CNN
 	1    3550 7200
 	0    -1   -1   0   
@@ -833,7 +834,7 @@ AR Path="/5B2C7274" Ref="TP27"  Part="1"
 AR Path="/59234D3B/5B2C7274" Ref="TP27"  Part="1" 
 F 0 "TP27" V 3600 8150 50  0000 C BNN
 F 1 "UART2_CTS_TST" V 3550 7800 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3550 7300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3550 7300 50  0001 C CNN
 F 3 "" H 3550 7300 50  0001 C CNN
 	1    3550 7300
 	0    -1   -1   0   
@@ -862,7 +863,7 @@ AR Path="/5B3C0C72" Ref="TP32"  Part="1"
 AR Path="/59234D3B/5B3C0C72" Ref="TP32"  Part="1" 
 F 0 "TP32" H 9200 3050 50  0000 C BNN
 F 1 "TEST" H 9200 3000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 2750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9200 2750 50  0001 C CNN
 F 3 "" H 9200 2750 50  0001 C CNN
 	1    9200 2750
 	0    -1   -1   0   
@@ -875,7 +876,7 @@ AR Path="/5B3C0F1B" Ref="TP33"  Part="1"
 AR Path="/59234D3B/5B3C0F1B" Ref="TP33"  Part="1" 
 F 0 "TP33" H 9200 3150 50  0000 C BNN
 F 1 "TEST" H 9200 3100 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9200 2850 50  0001 C CNN
 F 3 "" H 9200 2850 50  0001 C CNN
 	1    9200 2850
 	0    -1   -1   0   
@@ -888,7 +889,7 @@ AR Path="/5B3C1148" Ref="TP34"  Part="1"
 AR Path="/59234D3B/5B3C1148" Ref="TP34"  Part="1" 
 F 0 "TP34" H 9200 3250 50  0000 C BNN
 F 1 "TEST" H 9200 3200 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 2950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9200 2950 50  0001 C CNN
 F 3 "" H 9200 2950 50  0001 C CNN
 	1    9200 2950
 	0    -1   -1   0   
@@ -901,7 +902,7 @@ AR Path="/5B3C1282" Ref="TP35"  Part="1"
 AR Path="/59234D3B/5B3C1282" Ref="TP35"  Part="1" 
 F 0 "TP35" H 9200 3350 50  0000 C BNN
 F 1 "TEST" H 9200 3300 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9200 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 9200 3050 50  0001 C CNN
 F 3 "" H 9200 3050 50  0001 C CNN
 	1    9200 3050
 	0    -1   -1   0   
@@ -914,7 +915,7 @@ AR Path="/5B3C1DA0" Ref="TP28"  Part="1"
 AR Path="/59234D3B/5B3C1DA0" Ref="TP28"  Part="1" 
 F 0 "TP28" H 3900 2750 50  0000 C BNN
 F 1 "TEST" H 3900 2700 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 2450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3900 2450 50  0001 C CNN
 F 3 "" H 3900 2450 50  0001 C CNN
 	1    3900 2450
 	0    -1   -1   0   
@@ -927,7 +928,7 @@ AR Path="/5B3C21DB" Ref="TP29"  Part="1"
 AR Path="/59234D3B/5B3C21DB" Ref="TP29"  Part="1" 
 F 0 "TP29" H 3900 2850 50  0000 C BNN
 F 1 "TEST" H 3900 2800 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 2550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3900 2550 50  0001 C CNN
 F 3 "" H 3900 2550 50  0001 C CNN
 	1    3900 2550
 	0    -1   -1   0   
@@ -989,7 +990,7 @@ U 1 1 5CB789D7
 P 1300 4900
 F 0 "J14" H 1400 5200 60  0000 C CNN
 F 1 "GH-4" H 1400 4650 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 1300 5050 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 1300 5050 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 1400 5150 60  0001 C CNN
 F 4 "CONN-015" H 1500 5250 60  0001 C CNN "part_num"
 	1    1300 4900
@@ -1010,7 +1011,7 @@ U 1 1 5CCE1241
 P 10350 1100
 F 0 "H4" H 10450 1146 50  0000 L CNN
 F 1 "MountingHole_M3" H 10450 1055 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10350 1100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 10350 1100 50  0001 C CNN
 F 3 "~" H 10350 1100 50  0001 C CNN
 	1    10350 1100
 	1    0    0    -1  
@@ -1021,7 +1022,7 @@ U 1 1 5CB39751
 P 10350 900
 F 0 "H3" H 10450 946 50  0000 L CNN
 F 1 "MountingHole_M3" H 10450 855 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10350 900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 10350 900 50  0001 C CNN
 F 3 "~" H 10350 900 50  0001 C CNN
 	1    10350 900 
 	1    0    0    -1  
@@ -1032,7 +1033,7 @@ U 1 1 5CB39892
 P 9450 1100
 F 0 "H2" H 9550 1146 50  0000 L CNN
 F 1 "MountingHole_M3" H 9550 1055 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 9450 1100 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 9450 1100 50  0001 C CNN
 F 3 "~" H 9450 1100 50  0001 C CNN
 	1    9450 1100
 	1    0    0    -1  
@@ -1043,7 +1044,7 @@ U 1 1 5CB39899
 P 9450 900
 F 0 "H1" H 9550 946 50  0000 L CNN
 F 1 "MountingHole_M3" H 9550 855 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 9450 900 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad" H 9450 900 50  0001 C CNN
 F 3 "~" H 9450 900 50  0001 C CNN
 	1    9450 900 
 	1    0    0    -1  
@@ -1058,7 +1059,7 @@ AR Path="/5CBD2553" Ref="TP30"  Part="1"
 AR Path="/59234D3B/5CBD2553" Ref="TP30"  Part="1" 
 F 0 "TP30" H 3900 3350 50  0000 C BNN
 F 1 "TEST" H 3900 3300 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3050 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3900 3050 50  0001 C CNN
 F 3 "" H 3900 3050 50  0001 C CNN
 	1    3900 3050
 	0    -1   -1   0   
@@ -1071,7 +1072,7 @@ AR Path="/5CBD25D5" Ref="TP31"  Part="1"
 AR Path="/59234D3B/5CBD25D5" Ref="TP31"  Part="1" 
 F 0 "TP31" H 3900 3450 50  0000 C BNN
 F 1 "TEST" H 3900 3400 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3900 3150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3900 3150 50  0001 C CNN
 F 3 "" H 3900 3150 50  0001 C CNN
 	1    3900 3150
 	0    -1   -1   0   
@@ -1088,7 +1089,7 @@ U 1 1 5CB87A1F
 P 3700 4400
 F 0 "J16" H 3800 4650 60  0000 C CNN
 F 1 "GH-4" H 3800 4150 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 4450 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 3700 4450 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 4450 60  0001 C CNN
 F 4 "CONN-015" H 3900 4750 60  0001 C CNN "part_num"
 	1    3700 4400
@@ -1100,7 +1101,7 @@ U 1 1 5CB87AB3
 P 3700 5000
 F 0 "J17" H 3800 5250 60  0000 C CNN
 F 1 "GH-4" H 3800 4750 60  0000 C CNN
-F 2 "Connectors_JST:JST_GH_BM04B-GHS-TBT_04x1.25mm_Straight" H 3700 5050 60  0001 C CNN
+F 2 "Connector_JST:JST_GH_BM04B-GHS-TBT_1x04-1MP_P1.25mm_Vertical" H 3700 5050 60  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf" H 3700 5050 60  0001 C CNN
 F 4 "CONN-015" H 3900 5350 60  0001 C CNN "part_num"
 	1    3700 5000
@@ -1174,7 +1175,7 @@ AR Path="/5CF92AB8" Ref="TP?"  Part="1"
 AR Path="/59234D3B/5CF92AB8" Ref="TP10"  Part="1" 
 F 0 "TP10" V 1850 7650 50  0000 C BNN
 F 1 "GND_TST" V 1800 7350 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1800 6950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1800 6950 50  0001 C CNN
 F 3 "" H 1800 6950 50  0001 C CNN
 	1    1800 6950
 	0    -1   -1   0   
