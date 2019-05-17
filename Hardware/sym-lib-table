@@ -1,4 +1,5 @@
 (sym_lib_table
+<<<<<<< HEAD
   (lib (name transistors)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/transistors.lib)(options "")(descr ""))
   (lib (name conn)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/conn.lib)(options "")(descr ""))
   (lib (name linear)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/linear.lib)(options "")(descr ""))
@@ -24,4 +25,7 @@
   (lib (name contrib)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/contrib.lib)(options "")(descr ""))
   (lib (name valves)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/valves.lib)(options "")(descr ""))
   (lib (name WARG)(type Legacy)(uri "C:/Users/Mark/Documents/WARG/HW Bootcamp/ZeroPilot-HW/WARG-kicad/WARG.lib")(options "")(descr ""))
+=======
+  (lib (name WARG)(type Legacy)(uri C:/Users/Mark/Documents/WARG/ZeroPilot-HW/WARG-kicad/WARG.lib)(options "")(descr ""))
+>>>>>>> rev1
 )
