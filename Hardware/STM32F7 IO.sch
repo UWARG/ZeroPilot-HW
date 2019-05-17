@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -67,10 +66,10 @@ I2C1_SCL
 Text HLabel 8650 4600 0    60   Input ~ 0
 VDD
 $Comp
-L Device:C C44
+L Device:C C41
 U 1 1 591E50BB
 P 10350 5550
-F 0 "C44" H 10375 5650 50  0000 L CNN
+F 0 "C41" H 10375 5650 50  0000 L CNN
 F 1 "2.2uF" H 10375 5450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10388 5400 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/specSheet?pn=TMK107ABJ225KA-T++" H 10350 5550 50  0001 C CNN
@@ -79,10 +78,10 @@ F 4 "CAPP-007" H 10350 5550 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C45
+L Device:C C42
 U 1 1 591E50F4
 P 10350 5850
-F 0 "C45" H 10375 5950 50  0000 L CNN
+F 0 "C42" H 10375 5950 50  0000 L CNN
 F 1 "2.2uF" H 10375 5750 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10388 5700 50  0001 C CNN
 F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/specSheet?pn=TMK107ABJ225KA-T++" H 10350 5850 50  0001 C CNN
@@ -91,10 +90,10 @@ F 4 "CAPP-007" H 10350 5850 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR028
+L power:GND #PWR023
 U 1 1 591E59BE
 P 10600 6000
-F 0 "#PWR028" H 10600 5750 50  0001 C CNN
+F 0 "#PWR023" H 10600 5750 50  0001 C CNN
 F 1 "GND" H 10600 5850 50  0000 C CNN
 F 2 "" H 10600 6000 50  0001 C CNN
 F 3 "" H 10600 6000 50  0001 C CNN
@@ -102,10 +101,10 @@ F 3 "" H 10600 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C28
+L Device:C C25
 U 1 1 591E6705
 P 6350 4950
-F 0 "C28" H 6375 5050 50  0000 L CNN
+F 0 "C25" H 6375 5050 50  0000 L CNN
 F 1 "100nF" H 6375 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6388 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6350 4950 50  0001 C CNN
@@ -114,10 +113,10 @@ F 4 "CAPP-005" H 6350 4950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C41
+L Device:C C38
 U 1 1 591E794E
 P 8300 4950
-F 0 "C41" H 8325 5050 50  0000 L CNN
+F 0 "C38" H 8325 5050 50  0000 L CNN
 F 1 "4.7uF" H 8325 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8338 4800 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 8300 4950 50  0001 C CNN
@@ -126,10 +125,10 @@ F 4 "CAPP-006" H 8300 4950 60  0001 C CNN "part_num"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C35
+L Device:C C32
 U 1 1 591EA2B7
 P 7400 5700
-F 0 "C35" H 7425 5800 50  0000 L CNN
+F 0 "C32" H 7425 5800 50  0000 L CNN
 F 1 "1uF" H 7425 5600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7438 5550 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 7400 5700 50  0001 C CNN
@@ -138,10 +137,10 @@ F 4 "CAPP-004" H 7400 5700 60  0001 C CNN "part_num"
 	1    0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR024
+L power:GND #PWR019
 U 1 1 591EB43A
 P 6650 6500
-F 0 "#PWR024" H 6650 6250 50  0001 C CNN
+F 0 "#PWR019" H 6650 6250 50  0001 C CNN
 F 1 "GND" H 6650 6350 50  0000 C CNN
 F 2 "" H 6650 6500 50  0001 C CNN
 F 3 "" H 6650 6500 50  0001 C CNN
@@ -268,10 +267,10 @@ F 4 "DIOD-002" H 7600 1900 60  0001 C CNN "part_num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R18
+L Device:R R16
 U 1 1 59530176
 P 7600 2250
-F 0 "R18" V 7680 2250 50  0000 C CNN
+F 0 "R16" V 7680 2250 50  0000 C CNN
 F 1 "100" V 7600 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7530 2250 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 7600 2250 50  0001 C CNN
@@ -280,10 +279,10 @@ F 4 "RESS-006" V 7600 2250 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR025
+L power:GND #PWR020
 U 1 1 59530E80
 P 7850 2550
-F 0 "#PWR025" H 7850 2300 50  0001 C CNN
+F 0 "#PWR020" H 7850 2300 50  0001 C CNN
 F 1 "GND" H 7850 2400 50  0000 C CNN
 F 2 "" H 7850 2550 50  0001 C CNN
 F 3 "" H 7850 2550 50  0001 C CNN
@@ -291,10 +290,10 @@ F 3 "" H 7850 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R19
+L Device:R R17
 U 1 1 5959BB88
 P 7850 2250
-F 0 "R19" V 7930 2250 50  0000 C CNN
+F 0 "R17" V 7930 2250 50  0000 C CNN
 F 1 "100" V 7850 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7780 2250 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 7850 2250 50  0001 C CNN
@@ -303,10 +302,10 @@ F 4 "RESS-006" V 7850 2250 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R20
+L Device:R R18
 U 1 1 5959BBE4
 P 8100 2250
-F 0 "R20" V 8180 2250 50  0000 C CNN
+F 0 "R18" V 8180 2250 50  0000 C CNN
 F 1 "100" V 8100 2250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8030 2250 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 8100 2250 50  0001 C CNN
@@ -315,10 +314,10 @@ F 4 "RESS-006" V 8100 2250 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C40
+L Device:C C37
 U 1 1 595A2A84
 P 8100 5900
-F 0 "C40" H 8125 6000 50  0000 L CNN
+F 0 "C37" H 8125 6000 50  0000 L CNN
 F 1 "1uF" H 8125 5800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8138 5750 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 8100 5900 50  0001 C CNN
@@ -327,10 +326,10 @@ F 4 "CAPP-004" H 8100 5900 60  0001 C CNN "part_num"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C38
+L Device:C C35
 U 1 1 595A43F9
 P 7800 5900
-F 0 "C38" H 7825 6000 50  0000 L CNN
+F 0 "C35" H 7825 6000 50  0000 L CNN
 F 1 "100nF" H 7825 5800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7838 5750 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7800 5900 50  0001 C CNN
@@ -339,10 +338,10 @@ F 4 "CAPP-005" H 7800 5900 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C32
+L Device:C C29
 U 1 1 595A4459
 P 7100 5700
-F 0 "C32" H 7125 5800 50  0000 L CNN
+F 0 "C29" H 7125 5800 50  0000 L CNN
 F 1 "100nF" H 7125 5600 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7138 5550 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7100 5700 50  0001 C CNN
@@ -351,10 +350,10 @@ F 4 "CAPP-005" H 7100 5700 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C29
+L Device:C C26
 U 1 1 595B66E8
 P 6550 4950
-F 0 "C29" H 6575 5050 50  0000 L CNN
+F 0 "C26" H 6575 5050 50  0000 L CNN
 F 1 "100nF" H 6575 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6588 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6550 4950 50  0001 C CNN
@@ -363,10 +362,10 @@ F 4 "CAPP-005" H 6550 4950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C30
+L Device:C C27
 U 1 1 595B6734
 P 6750 4950
-F 0 "C30" H 6775 5050 50  0000 L CNN
+F 0 "C27" H 6775 5050 50  0000 L CNN
 F 1 "100nF" H 6775 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6788 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6750 4950 50  0001 C CNN
@@ -375,10 +374,10 @@ F 4 "CAPP-005" H 6750 4950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C31
+L Device:C C28
 U 1 1 595B6780
 P 6950 4950
-F 0 "C31" H 6975 5050 50  0000 L CNN
+F 0 "C28" H 6975 5050 50  0000 L CNN
 F 1 "100nF" H 6975 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6988 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6950 4950 50  0001 C CNN
@@ -387,10 +386,10 @@ F 4 "CAPP-005" H 6950 4950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C33
+L Device:C C30
 U 1 1 595B67CE
 P 7150 4950
-F 0 "C33" H 7175 5050 50  0000 L CNN
+F 0 "C30" H 7175 5050 50  0000 L CNN
 F 1 "100nF" H 7175 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7188 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7150 4950 50  0001 C CNN
@@ -399,10 +398,10 @@ F 4 "CAPP-005" H 7150 4950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C34
+L Device:C C31
 U 1 1 595B681E
 P 7350 4950
-F 0 "C34" H 7375 5050 50  0000 L CNN
+F 0 "C31" H 7375 5050 50  0000 L CNN
 F 1 "100nF" H 7375 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7388 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7350 4950 50  0001 C CNN
@@ -411,10 +410,10 @@ F 4 "CAPP-005" H 7350 4950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C36
+L Device:C C33
 U 1 1 595B6870
 P 7550 4950
-F 0 "C36" H 7575 5050 50  0000 L CNN
+F 0 "C33" H 7575 5050 50  0000 L CNN
 F 1 "100nF" H 7575 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7588 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7550 4950 50  0001 C CNN
@@ -423,10 +422,10 @@ F 4 "CAPP-005" H 7550 4950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C37
+L Device:C C34
 U 1 1 595B68C4
 P 7750 4950
-F 0 "C37" H 7775 5050 50  0000 L CNN
+F 0 "C34" H 7775 5050 50  0000 L CNN
 F 1 "100nF" H 7775 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7750 4950 50  0001 C CNN
@@ -435,10 +434,10 @@ F 4 "CAPP-005" H 7750 4950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C39
+L Device:C C36
 U 1 1 595B691A
 P 7950 4950
-F 0 "C39" H 7975 5050 50  0000 L CNN
+F 0 "C36" H 7975 5050 50  0000 L CNN
 F 1 "100nF" H 7975 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7988 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 7950 4950 50  0001 C CNN
@@ -447,10 +446,10 @@ F 4 "CAPP-005" H 7950 4950 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R22
+L Device:R R20
 U 1 1 595F2290
 P 10550 3000
-F 0 "R22" V 10630 3000 50  0000 C CNN
+F 0 "R20" V 10630 3000 50  0000 C CNN
 F 1 "0" V 10550 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10480 3000 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10550 3000 50  0001 C CNN
@@ -459,10 +458,10 @@ F 4 "RESS-001" V 10550 3000 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L WARG:STM32F765ZGT6 U9
+L WARG:STM32F765ZGT6 U4
 U 1 1 595F8A24
 P 2150 2150
-F 0 "U9" H 2150 3050 60  0000 C CNN
+F 0 "U4" H 2150 3050 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 2150 2900 60  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3200 2250 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 3200 2250 60  0001 C CNN
@@ -471,10 +470,10 @@ F 4 "CHIP-001" H 2250 3150 60  0000 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F765ZGT6 U9
+L WARG:STM32F765ZGT6 U4
 U 2 1 595F8A92
 P 2150 3500
-F 0 "U9" H 2150 4400 60  0000 C CNN
+F 0 "U4" H 2150 4400 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 2150 4250 60  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3200 3600 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 3200 3600 60  0001 C CNN
@@ -483,10 +482,10 @@ F 4 "CHIP-001" H 2250 4500 60  0000 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F765ZGT6 U9
+L WARG:STM32F765ZGT6 U4
 U 3 1 595F8B04
 P 2250 4950
-F 0 "U9" H 2250 5850 60  0000 C CNN
+F 0 "U4" H 2250 5850 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 2250 5700 60  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3300 5050 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 3300 5050 60  0001 C CNN
@@ -495,10 +494,10 @@ F 4 "CHIP-001" H 2350 5950 60  0000 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F765ZGT6 U9
+L WARG:STM32F765ZGT6 U4
 U 5 1 595F8BE2
 P 6500 2000
-F 0 "U9" H 6500 2900 60  0000 C CNN
+F 0 "U4" H 6500 2900 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 6500 2750 60  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 7550 2100 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 7550 2100 60  0001 C CNN
@@ -507,10 +506,10 @@ F 4 "CHIP-001" H 6600 3000 60  0000 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F765ZGT6 U9
+L WARG:STM32F765ZGT6 U4
 U 6 1 595F8CCF
 P 6550 3450
-F 0 "U9" H 6550 4350 60  0000 C CNN
+F 0 "U4" H 6550 4350 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 6550 4200 60  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 7600 3550 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 7600 3550 60  0001 C CNN
@@ -519,10 +518,10 @@ F 4 "CHIP-001" H 6650 4450 60  0000 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F765ZGT6 U9
+L WARG:STM32F765ZGT6 U4
 U 7 1 595F8D77
 P 9600 2050
-F 0 "U9" H 9600 2950 60  0000 C CNN
+F 0 "U4" H 9600 2950 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 9600 2800 60  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 10650 2150 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 10650 2150 60  0001 C CNN
@@ -531,10 +530,10 @@ F 4 "CHIP-001" H 9700 3050 60  0000 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F765ZGT6 U9
+L WARG:STM32F765ZGT6 U4
 U 8 1 595F8E91
 P 9600 5050
-F 0 "U9" H 9600 5950 60  0000 C CNN
+F 0 "U4" H 9600 5950 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 9600 5800 60  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 10650 5150 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 10650 5150 60  0001 C CNN
@@ -543,10 +542,10 @@ F 4 "CHIP-001" H 9700 6050 60  0000 C CNN "part_num"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint TP?
 U 1 1 596A0986
 P 10450 2900
-AR Path="/596A0986" Ref="TP6"  Part="1" 
+AR Path="/596A0986" Ref="TP?"  Part="1" 
 AR Path="/5918F046/596A0986" Ref="TP6"  Part="1" 
 F 0 "TP6" H 10450 3200 50  0000 C BNN
 F 1 "TEST" H 10450 3150 50  0000 C CNN
@@ -571,10 +570,10 @@ F 4 "XTAL-002" H 8750 2850 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L WARG:STM32F765ZGT6 U9
+L WARG:STM32F765ZGT6 U4
 U 9 1 595F8F21
 P 9550 3350
-F 0 "U9" H 9550 4250 60  0000 C CNN
+F 0 "U4" H 9550 4250 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 9550 4100 60  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 10600 3450 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 10600 3450 60  0001 C CNN
@@ -583,10 +582,10 @@ F 4 "CHIP-001" H 9650 4350 60  0000 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C43
+L Device:C C40
 U 1 1 5990C3CD
 P 9000 3200
-F 0 "C43" H 9025 3300 50  0000 L CNN
+F 0 "C40" H 9025 3300 50  0000 L CNN
 F 1 "7pF" H 9025 3100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9038 3050 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006031.pdf" H 9000 3200 50  0001 C CNN
@@ -595,10 +594,10 @@ F 4 "CAPP-009" H 9000 3200 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C42
+L Device:C C39
 U 1 1 5990C3D5
 P 8800 3200
-F 0 "C42" H 8825 3300 50  0000 L CNN
+F 0 "C39" H 8825 3300 50  0000 L CNN
 F 1 "7pF" H 8825 3100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8838 3050 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006031.pdf" H 8800 3200 50  0001 C CNN
@@ -607,10 +606,10 @@ F 4 "CAPP-009" H 8800 3200 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR026
+L power:GND #PWR021
 U 1 1 5990C849
 P 8900 3500
-F 0 "#PWR026" H 8900 3250 50  0001 C CNN
+F 0 "#PWR021" H 8900 3250 50  0001 C CNN
 F 1 "GND" H 8900 3350 50  0000 C CNN
 F 2 "" H 8900 3500 50  0001 C CNN
 F 3 "" H 8900 3500 50  0001 C CNN
@@ -630,10 +629,10 @@ F 4 "XTAL-001" H 3500 5050 60  0001 C CNN "part_num"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C26
+L Device:C C23
 U 1 1 5990E0AA
 P 3050 5450
-F 0 "C26" H 3075 5550 50  0000 L CNN
+F 0 "C23" H 3075 5550 50  0000 L CNN
 F 1 "14pF" H 3075 5350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3088 5300 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006033.pdf" H 3050 5450 50  0001 C CNN
@@ -642,10 +641,10 @@ F 4 "CAPP-008" H 3050 5450 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C25
+L Device:C C22
 U 1 1 5990E0B2
 P 2850 5450
-F 0 "C25" H 2875 5550 50  0000 L CNN
+F 0 "C22" H 2875 5550 50  0000 L CNN
 F 1 "14pF" H 2875 5350 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2888 5300 50  0001 C CNN
 F 3 "https://katalog.we-online.de/pbs/datasheet/885012006033.pdf" H 2850 5450 50  0001 C CNN
@@ -654,10 +653,10 @@ F 4 "CAPP-008" H 2850 5450 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR023
+L power:GND #PWR018
 U 1 1 5990E97D
 P 2950 5700
-F 0 "#PWR023" H 2950 5450 50  0001 C CNN
+F 0 "#PWR018" H 2950 5450 50  0001 C CNN
 F 1 "GND" H 2950 5550 50  0000 C CNN
 F 2 "" H 2950 5700 50  0001 C CNN
 F 3 "" H 2950 5700 50  0001 C CNN
@@ -1087,10 +1086,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 4700 6100 4800
 $Comp
-L Device:C C27
+L Device:C C24
 U 1 1 592EA63D
 P 6100 4950
-F 0 "C27" H 6125 5050 50  0000 L CNN
+F 0 "C24" H 6125 5050 50  0000 L CNN
 F 1 "100nF" H 6125 4850 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6138 4800 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6100 4950 50  0001 C CNN
@@ -1150,10 +1149,10 @@ NoConn ~ 10050 2150
 NoConn ~ 7050 2150
 NoConn ~ 7050 2050
 $Comp
-L WARG:STM32F765ZGT6 U9
+L WARG:STM32F765ZGT6 U4
 U 4 1 595F8B72
 P 2200 6450
-F 0 "U9" H 2200 7350 60  0000 C CNN
+F 0 "U4" H 2200 7350 60  0000 C CNN
 F 1 "STM32F765ZGT6" H 2200 7200 60  0000 C CNN
 F 2 "Package_QFP:LQFP-144_20x20mm_P0.5mm" H 3250 6550 60  0001 C CNN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/group3/c5/37/9c/1d/a6/09/4e/1a/DM00273119/files/DM00273119.pdf/jcr:content/translations/en.DM00273119.pdf" H 3250 6550 60  0001 C CNN
@@ -1298,10 +1297,10 @@ Wire Wire Line
 Wire Wire Line
 	2950 5650 3050 5650
 $Comp
-L Device:R R21
+L Device:R R19
 U 1 1 5CB99043
 P 10250 3250
-F 0 "R21" V 10330 3250 50  0000 C CNN
+F 0 "R19" V 10330 3250 50  0000 C CNN
 F 1 "10K" V 10250 3250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10180 3250 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10250 3250 50  0001 C CNN
@@ -1313,10 +1312,10 @@ Connection ~ 10250 2900
 Wire Wire Line
 	10250 2900 10050 2900
 $Comp
-L power:GND #PWR027
+L power:GND #PWR022
 U 1 1 5CB99179
 P 10250 3400
-F 0 "#PWR027" H 10250 3150 50  0001 C CNN
+F 0 "#PWR022" H 10250 3150 50  0001 C CNN
 F 1 "GND" H 10250 3250 50  0000 C CNN
 F 2 "" H 10250 3400 50  0001 C CNN
 F 3 "" H 10250 3400 50  0001 C CNN
