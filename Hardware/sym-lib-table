@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name WARG)(type Legacy)(uri C:/Users/Mark/Documents/WARG/ZeroPilot-HW/WARG-kicad/WARG.lib)(options "")(descr ""))
+  (lib (name WARG)(type Legacy)(uri C:/Users/Mark/Documents/WARG/WARG-KiCAD/WARG.lib)(options "")(descr ""))
+  (lib (name ZeroPilot-rescue)(type Legacy)(uri ${KIPRJMOD}/ZeroPilot-rescue.lib)(options "")(descr ""))
 )

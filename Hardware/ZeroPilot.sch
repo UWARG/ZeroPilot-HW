@@ -483,7 +483,7 @@ Text Label 3300 6150 0    59   ~ 0
 SDA4
 Text Label 3300 6250 0    59   ~ 0
 SCL4
-Text Label 3500 4950 2    59   ~ 0
+Text Label 3150 4950 0    59   ~ 0
 PPM
 Text Label 3550 4700 2    60   ~ 0
 V_ISENSE
@@ -907,8 +907,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 5600 3150 5600
 Wire Wire Line
-	3150 4950 3500 4950
-Wire Wire Line
 	3150 4700 3550 4700
 Wire Wire Line
 	8950 2800 10500 2800
@@ -1097,9 +1095,7 @@ Text Label 5650 6500 0    60   ~ 0
 SD_CK
 Text Label 5650 6400 0    60   ~ 0
 SD_CMD
-Wire Wire Line
-	3150 4850 3500 4850
-Text Label 3500 4850 2    60   ~ 0
+Text Label 3150 4850 0    60   ~ 0
 RSSI
 Text Label 3550 1000 2    60   ~ 0
 RSSI
