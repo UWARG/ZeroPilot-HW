@@ -196,8 +196,6 @@ Text HLabel 5800 2050 0    60   BiDi ~ 0
 SPI4_MOSI
 Text HLabel 7450 1100 2    60   Input ~ 0
 MEM_WC
-NoConn ~ 1650 2200
-NoConn ~ 1650 2300
 NoConn ~ 1650 3450
 NoConn ~ 1650 3150
 NoConn ~ 1700 4500
@@ -1130,8 +1128,6 @@ Wire Wire Line
 	2650 3250 2900 3250
 NoConn ~ 1700 5000
 NoConn ~ 1700 5100
-NoConn ~ 1650 2000
-NoConn ~ 1650 2100
 NoConn ~ 2750 4900
 NoConn ~ 2750 6100
 NoConn ~ 2750 6300
@@ -1326,4 +1322,20 @@ $EndComp
 Wire Wire Line
 	10250 2900 10250 3100
 NoConn ~ 2700 1600
+Text HLabel 1300 2000 0    60   BiDi ~ 0
+SPI6_NSS
+Text HLabel 1300 2100 0    60   BiDi ~ 0
+SPI6_SCK
+Text HLabel 1300 2200 0    60   Input ~ 0
+SPI6_MISO
+Text HLabel 1300 2300 0    60   Output ~ 0
+SPI6_MOSI
+Wire Wire Line
+	1300 2000 1650 2000
+Wire Wire Line
+	1300 2100 1650 2100
+Wire Wire Line
+	1300 2200 1650 2200
+Wire Wire Line
+	1300 2300 1650 2300
 $EndSCHEMATC

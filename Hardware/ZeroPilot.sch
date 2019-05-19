@@ -95,6 +95,10 @@ F53 "SD_D2" I R 8950 5950 60
 F54 "SD_D3" I R 8950 6050 60 
 F55 "SD_CK" I R 8950 6150 60 
 F56 "SD_CMD" I R 8950 6250 60 
+F57 "SPI6_NSS" B L 7200 4350 60 
+F58 "SPI6_SCK" B L 7200 4050 60 
+F59 "SPI6_MISO" I L 7200 4150 60 
+F60 "SPI6_MOSI" O L 7200 4250 60 
 $EndSheet
 Text Label 3550 850  2    60   ~ 0
 3V3
@@ -131,6 +135,10 @@ F12 "DBG_UART_RX" I L 3550 1350 60
 F13 "DBG_UART_TX" O L 3550 1450 60 
 F14 "V_SPK" I L 3550 700 60 
 F15 "RSSI" I L 3550 1000 60 
+F16 "SCK" I R 5300 1250 60 
+F17 "MISO" O R 5300 1350 60 
+F18 "MOSI" I R 5300 1450 60 
+F19 "NSS" I R 5300 1550 60 
 $EndSheet
 $Sheet
 S 4350 6250 1300 1300
@@ -155,7 +163,7 @@ Text Label 4000 6800 0    60   ~ 0
 MEM_WC
 Text Label 4350 6350 2    60   ~ 0
 3V3
-Text Label 6200 4300 0    60   ~ 0
+Text Label 6200 3950 0    60   ~ 0
 SPI
 Entry Wire Line
 	6450 4400 6550 4500
@@ -745,7 +753,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 6800 4000 6800
 Wire Bus Line
-	6450 4300 6200 4300
+	6450 3950 6200 3950
 Wire Wire Line
 	7200 4500 6550 4500
 Wire Wire Line
@@ -1101,6 +1109,58 @@ Text Label 3550 1000 2    60   ~ 0
 RSSI
 Text Label 3150 4400 0    59   ~ 0
 6V_EXT
+Entry Wire Line
+	5700 1450 5600 1550
+Entry Wire Line
+	5700 1350 5600 1450
+Entry Wire Line
+	5700 1250 5600 1350
+Entry Wire Line
+	5700 1150 5600 1250
+Text Label 5300 1550 0    60   ~ 0
+NSS6
+Text Label 5300 1450 0    60   ~ 0
+MOSI6
+Text Label 5300 1350 0    60   ~ 0
+MISO6
+Text Label 5300 1250 0    60   ~ 0
+SCK6
+Wire Wire Line
+	5300 1250 5600 1250
+Wire Wire Line
+	5300 1350 5600 1350
+Wire Wire Line
+	5300 1450 5600 1450
+Wire Wire Line
+	5300 1550 5600 1550
+Wire Bus Line
+	5700 1100 5850 1100
+Text Label 5700 1100 0    60   ~ 0
+SPI
+Entry Wire Line
+	6450 3950 6550 4050
+Entry Wire Line
+	6450 4050 6550 4150
+Entry Wire Line
+	6450 4150 6550 4250
+Entry Wire Line
+	6450 4250 6550 4350
+Wire Wire Line
+	6550 4050 7200 4050
+Wire Wire Line
+	7200 4150 6550 4150
+Wire Wire Line
+	6550 4250 7200 4250
+Wire Wire Line
+	6550 4350 7200 4350
+Text Label 6700 4350 0    60   ~ 0
+NSS6
+Text Label 6700 4250 0    60   ~ 0
+MOSI6
+Text Label 6700 4150 0    60   ~ 0
+MISO6
+Text Label 6700 4050 0    60   ~ 0
+SCK6
 Wire Bus Line
 	9750 4200 9750 4500
 Wire Bus Line
@@ -1112,13 +1172,15 @@ Wire Bus Line
 Wire Bus Line
 	10700 800  10700 1450
 Wire Bus Line
+	5700 1100 5700 1500
+Wire Bus Line
 	3750 5400 3750 6500
 Wire Bus Line
 	6450 2300 6450 3800
 Wire Bus Line
 	600  2950 600  4250
 Wire Bus Line
-	6450 4300 6450 6550
+	6450 3950 6450 6550
 Wire Bus Line
 	600  5700 600  7400
 $EndSCHEMATC

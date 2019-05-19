@@ -16,110 +16,110 @@ Comment4 ""
 $EndDescr
 Text HLabel 7650 4400 0    60   Input ~ 0
 VDD
-Text HLabel 1200 3600 0    60   Output ~ 0
+Text HLabel 1650 5600 0    60   Output ~ 0
 PWM[1..12]
-Text Label 3950 3150 2    60   ~ 0
-PWM1
-Text Label 3950 3250 2    60   ~ 0
-PWM2
-Text Label 4900 4450 0    60   ~ 0
-PWM3
-Text Label 4900 4550 0    60   ~ 0
-PWM4
-Text Label 3900 5700 2    60   ~ 0
-PWM5
-Text Label 3900 5800 2    60   ~ 0
-PWM6
-Text Label 4950 5100 0    60   ~ 0
-PWM7
-Text Label 4950 5200 0    60   ~ 0
-PWM8
-Text Label 4850 2650 0    60   ~ 0
-PWM10
-Text Label 3800 3950 2    60   ~ 0
-PPM
 Text Label 4850 2550 0    60   ~ 0
-PWM9
-Text Label 4850 2750 0    60   ~ 0
-PWM11
-Text Label 4850 2850 0    60   ~ 0
-PWM12
-Wire Bus Line
-	1200 3600 1300 3600
-Wire Bus Line
-	1300 3600 1400 3700
-Entry Wire Line
-	1400 3700 1500 3800
-Entry Wire Line
-	1400 3850 1500 3950
-Entry Wire Line
-	1400 4000 1500 4100
-Entry Wire Line
-	1400 4150 1500 4250
-Entry Wire Line
-	1400 4300 1500 4400
-Entry Wire Line
-	1400 4450 1500 4550
-Entry Wire Line
-	1400 4600 1500 4700
-Entry Wire Line
-	1400 4750 1500 4850
-Entry Wire Line
-	1400 4900 1500 5000
-Entry Wire Line
-	1400 5050 1500 5150
-Entry Wire Line
-	1400 5200 1500 5300
-Entry Wire Line
-	1400 5350 1500 5450
-Text Label 1650 5450 0    60   ~ 0
-PWM12
-Text Label 1650 5300 0    60   ~ 0
-PWM11
-Text Label 1650 5150 0    60   ~ 0
-PWM10
-Text Label 1650 5000 0    60   ~ 0
-PWM9
-Text Label 1650 4850 0    60   ~ 0
-PWM8
-Text Label 1650 4700 0    60   ~ 0
-PWM7
-Text Label 1650 4550 0    60   ~ 0
-PWM6
-Text Label 1650 4400 0    60   ~ 0
-PWM5
-Text Label 1650 4250 0    60   ~ 0
-PWM4
-Text Label 1650 4100 0    60   ~ 0
-PWM3
-Text Label 1650 3950 0    60   ~ 0
+PWM1
+Text Label 4850 2650 0    60   ~ 0
 PWM2
-Text Label 1650 3800 0    60   ~ 0
+Text Label 4850 2750 0    60   ~ 0
+PWM3
+Text Label 4850 2850 0    60   ~ 0
+PWM4
+Text Label 4900 4050 0    60   ~ 0
+PWM5
+Text Label 3900 5700 2    60   ~ 0
+PWM6
+Text Label 4850 3250 0    60   ~ 0
+PWM7
+Text Label 3900 4150 2    60   ~ 0
+PWM8
+Text Label 3900 5800 2    60   ~ 0
+PWM10
+Text Label 5000 4450 0    60   ~ 0
+PPM
+Text Label 4900 4150 0    60   ~ 0
+PWM9
+Text Label 4950 5100 0    60   ~ 0
+PWM11
+Text Label 4950 5200 0    60   ~ 0
+PWM12
+Wire Bus Line
+	1650 5600 1750 5600
+Wire Bus Line
+	1750 5600 1850 5700
+Entry Wire Line
+	1850 5700 1950 5800
+Entry Wire Line
+	1850 5850 1950 5950
+Entry Wire Line
+	1850 6000 1950 6100
+Entry Wire Line
+	1850 6150 1950 6250
+Entry Wire Line
+	1850 6300 1950 6400
+Entry Wire Line
+	1850 6450 1950 6550
+Entry Wire Line
+	1850 6600 1950 6700
+Entry Wire Line
+	1850 6750 1950 6850
+Entry Wire Line
+	1850 6900 1950 7000
+Entry Wire Line
+	1850 7050 1950 7150
+Entry Wire Line
+	1850 7200 1950 7300
+Entry Wire Line
+	1850 7350 1950 7450
+Text Label 2100 7450 0    60   ~ 0
+PWM12
+Text Label 2100 7300 0    60   ~ 0
+PWM11
+Text Label 2100 7150 0    60   ~ 0
+PWM10
+Text Label 2100 7000 0    60   ~ 0
+PWM9
+Text Label 2100 6850 0    60   ~ 0
+PWM8
+Text Label 2100 6700 0    60   ~ 0
+PWM7
+Text Label 2100 6550 0    60   ~ 0
+PWM6
+Text Label 2100 6400 0    60   ~ 0
+PWM5
+Text Label 2100 6250 0    60   ~ 0
+PWM4
+Text Label 2100 6100 0    60   ~ 0
+PWM3
+Text Label 2100 5950 0    60   ~ 0
+PWM2
+Text Label 2100 5800 0    60   ~ 0
 PWM1
 Wire Wire Line
-	1650 3800 1500 3800
+	2100 5800 1950 5800
 Wire Wire Line
-	1650 3950 1500 3950
+	2100 5950 1950 5950
 Wire Wire Line
-	1500 4100 1650 4100
+	1950 6100 2100 6100
 Wire Wire Line
-	1500 4250 1650 4250
+	1950 6250 2100 6250
 Wire Wire Line
-	1500 4400 1650 4400
+	1950 6400 2100 6400
 Wire Wire Line
-	1500 4550 1650 4550
+	1950 6550 2100 6550
 Wire Wire Line
-	1500 4700 1650 4700
+	1950 6700 2100 6700
 Wire Wire Line
-	1500 4850 1650 4850
+	1950 6850 2100 6850
 Wire Wire Line
-	1500 5000 1650 5000
+	1950 7000 2100 7000
 Wire Wire Line
-	1500 5150 1650 5150
+	1950 7150 2100 7150
 Wire Wire Line
-	1500 5300 1650 5300
+	1950 7300 2100 7300
 Wire Wire Line
-	1500 5450 1650 5450
+	1950 7450 2100 7450
 Text Label 3900 4550 2    60   ~ 0
 UART1_RX
 Text Label 3900 4450 2    60   ~ 0
@@ -136,10 +136,10 @@ Wire Wire Line
 	3050 2750 3950 2750
 Wire Wire Line
 	3950 2850 3050 2850
-Text HLabel 3450 3950 0    60   Input ~ 0
+Text HLabel 5350 4450 2    60   Input ~ 0
 PPM
 Wire Wire Line
-	3450 3950 3900 3950
+	5350 4450 4900 4450
 Text Label 5050 3800 1    60   ~ 0
 I2C1_SCL
 Text Label 5150 3800 1    60   ~ 0
@@ -209,18 +209,6 @@ F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7738 4900 50  
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71H103KA01-01.pdf" H 7700 5050 50  0001 C CNN
 F 4 "CAPP-010" H 7700 5050 60  0001 C CNN "part_num"
 	1    7700 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C50
-U 1 1 5919971A
-P 6950 5050
-F 0 "C50" H 6975 5150 50  0000 L CNN
-F 1 "100nF" H 6975 4950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6988 4900 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6950 5050 50  0001 C CNN
-F 4 "CAPP-005" H 6950 5050 60  0001 C CNN "part_num"
-	1    6950 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -405,7 +393,7 @@ Connection ~ 7000 2700
 Connection ~ 7000 3000
 Text Label 6950 3150 2    60   ~ 0
 NRST
-Text Label 1300 3600 0    60   ~ 0
+Text Label 1750 5600 0    60   ~ 0
 PWM[1..12]
 NoConn ~ 4850 2950
 NoConn ~ 8800 2550
@@ -447,10 +435,6 @@ Wire Notes Line
 	6000 3000 5300 3000
 Wire Notes Line
 	5300 3300 5300 3500
-Wire Notes Line
-	5300 3500 5700 3500
-Wire Notes Line
-	5700 3500 5700 3300
 Wire Notes Line
 	5700 3300 5300 3300
 Text HLabel 3050 2750 0    60   Output ~ 0
@@ -625,83 +609,71 @@ Wire Wire Line
 $Comp
 L power:GND #PWR030
 U 1 1 594F28B6
-P 5800 5000
-F 0 "#PWR030" H 5800 4750 50  0001 C CNN
-F 1 "GND" H 5800 4850 50  0000 C CNN
-F 2 "" H 5800 5000 50  0001 C CNN
-F 3 "" H 5800 5000 50  0001 C CNN
-	1    5800 5000
-	1    0    0    -1  
+P 2100 4600
+F 0 "#PWR030" H 2100 4350 50  0001 C CNN
+F 1 "GND" H 2100 4450 50  0000 C CNN
+F 2 "" H 2100 4600 50  0001 C CNN
+F 3 "" H 2100 4600 50  0001 C CNN
+	1    2100 4600
+	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:Buzzer BZ1
-U 1 1 594F2B8D
-P 6600 3950
-F 0 "BZ1" H 6750 4000 50  0000 L CNN
-F 1 "Buzzer" H 6750 3900 50  0000 L CNN
-F 2 "WARG:AI-1027-TWT-3V-R" V 6575 4050 50  0001 C CNN
-F 3 "http://www.puiaudio.com/pdf/AI-1027-TWT-5V-R.pdf" V 6575 4050 50  0001 C CNN
-F 4 "BUZZ-001" H 6600 3950 60  0001 C CNN "part_num"
-	1    6600 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L WARG:STM32F030RCT6 U10
+L WARG:STM32F091RCT7 U10
 U 1 1 599C1943
 P 4400 3200
 F 0 "U10" H 4400 4200 60  0000 C CNN
-F 1 "STM32F030RCT6" H 4400 4100 60  0000 C CNN
+F 1 "STM32F091RCT7" H 4400 4100 60  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4150 3700 60  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32f030rc.pdf" H 4150 3700 60  0001 C CNN
-F 4 "CHIP-003" H 4500 4300 60  0001 C CNN "part_num"
+F 3 "https://www.st.com/resource/en/datasheet/STM32F091RCT70rc.pdf" H 4150 3700 60  0001 C CNN
+F 4 "CHIP-008" H 4500 4300 60  0001 C CNN "part_num"
 	1    4400 3200
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F030RCT6 U10
+L WARG:STM32F091RCT7 U10
 U 2 1 599C19BB
 P 4400 4600
 F 0 "U10" H 4400 5600 60  0000 C CNN
-F 1 "STM32F030RCT6" H 4400 5500 60  0000 C CNN
+F 1 "STM32F091RCT7" H 4400 5500 60  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4150 5100 60  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32f030rc.pdf" H 4150 5100 60  0001 C CNN
-F 4 "CHIP-003" H 4500 5700 60  0001 C CNN "part_num"
+F 3 "https://www.st.com/resource/en/datasheet/STM32F091RCT70rc.pdf" H 4150 5100 60  0001 C CNN
+F 4 "CHIP-008" H 4500 5700 60  0001 C CNN "part_num"
 	2    4400 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F030RCT6 U10
+L WARG:STM32F091RCT7 U10
 U 3 1 599C1A21
 P 4400 5850
 F 0 "U10" H 4400 6850 60  0000 C CNN
-F 1 "STM32F030RCT6" H 4400 6750 60  0000 C CNN
+F 1 "STM32F091RCT7" H 4400 6750 60  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4150 6350 60  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32f030rc.pdf" H 4150 6350 60  0001 C CNN
-F 4 "CHIP-003" H 4500 6950 60  0001 C CNN "part_num"
+F 3 "https://www.st.com/resource/en/datasheet/STM32F091RCT70rc.pdf" H 4150 6350 60  0001 C CNN
+F 4 "CHIP-008" H 4500 6950 60  0001 C CNN "part_num"
 	3    4400 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F030RCT6 U10
+L WARG:STM32F091RCT7 U10
 U 4 1 599C1A7B
 P 8000 3000
 F 0 "U10" H 8000 4000 60  0000 C CNN
-F 1 "STM32F030RCT6" H 8000 3900 60  0000 C CNN
+F 1 "STM32F091RCT7" H 8000 3900 60  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 7750 3500 60  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32f030rc.pdf" H 7750 3500 60  0001 C CNN
-F 4 "CHIP-003" H 8100 4100 60  0001 C CNN "part_num"
+F 3 "https://www.st.com/resource/en/datasheet/STM32F091RCT70rc.pdf" H 7750 3500 60  0001 C CNN
+F 4 "CHIP-008" H 8100 4100 60  0001 C CNN "part_num"
 	4    8000 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L WARG:STM32F030RCT6 U10
+L WARG:STM32F091RCT7 U10
 U 5 1 599C1AE4
 P 8350 4900
 F 0 "U10" H 8350 5900 60  0000 C CNN
-F 1 "STM32F030RCT6" H 8350 5800 60  0000 C CNN
+F 1 "STM32F091RCT7" H 8350 5800 60  0000 C CNN
 F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 8100 5400 60  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/stm32f030rc.pdf" H 8100 5400 60  0001 C CNN
-F 4 "CHIP-003" H 8450 6000 60  0001 C CNN "part_num"
+F 3 "https://www.st.com/resource/en/datasheet/STM32F091RCT70rc.pdf" H 8100 5400 60  0001 C CNN
+F 4 "CHIP-008" H 8450 6000 60  0001 C CNN "part_num"
 	5    8350 4900
 	1    0    0    -1  
 $EndComp
@@ -720,10 +692,6 @@ Wire Wire Line
 	8850 4250 8900 4250
 Connection ~ 8900 4350
 NoConn ~ 3900 4050
-NoConn ~ 4900 4050
-NoConn ~ 4900 4150
-NoConn ~ 3950 2950
-NoConn ~ 3950 3050
 NoConn ~ 3950 2650
 NoConn ~ 3950 2550
 NoConn ~ 3900 5500
@@ -731,60 +699,6 @@ NoConn ~ 3900 5600
 NoConn ~ 4950 5600
 Wire Wire Line
 	7900 4450 7850 4450
-Wire Wire Line
-	5800 4350 4900 4350
-$Comp
-L Device:R R24
-U 1 1 599C8783
-P 5800 4750
-F 0 "R24" V 5880 4750 50  0000 C CNN
-F 1 "100K" V 5800 4750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 5730 4750 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 5800 4750 50  0001 C CNN
-F 4 "RESS-008" V 5800 4750 60  0001 C CNN "part_num"
-	1    5800 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 4500 6200 4500
-Wire Wire Line
-	6500 4300 6500 4050
-Wire Wire Line
-	6500 3850 6500 3650
-Text HLabel 6350 3650 0    60   Input ~ 0
-V_SPK
-Wire Wire Line
-	5800 4350 5800 4500
-Wire Wire Line
-	5800 5000 5800 4900
-Connection ~ 5800 4500
-$Comp
-L power:GND #PWR034
-U 1 1 599C9676
-P 6500 4800
-F 0 "#PWR034" H 6500 4550 50  0001 C CNN
-F 1 "GND" H 6500 4650 50  0000 C CNN
-F 2 "" H 6500 4800 50  0001 C CNN
-F 3 "" H 6500 4800 50  0001 C CNN
-	1    6500 4800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6500 4800 6500 4700
-Wire Wire Line
-	6500 3650 6350 3650
-$Comp
-L Device:Q_NMOS_GSD Q2
-U 1 1 599C9998
-P 6400 4500
-F 0 "Q2" H 6600 4550 50  0000 L CNN
-F 1 "Q_NMOS_GSD" H 6600 4450 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23" H 6600 4600 50  0001 C CNN
-F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 6400 4500 50  0001 C CNN
-F 4 "TRAN-002" H 6400 4500 60  0001 C CNN "part_num"
-	1    6400 4500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7850 4650 7850 4750
 Wire Wire Line
@@ -833,13 +747,11 @@ Wire Wire Line
 	8900 4450 8900 4550
 Wire Wire Line
 	8900 4350 8900 4450
-Wire Wire Line
-	5800 4500 5800 4600
-Text HLabel 3450 3850 0    60   Input ~ 0
+Text HLabel 5350 4550 2    60   Input ~ 0
 RSSI
 Wire Wire Line
-	3450 3850 3900 3850
-Text Label 3600 3850 0    60   ~ 0
+	5350 4550 4900 4550
+Text Label 5200 4550 2    60   ~ 0
 RSSI
 Wire Notes Line
 	3050 2700 2350 2700
@@ -861,7 +773,6 @@ F 4 "RESS-005" V 7400 3300 60  0001 C CNN "part_num"
 	1    7400 3300
 	1    0    0    -1  
 $EndComp
-Connection ~ 7400 3150
 $Comp
 L power:GND #PWR035
 U 1 1 5CBD6D08
@@ -875,8 +786,109 @@ F 3 "" H 7400 3450 50  0001 C CNN
 $EndComp
 NoConn ~ 3900 4350
 NoConn ~ 3900 4250
-NoConn ~ 3900 4150
-NoConn ~ 4850 3250
+Wire Wire Line
+	2100 4100 2100 4200
+$Comp
+L Device:Q_NMOS_GSD Q2
+U 1 1 599C9998
+P 1500 4100
+F 0 "Q2" H 1700 4150 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 1700 4050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23" H 1700 4200 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 1500 4100 50  0001 C CNN
+F 4 "TRAN-002" H 1500 4100 60  0001 C CNN "part_num"
+	1    1500 4100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3250 1550 3250
+Wire Wire Line
+	1400 4400 1400 4300
+$Comp
+L power:GND #PWR034
+U 1 1 599C9676
+P 1400 4400
+F 0 "#PWR034" H 1400 4150 50  0001 C CNN
+F 1 "GND" H 1400 4250 50  0000 C CNN
+F 2 "" H 1400 4400 50  0001 C CNN
+F 3 "" H 1400 4400 50  0001 C CNN
+	1    1400 4400
+	-1   0    0    -1  
+$EndComp
+Connection ~ 2100 4100
+Wire Wire Line
+	2100 4600 2100 4500
+Wire Wire Line
+	2100 3950 2100 4100
+Text HLabel 1550 3250 2    60   Input ~ 0
+V_SPK
+Wire Wire Line
+	1400 3450 1400 3250
+Wire Wire Line
+	1400 3900 1400 3650
+Wire Wire Line
+	2100 4100 1700 4100
+$Comp
+L Device:R R24
+U 1 1 599C8783
+P 2100 4350
+F 0 "R24" V 2180 4350 50  0000 C CNN
+F 1 "100K" V 2100 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2030 4350 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2100 4350 50  0001 C CNN
+F 4 "RESS-008" V 2100 4350 60  0001 C CNN "part_num"
+	1    2100 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Buzzer BZ1
+U 1 1 594F2B8D
+P 1300 3550
+F 0 "BZ1" H 1450 3600 50  0000 L CNN
+F 1 "Buzzer" H 1450 3500 50  0000 L CNN
+F 2 "WARG:AI-1027-TWT-3V-R" V 1275 3650 50  0001 C CNN
+F 3 "http://www.puiaudio.com/pdf/AI-1027-TWT-5V-R.pdf" V 1275 3650 50  0001 C CNN
+F 4 "BUZZ-001" H 1300 3550 60  0001 C CNN "part_num"
+	1    1300 3550
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	5700 3500 5700 3300
+Wire Notes Line
+	5300 3500 5700 3500
+$Comp
+L Device:C C50
+U 1 1 5919971A
+P 6950 5050
+F 0 "C50" H 6975 5150 50  0000 L CNN
+F 1 "100nF" H 6975 4950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6988 4900 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 6950 5050 50  0001 C CNN
+F 4 "CAPP-005" H 6950 5050 60  0001 C CNN "part_num"
+	1    6950 5050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3900 3850
+NoConn ~ 4900 4350
+NoConn ~ 4200 3550
+Wire Wire Line
+	2100 3950 3900 3950
+Text HLabel 3700 3050 0    60   Input ~ 0
+SCK
+Text HLabel 3700 3150 0    60   Output ~ 0
+MISO
+Text HLabel 3700 3250 0    60   Input ~ 0
+MOSI
+Text HLabel 3700 2950 0    60   Input ~ 0
+NSS
+Wire Wire Line
+	3950 2950 3700 2950
+Wire Wire Line
+	3700 3050 3950 3050
+Wire Wire Line
+	3950 3150 3700 3150
+Wire Wire Line
+	3700 3250 3950 3250
 Wire Bus Line
-	1400 3700 1400 5350
+	1850 5700 1850 7350
 $EndSCHEMATC
