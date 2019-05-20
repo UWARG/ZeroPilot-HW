@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name WARG-kicad)(type KiCad)(uri C:/Users/Mark/Documents/WARG/WARG-KiCAD/WARG-kicad.pretty)(options "")(descr ""))
-  (lib (name w_conn_misc)(type KiCad)(uri C:/Users/Mark/Documents/WARG/WARG-KiCAD/w_conn_misc.pretty)(options "")(descr ""))
-  (lib (name Desktop)(type KiCad)(uri C:/Users/Mark/Desktop)(options "")(descr ""))
-)
