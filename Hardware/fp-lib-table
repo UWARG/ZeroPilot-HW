@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name WARG)(type KiCad)(uri ${KIPRJMOD}/../WARG-kicad/WARG-kicad.pretty)(options "")(descr ""))
-  (lib (name w_conn_misc)(type KiCad)(uri ${KIPRJMOD}/../WARG-kicad/w_conn_misc.pretty)(options "")(descr ""))
-  (lib (name WARG-kicad)(type KiCad)(uri ${KIPRJMOD}/../WARG-kicad/WARG-kicad.pretty)(options "")(descr ""))
+  (lib (name WARG-kicad)(type KiCad)(uri C:/Users/Mark/Documents/WARG/ZeroPilot-HW/WARG-kicad/WARG-kicad.pretty)(options "")(descr ""))
+  (lib (name w_conn_misc)(type KiCad)(uri C:/Users/Mark/Documents/WARG/ZeroPilot-HW/WARG-kicad/w_conn_misc.pretty)(options "")(descr ""))
 )
