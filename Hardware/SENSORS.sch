@@ -137,28 +137,17 @@ Wire Wire Line
 	6350 3050 6750 3050
 Wire Wire Line
 	6750 3050 6750 3500
-Connection ~ 6750 3500
-Wire Wire Line
-	3700 3450 3800 3450
 Wire Wire Line
 	3800 3450 3800 3550
-Wire Wire Line
-	3700 3850 3800 3850
 Connection ~ 3800 3850
 Wire Wire Line
 	3800 3850 3800 4100
-Wire Wire Line
-	3700 3750 3800 3750
 Connection ~ 3800 3750
 Wire Wire Line
 	3800 3750 3800 3850
-Wire Wire Line
-	3700 3650 3800 3650
 Connection ~ 3800 3650
 Wire Wire Line
 	3800 3650 3800 3750
-Wire Wire Line
-	3700 3550 3800 3550
 Connection ~ 3800 3550
 Wire Wire Line
 	3800 3550 3800 3650
@@ -167,14 +156,10 @@ Wire Wire Line
 Wire Wire Line
 	3250 2900 3750 2900
 Wire Wire Line
-	3150 3100 3150 2900
-Wire Wire Line
 	3050 3100 3050 2800
 Wire Wire Line
 	2700 2800 3050 2800
 Connection ~ 2700 2800
-Wire Wire Line
-	2150 3450 2600 3450
 $Comp
 L WARG:MS5637-02BA03 U13
 U 1 1 5B0F962E
@@ -251,6 +236,8 @@ $Comp
 L WARG:ICM-20602 U12
 U 1 1 5B0F92D3
 P 3150 3650
+AR Path="/5B0F92D3" Ref="U12"  Part="1" 
+AR Path="/5B0F2007/5B0F92D3" Ref="U12"  Part="1" 
 F 0 "U12" H 3150 4850 118 0000 C CNN
 F 1 "ICM-20602" H 3150 2400 118 0000 C CNN
 F 2 "Package_LGA:LGA-16_3x3mm_P0.5mm" H 3125 4664 60  0001 C CNN
@@ -261,4 +248,18 @@ F 4 "SENS-001" H 3150 3650 60  0001 C CNN "part_num"
 $EndComp
 Text HLabel 3250 4200 3    60   Input ~ 0
 IMU_FSYNC
+Wire Wire Line
+	3700 3450 3800 3450
+Wire Wire Line
+	3700 3850 3800 3850
+Wire Wire Line
+	3700 3750 3800 3750
+Wire Wire Line
+	3700 3650 3800 3650
+Wire Wire Line
+	3700 3550 3800 3550
+Wire Wire Line
+	3150 2900 3150 3100
+Wire Wire Line
+	2150 3450 2600 3450
 $EndSCHEMATC
