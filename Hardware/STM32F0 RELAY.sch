@@ -3,7 +3,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 10
+Sheet 10 10
 Title "Safety Switch Controller/ PPM Converter"
 Date "2017-05-14"
 Rev ""
@@ -127,10 +127,6 @@ Text Label 3750 2850 2    60   ~ 0
 USART2_RX
 Text Label 3750 2750 2    60   ~ 0
 USART2_TX
-Wire Wire Line
-	3200 4550 3900 4550
-Wire Wire Line
-	3900 4450 3200 4450
 Wire Wire Line
 	3050 2750 3950 2750
 Wire Wire Line
@@ -436,22 +432,12 @@ Wire Notes Line
 	5300 3300 5300 3500
 Wire Notes Line
 	5700 3300 5300 3300
-Text HLabel 3050 2750 0    60   Output ~ 0
-REC_UART_TX
-Text HLabel 3050 2850 0    60   Input ~ 0
-REC_UART_RX
-Text HLabel 3200 4550 0    60   Input ~ 0
-DBG_UART_RX
 Text HLabel 3200 4450 0    60   Output ~ 0
-DBG_UART_TX
+REC_UART_TX
+Text HLabel 3200 4550 0    60   Input ~ 0
+REC_UART_RX
 Wire Notes Line
-	3200 4400 3200 4600
-Wire Notes Line
-	3200 4600 2500 4600
-Wire Notes Line
-	2500 4600 2500 4400
-Wire Notes Line
-	2500 4400 3200 4400
+	2350 2900 2350 2700
 $Comp
 L Device:LED D9
 U 1 1 59531E55
@@ -753,11 +739,11 @@ Wire Wire Line
 Text Label 5200 4550 2    60   ~ 0
 RSSI
 Wire Notes Line
-	3050 2700 2350 2700
+	3200 4400 2500 4400
 Wire Notes Line
-	2350 2700 2350 2900
+	2500 4400 2500 4600
 Wire Notes Line
-	2350 2900 3050 2900
+	2500 4600 3200 4600
 Wire Notes Line
 	3050 2900 3050 2700
 $Comp
@@ -888,6 +874,20 @@ Wire Wire Line
 	3950 3150 3700 3150
 Wire Wire Line
 	3700 3250 3950 3250
+Wire Notes Line
+	2350 2700 3050 2700
+Wire Notes Line
+	3050 2900 2350 2900
+Wire Notes Line
+	3200 4400 3200 4600
+Text HLabel 3050 2750 0    60   Output ~ 0
+DBG_UART_TX
+Text HLabel 3050 2850 0    60   Input ~ 0
+DBG_UART_RX
+Wire Wire Line
+	3900 4450 3200 4450
+Wire Wire Line
+	3200 4550 3900 4550
 Wire Bus Line
 	1850 5700 1850 7350
 $EndSCHEMATC

@@ -394,17 +394,6 @@ F 4 "CAPP-005" H 2550 6150 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR053
-U 1 1 5B1ACB05
-P 2100 6500
-F 0 "#PWR053" H 2100 6250 50  0001 C CNN
-F 1 "GND" H 2100 6350 50  0000 C CNN
-F 2 "" H 2100 6500 50  0001 C CNN
-F 3 "" H 2100 6500 50  0001 C CNN
-	1    2100 6500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR055
 U 1 1 5B1ACDD5
 P 2750 5650
@@ -432,10 +421,10 @@ L Device:C C68
 U 1 1 5B1AF726
 P 3800 5350
 F 0 "C68" H 3825 5450 50  0000 L CNN
-F 1 "4.7uF" H 3825 5250 50  0000 L CNN
+F 1 "3.3uF" H 3825 5250 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3838 5200 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A475MP5LNNC.jsp" H 3800 5350 50  0001 C CNN
-F 4 "CAPP-006" H 3800 5350 60  0001 C CNN "part_num"
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A335KP8NNNC.jsp" H 3800 5350 50  0001 C CNN
+F 4 "CAPP-015" H 3800 5350 60  0001 C CNN "part_num"
 	1    3800 5350
 	1    0    0    -1  
 $EndComp
@@ -782,9 +771,6 @@ Wire Wire Line
 	2250 6300 2250 6350
 Connection ~ 2250 6350
 Wire Wire Line
-	2100 6350 2100 6500
-Connection ~ 2100 6350
-Wire Wire Line
 	2750 5500 2750 5550
 Wire Wire Line
 	2450 5500 2450 5550
@@ -964,11 +950,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 5950 2550 5950
 Wire Wire Line
-	1950 6350 2100 6350
-Wire Wire Line
 	2250 6350 2550 6350
-Wire Wire Line
-	2100 6350 2250 6350
 Wire Wire Line
 	2750 5550 2750 5650
 Wire Wire Line
@@ -1050,4 +1032,27 @@ Wire Wire Line
 Wire Wire Line
 	1500 1500 2550 1500
 Connection ~ 2550 1500
+Wire Wire Line
+	2100 6350 2250 6350
+Wire Wire Line
+	1950 6350 2100 6350
+Connection ~ 2100 6350
+Wire Wire Line
+	2100 6350 2100 6500
+$Comp
+L power:GND #PWR053
+U 1 1 5B1ACB05
+P 2100 6500
+F 0 "#PWR053" H 2100 6250 50  0001 C CNN
+F 1 "GND" H 2100 6350 50  0000 C CNN
+F 2 "" H 2100 6500 50  0001 C CNN
+F 3 "" H 2100 6500 50  0001 C CNN
+	1    2100 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5950 3050 5950
+Connection ~ 2550 5950
+Text HLabel 3050 5950 2    60   Input ~ 0
+VDD
 $EndSCHEMATC
