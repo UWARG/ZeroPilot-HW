@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ZeroPilot-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1126,8 +1127,6 @@ Wire Wire Line
 	1850 4750 1950 4750
 Wire Wire Line
 	2050 4750 2050 4800
-Text Label 3000 5200 0    60   ~ 0
-BATTSW
 Connection ~ 1900 4150
 Connection ~ 4850 4400
 Wire Wire Line
@@ -1137,17 +1136,6 @@ Wire Wire Line
 	2350 4150 2400 4150
 Wire Wire Line
 	2700 4750 2800 4750
-$Comp
-L Device:R R60
-U 1 1 5D0DB9F5
-P 3000 4900
-F 0 "R60" H 3070 4946 50  0000 L CNN
-F 1 "R" V 3000 4900 50  0000 L CNN
-F 2 "" V 2930 4900 50  0001 C CNN
-F 3 "~" H 3000 4900 50  0001 C CNN
-	1    3000 4900
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:LED D16
 U 1 1 5D0E4516
@@ -1183,8 +1171,6 @@ F 3 "" H 3500 4850 50  0000 C CNN
 	1    3500 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3000 5050 3000 5200
 Wire Wire Line
 	1100 4150 1650 4150
 $Comp
@@ -1268,12 +1254,12 @@ $Comp
 L WARG:DMC3032LSD Q3
 U 2 1 5D14B283
 P 2800 4450
-F 0 "Q3" V 2750 4700 60  0000 C CNN
-F 1 "DMC3032LSD" V 2650 4850 60  0000 C CNN
+F 0 "Q3" V 2750 4200 60  0000 C CNN
+F 1 "DMC3032LSD" V 2650 4050 60  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2800 4450 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds32153.pdf" H 2800 4450 60  0001 C CNN
 	2    2800 4450
-	0    1    -1   0   
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3500 4550 3500 4450
@@ -1294,7 +1280,7 @@ $Comp
 L Device:R R59
 U 1 1 5D1700A8
 P 2550 4750
-F 0 "R59" H 2620 4796 50  0000 L CNN
+F 0 "R59" V 2450 4700 50  0000 L CNN
 F 1 "210K" V 2550 4650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 4750 50  0001 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 4750 50  0001 C CNN
@@ -1319,20 +1305,8 @@ Wire Wire Line
 	2350 4450 2600 4450
 Wire Wire Line
 	3000 4450 3200 4450
-Connection ~ 2600 4450
 Wire Wire Line
 	2200 4150 2350 4150
-$Comp
-L WARG:DMC3032LSD Q3
-U 1 1 5D14DC70
-P 2600 4150
-F 0 "Q3" V 2850 4150 60  0000 C CNN
-F 1 "DMC3032LSD" V 2750 4150 60  0000 C CNN
-F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2600 4150 60  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds32153.pdf" H 2600 4150 60  0001 C CNN
-	1    2600 4150
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J25
 U 1 1 5D225D1C
@@ -1356,4 +1330,43 @@ Wire Wire Line
 	10150 3300 10200 3300
 Wire Wire Line
 	10650 2900 10650 3050
+Connection ~ 2600 4450
+$Comp
+L WARG:DMC3032LSD Q3
+U 1 1 5D14DC70
+P 2600 4150
+F 0 "Q3" V 2850 4150 60  0000 C CNN
+F 1 "DMC3032LSD" V 2750 4150 60  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2600 4150 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds32153.pdf" H 2600 4150 60  0001 C CNN
+	1    2600 4150
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3000 5050 3000 5200
+Text HLabel 3000 5200 0    60   Input ~ 0
+BATTSW
+$Comp
+L Device:R R60
+U 1 1 5D0DB9F5
+P 3000 4900
+F 0 "R60" H 3070 4946 50  0000 L CNN
+F 1 "1K" V 3000 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2930 4900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3000 4900 50  0001 C CNN
+F 4 "RESS-017" H 3000 4900 50  0001 C CNN "part_num"
+	1    3000 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_DGS Q4
+U 1 1 5D4A70B0
+P 2400 3450
+F 0 "Q4" H 2606 3496 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 2606 3405 50  0000 L CNN
+F 2 "" H 2600 3550 50  0001 C CNN
+F 3 "~" H 2400 3450 50  0001 C CNN
+	1    2400 3450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

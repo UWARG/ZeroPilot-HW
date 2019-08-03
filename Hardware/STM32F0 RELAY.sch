@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ZeroPilot-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -910,6 +911,8 @@ Wire Wire Line
 	3300 5500 3900 5500
 Wire Wire Line
 	3300 5600 3900 5600
+NoConn ~ 3950 2850
+NoConn ~ 3950 2750
 Wire Bus Line
 	1850 5700 1850 7350
 $EndSCHEMATC

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:ZeroPilot-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -197,7 +198,6 @@ Text HLabel 7450 1100 2    60   Input ~ 0
 MEM_WC
 NoConn ~ 1650 3450
 NoConn ~ 1650 3150
-NoConn ~ 1700 4500
 NoConn ~ 1700 4800
 NoConn ~ 1700 4900
 NoConn ~ 2750 6200
@@ -1339,4 +1339,8 @@ Wire Wire Line
 	1300 2200 1650 2200
 Wire Wire Line
 	1300 2300 1650 2300
+Text HLabel 1500 4500 0    60   Output ~ 0
+BATT_SW
+Wire Wire Line
+	1500 4500 1700 4500
 $EndSCHEMATC
