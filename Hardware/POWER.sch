@@ -1054,31 +1054,31 @@ Wire Wire Line
 	5800 2150 6450 2150
 Connection ~ 5800 2150
 Connection ~ 6450 2150
-Text Label 5400 4400 0    60   ~ 0
+Text Label 6550 4400 0    60   ~ 0
 VBATT_JMP
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5D06B2E7
-P 4850 4400
-F 0 "#FLG0101" H 4850 4475 50  0001 C CNN
-F 1 "PWR_FLAG" H 4850 4550 50  0000 C CNN
-F 2 "" H 4850 4400 50  0001 C CNN
-F 3 "" H 4850 4400 50  0001 C CNN
-	1    4850 4400
+P 6000 4400
+F 0 "#FLG0101" H 6000 4475 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 4550 50  0000 C CNN
+F 2 "" H 6000 4400 50  0001 C CNN
+F 3 "" H 6000 4400 50  0001 C CNN
+	1    6000 4400
 	1    0    0    -1  
 $EndComp
-Text Label 4300 4400 0    60   ~ 0
+Text Label 5450 4400 0    60   ~ 0
 FS_BATT
 $Comp
 L WARG:SPOX-2 J24
 U 1 1 5D06B2FA
-P 4100 4450
-F 0 "J24" H 4181 4747 60  0000 C CNN
-F 1 "SPOX-2" H 4181 4641 60  0000 C CNN
-F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 4100 4400 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035025_sd.pdf" H 4100 4400 60  0001 C CNN
-F 4 "CONN-001" H 4300 4700 60  0001 C CNN "part_num"
-	1    4100 4450
+P 5250 4450
+F 0 "J24" H 5331 4747 60  0000 C CNN
+F 1 "SPOX-2" H 5331 4641 60  0000 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 5250 4400 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035025_sd.pdf" H 5250 4400 60  0001 C CNN
+F 4 "CONN-001" H 5450 4700 60  0001 C CNN "part_num"
+	1    5250 4450
 	1    0    0    -1  
 $EndComp
 Connection ~ 4400 2350
@@ -1097,18 +1097,20 @@ F 0 "D15" H 3400 3934 50  0000 C CNN
 F 1 "SBR10B45P5-13" H 3400 4025 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TO-277B" H 3400 4150 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/SBR10B45P5.pdf" H 3400 4150 50  0001 C CNN
+F 4 "DIOD-008" H 3400 4150 50  0001 C CNN "part_num"
 	1    3400 4150
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:D D17
 U 1 1 5D17672F
-P 5250 4400
-F 0 "D17" H 5250 4184 50  0000 C CNN
-F 1 "SBR10B45P5-13" H 5250 4275 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-277B" H 5250 4400 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/SBR10B45P5.pdf" H 5250 4400 50  0001 C CNN
-	1    5250 4400
+P 6400 4400
+F 0 "D17" H 6400 4184 50  0000 C CNN
+F 1 "SBR10B45P5-13" H 6400 4275 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-277B" H 6400 4400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/SBR10B45P5.pdf" H 6400 4400 50  0001 C CNN
+F 4 "DIOD-008" H 6400 4400 50  0001 C CNN "part_num"
+	1    6400 4400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1128,9 +1130,9 @@ Wire Wire Line
 Wire Wire Line
 	2050 4750 2050 4800
 Connection ~ 1900 4150
-Connection ~ 4850 4400
+Connection ~ 6000 4400
 Wire Wire Line
-	4850 4400 5100 4400
+	6000 4400 6250 4400
 Connection ~ 2350 4150
 Wire Wire Line
 	2350 4150 2400 4150
@@ -1194,27 +1196,27 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0102
 U 1 1 5D06B2D9
-P 5000 4800
-F 0 "#PWR0102" H 5000 4550 50  0001 C CNN
-F 1 "GND" H 5000 4650 50  0000 C CNN
-F 2 "" H 5000 4800 50  0000 C CNN
-F 3 "" H 5000 4800 50  0000 C CNN
-	1    5000 4800
+P 6150 4800
+F 0 "#PWR0102" H 6150 4550 50  0001 C CNN
+F 1 "GND" H 6150 4650 50  0000 C CNN
+F 2 "" H 6150 4800 50  0000 C CNN
+F 3 "" H 6150 4800 50  0000 C CNN
+	1    6150 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 4500 4300 4800
+	5450 4500 5450 4800
 Wire Wire Line
-	4700 4400 4850 4400
+	5850 4400 6000 4400
 Wire Wire Line
-	4300 4400 4700 4400
-Connection ~ 4700 4400
+	5450 4400 5850 4400
+Connection ~ 5850 4400
 Wire Wire Line
-	4900 4800 5000 4800
+	6050 4800 6150 4800
 Wire Wire Line
-	4700 4400 4700 4500
+	5850 4400 5850 4500
 Wire Wire Line
-	4300 4800 4500 4800
+	5450 4800 5650 4800
 $Comp
 L Device:R R56
 U 1 1 5D0CD5A0
@@ -1228,36 +1230,45 @@ F 4 "RESS-012" H 1800 4450 50  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L WARG:AON7804 Q1
+L ZeroPilot-rescue:AON7804-WARG Q1
 U 1 1 5D139D7B
 P 1650 4650
+AR Path="/5D139D7B" Ref="Q1"  Part="1" 
+AR Path="/5917F3C3/5D139D7B" Ref="Q1"  Part="1" 
 F 0 "Q1" V 1901 4650 50  0000 C CNN
 F 1 "AON7804" V 1992 4650 50  0000 C CNN
 F 2 "WARG-kicad:AON7804" H 1850 4650 50  0001 C CNN
 F 3 "http://www.aosmd.com/res/data_sheets/AON7804.pdf" H 1850 4650 50  0001 C CNN
+F 4 "TRAN-003" H 1650 4650 50  0001 C CNN "part_num"
 	1    1650 4650
 	0    -1   1    0   
 $EndComp
 Connection ~ 1650 4450
 $Comp
-L WARG:AON7804 Q1
+L ZeroPilot-rescue:AON7804-WARG Q1
 U 2 1 5D13C35F
-P 4700 4700
-F 0 "Q1" V 4951 4700 50  0000 C CNN
-F 1 "AON7804" V 5042 4700 50  0000 C CNN
-F 2 "WARG-kicad:AON7804" H 4900 4700 50  0001 C CNN
-F 3 "http://www.aosmd.com/res/data_sheets/AON7804.pdf" H 4900 4700 50  0001 C CNN
-	2    4700 4700
+P 5850 4700
+AR Path="/5D13C35F" Ref="Q1"  Part="2" 
+AR Path="/5917F3C3/5D13C35F" Ref="Q1"  Part="2" 
+F 0 "Q1" V 6101 4700 50  0000 C CNN
+F 1 "AON7804" V 6192 4700 50  0000 C CNN
+F 2 "WARG-kicad:AON7804" H 6050 4700 50  0001 C CNN
+F 3 "http://www.aosmd.com/res/data_sheets/AON7804.pdf" H 6050 4700 50  0001 C CNN
+F 4 "TRAN-003" H 5850 4700 50  0001 C CNN "part_num"
+	2    5850 4700
 	0    -1   1    0   
 $EndComp
 $Comp
-L WARG:DMC3032LSD Q3
+L ZeroPilot-rescue:DMC3032LSD-WARG Q3
 U 2 1 5D14B283
 P 2800 4450
+AR Path="/5D14B283" Ref="Q3"  Part="2" 
+AR Path="/5917F3C3/5D14B283" Ref="Q3"  Part="2" 
 F 0 "Q3" V 2750 4200 60  0000 C CNN
 F 1 "DMC3032LSD" V 2650 4050 60  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2800 4450 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds32153.pdf" H 2800 4450 60  0001 C CNN
+F 4 "TRAN-004" H 2800 4450 50  0001 C CNN "part_num"
 	2    2800 4450
 	0    -1   -1   0   
 $EndComp
@@ -1315,6 +1326,7 @@ F 0 "J25" H 9200 2575 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 9200 2666 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 9150 3000 50  0001 C CNN
 F 3 "~" H 9150 3000 50  0001 C CNN
+F 4 "CONN-008" H 9150 3000 50  0001 C CNN "part_num"
 	1    9150 3000
 	1    0    0    1   
 $EndComp
@@ -1332,13 +1344,16 @@ Wire Wire Line
 	10650 2900 10650 3050
 Connection ~ 2600 4450
 $Comp
-L WARG:DMC3032LSD Q3
+L ZeroPilot-rescue:DMC3032LSD-WARG Q3
 U 1 1 5D14DC70
 P 2600 4150
+AR Path="/5D14DC70" Ref="Q3"  Part="1" 
+AR Path="/5917F3C3/5D14DC70" Ref="Q3"  Part="1" 
 F 0 "Q3" V 2850 4150 60  0000 C CNN
 F 1 "DMC3032LSD" V 2750 4150 60  0000 C CNN
 F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2600 4150 60  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/ds32153.pdf" H 2600 4150 60  0001 C CNN
+F 4 "TRAN-004" H 2600 4150 50  0001 C CNN "part_num"
 	1    2600 4150
 	0    1    -1   0   
 $EndComp
@@ -1356,17 +1371,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2930 4900 50  0
 F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3000 4900 50  0001 C CNN
 F 4 "RESS-017" H 3000 4900 50  0001 C CNN "part_num"
 	1    3000 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_NMOS_DGS Q4
-U 1 1 5D4A70B0
-P 2400 3450
-F 0 "Q4" H 2606 3496 50  0000 L CNN
-F 1 "Q_NMOS_DGS" H 2606 3405 50  0000 L CNN
-F 2 "" H 2600 3550 50  0001 C CNN
-F 3 "~" H 2400 3450 50  0001 C CNN
-	1    2400 3450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
