@@ -19,27 +19,27 @@ Text Notes 4050 1200 0    60   ~ 0
 $Comp
 L power:GND #PWR05
 U 1 1 59183E68
-P 1300 4850
-F 0 "#PWR05" H 1300 4600 50  0001 C CNN
-F 1 "GND" H 1300 4700 50  0000 C CNN
-F 2 "" H 1300 4850 50  0000 C CNN
-F 3 "" H 1300 4850 50  0000 C CNN
-	1    1300 4850
+P 2050 4800
+F 0 "#PWR05" H 2050 4550 50  0001 C CNN
+F 1 "GND" H 2050 4650 50  0000 C CNN
+F 2 "" H 2050 4800 50  0000 C CNN
+F 3 "" H 2050 4800 50  0000 C CNN
+	1    2050 4800
 	1    0    0    -1  
 $EndComp
-Text Label 2250 4400 0    60   ~ 0
+Text Label 3550 4150 0    60   ~ 0
 VBATT_JMP
-Text Notes 4100 5000 0    60   ~ 0
+Text Notes 3250 5500 0    60   ~ 0
 5V Internal Reg
-Text HLabel 9750 3500 2    60   Output ~ 0
+Text HLabel 10200 3000 2    60   Output ~ 0
 5V_INT
-Text HLabel 10150 2950 2    60   Output ~ 0
+Text HLabel 10800 2900 2    60   Output ~ 0
 6V_EXT
 $Comp
-L power:GND #PWR018
+L power:GND #PWR014
 U 1 1 591852CA
 P 8850 6300
-F 0 "#PWR018" H 8850 6050 50  0001 C CNN
+F 0 "#PWR014" H 8850 6050 50  0001 C CNN
 F 1 "GND" H 8850 6150 50  0000 C CNN
 F 2 "" H 8850 6300 50  0000 C CNN
 F 3 "" H 8850 6300 50  0000 C CNN
@@ -47,10 +47,10 @@ F 3 "" H 8850 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C23
+L Device:C C20
 U 1 1 59185746
 P 9900 6050
-F 0 "C23" H 9925 6150 50  0000 L CNN
+F 0 "C20" H 9925 6150 50  0000 L CNN
 F 1 "1uF" H 9925 5950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9938 5900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 9900 6050 50  0001 C CNN
@@ -59,10 +59,10 @@ F 4 "CAPP-004" H 9900 6050 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR020
+L power:GND #PWR016
 U 1 1 59185849
 P 9900 6300
-F 0 "#PWR020" H 9900 6050 50  0001 C CNN
+F 0 "#PWR016" H 9900 6050 50  0001 C CNN
 F 1 "GND" H 9900 6150 50  0000 C CNN
 F 2 "" H 9900 6300 50  0000 C CNN
 F 3 "" H 9900 6300 50  0000 C CNN
@@ -70,10 +70,10 @@ F 3 "" H 9900 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C24
+L Device:C C21
 U 1 1 591858E8
 P 10100 6050
-F 0 "C24" H 10125 6150 50  0000 L CNN
+F 0 "C21" H 10125 6150 50  0000 L CNN
 F 1 "100nF" H 10125 5950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10138 5900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 10100 6050 50  0001 C CNN
@@ -81,91 +81,75 @@ F 4 "CAPP-005" H 10100 6050 60  0001 C CNN "part_num"
 	1    10100 6050
 	1    0    0    -1  
 $EndComp
-Text HLabel 9750 3800 2    60   Output ~ 0
+Text HLabel 9800 3100 2    60   Output ~ 0
 3V3
-Text HLabel 9750 2400 2    60   Output ~ 0
-VBATT
 $Comp
-L Device:LED D3
+L Device:LED D1
 U 1 1 592C12E2
-P 9600 4650
-F 0 "D3" H 9600 4750 50  0000 C CNN
-F 1 "PWR_LED" H 9600 4550 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9600 4650 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 9600 4650 50  0001 C CNN
-F 4 "DIOD-003" H 9600 4650 60  0001 C CNN "part_num"
-	1    9600 4650
+P 9600 3950
+F 0 "D1" H 9600 4050 50  0000 C CNN
+F 1 "PWR_LED" H 9600 3850 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9600 3950 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 9600 3950 50  0001 C CNN
+F 4 "DIOD-003" H 9600 3950 60  0001 C CNN "part_num"
+	1    9600 3950
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R15
+L Device:R R13
 U 1 1 592C1353
-P 9600 4350
-F 0 "R15" V 9680 4350 50  0000 C CNN
-F 1 "100" V 9600 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 4350 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9600 4350 50  0001 C CNN
-F 4 "RESS-006" V 9600 4350 60  0001 C CNN "part_num"
-	1    9600 4350
+P 9600 3650
+F 0 "R13" V 9680 3650 50  0000 C CNN
+F 1 "100" V 9600 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9530 3650 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9600 3650 50  0001 C CNN
+F 4 "RESS-006" V 9600 3650 60  0001 C CNN "part_num"
+	1    9600 3650
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR021
+L power:GND #PWR015
 U 1 1 592C1537
-P 9600 4800
-F 0 "#PWR021" H 9600 4550 50  0001 C CNN
-F 1 "GND" H 9600 4650 50  0000 C CNN
-F 2 "" H 9600 4800 50  0000 C CNN
-F 3 "" H 9600 4800 50  0000 C CNN
-	1    9600 4800
+P 9600 4100
+F 0 "#PWR015" H 9600 3850 50  0001 C CNN
+F 1 "GND" H 9600 3950 50  0000 C CNN
+F 2 "" H 9600 4100 50  0000 C CNN
+F 3 "" H 9600 4100 50  0000 C CNN
+	1    9600 4100
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Q_PMOS_DGS Q1
-U 1 1 594F02A0
-P 1550 4500
-F 0 "Q1" H 1750 4550 50  0000 L CNN
-F 1 "Q_PMOS_DGS" H 1750 4450 50  0000 L CNN
-F 2 "WARG-kicad:IRF5806" H 1750 4600 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/irf5806pbf.pdf?fileId=5546d462533600a4015355e3fbdc19bc" H 1550 4500 50  0001 C CNN
-F 4 "TRAN-001" H 1550 4500 60  0001 C CNN "part_num"
-	1    1550 4500
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 594F4062
-P 2000 4350
-F 0 "#FLG02" H 2000 4425 50  0001 C CNN
-F 1 "PWR_FLAG" H 2000 4500 50  0000 C CNN
-F 2 "" H 2000 4350 50  0001 C CNN
-F 3 "" H 2000 4350 50  0001 C CNN
-	1    2000 4350
+P 1900 4150
+F 0 "#FLG02" H 1900 4225 50  0001 C CNN
+F 1 "PWR_FLAG" H 1900 4300 50  0000 C CNN
+F 2 "" H 1900 4150 50  0001 C CNN
+F 3 "" H 1900 4150 50  0001 C CNN
+	1    1900 4150
 	1    0    0    -1  
 $EndComp
-Text Label 8800 2400 2    60   ~ 0
+Text Label 8750 2800 2    60   ~ 0
 VBATT_JMP
-Text Label 9300 2400 0    60   ~ 0
-VBATT
-Text Label 9350 2950 0    59   ~ 0
+Text Label 9450 2900 0    59   ~ 0
 6V_EXT
-Text Label 8800 2950 2    59   ~ 0
+Text Label 8750 2900 2    59   ~ 0
 6V_EXT_JMP
-Text Label 9350 3500 0    59   ~ 0
+Text Label 9500 3000 0    59   ~ 0
 5V_INT
-Text Label 8800 3500 2    59   ~ 0
+Text Label 8750 3000 2    59   ~ 0
 5V_INT_JMP
 Text Label 8650 5850 0    59   ~ 0
 5V_INT
-Text Label 9400 3800 0    59   ~ 0
+Text Label 9550 3100 0    59   ~ 0
 3V3
 Text Label 10450 5850 2    59   ~ 0
 3V3_JMP
 $Comp
-L WARG:MCP1826S-3302E_DB U8
+L WARG:MCP1826S-3302E_DB U3
 U 1 1 595F71A4
 P 9400 6000
-F 0 "U8" H 9350 6400 60  0000 C CNN
+F 0 "U3" H 9350 6400 60  0000 C CNN
 F 1 "MCP1826S-3302E/DB" H 9300 6600 60  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 9250 6300 60  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf" H 9350 6400 60  0001 C CNN
@@ -173,8 +157,8 @@ F 4 "REGU-002" H 9450 6500 60  0001 C CNN "part_num"
 	1    9400 6000
 	1    0    0    -1  
 $EndComp
-Text Label 1100 4400 0    60   ~ 0
-BATT_IN
+Text Label 1100 4150 0    60   ~ 0
+MAIN_BATT
 Text Notes 8800 2250 0    60   ~ 0
 Power jumper\nUse to measure current and\ndebug power
 Text Notes 800  3700 0    60   ~ 0
@@ -182,13 +166,13 @@ Reverse polarity protection
 $Comp
 L Device:C C10
 U 1 1 5B0CD51E
-P 4600 5800
-F 0 "C10" H 4625 5900 50  0000 L CNN
-F 1 "100nF" H 4625 5700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4638 5650 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 4600 5800 50  0001 C CNN
-F 4 "CAPP-005" H 4600 5800 60  0001 C CNN "part_num"
-	1    4600 5800
+P 4600 5900
+F 0 "C10" H 4625 6000 50  0000 L CNN
+F 1 "100nF" H 4625 5800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4638 5750 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 4600 5900 50  0001 C CNN
+F 4 "CAPP-005" H 4600 5900 60  0001 C CNN "part_num"
+	1    4600 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -287,13 +271,13 @@ $EndComp
 $Comp
 L Device:C C9
 U 1 1 5B160FB9
-P 4400 2100
-F 0 "C9" H 4425 2200 50  0000 L CNN
-F 1 "100nF" H 4425 2000 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4438 1950 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 4400 2100 50  0001 C CNN
-F 4 "CAPP-005" H 4400 2100 60  0001 C CNN "part_num"
-	1    4400 2100
+P 4400 2200
+F 0 "C9" H 4425 2300 50  0000 L CNN
+F 1 "100nF" H 4425 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4438 2050 50  0001 C CNN
+F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 4400 2200 50  0001 C CNN
+F 4 "CAPP-005" H 4400 2200 60  0001 C CNN "part_num"
+	1    4400 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -346,13 +330,13 @@ $EndComp
 $Comp
 L Device:L L1
 U 1 1 5B160FFE
-P 4550 2350
-F 0 "L1" V 4500 2350 50  0000 C CNN
-F 1 "15uH" V 4625 2350 50  0000 C CNN
-F 2 "WARG:SRP6060FA-150M" H 4550 2350 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/SRP6060FA.pdf" H 4550 2350 50  0001 C CNN
-F 4 "INDU-003" V 4550 2350 60  0001 C CNN "part_num"
-	1    4550 2350
+P 4750 2350
+F 0 "L1" V 4700 2350 50  0000 C CNN
+F 1 "15uH" V 4825 2350 50  0000 C CNN
+F 2 "WARG:SRP6060FA-150M" H 4750 2350 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/SRP6060FA.pdf" H 4750 2350 50  0001 C CNN
+F 4 "INDU-003" V 4750 2350 60  0001 C CNN "part_num"
+	1    4750 2350
 	0    1    1    0   
 $EndComp
 $Comp
@@ -498,20 +482,20 @@ $EndComp
 $Comp
 L Device:L L2
 U 1 1 5B211162
-P 4750 6050
-F 0 "L2" V 4700 6050 50  0000 C CNN
-F 1 "15uH" V 4825 6050 50  0000 C CNN
-F 2 "WARG:SRP6060FA-150M" H 4750 6050 50  0001 C CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/SRP6060FA.pdf" H 4750 6050 50  0001 C CNN
-F 4 "INDU-003" V 4750 6050 60  0001 C CNN "part_num"
-	1    4750 6050
+P 4950 6050
+F 0 "L2" V 4900 6050 50  0000 C CNN
+F 1 "15uH" V 5025 6050 50  0000 C CNN
+F 2 "WARG:SRP6060FA-150M" H 4950 6050 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/SRP6060FA.pdf" H 4950 6050 50  0001 C CNN
+F 4 "INDU-003" V 4950 6050 60  0001 C CNN "part_num"
+	1    4950 6050
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C21
+L Device:C C19
 U 1 1 5B21EBD0
 P 8650 6050
-F 0 "C21" H 8675 6150 50  0000 L CNN
+F 0 "C19" H 8675 6150 50  0000 L CNN
 F 1 "1uF" H 8675 5950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8688 5900 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 8650 6050 50  0001 C CNN
@@ -607,63 +591,15 @@ Text Label 900  5650 0    60   ~ 0
 VBATT
 Text Label 850  1950 0    60   ~ 0
 VBATT
-Text HLabel 9650 2650 0    60   Input ~ 0
+Text HLabel 10350 2600 0    60   Input ~ 0
 5V_USB+
-$Comp
-L Device:R R12
-U 1 1 5B295982
-P 9150 2950
-F 0 "R12" V 9050 2950 50  0000 C CNN
-F 1 "0" V 9150 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 2950 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9150 2950 50  0001 C CNN
-F 4 "RESS-001" V 9150 2950 60  0001 C CNN "part_num"
-	1    9150 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R14
-U 1 1 5B2B489A
-P 9150 3800
-F 0 "R14" V 9050 3800 50  0000 C CNN
-F 1 "0" V 9150 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 3800 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9150 3800 50  0001 C CNN
-F 4 "RESS-001" V 9150 3800 60  0001 C CNN "part_num"
-	1    9150 3800
-	0    1    1    0   
-$EndComp
-Text Label 8800 3800 2    60   ~ 0
+Text Label 8750 3100 2    60   ~ 0
 3V3_JMP
 $Comp
-L Device:R R11
-U 1 1 5B2ED738
-P 9150 2400
-F 0 "R11" V 9050 2400 50  0000 C CNN
-F 1 "0" V 9150 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 2400 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9150 2400 50  0001 C CNN
-F 4 "RESS-001" V 9150 2400 60  0001 C CNN "part_num"
-	1    9150 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R13
-U 1 1 5B2EE677
-P 9150 3500
-F 0 "R13" V 9050 3500 50  0000 C CNN
-F 1 "0" V 9150 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 9080 3500 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 9150 3500 50  0001 C CNN
-F 4 "RESS-001" V 9150 3500 60  0001 C CNN "part_num"
-	1    9150 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C22
+L Device:C C17
 U 1 1 5B2F8C14
 P 6450 2400
-F 0 "C22" H 6475 2500 50  0000 L CNN
+F 0 "C17" H 6475 2500 50  0000 L CNN
 F 1 "1uF" H 6475 2300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6488 2250 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 6450 2400 50  0001 C CNN
@@ -672,10 +608,10 @@ F 4 "CAPP-004" H 6450 2400 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR019
+L power:GND #PWR012
 U 1 1 5B2F8DF1
 P 6450 2650
-F 0 "#PWR019" H 6450 2400 50  0001 C CNN
+F 0 "#PWR012" H 6450 2400 50  0001 C CNN
 F 1 "GND" H 6450 2500 50  0000 C CNN
 F 2 "" H 6450 2650 50  0000 C CNN
 F 3 "" H 6450 2650 50  0000 C CNN
@@ -683,11 +619,11 @@ F 3 "" H 6450 2650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 2400 8800 2400
+	8950 2800 8750 2800
 Wire Wire Line
-	9000 2950 8800 2950
+	8950 2900 8750 2900
 Wire Wire Line
-	9000 3800 8800 3800
+	8950 3100 8750 3100
 Wire Wire Line
 	8850 6300 8650 6300
 Wire Wire Line
@@ -781,7 +717,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2350 2400 2500
 Wire Wire Line
-	4950 2350 4700 2350
+	4950 2350 4900 2350
 Wire Wire Line
 	4050 2350 4400 2350
 Wire Wire Line
@@ -833,7 +769,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 6050 2600 6200
 Wire Wire Line
-	5150 6050 4900 6050
+	5150 6050 5100 6050
 Wire Wire Line
 	4250 5850 4450 5850
 Wire Wire Line
@@ -856,29 +792,13 @@ Wire Wire Line
 Wire Wire Line
 	2950 5650 2950 5850
 Wire Wire Line
-	9600 4200 9600 3800
-Connection ~ 1300 4800
-Wire Wire Line
-	1300 4850 1300 4800
-Wire Wire Line
 	10100 5850 10100 5900
 Wire Wire Line
-	9300 3800 9600 3800
+	9450 3100 9600 3100
 Wire Wire Line
-	9750 3500 9300 3500
+	10200 3000 9450 3000
 Wire Wire Line
-	9750 2400 9300 2400
-Connection ~ 2000 4400
-Wire Wire Line
-	2000 4350 2000 4400
-Wire Wire Line
-	1550 4800 1550 4700
-Wire Wire Line
-	1100 4800 1300 4800
-Wire Wire Line
-	1100 4500 1100 4800
-Wire Wire Line
-	1350 4400 1100 4400
+	1100 4250 1100 4750
 Connection ~ 10100 5850
 Connection ~ 9900 6250
 Wire Wire Line
@@ -900,9 +820,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 6050 8850 6050
 Wire Wire Line
-	1750 4400 2000 4400
-Wire Wire Line
-	8800 3500 9000 3500
+	8750 3000 8950 3000
 Wire Wire Line
 	6450 2250 6450 2150
 Wire Wire Line
@@ -966,10 +884,6 @@ Wire Wire Line
 Wire Wire Line
 	2600 5650 2950 5650
 Wire Wire Line
-	1300 4800 1550 4800
-Wire Wire Line
-	2000 4400 2550 4400
-Wire Wire Line
 	10100 5850 10450 5850
 Wire Wire Line
 	9900 6250 9900 6300
@@ -978,90 +892,84 @@ Wire Wire Line
 Wire Wire Line
 	8850 6150 8850 6300
 Wire Wire Line
-	4200 2150 4200 1950
+	4200 2150 4200 2050
 Wire Wire Line
-	4200 1950 4400 1950
+	4200 2050 4400 2050
 Wire Wire Line
 	4050 2150 4200 2150
 Wire Wire Line
-	4400 2250 4400 2350
+	4450 5850 4450 5750
 Wire Wire Line
-	4450 5850 4450 5650
+	4450 5750 4600 5750
+Connection ~ 9600 3100
 Wire Wire Line
-	4450 5650 4600 5650
-Wire Wire Line
-	4600 6050 4600 5950
-Connection ~ 9600 3800
-Wire Wire Line
-	9600 3800 9750 3800
+	9600 3100 9800 3100
 $Comp
 L Device:LED D4
 U 1 1 5CBD935A
-P 10250 4650
-F 0 "D4" H 10250 4750 50  0000 C CNN
-F 1 "PWR_LED" H 10250 4550 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10250 4650 50  0001 C CNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 10250 4650 50  0001 C CNN
-F 4 "DIOD-003" H 10250 4650 60  0001 C CNN "part_num"
-	1    10250 4650
+P 10650 3950
+F 0 "D4" H 10650 4050 50  0000 C CNN
+F 1 "PWR_LED" H 10650 3850 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10650 3950 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 10650 3950 50  0001 C CNN
+F 4 "DIOD-003" H 10650 3950 60  0001 C CNN "part_num"
+	1    10650 3950
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R17
+L Device:R R15
 U 1 1 5CBD97C2
-P 10250 4200
-F 0 "R17" V 10330 4200 50  0000 C CNN
-F 1 "100" V 10250 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10180 4200 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10250 4200 50  0001 C CNN
-F 4 "RESS-006" V 10250 4200 60  0001 C CNN "part_num"
-	1    10250 4200
+P 10650 3500
+F 0 "R15" V 10730 3500 50  0000 C CNN
+F 1 "100" V 10650 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10580 3500 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10650 3500 50  0001 C CNN
+F 4 "RESS-006" V 10650 3500 60  0001 C CNN "part_num"
+	1    10650 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 4350 10250 4500
+	10650 3650 10650 3800
 $Comp
-L power:GND #PWR022
+L power:GND #PWR017
 U 1 1 5CC21AE8
-P 10250 4800
-F 0 "#PWR022" H 10250 4550 50  0001 C CNN
-F 1 "GND" H 10250 4650 50  0000 C CNN
-F 2 "" H 10250 4800 50  0000 C CNN
-F 3 "" H 10250 4800 50  0000 C CNN
-	1    10250 4800
+P 10650 4100
+F 0 "#PWR017" H 10650 3850 50  0001 C CNN
+F 1 "GND" H 10650 3950 50  0000 C CNN
+F 2 "" H 10650 4100 50  0000 C CNN
+F 3 "" H 10650 4100 50  0000 C CNN
+	1    10650 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R16
+L Device:R R14
 U 1 1 5CC233BF
-P 10250 3900
-F 0 "R16" V 10330 3900 50  0000 C CNN
-F 1 "100" V 10250 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10180 3900 50  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10250 3900 50  0001 C CNN
-F 4 "RESS-006" V 10250 3900 60  0001 C CNN "part_num"
-	1    10250 3900
+P 10650 3200
+F 0 "R14" V 10730 3200 50  0000 C CNN
+F 1 "100" V 10650 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10580 3200 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 10650 3200 50  0001 C CNN
+F 4 "RESS-006" V 10650 3200 60  0001 C CNN "part_num"
+	1    10650 3200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9300 2950 9950 2950
+	9450 2900 10650 2900
+Connection ~ 10650 2900
 Wire Wire Line
-	9950 2950 9950 3100
-Connection ~ 9950 2950
-Wire Wire Line
-	9950 2950 10150 2950
+	10650 2900 10800 2900
 Wire Wire Line
 	6450 2150 7250 2150
 $Comp
 L WARG:SPOX-2 J7
 U 1 1 5CB5E0BD
-P 900 4450
-F 0 "J7" H 981 4747 60  0000 C CNN
-F 1 "SPOX-2" H 981 4641 60  0000 C CNN
-F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 900 4400 60  0001 C CNN
-F 3 "https://www.molex.com/pdm_docs/sd/022035025_sd.pdf" H 900 4400 60  0001 C CNN
-F 4 "CONN-001" H 1100 4700 60  0001 C CNN "part_num"
-	1    900  4450
+P 900 4200
+F 0 "J7" H 981 4497 60  0000 C CNN
+F 1 "SPOX-2" H 981 4391 60  0000 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 900 4150 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035025_sd.pdf" H 900 4150 60  0001 C CNN
+F 4 "CONN-001" H 1100 4450 60  0001 C CNN "part_num"
+	1    900  4200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1079,32 +987,32 @@ $EndComp
 $Comp
 L Device:D D2
 U 1 1 5CF5F66A
-P 9750 3350
-F 0 "D2" V 9796 3271 50  0000 R CNN
-F 1 "D" V 9705 3271 50  0000 R CNN
-F 2 "Diode_SMD:D_PowerDI-123" H 9750 3350 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30492.pdf" H 9750 3350 50  0001 C CNN
-F 4 "DIOD-007" V 9750 3350 50  0001 C CNN "part_num"
-	1    9750 3350
-	0    -1   -1   0   
+P 10200 3150
+F 0 "D2" V 10246 3071 50  0000 R CNN
+F 1 "D" V 10155 3071 50  0000 R CNN
+F 2 "Diode_SMD:D_PowerDI-123" H 10200 3150 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30492.pdf" H 10200 3150 50  0001 C CNN
+F 4 "DIOD-007" V 10200 3150 50  0001 C CNN "part_num"
+	1    10200 3150
+	0    -1   1    0   
 $EndComp
 $Comp
-L Device:D D1
+L Device:D D3
 U 1 1 5CF5FEF3
-P 9950 2800
-F 0 "D1" V 9996 2721 50  0000 R CNN
-F 1 "D" V 9905 2721 50  0000 R CNN
-F 2 "Diode_SMD:D_PowerDI-123" H 9950 2800 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/ds30492.pdf" H 9950 2800 50  0001 C CNN
-F 4 "DIOD-007" H 9950 2800 50  0001 C CNN "part_num"
-	1    9950 2800
+P 10650 2750
+F 0 "D3" V 10696 2671 50  0000 R CNN
+F 1 "D" V 10605 2671 50  0000 R CNN
+F 2 "Diode_SMD:D_PowerDI-123" H 10650 2750 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30492.pdf" H 10650 2750 50  0001 C CNN
+F 4 "DIOD-007" H 10650 2750 50  0001 C CNN "part_num"
+	1    10650 2750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C17
+L Device:C C18
 U 1 1 5CF610BB
 P 7750 6100
-F 0 "C17" H 7775 6200 50  0000 L CNN
+F 0 "C18" H 7775 6200 50  0000 L CNN
 F 1 "1uF" H 7775 6000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7788 5950 50  0001 C CNN
 F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 7750 6100 50  0001 C CNN
@@ -1113,10 +1021,10 @@ F 4 "CAPP-004" H 7750 6100 60  0001 C CNN "part_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L power:GND #PWR013
 U 1 1 5CF610C1
 P 7750 6350
-F 0 "#PWR0101" H 7750 6100 50  0001 C CNN
+F 0 "#PWR013" H 7750 6100 50  0001 C CNN
 F 1 "GND" H 7750 6200 50  0000 C CNN
 F 2 "" H 7750 6350 50  0000 C CNN
 F 3 "" H 7750 6350 50  0000 C CNN
@@ -1132,11 +1040,9 @@ Wire Wire Line
 Wire Wire Line
 	4950 2150 5250 2150
 Wire Wire Line
-	9650 2650 9950 2650
-Text HLabel 9450 3200 0    60   Input ~ 0
+	10350 2600 10650 2600
+Text HLabel 10150 3300 0    60   Input ~ 0
 5V_USB+
-Wire Wire Line
-	9450 3200 9750 3200
 Wire Wire Line
 	7750 5950 7750 5850
 Connection ~ 7750 5850
@@ -1145,11 +1051,326 @@ Wire Wire Line
 Wire Wire Line
 	5950 5850 7750 5850
 Wire Wire Line
-	10250 3100 10250 3750
-Wire Wire Line
-	9950 3100 10250 3100
-Wire Wire Line
 	5800 2150 6450 2150
 Connection ~ 5800 2150
 Connection ~ 6450 2150
+Text Label 6550 4400 0    60   ~ 0
+VBATT_JMP
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D06B2E7
+P 6000 4400
+F 0 "#FLG0101" H 6000 4475 50  0001 C CNN
+F 1 "PWR_FLAG" H 6000 4550 50  0000 C CNN
+F 2 "" H 6000 4400 50  0001 C CNN
+F 3 "" H 6000 4400 50  0001 C CNN
+	1    6000 4400
+	1    0    0    -1  
+$EndComp
+Text Label 5450 4400 0    60   ~ 0
+FS_BATT
+$Comp
+L WARG:SPOX-2 J24
+U 1 1 5D06B2FA
+P 5250 4450
+F 0 "J24" H 5331 4747 60  0000 C CNN
+F 1 "SPOX-2" H 5331 4641 60  0000 C CNN
+F 2 "Connector_Molex:Molex_SPOX_5267-02A_1x02_P2.50mm_Vertical" H 5250 4400 60  0001 C CNN
+F 3 "https://www.molex.com/pdm_docs/sd/022035025_sd.pdf" H 5250 4400 60  0001 C CNN
+F 4 "CONN-001" H 5450 4700 60  0001 C CNN "part_num"
+	1    5250 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4400 2350
+Wire Wire Line
+	4400 2350 4600 2350
+Connection ~ 4600 6050
+Wire Wire Line
+	4600 6050 4800 6050
+Wire Wire Line
+	1100 4750 1450 4750
+$Comp
+L Device:D D15
+U 1 1 5D117843
+P 3400 4150
+F 0 "D15" H 3400 3934 50  0000 C CNN
+F 1 "SBR10B45P5-13" H 3400 4025 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-277B" H 3400 4150 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/SBR10B45P5.pdf" H 3400 4150 50  0001 C CNN
+F 4 "DIOD-008" H 3400 4150 50  0001 C CNN "part_num"
+	1    3400 4150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D17
+U 1 1 5D17672F
+P 6400 4400
+F 0 "D17" H 6400 4184 50  0000 C CNN
+F 1 "SBR10B45P5-13" H 6400 4275 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-277B" H 6400 4400 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/SBR10B45P5.pdf" H 6400 4400 50  0001 C CNN
+F 4 "DIOD-008" H 6400 4400 50  0001 C CNN "part_num"
+	1    6400 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R58
+U 1 1 5D0E3810
+P 2350 4300
+F 0 "R58" V 2450 4200 50  0000 L CNN
+F 1 "1K" V 2350 4250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2280 4300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2350 4300 50  0001 C CNN
+F 4 "RESS-017" H 2350 4300 50  0001 C CNN "part_num"
+	1    2350 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 4750 1950 4750
+Wire Wire Line
+	2050 4750 2050 4800
+Connection ~ 1900 4150
+Connection ~ 6000 4400
+Wire Wire Line
+	6000 4400 6250 4400
+Connection ~ 2350 4150
+Wire Wire Line
+	2350 4150 2400 4150
+Wire Wire Line
+	2700 4750 2800 4750
+$Comp
+L Device:LED D16
+U 1 1 5D0E4516
+P 3500 4700
+F 0 "D16" H 3500 4800 50  0000 C CNN
+F 1 "PWR_LED" H 3500 4900 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3500 4700 50  0001 C CNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF" H 3500 4700 50  0001 C CNN
+F 4 "DIOD-003" H 3500 4700 60  0001 C CNN "part_num"
+	1    3500 4700
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R61
+U 1 1 5D0E65B8
+P 3350 4450
+F 0 "R61" V 3250 4400 50  0000 L CNN
+F 1 "1K" V 3350 4400 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3280 4450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3350 4450 50  0001 C CNN
+F 4 "RESS-017" H 3350 4450 50  0001 C CNN "part_num"
+	1    3350 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D0E76E1
+P 3500 4850
+F 0 "#PWR0101" H 3500 4600 50  0001 C CNN
+F 1 "GND" H 3500 4700 50  0000 C CNN
+F 2 "" H 3500 4850 50  0000 C CNN
+F 3 "" H 3500 4850 50  0000 C CNN
+	1    3500 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4150 1650 4150
+$Comp
+L Device:R R55
+U 1 1 5D0CD0EF
+P 1650 4300
+F 0 "R55" H 1720 4346 50  0000 L CNN
+F 1 "210K" V 1650 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1580 4300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1650 4300 50  0001 C CNN
+F 4 "RESS-012" H 1650 4300 50  0001 C CNN "part_num"
+	1    1650 4300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 4150
+Wire Wire Line
+	1950 4450 1950 4750
+Connection ~ 1950 4750
+Wire Wire Line
+	1950 4750 2050 4750
+$Comp
+L power:GND #PWR0102
+U 1 1 5D06B2D9
+P 6150 4800
+F 0 "#PWR0102" H 6150 4550 50  0001 C CNN
+F 1 "GND" H 6150 4650 50  0000 C CNN
+F 2 "" H 6150 4800 50  0000 C CNN
+F 3 "" H 6150 4800 50  0000 C CNN
+	1    6150 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4500 5450 4800
+Wire Wire Line
+	5850 4400 6000 4400
+Wire Wire Line
+	5450 4400 5850 4400
+Connection ~ 5850 4400
+Wire Wire Line
+	6050 4800 6150 4800
+Wire Wire Line
+	5850 4400 5850 4500
+Wire Wire Line
+	5450 4800 5650 4800
+$Comp
+L Device:R R56
+U 1 1 5D0CD5A0
+P 1800 4450
+F 0 "R56" H 1870 4496 50  0000 L CNN
+F 1 "210K" V 1800 4350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 1730 4450 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 1800 4450 50  0001 C CNN
+F 4 "RESS-012" H 1800 4450 50  0001 C CNN "part_num"
+	1    1800 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L ZeroPilot-rescue:AON7804-WARG Q1
+U 1 1 5D139D7B
+P 1650 4650
+AR Path="/5D139D7B" Ref="Q1"  Part="1" 
+AR Path="/5917F3C3/5D139D7B" Ref="Q1"  Part="1" 
+F 0 "Q1" V 1901 4650 50  0000 C CNN
+F 1 "AON7804" V 1992 4650 50  0000 C CNN
+F 2 "WARG-kicad:AON7804" H 1850 4650 50  0001 C CNN
+F 3 "http://www.aosmd.com/res/data_sheets/AON7804.pdf" H 1850 4650 50  0001 C CNN
+F 4 "TRAN-003" H 1650 4650 50  0001 C CNN "part_num"
+	1    1650 4650
+	0    -1   1    0   
+$EndComp
+Connection ~ 1650 4450
+$Comp
+L ZeroPilot-rescue:AON7804-WARG Q1
+U 2 1 5D13C35F
+P 5850 4700
+AR Path="/5D13C35F" Ref="Q1"  Part="2" 
+AR Path="/5917F3C3/5D13C35F" Ref="Q1"  Part="2" 
+F 0 "Q1" V 6101 4700 50  0000 C CNN
+F 1 "AON7804" V 6192 4700 50  0000 C CNN
+F 2 "WARG-kicad:AON7804" H 6050 4700 50  0001 C CNN
+F 3 "http://www.aosmd.com/res/data_sheets/AON7804.pdf" H 6050 4700 50  0001 C CNN
+F 4 "TRAN-003" H 5850 4700 50  0001 C CNN "part_num"
+	2    5850 4700
+	0    -1   1    0   
+$EndComp
+$Comp
+L ZeroPilot-rescue:DMC3032LSD-WARG Q3
+U 2 1 5D14B283
+P 2800 4450
+AR Path="/5D14B283" Ref="Q3"  Part="2" 
+AR Path="/5917F3C3/5D14B283" Ref="Q3"  Part="2" 
+F 0 "Q3" V 2750 4200 60  0000 C CNN
+F 1 "DMC3032LSD" V 2650 4050 60  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2800 4450 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds32153.pdf" H 2800 4450 60  0001 C CNN
+F 4 "TRAN-004" H 2800 4450 50  0001 C CNN "part_num"
+	2    2800 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 4550 3500 4450
+$Comp
+L Device:R R57
+U 1 1 5D16F849
+P 2200 4300
+F 0 "R57" H 2270 4346 50  0000 L CNN
+F 1 "210K" V 2200 4200 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2130 4300 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2200 4300 50  0001 C CNN
+F 4 "RESS-012" H 2200 4300 50  0001 C CNN "part_num"
+	1    2200 4300
+	-1   0    0    1   
+$EndComp
+Connection ~ 2200 4150
+$Comp
+L Device:R R59
+U 1 1 5D1700A8
+P 2550 4750
+F 0 "R59" V 2450 4700 50  0000 L CNN
+F 1 "210K" V 2550 4650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2480 4750 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 2550 4750 50  0001 C CNN
+F 4 "RESS-012" H 2550 4750 50  0001 C CNN "part_num"
+	1    2550 4750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 4750 2200 4450
+Wire Wire Line
+	2200 4750 2400 4750
+Wire Wire Line
+	1650 4150 1900 4150
+Wire Wire Line
+	1900 4150 2200 4150
+Connection ~ 2800 4750
+Wire Wire Line
+	2800 4750 3000 4750
+Wire Wire Line
+	2800 4150 3250 4150
+Wire Wire Line
+	2350 4450 2600 4450
+Wire Wire Line
+	3000 4450 3200 4450
+Wire Wire Line
+	2200 4150 2350 4150
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J25
+U 1 1 5D225D1C
+P 9150 3000
+F 0 "J25" H 9200 2575 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 9200 2666 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 9150 3000 50  0001 C CNN
+F 3 "~" H 9150 3000 50  0001 C CNN
+F 4 "CONN-008" H 9150 3000 50  0001 C CNN "part_num"
+	1    9150 3000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	9800 2800 9450 2800
+Text Label 9450 2800 0    60   ~ 0
+VBATT
+Text HLabel 9800 2800 2    60   Output ~ 0
+VBATT
+Wire Wire Line
+	9600 3100 9600 3500
+Wire Wire Line
+	10150 3300 10200 3300
+Wire Wire Line
+	10650 2900 10650 3050
+Connection ~ 2600 4450
+$Comp
+L ZeroPilot-rescue:DMC3032LSD-WARG Q3
+U 1 1 5D14DC70
+P 2600 4150
+AR Path="/5D14DC70" Ref="Q3"  Part="1" 
+AR Path="/5917F3C3/5D14DC70" Ref="Q3"  Part="1" 
+F 0 "Q3" V 2850 4150 60  0000 C CNN
+F 1 "DMC3032LSD" V 2750 4150 60  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 2600 4150 60  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds32153.pdf" H 2600 4150 60  0001 C CNN
+F 4 "TRAN-004" H 2600 4150 50  0001 C CNN "part_num"
+	1    2600 4150
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3000 5050 3000 5200
+Text HLabel 3000 5200 0    60   Input ~ 0
+BATTSW
+$Comp
+L Device:R R60
+U 1 1 5D0DB9F5
+P 3000 4900
+F 0 "R60" H 3070 4946 50  0000 L CNN
+F 1 "1K" V 3000 4850 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2930 4900 50  0001 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_10.pdf" H 3000 4900 50  0001 C CNN
+F 4 "RESS-017" H 3000 4900 50  0001 C CNN "part_num"
+	1    3000 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
