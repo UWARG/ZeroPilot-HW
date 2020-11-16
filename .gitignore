@@ -33,3 +33,5 @@ Hardware/ZeroPilot-rescue.lib
 Hardware/ZeroPilot-rescue\.dcm
 
 Hardware/fp-info-cache
+
+PowerSys.asc
