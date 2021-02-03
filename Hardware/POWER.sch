@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ZeroPilot-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -35,52 +34,6 @@ Text HLabel 10400 3950 2    60   Output ~ 0
 5V_INT
 Text HLabel 10800 3400 2    60   Output ~ 0
 6V_EXT
-$Comp
-L power:GND #PWR014
-U 1 1 591852CA
-P 8850 6300
-F 0 "#PWR014" H 8850 6050 50  0001 C CNN
-F 1 "GND" H 8850 6150 50  0000 C CNN
-F 2 "" H 8850 6300 50  0000 C CNN
-F 3 "" H 8850 6300 50  0000 C CNN
-	1    8850 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C20
-U 1 1 59185746
-P 9900 6050
-F 0 "C20" H 9925 6150 50  0000 L CNN
-F 1 "1uF" H 9925 5950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9938 5900 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 9900 6050 50  0001 C CNN
-F 4 "CAPP-004" H 9900 6050 60  0001 C CNN "part_num"
-	1    9900 6050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 59185849
-P 9900 6300
-F 0 "#PWR015" H 9900 6050 50  0001 C CNN
-F 1 "GND" H 9900 6150 50  0000 C CNN
-F 2 "" H 9900 6300 50  0000 C CNN
-F 3 "" H 9900 6300 50  0000 C CNN
-	1    9900 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C21
-U 1 1 591858E8
-P 10100 6050
-F 0 "C21" H 10125 6150 50  0000 L CNN
-F 1 "100nF" H 10125 5950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10138 5900 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R71E104KA01-01.pdf" H 10100 6050 50  0001 C CNN
-F 4 "CAPP-005" H 10100 6050 60  0001 C CNN "part_num"
-	1    10100 6050
-	1    0    0    -1  
-$EndComp
 Text HLabel 10400 4250 2    60   Output ~ 0
 3V3
 Text HLabel 10400 2850 2    60   Output ~ 0
@@ -155,24 +108,8 @@ Text Label 10000 3950 0    59   ~ 0
 5V_INT
 Text Label 9450 3950 2    59   ~ 0
 5V_INT_JMP
-Text Label 8650 5850 0    59   ~ 0
-5V_INT
 Text Label 10050 4250 0    59   ~ 0
 3V3
-Text Label 10450 5850 2    59   ~ 0
-3V3_JMP
-$Comp
-L WARG:MCP1826S-3302E_DB U3
-U 1 1 595F71A4
-P 9400 6000
-F 0 "U3" H 9350 6400 60  0000 C CNN
-F 1 "MCP1826S-3302E/DB" H 9300 6600 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223" H 9250 6300 60  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/22057B.pdf" H 9350 6400 60  0001 C CNN
-F 4 "REGU-002" H 9450 6500 60  0001 C CNN "part_num"
-	1    9400 6000
-	1    0    0    -1  
-$EndComp
 Text Label 1100 4400 0    60   ~ 0
 BATT_IN
 Text Notes 9450 2700 0    60   ~ 0
@@ -508,18 +445,6 @@ F 4 "INDU-003" V 4750 6050 60  0001 C CNN "part_num"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C19
-U 1 1 5B21EBD0
-P 8650 6050
-F 0 "C19" H 8675 6150 50  0000 L CNN
-F 1 "1uF" H 8675 5950 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8688 5900 50  0001 C CNN
-F 3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R61E105KA12-01.pdf" H 8650 6050 50  0001 C CNN
-F 4 "CAPP-004" H 8650 6050 60  0001 C CNN "part_num"
-	1    8650 6050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C5
 U 1 1 5B2215D5
 P 1700 2200
@@ -686,12 +611,6 @@ Wire Wire Line
 	9650 3400 9450 3400
 Wire Wire Line
 	9650 4250 9450 4250
-Wire Wire Line
-	8850 6300 8650 6300
-Wire Wire Line
-	8650 6300 8650 6200
-Wire Wire Line
-	8650 5850 8650 5900
 Connection ~ 1600 5650
 Wire Wire Line
 	1600 5650 1600 5750
@@ -707,8 +626,6 @@ Wire Wire Line
 Connection ~ 1300 5650
 Wire Wire Line
 	1300 5750 1300 5650
-Wire Wire Line
-	8650 5850 8900 5850
 Connection ~ 1700 2500
 Wire Wire Line
 	1400 2350 1400 2500
@@ -860,8 +777,6 @@ Connection ~ 1300 4800
 Wire Wire Line
 	1300 4850 1300 4800
 Wire Wire Line
-	10100 5850 10100 5900
-Wire Wire Line
 	9950 4250 10250 4250
 Wire Wire Line
 	10400 3950 9950 3950
@@ -878,26 +793,6 @@ Wire Wire Line
 	1100 4500 1100 4800
 Wire Wire Line
 	1350 4400 1100 4400
-Connection ~ 10100 5850
-Connection ~ 9900 6250
-Wire Wire Line
-	10100 6250 9900 6250
-Wire Wire Line
-	10100 6200 10100 6250
-Connection ~ 9900 5850
-Wire Wire Line
-	9900 6200 9900 6250
-Wire Wire Line
-	9900 5850 9900 5900
-Wire Wire Line
-	9800 5850 9900 5850
-Connection ~ 8850 6150
-Wire Wire Line
-	8850 6150 8900 6150
-Wire Wire Line
-	8850 6050 8850 6150
-Wire Wire Line
-	8900 6050 8850 6050
 Wire Wire Line
 	1750 4400 2000 4400
 Wire Wire Line
@@ -968,14 +863,6 @@ Wire Wire Line
 	1300 4800 1550 4800
 Wire Wire Line
 	2000 4400 2550 4400
-Wire Wire Line
-	10100 5850 10450 5850
-Wire Wire Line
-	9900 6250 9900 6300
-Wire Wire Line
-	9900 5850 10100 5850
-Wire Wire Line
-	8850 6150 8850 6300
 Wire Wire Line
 	4200 2150 4200 1950
 Wire Wire Line
@@ -1142,4 +1029,82 @@ F 3 "~" H 10500 700 50  0001 C CNN
 	1    10500 700 
 	1    0    0    -1  
 $EndComp
+$Comp
+L WARG:LT1507CS8-3.3 U3
+U 1 1 601B2CC1
+P 7250 4250
+F 0 "U3" H 7233 4737 60  0000 C CNN
+F 1 "LT1507CS8-3.3" H 7233 4631 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-8" H 7250 4250 60  0001 C CNN
+F 3 "" H 7250 4250 60  0001 C CNN
+F 4 "REGU-004" H 7233 4533 50  0000 C CNN "part_num"
+	1    7250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 601B39C7
+P 7950 5050
+F 0 "#PWR0101" H 7950 4800 50  0001 C CNN
+F 1 "GND" H 7955 4877 50  0000 C CNN
+F 2 "" H 7950 5050 50  0001 C CNN
+F 3 "" H 7950 5050 50  0001 C CNN
+	1    7950 5050
+	1    0    0    -1  
+$EndComp
+Text Label 5800 4200 0    60   ~ 0
+VBATT
+Wire Wire Line
+	7750 4300 7950 4300
+Text Label 7200 5200 0    60   ~ 0
+3V3_JMP
+Wire Wire Line
+	6750 4300 6600 4300
+$Comp
+L Device:L L3
+U 1 1 6022C97D
+P 6850 5200
+F 0 "L3" V 6669 5200 50  0000 C CNN
+F 1 "5uH" V 6760 5200 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_5x4.5" H 6850 5200 50  0001 C CNN
+F 3 "~" H 6850 5200 50  0001 C CNN
+	1    6850 5200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 5200 6700 5200
+Wire Wire Line
+	7000 5200 7200 5200
+$Comp
+L Device:C C20
+U 1 1 60259336
+P 7250 4800
+F 0 "C20" V 6998 4800 50  0000 C CNN
+F 1 "100uF" V 7089 4800 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_4x3" H 7288 4650 50  0001 C CNN
+F 3 "~" H 7250 4800 50  0001 C CNN
+	1    7250 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 4800 7100 4800
+Wire Wire Line
+	7400 4800 7950 4800
+Connection ~ 6600 4800
+Wire Wire Line
+	6600 4800 6600 5200
+Connection ~ 7950 4800
+Wire Wire Line
+	7950 4800 7950 5050
+Wire Wire Line
+	7950 4300 7950 4800
+Wire Wire Line
+	6600 4300 6600 4800
+NoConn ~ 7750 4100
+NoConn ~ 7750 4200
+NoConn ~ 7750 4400
+NoConn ~ 6750 4400
+NoConn ~ 6750 4100
+Wire Wire Line
+	5800 4200 6750 4200
 $EndSCHEMATC
