@@ -1,0 +1,5 @@
+ZeroPilot Rev1 Assembely Considerations:
+*R60: Do not populate
+*Q1: Check full connection on gate and source
+*U5: Check for bridges on 'E' pins
+*U6: Check QFN pins for bridges, difficult to observe (and solder) (FUCK THIS GUY)

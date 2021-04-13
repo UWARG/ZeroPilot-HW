@@ -1,0 +1,162 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IMU_BODGE-rescue:ICM-20602-WARG U1
+U 1 1 5FB52383
+P 4900 3850
+F 0 "U1" H 4900 5100 118 0000 C CNN
+F 1 "ICM-20602" H 4900 4950 118 0000 C CNN
+F 2 "Package_LGA:LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y" H 4930 4530 60  0001 C CNN
+F 3 "" H 4865 4714 60  0001 C CNN
+F 4 "SENS-001" H 4900 4800 60  0000 C CNN "part_num"
+	1    4900 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 3650 5450 3750
+Connection ~ 5450 3750
+Wire Wire Line
+	5450 3750 5450 3850
+Connection ~ 5450 3850
+Wire Wire Line
+	5450 3850 5450 3950
+Connection ~ 5450 3950
+Wire Wire Line
+	5450 3950 5450 4050
+Connection ~ 5450 4050
+$Comp
+L power:GND #PWR0101
+U 1 1 5FB531E1
+P 5450 4550
+F 0 "#PWR0101" H 5450 4300 50  0001 C CNN
+F 1 "GND" H 5455 4377 50  0000 C CNN
+F 2 "" H 5450 4550 50  0001 C CNN
+F 3 "" H 5450 4550 50  0001 C CNN
+	1    5450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5FB535CB
+P 5450 3450
+F 0 "C4" H 5565 3496 50  0000 L CNN
+F 1 "100nF" H 5565 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5488 3300 50  0001 C CNN
+F 3 "~" H 5450 3450 50  0001 C CNN
+	1    5450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5FB53A09
+P 4150 3800
+F 0 "C3" H 4200 3900 50  0000 L CNN
+F 1 "2.2uF" H 4100 3600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4188 3650 50  0001 C CNN
+F 3 "~" H 4150 3800 50  0001 C CNN
+	1    4150 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5FB545A7
+P 3950 3800
+F 0 "C2" H 3850 4050 50  0000 L CNN
+F 1 "100nF" H 3800 3600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3988 3650 50  0001 C CNN
+F 3 "~" H 3950 3800 50  0001 C CNN
+	1    3950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5FB54D12
+P 3750 3800
+F 0 "C1" H 3500 3850 50  0000 L CNN
+F 1 "10nF" H 3500 3700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3788 3650 50  0001 C CNN
+F 3 "~" H 3750 3800 50  0001 C CNN
+	1    3750 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3650 4150 3650
+Wire Wire Line
+	3750 3650 3950 3650
+Connection ~ 3950 3650
+Wire Wire Line
+	3750 3950 3950 3950
+Connection ~ 3950 3950
+Wire Wire Line
+	3950 3950 4150 3950
+$Comp
+L power:GND #PWR0102
+U 1 1 5FB5564A
+P 3950 4600
+F 0 "#PWR0102" H 3950 4350 50  0001 C CNN
+F 1 "GND" H 3955 4427 50  0000 C CNN
+F 2 "" H 3950 4600 50  0001 C CNN
+F 3 "" H 3950 4600 50  0001 C CNN
+	1    3950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3950 3950 4600
+Wire Wire Line
+	3950 3650 3950 3300
+Wire Wire Line
+	3950 3300 4800 3300
+Wire Wire Line
+	4350 3650 4150 3650
+Connection ~ 4150 3650
+$Comp
+L power:GND #PWR0103
+U 1 1 5FB565D7
+P 4900 3150
+F 0 "#PWR0103" H 4900 2900 50  0001 C CNN
+F 1 "GND" H 4905 2977 50  0000 C CNN
+F 2 "" H 4900 3150 50  0001 C CNN
+F 3 "" H 4900 3150 50  0001 C CNN
+	1    4900 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 3150 4900 3300
+Wire Wire Line
+	5450 4050 5450 4550
+NoConn ~ 4900 4400
+Wire Wire Line
+	5000 3300 5450 3300
+Wire Wire Line
+	5450 3600 5450 3650
+Connection ~ 5450 3650
+Text Label 3950 3300 2    50   ~ 0
+IMU_VDC
+Text Label 5000 4400 0    50   ~ 0
+FSYNC
+Text Label 4800 4400 2    50   ~ 0
+INT
+Text Label 4350 3750 2    50   ~ 0
+SCK
+Text Label 4350 3850 2    50   ~ 0
+MOSI
+Text Label 4350 3950 2    50   ~ 0
+MISO
+Text Label 4350 4050 2    50   ~ 0
+NSS
+Text Label 5300 3300 0    50   ~ 0
+REGOUT
+$EndSCHEMATC
